@@ -1,5 +1,5 @@
 *.aux
-*.pdf
+*/*.pdf
 *.ilg
 *.ind
 *.log
