@@ -1,0 +1,1357 @@
+\comment{********************************************************************************************
+                                       FIRST BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Incident Handling!Definition|book{1}}{10}
+\indexentry{Disaster Recovery Plan|book{1}}{10}
+\indexentry{Business Continuity Plan|book{1}}{10}
+\indexentry{Intellectual Property|book{1}}{10}
+\indexentry{Incident!Definition|book{1}}{11}
+\indexentry{Event (definition)|book{1}}{12}
+\indexentry{Information Corroborating|book{1}}{12}
+\indexentry{Information Corroborating!Example|book{1}}{13}
+\indexentry{Incident Handling!Steps|book{1}}{17}
+\indexentry{Incident Handling!PICERL|book{1}}{14}
+\indexentry{Incident Handling!Preparation|book{1}}{19}
+\indexentry{Phishing|book{1}}{20}
+\indexentry{Social Engineering|book{1}}{20}
+\indexentry{Policy!Banners|book{1}}{21}
+\indexentry{Warning Banners|book{1}}{21}
+\indexentry{Warning Banners|book{1}}{26}
+\indexentry{Policy!Response Strategies|book{1}}{22}
+\indexentry{Contains and Clear|book{1}}{22}
+\indexentry{Watch and Learn|book{1}}{22}
+\indexentry{Law enforcement|book{1}}{23-25}
+\indexentry{Suspicious Activity Report|book{1}}{23}
+\indexentry{Personally Identifiable Information|book{1}}{23}
+\indexentry{Personal Healthcare Information|book{1}}{23}
+\indexentry{Court Order|book{1}}{24}
+\indexentry{Equipment Seizure|book{1}}{24}
+\indexentry{Peer Notification|book{1}}{26}
+\indexentry{Note|book{1}}{27}
+\indexentry{Incident Update Report|book{1}}{29}
+\indexentry{Response Team|book{1}}{30}
+\indexentry{Response Team|book{1}}{32}
+\indexentry{Checklist|book{1}}{31}
+\indexentry{Procedure|book{1}}{31}
+\indexentry{Command Post|book{1}}{32}
+\indexentry{Emergency Communication Plan|book{1}}{33}
+\indexentry{Password|book{1}}{34}
+\indexentry{Crypto Key|book{1}}{34}
+\indexentry{War Room|book{1}}{36}
+\indexentry{Incident Reporting|book{1}}{36}
+\indexentry{War Games|book{1}}{37}
+\indexentry{Response Team!Training|book{1}}{37}
+\indexentry{Help Desk|book{1}}{39}
+\indexentry{Jump Bag|book{1}}{40-47}
+\indexentry{Statically Linked Binary|book{1}}{42}
+\indexentry{USB Token RAM Device|book{1}}{44}
+\indexentry{Tap (Ethernet)|book{1}}{44}
+\indexentry{Incident Handler Assignment|book{1}}{50}
+\indexentry{Need to Know|book{1}}{51}
+\indexentry{Communication Channels|book{1}}{52}
+\indexentry{VOIP|book{1}}{52}
+\indexentry{Out-of-Band Communication|book{1}}{52}
+\indexentry{Internet Storm Center|book{1}}{15}
+\indexentry{Internet Storm Center|book{1}}{59}
+\indexentry{Bugtraq|book{1}}{15}
+\indexentry{DShield|book{1}}{15}
+\indexentry{InfraGuard|book{1}}{25}
+\indexentry{High Tech Crime Investigation Association|book{1}}{25}
+\indexentry{Electronic Crime Task Force|book{1}}{25}
+\indexentry{Reddit|book{1}}{29}
+\indexentry{Counter Hack Challenge|book{1}}{37}
+\indexentry{IANA|book{1}}{56}
+\indexentry{SpeedGuide|book{1}}{56}
+\indexentry{CVE Mitre|book{1}}{95}
+\indexentry{honeynet|book{1}}{22}
+\indexentry{LaBrea|book{1}}{22}
+\indexentry{GRR|book{1}}{39}
+\indexentry{dd|book{1}}{41}
+\indexentry{netcat|book{1}}{41}
+\indexentry{ncat|book{1}}{41}
+\indexentry{sleuthkit|book{1}}{41}
+\indexentry{Autopsy|book{1}}{41}
+\indexentry{EnCase|book{1}}{41}
+\indexentry{Forensics Toolkit|book{1}}{41}
+\indexentry{X-Ways Forensics|book{1}}{41}
+\indexentry{SIFT|book{1}}{42-43}
+\indexentry{Tresorit|book{1}}{52}
+\indexentry{Secure Safe|book{1}}{52}
+\indexentry{netstat|book{1}}{55}
+\indexentry{netstat|book{1}}{56}
+\indexentry{netstat!Options|book{1}}{66}
+\indexentry{lsof|book{1}}{56}
+\indexentry{nbtstat|book{1}}{65}
+\indexentry{net!view/session/use|book{1}}{65}
+\indexentry{netsh|book{1}}{66}
+\indexentry{wmic!process|book{1}}{67}
+\indexentry{tasklist|book{1}}{67}
+\indexentry{Incident!Identification|book{1}}{53}
+\indexentry{Detection|book{1}}{53}
+\indexentry{Detection!Network Perimeter|book{1}}{54}
+\indexentry{Detection!Host Perimeter|book{1}}{55-56}
+\indexentry{Detection!System-level (Host)|book{1}}{57}
+\indexentry{Detection!Application-level|book{1}}{58}
+\indexentry{User Input|book{1}}{58}
+\indexentry{CheatSheets|book{1}}{60}
+\indexentry{System Administrator Identification|book{1}}{63}
+\indexentry{Intrusion Detection|book{1}}{63}
+\indexentry{Network Usage|book{1}}{65}
+\indexentry{Windows Firewall|book{1}}{66}
+\indexentry{NetBIOS!nbstat|book{1}}{65}
+\indexentry{SMB|book{1}}{65}
+\indexentry{Processes|book{1}}{67}
+\indexentry{Services|book{1}}{68}
+\indexentry{Registry Keys|book{1}}{69}
+\indexentry{HKCU|book{1}}{69}
+\indexentry{HKLM|book{1}}{69}
+\indexentry{Auto Start Entry Point|book{1}}{69}
+\indexentry{Startup Items|book{1}}{69}
+\indexentry{Startup Items|book{1}}{70}
+\indexentry{Account|book{1}}{71}
+\indexentry{Files!unusual|book{1}}{72}
+\indexentry{fc|book{1}}{72}
+\indexentry{Files!large|book{1}}{72}
+\indexentry{Scheduled tasks|book{1}}{73}
+\indexentry{Log Files|book{1}}{74}
+\indexentry{Unusual|book{1}}{75}
+\indexentry{Base64|book{1}}{76}
+\indexentry{Center for Internet Security|book{1}}{77}
+\indexentry{Hardening Template|book{1}}{77}
+\indexentry{Audit Log Configuration|book{1}}{89}
+\indexentry{False Positive|book{1}}{94}
+\indexentry{Damage|book{1}}{95}
+\indexentry{Zero-day exploit|book{1}}{95}
+\indexentry{Initial Assessment|book{1}}{96}
+\indexentry{Vulnerability|book{1}}{96}
+\indexentry{Lenny Zeltser|book{1}}{96}
+\indexentry{Nimda|book{1}}{96}
+\indexentry{UUNET|book{1}}{96}
+\indexentry{SQLSlammer|book{1}}{96}
+\indexentry{Chain of Custody|book{1}}{97}
+\indexentry{Containment!Objective|book{1}}{99}
+\indexentry{Containment!Sub-phases|book{1}}{100}
+\indexentry{Containment!Deployment|book{1}}{101}
+\indexentry{Containment!Managment|book{1}}{103}
+\indexentry{Incident!Characteristics|book{1}}{102}
+\indexentry{Initial Analysis|book{1}}{106}
+\indexentry{Containment!Short-term|book{1}}{107-108}
+\indexentry{ISP|book{1}}{109}
+\indexentry{Computer Staff (College, University)|book{1}}{109}
+\indexentry{Forensics Image|book{1}}{110}
+\indexentry{Drive Duplicator|book{1}}{111}
+\indexentry{Write Blocker|book{1}}{111}
+\indexentry{Continuing Operation|book{1}}{112}
+\indexentry{Trust Relationship|book{1}}{112}
+\indexentry{Containment!Long-term|book{1}}{113-114}
+\indexentry{Blame game|book{1}}{115}
+\indexentry{TCPView|book{1}}{77}
+\indexentry{Process Explorer|book{1}}{77}
+\indexentry{Process Monitor|book{1}}{77}
+\indexentry{nc|book{1}}{81}
+\indexentry{netstat|book{1}}{81}
+\indexentry{findstr|book{1}}{83}
+\indexentry{findstr|book{1}}{83}
+\indexentry{schtasks|book{1}}{87}
+\indexentry{secpol.msc|book{1}}{89}
+\indexentry{CyberSponse|book{1}}{104}
+\indexentry{RTIR|book{1}}{104}
+\indexentry{Onion Live|book{1}}{104}
+\indexentry{LinRES|book{1}}{104}
+\indexentry{Reporting (horizontal/vertical)|book{1}}{104}
+\indexentry{CyberCPR|book{1}}{105}
+\indexentry{WordWebBugs|book{1}}{107}
+\indexentry{Active Defense Harbinger Distribution|book{1}}{107}
+\indexentry{Volatility Framework|book{1}}{110}
+\indexentry{Rekall|book{1}}{110}
+\indexentry{services.msc|book{1}}{68}
+\indexentry{Service!Listing \win|book{1}}{68}
+\indexentry{net!start|book{1}}{68}
+\indexentry{sc|book{1}}{68}
+\indexentry{tasklist|book{1}}{69}
+\indexentry{autoruns.exe|book{1}}{69}
+\indexentry{reg|book{1}}{69}
+\indexentry{regedit|book{1}}{70}
+\indexentry{wmic!startup|book{1}}{70}
+\indexentry{msconfig|book{1}}{70}
+\indexentry{net!user|book{1}}{71}
+\indexentry{net!localgroup|book{1}}{71}
+\indexentry{lusrmgr.msc|book{1}}{88}
+\indexentry{net!localgroup|book{1}}{71}
+\indexentry{lusrmgr.msc|book{1}}{88}
+\indexentry{FOR|book{1}}{72}
+\indexentry{schtasks|book{1}}{73}
+\indexentry{at|book{1}}{73}
+\indexentry{eventvwr.msc|book{1}}{74}
+\indexentry{eventquery.vbs|book{1}}{74}
+\indexentry{wevtutil|book{1}}{74}
+\indexentry{Bash|book{1}}{76}
+\indexentry{Base64|book{1}}{76}
+\indexentry{Eradication|book{1}}{117}
+\indexentry{Backup|book{1}}{118}
+\indexentry{Rootkit!Eradication|book{1}}{119}
+\indexentry{SSH|book{1}}{119}
+\indexentry{Remote Desktop|book{1}}{119}
+\indexentry{Defense Improvement|book{1}}{120}
+\indexentry{Vulnerability!Analysis|book{1}}{121}
+\indexentry{Recovery|book{1}}{123}
+\indexentry{User Acceptance Test|book{1}}{123}
+\indexentry{Restore Operation|book{1}}{124}
+\indexentry{Monitoring (After eradication)|book{1}}{125-126}
+\indexentry{Report|book{1}}{128}
+\indexentry{Lesson Learned|book{1}}{128}
+\indexentry{Lesson Learned!Meeting|book{1}}{129}
+\indexentry{Fixes|book{1}}{130}
+\indexentry{RedLine|book{1}}{131}
+\indexentry{Enterprise Incident Reponse|book{1}}{132}
+\indexentry{Ingress Data|book{1}}{133}
+\indexentry{Egress,Data|book{1}}{133}
+\indexentry{Log|book{1}}{133}
+\indexentry{DNS|book{1}}{134}
+\indexentry{Web Proxy|book{1}}{135}
+\indexentry{User-Agent String|book{1}}{135}
+\indexentry{URL Length|book{1}}{135}
+\indexentry{Connection Data|book{1}}{136}
+\indexentry{Netflow|book{1}}{136}
+\indexentry{Hunting|book{1}}{136}
+\indexentry{Eric Conrad|book{1}}{136}
+\indexentry{Dave Hull|book{1}}{140}
+\indexentry{Long-tail Analysis|book{1}}{140}
+\indexentry{Positive Skew Analysis|book{1}}{140}
+\indexentry{Auto Start Entry Point|book{1}}{142}
+\indexentry{Espionage|book{1}}{160-161}
+\indexentry{Aurora|book{1}}{160}
+\indexentry{Titan rain|book{1}}{160}
+\indexentry{Night Dragon|book{1}}{161}
+\indexentry{Espionage!Identification|book{1}}{162}
+\indexentry{Log Files!Espionage|book{1}}{163}
+\indexentry{Leak|book{1}}{162}
+\indexentry{Deception|book{1}}{164}
+\indexentry{Unauthorized Use|book{1}}{166}
+\indexentry{Email Evidence|book{1}}{167}
+\indexentry{Social Problems|book{1}}{168}
+\indexentry{Harrasment|book{1}}{168}
+\indexentry{Phishing|book{1}}{169}
+\indexentry{Inappropriate Web Access|book{1}}{170}
+\indexentry{Inappropriate Web Access|book{1}}{172}
+\indexentry{Human Ressource|book{1}}{170}
+\indexentry{Sexually Explicit Content|book{1}}{171}
+\indexentry{Child Pornography|book{1}}{171}
+\indexentry{Web Proxy|book{1}}{172}
+\indexentry{Nmap|book{1}}{121}
+\indexentry{Nessus|book{1}}{121}
+\indexentry{OpenVAS|book{1}}{121}
+\indexentry{Rapid7 NeXpose|book{1}}{121}
+\indexentry{Qualys|book{1}}{121}
+\indexentry{wmic!product|book{1}}{138}
+\indexentry{System Center Configuration Manager|book{1}}{139}
+\indexentry{PowerShell|book{1}}{140}
+\indexentry{Kansa|book{1}}{140-144}
+\indexentry{Handle.exe|book{1}}{141}
+\indexentry{autorunssc.exe|book{1}}{141}
+\indexentry{LogParser|book{1}}{141}
+\indexentry{WinRM|book{1}}{141}
+\indexentry{WebSense|book{1}}{172}
+\indexentry{BlueCoat|book{1}}{172}
+\indexentry{CommandLineKungFu|book{1}}{126}
+\indexentry{Malware Domain List|book{1}}{134}
+\indexentry{AntiPhishing.org|book{1}}{169}
+\indexentry{RITA|book{1}}{147}
+\indexentry{Bro|book{1}}{147}
+\indexentry{Beacon|book{1}}{136}
+\indexentry{Insider Threat|book{1}}{174}
+\indexentry{Warning Banners|book{1}}{175}
+\indexentry{Employee|book{1}}{174}
+\indexentry{Insider Activity Identification|book{1}}{176}
+\indexentry{HR|book{1}}{177}
+\indexentry{Employee!Monitoring|book{1}}{178}
+\indexentry{Intellectual Property|book{1}}{181}
+\indexentry{Crown Jewels|book{1}}{182}
+\indexentry{Crown Jewels|book{1}}{161}
+\indexentry{Patent|book{1}}{182}
+\indexentry{Copyright|book{1}}{182}
+\indexentry{Trademark|book{1}}{182}
+\indexentry{Servicemark|book{1}}{182}
+\indexentry{Trade Secret|book{1}}{182}
+\indexentry{Target Analysis|book{1}}{183}
+\indexentry{Cyber Crime Law|book{1}}{185}
+\indexentry{TS Duration|book{1}}{151}
+\indexentry{TS Score|book{1}}{151}
+\indexentry{Robert Manssen|book{1}}{187}
+\indexentry{Aldrick Ames|book{1}}{187}
+\indexentry{USB Device History|book{1}}{192}
+\indexentry{VMWare|book{1}}{196}
+\indexentry{VMWare!Files|book{1}}{198}
+\indexentry{VMWare!Screen Views|book{1}}{200}
+\indexentry{VMWare!Network Options|book{1}}{202}
+\indexentry{Linux!File structure|book{1}}{213}
+\indexentry{Linux!Find unowned files|book{1}}{230}
+\indexentry{Linux!Account|book{1}}{255}
+\indexentry{Linux!Scheduled Tasks|book{1}}{254}
+\indexentry{Linux!Network Usage|book{1}}{253}
+\indexentry{Linux!Files|book{1}}{252}
+\indexentry{Linux!Services|book{1}}{250}
+\indexentry{Linux!Processes|book{1}}{248}
+\indexentry{Linux!Log|book{1}}{247}
+\indexentry{Linux!Free Space|book{1}}{256}
+\indexentry{Linux!Memory|book{1}}{257}
+\indexentry{Linux!Uptime|book{1}}{257}
+\indexentry{Chkrootkit|book{1}}{257}
+\indexentry{TripWire|book{1}}{258}
+\indexentry{AIDE|book{1}}{258}
+\indexentry{CIS Hardening Guidelines|book{1}}{258}
+\indexentry{dd|book{1}}{178}
+\indexentry{ghost|book{1}}{178}
+\indexentry{SnapBack|book{1}}{178}
+\indexentry{SafeBack|book{1}}{178}
+\indexentry{ExpertWitness|book{1}}{179}
+\indexentry{Hg.org|book{1}}{185}
+\indexentry{wmic!computersystem|book{1}}{189}
+\indexentry{wevtutil|book{1}}{190}
+\indexentry{eventquery.vbs|book{1}}{191}
+\indexentry{netsh|book{1}}{203}
+\indexentry{iptables|book{1}}{203}
+\indexentry{useradd|book{1}}{209}
+\indexentry{passwd|book{1}}{210}
+\indexentry{whoami|book{1}}{211}
+\indexentry{su|book{1}}{211}
+\indexentry{cd|book{1}}{214}
+\indexentry{pwd|book{1}}{214}
+\indexentry{ls|book{1}}{215}
+\indexentry{mkdir|book{1}}{217}
+\indexentry{locate|book{1}}{218}
+\indexentry{find|book{1}}{218}
+\indexentry{updatedb|book{1}}{218}
+\indexentry{gedit|book{1}}{219}
+\indexentry{vi|book{1}}{219}
+\indexentry{cat|book{1}}{220}
+\indexentry{head|book{1}}{220}
+\indexentry{tail|book{1}}{220}
+\indexentry{less|book{1}}{221}
+\indexentry{PATH|book{1}}{223}
+\indexentry{ps|book{1}}{226}
+\indexentry{bg|book{1}}{227}
+\indexentry{jobs|book{1}}{228}
+\indexentry{fg|book{1}}{228}
+\indexentry{service|book{1}}{231}
+\indexentry{ifconfig|book{1}}{232}
+\indexentry{ping|book{1}}{233}
+\indexentry{netstat|book{1}}{234}
+\indexentry{lsof|book{1}}{234}
+\indexentry{tar|book{1}}{236}
+\indexentry{configure|book{1}}{237}
+\indexentry{make|book{1}}{237}
+\indexentry{grep|book{1}}{240}
+\indexentry{whatis|book{1}}{243}
+\indexentry{apropos|book{1}}{243}
+\indexentry{man|book{1}}{243}
+\indexentry{shutdown|book{1}}{244}
+\indexentry{reboot|book{1}}{245}
+\indexentry{passwd|book{1}}{254}
+\indexentry{ps|book{1}}{247}
+\indexentry{lsof|book{1}}{247}
+\indexentry{service|book{1}}{248}
+\indexentry{find|book{1}}{249}
+\indexentry{lsof|book{1}}{250}
+\indexentry{debsums|book{1}}{251}
+\indexentry{netstat|book{1}}{252}
+\indexentry{lsof|book{1}}{252}
+\indexentry{ARP|book{1}}{252}
+\indexentry{crontab|book{1}}{253}
+\indexentry{uptime|book{1}}{257}
+\indexentry{free|book{1}}{257}
+\indexentry{df|book{1}}{257}
+\indexentry{sort|book{1}}{265}
+
+\comment{********************************************************************************************
+                                       SECOND BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Cracker|book{2}}{5}
+\indexentry{Hacker|book{2}}{5}
+\indexentry{Disclaimer|book{2}}{7}
+\indexentry{Permission to Attack|book{2}}{8}
+\indexentry{Script Kiddies|book{2}}{9}
+\indexentry{Script Kiddies|book{2}}{16}
+\indexentry{Ankle Biters|book{2}}{9}
+\indexentry{Full Disclosure|book{2}}{9}
+\indexentry{Anti-disclosure|book{2}}{9}
+\indexentry{No Free Bug|book{2}}{9}
+\indexentry{Digital Millenium Copyright Act|book{2}}{9}
+\indexentry{Information Sharing|book{2}}{10}
+\indexentry{Hacktivism|book{2}}{10}
+\indexentry{Website Tampering|book{2}}{10}
+\indexentry{Anonymous Remailer|book{2}}{10}
+\indexentry{Ransomware|book{2}}{10}
+\indexentry{Money Making|book{2}}{11}
+\indexentry{Software Update|book{2}}{12}
+\indexentry{Software Distro Site!Attacks|book{2}}{12}
+\indexentry{Software Distro Site!Defense|book{2}}{13}
+\indexentry{Hash|book{2}}{13}
+\indexentry{PGP Signature|book{2}}{13}
+\indexentry{MD5|book{2}}{13}
+\indexentry{SHA1|book{2}}{13}
+\indexentry{SHA256|book{2}}{13}
+\indexentry{Tiger|book{2}}{13}
+\indexentry{Whirlpool|book{2}}{13}
+\indexentry{RIPEMD-160|book{2}}{13}
+\indexentry{Golden age|book{2}}{14}
+\indexentry{Reconnaissance|book{2}}{16}
+\indexentry{Domain Name Registration|book{2}}{18}
+\indexentry{Whois|book{2}}{19}
+\indexentry{IP Block|book{2}}{20}
+\indexentry{Whois!Defense|book{2}}{22}
+\indexentry{DNS!Record|book{2}}{25}
+\indexentry{TCP!Handshake|book{2}}{25}
+\indexentry{DNS!Zone transfert|book{2}}{25}
+\indexentry{DNS!Zone transfert (defense)|book{2}}{27}
+\indexentry{Website Searches|book{2}}{29}
+\indexentry{Social Engineering|book{2}}{29}
+\indexentry{OSINT|book{2}}{30}
+\indexentry{SOCMINT|book{2}}{30-32}
+\indexentry{PushPin|book{2}}{31}
+\indexentry{Website Searches!Defense|book{2}}{33}
+\indexentry{OSINT!defense|book{2}}{33}
+\indexentry{SOCMINT!defense|book{2}}{33}
+\indexentry{Web Spider|book{2}}{33}
+\indexentry{Crawler|book{2}}{33}
+\indexentry{Search Engine|book{2}}{35}
+\indexentry{Google Dork|book{2}}{35}
+\indexentry{Google Maps|book{2}}{36}
+\indexentry{Search Engine!Directives|book{2}}{37}
+\indexentry{Search Engine!Directives|book{2}}{38}
+\indexentry{VIN|book{2}}{38}
+\indexentry{UPC|book{2}}{38}
+\indexentry{Google cache|book{2}}{39}
+\indexentry{Wayback Machine|book{2}}{39}
+\indexentry{Evil Grade|book{2}}{12}
+\indexentry{nslookup|book{2}}{24-25}
+\indexentry{dig|book{2}}{24}
+\indexentry{host|book{2}}{24}
+\indexentry{tcpdump|book{2}}{25}
+\indexentry{nc|book{2}}{14}
+\indexentry{Wayback Machine|book{2}}{39}
+\indexentry{InterNIC|book{2}}{19}
+\indexentry{ARIN|book{2}}{20}
+\indexentry{RIPE|book{2}}{20}
+\indexentry{APNIC|book{2}}{2020}
+\indexentry{LACNIC|book{2}}{20}
+\indexentry{AFRINIC|book{2}}{20}
+\indexentry{DoDNIC|book{2}}{20}
+\indexentry{uWhois|book{2}}{20}
+\indexentry{Namechk|book{2}}{30}
+\indexentry{Exploit-db|book{2}}{35}
+\indexentry{Travelocity|book{2}}{38}
+\indexentry{fboweb|book{2}}{38}
+\indexentry{CasFax|book{2}}{38}
+\indexentry{Google Search Engine|book{2}}{40}
+\indexentry{Searching Vulnerable Systems|book{2}}{42}
+\indexentry{Santy Worm|book{2}}{42}
+\indexentry{Search Engine!Recon (Defense)|book{2}}{44}
+\indexentry{Maltego|book{2}}{46}
+\indexentry{Maltego!Transforms|book{2}}{47}
+\indexentry{Maltego!Defenses|book{2}}{48}
+\indexentry{Web-Based!Reconnaissance|book{2}}{50}
+\indexentry{Web-Based!Attack Tool|book{2}}{50}
+\indexentry{War Dialing|book{2}}{53}
+\indexentry{Out-of-Band Communication|book{2}}{53}
+\indexentry{VOIP|book{2}}{54}
+\indexentry{Inter-Asterix Protocol|book{2}}{54}
+\indexentry{War Dialing!Defense|book{2}}{57-58}
+\indexentry{Wireless Network!Misconfiguration|book{2}}{60}
+\indexentry{SSID|book{2}}{60}
+\indexentry{SSID|book{2}}{72}
+\indexentry{WEP|book{2}}{60}
+\indexentry{LEAP|book{2}}{60}
+\indexentry{LEAP|book{2}}{64}
+\indexentry{WEP|book{2}}{64}
+\indexentry{War Driving|book{2}}{61}
+\indexentry{NetStumbler!Defense|book{2}}{61}
+\indexentry{InSSIDer!Defense|book{2}}{61}
+\indexentry{ZigBee|book{2}}{63}
+\indexentry{Sniffing!Passive|book{2}}{63}
+\indexentry{Sniffing!Wireless|book{2}}{61}
+\indexentry{Sniffing!Wireless|book{2}}{64}
+\indexentry{WPA|book{2}}{64-65}
+\indexentry{WPA|book{2}}{72}
+\indexentry{WPA|book{2}}{74}
+\indexentry{Josh Wright|book{2}}{65}
+\indexentry{Credentials Hacking|book{2}}{67}
+\indexentry{War Driving!Defense|book{2}}{72-75}
+\indexentry{Mac Address Filtering|book{2}}{72}
+\indexentry{Wireless Network!Password|book{2}}{72}
+\indexentry{Wireless Network!Configuration|book{2}}{74}
+\indexentry{Layer 3 Encryption|book{2}}{73}
+\indexentry{VPN|book{2}}{73}
+\indexentry{VPN Configuration Attack|book{2}}{73}
+\indexentry{Rubber Duckies|book{2}}{74}
+\indexentry{IDS!Wireless|book{2}}{75}
+\indexentry{Access Point Renegade|book{2}}{75}
+\indexentry{IBM|book{2}}{75}
+\indexentry{CISCO|book{2}}{75}
+\indexentry{Denial-of-Service!Flooding|book{2}}{75}
+\indexentry{Network Mapping|book{2}}{80}
+\indexentry{IP Header|book{2}}{81}
+\indexentry{Time-to-live|book{2}}{81}
+\indexentry{Hop Limit|book{2}}{81}
+\indexentry{Tracerouting|book{2}}{83}
+\indexentry{ICMP|book{2}}{82}
+\indexentry{TOR|book{2}}{82}
+\indexentry{FOCA|book{2}}{41-42}
+\indexentry{SearchDiggity|book{2}}{43}
+\indexentry{Recon-ng|book{2}}{43}
+\indexentry{Maltego|book{2}}{47}
+\indexentry{Shodan|book{2}}{51}
+\indexentry{Warvox|book{2}}{54}
+\indexentry{THC-Scan|book{2}}{54}
+\indexentry{SecureLogix Voice|book{2}}{58}
+\indexentry{NetStumbler|book{2}}{61}
+\indexentry{InSSIDer|book{2}}{61}
+\indexentry{Kismet|book{2}}{63}
+\indexentry{tcpdump|book{2}}{64}
+\indexentry{wireshark|book{2}}{64}
+\indexentry{omnipeek|book{2}}{64}
+\indexentry{ASLEAP|book{2}}{64}
+\indexentry{Aircrack-ng|book{2}}{64}
+\indexentry{CoWPAtty|book{2}}{65}
+\indexentry{EasyCreds|book{2}}{67}
+\indexentry{Evil Grade|book{2}}{68}
+\indexentry{SSLStrip|book{2}}{68}
+\indexentry{SSLSplit|book{2}}{68}
+\indexentry{Ettercap|book{2}}{68}
+\indexentry{Karma|book{2}}{69}
+\indexentry{Karmetasploit|book{2}}{69-71}
+\indexentry{Netsh|book{2}}{73-74}
+\indexentry{Aruba Networks|book{2}}{75}
+\indexentry{Motorola Air Defense|book{2}}{75}
+\indexentry{Air Magnet|book{2}}{75}
+\indexentry{InSSIDer|book{2}}{77}
+\indexentry{Nmap|book{2}}{80}
+\indexentry{traceroute|book{2}}{81}
+\indexentry{tracert|book{2}}{81}
+\indexentry{BreachAlarm|book{2}}{43}
+\indexentry{PwnedList|book{2}}{43}
+\indexentry{Shodan|book{2}}{51}
+\indexentry{DNSStuff.com|book{2}}{51}
+\indexentry{Tracert.org|book{2}}{51}
+\indexentry{Network-Tools.com|book{2}}{51}
+\indexentry{SecuritySpace.cm|book{2}}{51}
+\indexentry{PunkSpider|book{2}}{51}
+\indexentry{DNS Servers|book{2}}{84}
+\indexentry{Edge Router|book{2}}{84}
+\indexentry{Network Mapping!Defense|book{2}}{85-86}
+\indexentry{Port!Scanner|book{2}}{88}
+\indexentry{TCP/IP|book{2}}{88}
+\indexentry{TCP!Port|book{2}}{89}
+\indexentry{UDP!Port|book{2}}{89}
+\indexentry{Port 80|book{2}}{89}
+\indexentry{Port 445|book{2}}{89}
+\indexentry{Port 53|book{2}}{89}
+\indexentry{TCP!Handshake|book{2}}{90}
+\indexentry{TCP!Header|book{2}}{91}
+\indexentry{UDP!Header|book{2}}{92}
+\indexentry{Nmap!Scan types|book{2}}{93}
+\indexentry{Ping sweeps|book{2}}{93}
+\indexentry{ARP!Scan|book{2}}{93}
+\indexentry{Connect Scan|book{2}}{93}
+\indexentry{SYN Scan|book{2}}{93}
+\indexentry{ACK Scan|book{2}}{93}
+\indexentry{FIN Scan|book{2}}{93}
+\indexentry{FTP Proxy Bounce Attack|book{2}}{93}
+\indexentry{Idle Scan|book{2}}{93}
+\indexentry{UDP!Scan|book{2}}{93}
+\indexentry{Version Scanning|book{2}}{93}
+\indexentry{IPv6 Scanning|book{2}}{93}
+\indexentry{RPC Scan|book{2}}{93}
+\indexentry{TCP!Sequence Prediction|book{2}}{93}
+\indexentry{Port 111|book{2}}{93}
+\indexentry{Port 161|book{2}}{93}
+\indexentry{ACK Scanning|book{2}}{94}
+\indexentry{OS Fingerprinting|book{2}}{95}
+\indexentry{Dan Kaminisky|book{2}}{97}
+\indexentry{Robert D. Gratam|book{2}}{97}
+\indexentry{Chris Truncer|book{2}}{98}
+\indexentry{RDP|book{2}}{98}
+\indexentry{Port!Scanner (Defense)|book{2}}{100}
+\indexentry{Port!Listing \win|book{2}}{101}
+\indexentry{Port!Listing \linux|book{2}}{103}
+\indexentry{Service!Disabling \win|book{2}}{102}
+\indexentry{Service!Disabling \linux|book{2}}{104}
+\indexentry{Port 137-139|book{2}}{109}
+\indexentry{Port 445|book{2}}{109}
+\indexentry{netcat!Establishing Connection|book{2}}{111}
+\indexentry{Port!wrapping|book{2}}{113}
+\indexentry{TCP!Checksum bypass|book{2}}{114}
+\indexentry{IDS!Evasion|book{2}}{114}
+\indexentry{Judy Novak|book{2}}{114}
+\indexentry{Badsum|book{2}}{114}
+\indexentry{IDS!Evasion (defense)|book{2}}{116}
+\indexentry{Vulnerability Scanner|book{2}}{118}
+\indexentry{Renaud Deraison|book{2}}{120}
+\indexentry{Port 8834|book{2}}{121}
+\indexentry{Nessus|book{2}}{121}
+\indexentry{Nessus|book{2}}{120}
+\indexentry{Nessus!Architecture|book{2}}{121}
+\indexentry{Nessus!Platform Support|book{2}}{122}
+\indexentry{Nessus!Plugins|book{2}}{123}
+\indexentry{Nessus!Attack Scripting Language|book{2}}{123}
+\indexentry{Vulnerability Scanner!Defense|book{2}}{124}
+\indexentry{Credentialed scan|book{2}}{124}
+\indexentry{Zenmap GUI|book{2}}{84}
+\indexentry{Masscan|book{2}}{97}
+\indexentry{ScanRand|book{2}}{97}
+\indexentry{EyeWitness|book{2}}{98}
+\indexentry{PeepNTom|book{2}}{98}
+\indexentry{Remux|book{2}}{99}
+\indexentry{ProxyCanon|book{2}}{99}
+\indexentry{netstat!Win|book{2}}{101}
+\indexentry{TCPView|book{2}}{101}
+\indexentry{TCPVcon|book{2}}{101}
+\indexentry{wmic!process|book{2}}{102}
+\indexentry{sc!query|book{2}}{102}
+\indexentry{sc!stop|book{2}}{102}
+\indexentry{sc!config|book{2}}{102}
+\indexentry{netstat!Linux|book{2}}{103}
+\indexentry{lsof|book{2}}{103}
+\indexentry{kill|book{2}}{104}
+\indexentry{killall|book{2}}{104}
+\indexentry{inetd|book{2}}{104}
+\indexentry{xinetd|book{2}}{104}
+\indexentry{systemctl|book{2}}{104}
+\indexentry{tcpdump|book{2}}{106}
+\indexentry{Nmap|book{2}}{107}
+\indexentry{nc|book{2}}{111}
+\indexentry{Rapid7 NeXpose|book{2}}{119}
+\indexentry{SAINT|book{2}}{119}
+\indexentry{BeyondTrust|book{2}}{119}
+\indexentry{Nessus|book{2}}{119-120}
+\indexentry{OpenVAS|book{2}}{119}
+\indexentry{Qualys|book{2}}{119}
+\indexentry{McAfee Foundation Scan|book{2}}{119}
+\indexentry{IANA|book{2}}{89}
+\indexentry{SMB|book{2}}{137}
+\indexentry{NetBIOS!SMB|book{2}}{137}
+\indexentry{Port 135-139|book{2}}{137}
+\indexentry{Port 135-139|book{2}}{148}
+\indexentry{Port 445|book{2}}{137}
+\indexentry{Port 445|book{2}}{148}
+\indexentry{SMB!Establish connection|book{2}}{138}
+\indexentry{SMB!Establish connection|book{2}}{144}
+\indexentry{SMB!NULL Session|book{2}}{138}
+\indexentry{SMB!NULL Session|book{2}}{147}
+\indexentry{SMB!Administrative Share|book{2}}{139}
+\indexentry{Jordan Ritter|book{2}}{139}
+\indexentry{SMB!Session Defense|book{2}}{141}
+\indexentry{SMB!Session Defense|book{2}}{147}
+\indexentry{RPCClient|book{2}}{145}
+\indexentry{SMB!Session Listing|book{2}}{146}
+\indexentry{SMB!Session Dropping|book{2}}{146}
+\indexentry{net!use|book{2}}{137}
+\indexentry{net!use|book{2}}{138}
+\indexentry{reg|book{2}}{137}
+\indexentry{sc|book{2}}{137}
+\indexentry{psexec|book{2}}{137}
+\indexentry{smbclient|book{2}}{137}
+\indexentry{smbmount|book{2}}{137}
+\indexentry{rpcclient|book{2}}{137}
+\indexentry{net!view|book{2}}{139}
+\indexentry{enum|book{2}}{139}
+\indexentry{PowerShellEmpire|book{2}}{142}
+\indexentry{BloodHound|book{2}}{143}
+\indexentry{ShareFinder|book{2}}{142}
+\indexentry{DeathStar|book{2}}{143}
+\indexentry{ARP!ArpScan|book{2}}{142}
+\indexentry{smbclient|book{2}}{144}
+\indexentry{RPCClient|book{2}}{145}
+\indexentry{net!use|book{2}}{146}
+\indexentry{net!session|book{2}}{146}
+\indexentry{rpcclient!queryuser|book{2}}{155}
+\indexentry{PowerShell|book{2}}{159}
+\indexentry{PowerShell!Set-ExecutionPolicy|book{2}}{155}
+\indexentry{PowerShell!Import-Module|book{2}}{155}
+\indexentry{Domain Password Spraying|book{2}}{161}
+\indexentry{Relative Identifier|book{2}}{153}
+\indexentry{Relative Identifier|book{2}}{155}
+\indexentry{Security Identifier|book{2}}{145}
+\indexentry{QueSO|book{2}}{95}
+\indexentry{Nmap!Active OS fingerprinting|book{2}}{95}
+\indexentry{Nmap!Root vs non-root|book{2}}{107}
+\indexentry{Nmap!Default packets|book{2}}{82}
+
+\comment{********************************************************************************************
+                                       THIRD BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Physical Access!Attacks|book{3}}{4}
+\indexentry{Rubber Duckies|book{3}}{5}
+\indexentry{Credential!Bypass|book{3}}{4}
+\indexentry{Hard-drive Encryption|book{3}}{4}
+\indexentry{Firewire|book{3}}{4}
+\indexentry{Thunderbolt|book{3}}{4}
+\indexentry{Password!Dumping \win|book{3}}{4}
+\indexentry{Physical Access!Defense|book{3}}{6}
+\indexentry{Local Link Multicast Name Resolution|book{3}}{6}
+\indexentry{BIOS|book{3}}{6}
+\indexentry{USB|book{3}}{6}
+\indexentry{BGP Hijacking|book{3}}{8}
+\indexentry{BGP Hijacking!Defense|book{3}}{9}
+\indexentry{Autonomous System Number|book{3}}{8}
+\indexentry{Relay|book{3}}{11}
+\indexentry{NAT|book{3}}{11}
+\indexentry{Connection Broker|book{3}}{11}
+\indexentry{Dan Kaminisky|book{3}}{11}
+\indexentry{netcat|book{3}}{11}
+\indexentry{netcat!Client mode|book{3}}{12}
+\indexentry{netcat!Listen mode|book{3}}{13}
+\indexentry{Source Routing|book{3}}{12}
+\indexentry{Fragmented Routing|book{3}}{12}
+\indexentry{netcat!Options|book{3}}{14}
+\indexentry{netcat!Use|book{3}}{15}
+\indexentry{netcat!Data transfert|book{3}}{16}
+\indexentry{netcat!Port scanning|book{3}}{17}
+\indexentry{netcat!Vulnerability scanning|book{3}}{17}
+\indexentry{netcat!Establishing connection|book{3}}{18}
+\indexentry{netcat!Backdoor|book{3}}{19-20}
+\indexentry{netcat!Relay|book{3}}{22}
+\indexentry{netcat!Reverse shell|book{3}}{21}
+\indexentry{netcat!Backpipe relay|book{3}}{23-24}
+\indexentry{netcat!Defense|book{3}}{26}
+\indexentry{telnet|book{3}}{18}
+\indexentry{sneakin|book{3}}{18}
+\indexentry{Shell!reverse|book{3}}{21}
+\indexentry{Shell!shoveling|book{3}}{21}
+\indexentry{netcat!Relay without -e|book{3}}{25}
+\indexentry{netcat!Gaping security hole|book{3}}{25}
+\indexentry{Sniffer|book{3}}{45}
+\indexentry{hub|book{3}}{45}
+\indexentry{switch|book{3}}{45}
+\indexentry{DNS|book{3}}{47}
+\indexentry{ARP|book{3}}{48}
+\indexentry{Network layers|book{3}}{47}
+\indexentry{Kon-boot|book{3}}{4}
+\indexentry{Inception|book{3}}{4}
+\indexentry{LanTurtle|book{3}}{4}
+\indexentry{Responder|book{3}}{4}
+\indexentry{netcat|book{3}}{11}
+\indexentry{ncat|book{3}}{11}
+\indexentry{dnscat|book{3}}{11}
+\indexentry{socat|book{3}}{11}
+\indexentry{cryptcat|book{3}}{11}
+\indexentry{linkcat|book{3}}{11}
+\indexentry{vmcat|book{3}}{11}
+\indexentry{nohup|book{3}}{20}
+\indexentry{netsh|book{3}}{30}
+\indexentry{type|book{3}}{32}
+\indexentry{cat \win|book{3}}{32}
+\indexentry{wireshark|book{3}}{46}
+\indexentry{ARP!Spoofing|book{3}}{49}
+\indexentry{DNS|book{3}}{50}
+\indexentry{Name resolution|book{3}}{50}
+\indexentry{Local Link Multicast Name Resolution|book{3}}{50}
+\indexentry{Local Link Multicast Name Resolution|book{3}}{79}
+\indexentry{NetBIOS!Name Resolution|book{3}}{50}
+\indexentry{Data Link Layer Vulnerability|book{3}}{51}
+\indexentry{ARP!Cache poisoning|book{3}}{52}
+\indexentry{TCP Layer|book{3}}{53}
+\indexentry{Snarfing|book{3}}{54}
+\indexentry{Application Data!Snarfing|book{3}}{54}
+\indexentry{Keylogger (JS)|book{3}}{54}
+\indexentry{Screenshoter (JS)|book{3}}{54}
+\indexentry{DNS!Foiling|book{3}}{56}
+\indexentry{DNS!Spoofing Effect|book{3}}{57}
+\indexentry{DNS!Spoofing|book{3}}{58}
+\indexentry{SSL!Sniffing|book{3}}{60}
+\indexentry{SSH!Sniffing|book{3}}{60}
+\indexentry{SSH!Sniffing|book{3}}{63}
+\indexentry{SSL!Warning Message|book{3}}{61-62}
+\indexentry{SSL!Warning Message|book{3}}{65}
+\indexentry{Credential!Harvesting|book{3}}{64}
+\indexentry{VPN!Blocking|book{3}}{64}
+\indexentry{HearthBleed|book{3}}{65}
+\indexentry{BEAST |book{3}}{66}
+\indexentry{CRIME|book{3}}{66}
+\indexentry{TLC|book{3}}{66}
+\indexentry{HTTP Strict Transport Security|book{3}}{68}
+\indexentry{Hijacking|book{3}}{79}
+\indexentry{Web Proxy Auto-Detect|book{3}}{79}
+\indexentry{Hijacking!Defense|book{3}}{84}
+\indexentry{DNS!Display \win|book{3}}{85}
+\indexentry{ARP!Display \win|book{3}}{85}
+\indexentry{ARP!Display \linux|book{3}}{85}
+\indexentry{NTLM!NTLMv2|book{3}}{88}
+\indexentry{Buffer Overflow|book{3}}{95}
+\indexentry{Instruction Pointer|book{3}}{97}
+\indexentry{Program!run (how)|book{3}}{97}
+\indexentry{Subroutinge|book{3}}{98}
+\indexentry{Program!stack|book{3}}{99}
+\indexentry{Buffer Overflow!Exploit|book{3}}{100}
+\indexentry{Zero-day Exploit|book{3}}{101}
+\indexentry{Buffer Overflow!Exploitation Steps|book{3}}{102}
+\indexentry{Bad Characters|book{3}}{106}
+\indexentry{Return pointer|book{3}}{108}
+\indexentry{NOP|book{3}}{109}
+\indexentry{Address Space Layout Randomization|book{3}}{109}
+\indexentry{BetterCap|book{3}}{51}
+\indexentry{BetterCap|book{3}}{53}
+\indexentry{BetterCap|book{3}}{58}
+\indexentry{ARP!ArpSpoof|book{3}}{51}
+\indexentry{Man-in-the-middle Framework|book{3}}{51}
+\indexentry{Man-in-the-middle Framework|book{3}}{53}
+\indexentry{Man-in-the-middle Framework|book{3}}{54}
+\indexentry{FragRouter|book{3}}{52}
+\indexentry{Backdoor!BackdoorFactory|book{3}}{53}
+\indexentry{Xplico|book{3}}{55}
+\indexentry{Network Miner|book{3}}{55}
+\indexentry{Yersinia|book{3}}{59}
+\indexentry{DNSniff|book{3}}{63}
+\indexentry{SSH!SSHmitm|book{3}}{63}
+\indexentry{Subterfuge|book{3}}{64}
+\indexentry{SSL!SSLStrip|book{3}}{64}
+\indexentry{SSL!SSLStrip|book{3}}{67}
+\indexentry{SSL!SSLStrip|book{3}}{68}
+\indexentry{Powerbleed|book{3}}{65}
+\indexentry{FireSheep|book{3}}{67}
+\indexentry{DroidSheep|book{3}}{67}
+\indexentry{Responder|book{3}}{80}
+\indexentry{Responder|book{3}}{88}
+\indexentry{PacDoor|book{3}}{83}
+\indexentry{ARP!ARPWatch|book{3}}{85}
+\indexentry{gets|book{3}}{96}
+\indexentry{fgets|book{3}}{96}
+\indexentry{strcopy|book{3}}{96}
+\indexentry{gets|book{3}}{103}
+\indexentry{fgets|book{3}}{103}
+\indexentry{strcopy|book{3}}{103}
+\indexentry{strcat|book{3}}{103}
+\indexentry{sprintf|book{3}}{103}
+\indexentry{scanf|book{3}}{103}
+\indexentry{getws|book{3}}{103}
+\indexentry{memcpy|book{3}}{103}
+\indexentry{memmove|book{3}}{103}
+\indexentry{exploitable|book{3}}{104}
+\indexentry{Exploit-DB|book{3}}{101}
+\indexentry{Packet Storm Security|book{3}}{101}
+\indexentry{Metasploit!Architecture|book{3}}{112}
+\indexentry{Post-Exploitation|book{3}}{112}
+\indexentry{Armitage|book{3}}{113}
+\indexentry{Metasploit!Additional features|book{3}}{118}
+\indexentry{Metasploit!Benefits|book{3}}{120}
+\indexentry{Buffer Overflow!Defense|book{3}}{121}
+\indexentry{Buffer Overflow!Defense|book{3}}{125}
+\indexentry{Buffer Overflow!Defense|book{3}}{128-129}
+\indexentry{Application Whitelisting|book{3}}{121}
+\indexentry{Stack (Not executable)|book{3}}{122}
+\indexentry{Data Execution Prevention|book{3}}{123}
+\indexentry{Canary|book{3}}{124}
+\indexentry{Writing Secure code|book{3}}{126}
+\indexentry{Code Checking Tools|book{3}}{127}
+\indexentry{Static Code Analysis|book{3}}{127}
+\indexentry{Protocol Parser|book{3}}{132}
+\indexentry{File,Parser|book{3}}{133}
+\indexentry{External Access|book{3}}{136}
+\indexentry{Bypass|book{3}}{136}
+\indexentry{Powerpoint|book{3}}{139}
+\indexentry{Ghostwriting|book{3}}{143}
+\indexentry{Royce Davis|book{3}}{143}
+\indexentry{Assembly|book{3}}{144}
+\indexentry{Application Whitelisting|book{3}}{145}
+\indexentry{Payload (keyed)|book{3}}{146}
+\indexentry{InstallUtile-Shellcode.cs|book{3}}{147}
+\indexentry{ActiveX|book{3}}{149}
+\indexentry{COM+|book{3}}{149}
+\indexentry{SCT Script|book{3}}{149}
+\indexentry{SCT Script|book{3}}{150}
+\indexentry{Metasploit|book{3}}{111}
+\indexentry{Meterpreter|book{3}}{116}
+\indexentry{msfelfscan|book{3}}{119}
+\indexentry{msfpescan|book{3}}{119}
+\indexentry{applocker|book{3}}{121}
+\indexentry{grsecurity|book{3}}{122}
+\indexentry{PaX|book{3}}{122}
+\indexentry{Enhanced Mitigation Experience Technique (Microsoft)|book{3}}{122}
+\indexentry{SELinux|book{3}}{122}
+\indexentry{RATS|book{3}}{127}
+\indexentry{FlawFinder|book{3}}{127}
+\indexentry{Fortify Source Code Analyzed|book{3}}{127}
+\indexentry{Coverity Static Analysis|book{3}}{127}
+\indexentry{Klocword Insight Pro|book{3}}{127}
+\indexentry{GrammarTech|book{3}}{127}
+\indexentry{Veracode|book{3}}{127}
+\indexentry{msfvenom|book{3}}{137}
+\indexentry{macro\_safe.py|book{3}}{143}
+\indexentry{Backdoor!BackdoorFactory|book{3}}{146}
+\indexentry{Code Cave|book{3}}{146}
+\indexentry{Ebowla|book{3}}{146}
+\indexentry{RITA|book{3}}{128}
+\indexentry{PenTestGeek|book{3}}{143}
+
+\comment{********************************************************************************************
+                                       FOURTH BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Password Storage|book{4}}{5}
+\indexentry{SAM Database|book{4}}{5}
+\indexentry{Shadow file|book{4}}{5}
+\indexentry{Shadow file|book{4}}{20}
+\indexentry{Shadow file|book{4}}{37}
+\indexentry{Password!Guessing|book{4}}{6}
+\indexentry{Password!Spraying|book{4}}{7}
+\indexentry{Password!Cracking|book{4}}{9}
+\indexentry{Dictionary Attack|book{4}}{10-11}
+\indexentry{Brute-force Attack|book{4}}{10}
+\indexentry{Brute-force Attack|book{4}}{12}
+\indexentry{Word Mangling|book{4}}{10}
+\indexentry{Password!Expiration Policy|book{4}}{10}
+\indexentry{Non-repudiation|book{4}}{14}
+\indexentry{Password!Blank|book{4}}{16}
+\indexentry{LANMAN!hash|book{4}}{16-18}
+\indexentry{NT hash|book{4}}{16}
+\indexentry{NT hash|book{4}}{19}
+\indexentry{Password!Windows Storage|book{4}}{16}
+\indexentry{AAD3|book{4}}{16}
+\indexentry{Password!Lenght|book{4}}{17}
+\indexentry{LANMAN!hash (benchmark)|book{4}}{18}
+\indexentry{Password!Salt|book{4}}{19-20}
+\indexentry{Rainbow table|book{4}}{22}
+\indexentry{RSA SecurID|book{4}}{24}
+\indexentry{LM Challenge|book{4}}{25}
+\indexentry{NTLM|book{4}}{25}
+\indexentry{Kerberos|book{4}}{25}
+\indexentry{Internet Key Exchange|book{4}}{26}
+\indexentry{IPSec|book{4}}{26}
+\indexentry{VPN Key Exchange|book{4}}{26}
+\indexentry{Password!Dumping|book{4}}{29}
+\indexentry{Kon-boot|book{4}}{29}
+\indexentry{Password!smb://|book{4}}{30}
+\indexentry{Password!file://|book{4}}{30}
+\indexentry{Password!Defense|book{4}}{31}
+\indexentry{SYSKey|book{4}}{31}
+\indexentry{LANMAN!Disabling|book{4}}{32}
+\indexentry{Password!Policy enforcement \win|book{4}}{33}
+\indexentry{Password!Policy enforcement \linux|book{4}}{40}
+\indexentry{Password!Lenght|book{4}}{33}
+\indexentry{John the Ripper|book{4}}{35}
+\indexentry{Password!file \linux|book{4}}{36}
+\indexentry{GECOS|book{4}}{36}
+\indexentry{John the Ripper!Cracking modes|book{4}}{38}
+\indexentry{John the Ripper!Input/Output|book{4}}{39}
+\indexentry{POT file|book{4}}{39}
+\indexentry{Policy Authentication Modules|book{4}}{41}
+\indexentry{THC Hydra|book{4}}{8}
+\indexentry{Cain and Abel|book{4}}{10}
+\indexentry{Cain and Abel|book{4}}{23}
+\indexentry{John the Ripper|book{4}}{10}
+\indexentry{Hashcat|book{4}}{10}
+\indexentry{Cain|book{4}}{16}
+\indexentry{Cain|book{4}}{24}
+\indexentry{Rainbow table!Project Rainbow Crack|book{4}}{22}
+\indexentry{Crack Station|book{4}}{22}
+\indexentry{Sentinel|book{4}}{24}
+\indexentry{IKE Crack|book{4}}{26}
+\indexentry{winrtgen.exe|book{4}}{27}
+\indexentry{fgdump|book{4}}{29}
+\indexentry{fgdump|book{4}}{35}
+\indexentry{hashdump|book{4}}{29}
+\indexentry{pwdump3|book{4}}{35}
+\indexentry{unshadow|book{4}}{35}
+\indexentry{Solar Designer|book{4}}{41}
+\indexentry{Pass-the-Hash!Attacks|book{4}}{49}
+\indexentry{Local Security Authority Subsystem Service|book{4}}{49}
+\indexentry{LANMAN!Pass-the-Hash|book{4}}{49}
+\indexentry{NTLM!NTLMv1 (Pass-the-Hash)|book{4}}{49}
+\indexentry{Pass-the-Hash!Architecture|book{4}}{50}
+\indexentry{Pass-the-Hash!Tools|book{4}}{51}
+\indexentry{Pass-the-Hash!Defense|book{4}}{52}
+\indexentry{Worm|book{4}}{54}
+\indexentry{Worm!History|book{4}}{55}
+\indexentry{Worm!vs Virus|book{4}}{55}
+\indexentry{Worm!Multi-exploit|book{4}}{57}
+\indexentry{Worm!Multi-platform|book{4}}{58}
+\indexentry{Morto (worm)|book{4}}{58}
+\indexentry{Worm!Zero-Day Exploit|book{4}}{59}
+\indexentry{Zero-day exploit|book{4}}{59}
+\indexentry{Sasser|book{4}}{59}
+\indexentry{Zotob|book{4}}{59}
+\indexentry{Worm!Infection speed|book{4}}{60}
+\indexentry{Warhol (worm)|book{4}}{61}
+\indexentry{Flash (worm)|book{4}}{61}
+\indexentry{Worm!Polymorphic|book{4}}{62-63}
+\indexentry{Worm!Future payload|book{4}}{64}
+\indexentry{Worm!Metamorphic|book{4}}{65}
+\indexentry{Bot|book{4}}{66}
+\indexentry{Botnet|book{4}}{66}
+\indexentry{Bot!Herder|book{4}}{66}
+\indexentry{Bot!Distribution|book{4}}{67}
+\indexentry{Bot!Communication|book{4}}{68}
+\indexentry{Fast-flux|book{4}}{69-71}
+\indexentry{DNS!Round-robin|book{4}}{70}
+\indexentry{Bot!Functionality|book{4}}{72}
+\indexentry{Generic Route Encapsulation|book{4}}{73}
+\indexentry{TCP!Redirector|book{4}}{73}
+\indexentry{Virtual Machine (detection)|book{4}}{73}
+\indexentry{Worm!Defense|book{4}}{74}
+\indexentry{Bot!Defense|book{4}}{74}
+\indexentry{Open Web Application Security Project|book{4}}{89}
+\indexentry{Account!Harvesting|book{4}}{91}
+\indexentry{Account!Harvesting (Defense)|book{4}}{96}
+\indexentry{Command Injection|book{4}}{98}
+\indexentry{ShellShock|book{4}}{98}
+\indexentry{Web Application!Firewall|book{4}}{101}
+\indexentry{Command Injection!Defense|book{4}}{101}
+\indexentry{SQL|book{4}}{103}
+\indexentry{SQL Injection|book{4}}{104}
+\indexentry{SQL Injection!Looking for|book{4}}{105}
+\indexentry{SQL Injection!Finding errors|book{4}}{106}
+\indexentry{SQL Injection!Dropping Data|book{4}}{107}
+\indexentry{SQL Injection!Grabbing Data|book{4}}{108}
+\indexentry{SQL Injection!Grabbing Database Structure|book{4}}{109}
+\indexentry{SQL Injection!Defenses|book{4}}{110-111}
+\indexentry{Canonicalization|book{4}}{110}
+\indexentry{Data Loss Prevention|book{4}}{111}
+\indexentry{Personally Identifiable Information|book{4}}{111}
+\indexentry{net!use (pass-the-hash)|book{4}}{50}
+\indexentry{Windows Credential Editor|book{4}}{51}
+\indexentry{SMB!Pass-the-hash|book{4}}{51}
+\indexentry{Mimikatz|book{4}}{51}
+\indexentry{psexec|book{4}}{51}
+\indexentry{John the Ripper|book{4}}{46}
+\indexentry{Browser Exploitation Framework|book{4}}{76}
+\indexentry{msfpayload|book{4}}{77}
+\indexentry{msfvenom|book{4}}{77}
+\indexentry{Social Engineering!Social Engineering Toolkit|book{4}}{87}
+\indexentry{Zed Attack Proxy|book{4}}{89}
+\indexentry{Zed Attack Proxy|book{4}}{104}
+\indexentry{Burp|book{4}}{91}
+\indexentry{Burp|book{4}}{104}
+\indexentry{SQLmap|book{4}}{104}
+\indexentry{ModSecurity|book{4}}{110}
+\indexentry{PHP PDO|book{4}}{110}
+\indexentry{Cross-Site Scripting|book{4}}{113}
+\indexentry{Cross-Site Scripting!Example|book{4}}{115}
+\indexentry{Cross-Site Scripting!Walkthrough|book{4}}{117}
+\indexentry{Cross-Site Scripting!Reflected|book{4}}{117}
+\indexentry{Cross-Site Scripting!Stored|book{4}}{118}
+\indexentry{Cross-Site Scripting!Internal System|book{4}}{119}
+\indexentry{Cross-Site Scripting!Admin|book{4}}{122}
+\indexentry{Cross-Site Scripting!Defense|book{4}}{124-126}
+\indexentry{Cross-Site Scripting!Evidence|book{4}}{132}
+\indexentry{Postal Mail|book{4}}{123}
+\indexentry{Mag Stripe|book{4}}{123}
+\indexentry{Electronic Data Interchange|book{4}}{123}
+\indexentry{X.25|book{4}}{123}
+\indexentry{SS7|book{4}}{123}
+\indexentry{Bell-LaPadula|book{4}}{123}
+\indexentry{Cross-Site Scripting!Anti-XSS|book{4}}{124}
+\indexentry{Browser Cache|book{4}}{132}
+\indexentry{Session!URL Tracking|book{4}}{143}
+\indexentry{Session!Cookie Tracking|book{4}}{143}
+\indexentry{HTTP Request Manipulation|book{4}}{144}
+\indexentry{Web Application!Manipulation Proxy|book{4}}{146}
+\indexentry{Web Application!Manipulation Proxy!Tools|book{4}}{150}
+\indexentry{Web Application!Defense|book{4}}{150}
+\indexentry{Web Application!Firewall|book{4}}{150}
+\indexentry{Denial-of-Service|book{4}}{153}
+\indexentry{Denial-of-Service!Category|book{4}}{154}
+\indexentry{Malformed Packet Attack|book{4}}{154}
+\indexentry{Packet Flooding|book{4}}{154}
+\indexentry{Ping of Death|book{4}}{154}
+\indexentry{Teardrop Attack|book{4}}{154}
+\indexentry{DNS!Amplification Attack|book{4}}{156}
+\indexentry{DNS!EDNS|book{4}}{157}
+\indexentry{EDNS|book{4}}{157}
+\indexentry{Smurf Attack|book{4}}{156}
+\indexentry{DNS!Amplification Attack (architecture)|book{4}}{158}
+\indexentry{Denial-of-Service!Bot|book{4}}{161}
+\indexentry{Denial-of-Service!Suite|book{4}}{161}
+\indexentry{Distributed Denial-of-Service|book{4}}{163}
+\indexentry{Denial-of-Service!Distributed|book{4}}{163}
+\indexentry{Denial-of-Service!Distributed (architecture)|book{4}}{164}
+\indexentry{Denial-of-Service!Distributed (reflected attack)|book{4}}{165}
+\indexentry{Denial-of-Service!Distributed (pulsing zombie)|book{4}}{166}
+\indexentry{Zombie (pulsing)|book{4}}{166}
+\indexentry{SYN Flood|book{4}}{167}
+\indexentry{HTTP Flood|book{4}}{167}
+\indexentry{Low Orbit Ion Canon|book{4}}{168}
+\indexentry{High Orbit Ion Canon|book{4}}{169}
+\indexentry{Denial-of-Service!Defense|book{4}}{170}
+\indexentry{Egress!Anti-spoof|book{4}}{170}
+\indexentry{Counting!command|book{4}}{174}
+\indexentry{Counting!process \win|book{4}}{178}
+\indexentry{Counting!process \linux|book{4}}{183}
+\indexentry{Counting!connections (half-open,win)|book{4}}{179}
+\indexentry{Counting!connections (half-open,linux)|book{4}}{187}
+\indexentry{Counting!connections (established,win)|book{4}}{182}
+\indexentry{Counting!connections (established,linux)|book{4}}{188}
+\indexentry{Browser Exploitation Framework|book{4}}{120}
+\indexentry{ModSecurity|book{4}}{124}
+\indexentry{Tamper Data|book{4}}{144}
+\indexentry{Firebug|book{4}}{144}
+\indexentry{Add'n'edit Cookie|book{4}}{144}
+\indexentry{Zed Attack Proxy|book{4}}{146-147}
+\indexentry{Burp|book{4}}{146}
+\indexentry{W3af|book{4}}{146}
+\indexentry{Fiddler|book{4}}{146}
+\indexentry{WebScarab|book{4}}{146}
+\indexentry{HP SPI Dynamics|book{4}}{146}
+\indexentry{Secure Sphere|book{4}}{150}
+\indexentry{Citrix NetScaler|book{4}}{150}
+\indexentry{F5 Application Security Manager|book{4}}{150}
+\indexentry{Security Manager|book{4}}{150}
+\indexentry{OWASP Stinger|book{4}}{150}
+\indexentry{ModSecurity|book{4}}{150}
+\indexentry{Signal Science|book{4}}{150}
+\indexentry{CPU Hog|book{4}}{154}
+\indexentry{bonk|book{4}}{161}
+\indexentry{jolt|book{4}}{161}
+\indexentry{nestea|book{4}}{161}
+\indexentry{newtear|book{4}}{161}
+\indexentry{syndrop|book{4}}{161}
+\indexentry{teardrop|book{4}}{161}
+\indexentry{WinNuke|book{4}}{161}
+\indexentry{Tribe Flood Networks|book{4}}{163}
+\indexentry{Arbor Networks|book{4}}{167}
+\indexentry{Riverbed Cascade|book{4}}{167}
+\indexentry{Arbor Networks|book{4}}{171}
+\indexentry{Riverbed Cascade|book{4}}{171}
+\indexentry{NeuStar SiteProtect|book{4}}{171}
+\indexentry{CloudFlare|book{4}}{171}
+\indexentry{Cisco Guard DDoS Mitigation|book{4}}{171}
+\indexentry{find|book{4}}{174}
+\indexentry{grep|book{4}}{174}
+\indexentry{wc|book{4}}{174}
+\indexentry{hping|book{4}}{179}
+\indexentry{ARP!Preload|book{4}}{185}
+
+\comment{********************************************************************************************
+                                       FIFTH BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Backdoor|book{5}}{6}
+\indexentry{Trojan Horse|book{5}}{6}
+\indexentry{Malware Layer|book{5}}{7}
+\indexentry{Backdoor!Application-Level|book{5}}{7}
+\indexentry{Backdoor!Application-Level|book{5}}{9}
+\indexentry{Rootkit!User-mode|book{5}}{7}
+\indexentry{Rootkit!Kernel-mode|book{5}}{7}
+\indexentry{VNC!Overview|book{5}}{10}
+\indexentry{VNC!Plafform|book{5}}{11}
+\indexentry{VNC!Active client|book{5}}{12}
+\indexentry{VNC!WinVNC|book{5}}{13}
+\indexentry{PoisonIvy!Configuration|book{5}}{14}
+\indexentry{Backdoor!Capabilities|book{5}}{15}
+\indexentry{ScareWare|book{5}}{16}
+\indexentry{Wrapper|book{5}}{18}
+\indexentry{Windows Anti-Reverse Engineering|book{5}}{19}
+\indexentry{Binders|book{5}}{18}
+\indexentry{Packer|book{5}}{19}
+\indexentry{Memory Analysis|book{5}}{22}
+\indexentry{Rekall!modules|book{5}}{23}
+\indexentry{Memory Dump|book{5}}{22}
+\indexentry{Rekall!netstat|book{5}}{25}
+\indexentry{Rekall!pslist|book{5}}{26}
+\indexentry{Rekall!dlllist|book{5}}{27}
+\indexentry{Rekall!netscan|book{5}}{25}
+\indexentry{Rootkit|book{5}}{41}
+\indexentry{Rootkit!Platform|book{5}}{42}
+\indexentry{Rootkit!Linux Components|book{5}}{43}
+\indexentry{Hiding tools (Categories)|book{5}}{44}
+\indexentry{Rootkit!Windows User-mode|book{5}}{45}
+\indexentry{API Hooking|book{5}}{45}
+\indexentry{Debug Priviledge|book{5}}{45}
+\indexentry{Rootkit!Hiding \win|book{5}}{47}
+\indexentry{Rootkit!Kernel-mode|book{5}}{50-52}
+\indexentry{Sumfuq|book{5}}{50}
+\indexentry{Ring|book{5}}{51}
+\indexentry{System call|book{5}}{50}
+\indexentry{System call!table|book{5}}{53}
+\indexentry{Kernel module|book{5}}{55}
+\indexentry{Device Driver|book{5}}{55}
+\indexentry{Rootkit!Kernel-mode Technique|book{5}}{54}
+\indexentry{Rootkit!Altering memory|book{5}}{56}
+\indexentry{Kernel module!defense|book{5}}{56}
+\indexentry{Memory hog|book{5}}{56}
+\indexentry{Rootkit!Altering files|book{5}}{57}
+\indexentry{NTLDR|book{5}}{57}
+\indexentry{vmlinuz|book{5}}{57}
+\indexentry{Ntoskrnl.exe|book{5}}{57}
+\indexentry{win32k.sys|book{5}}{57}
+\indexentry{PoisonIvy|book{5}}{9}
+\indexentry{PoisonIvy|book{5}}{14}
+\indexentry{Dameware|book{5}}{9}
+\indexentry{Sub7|book{5}}{9}
+\indexentry{BlackShade|book{5}}{9}
+\indexentry{GhostRAT|book{5}}{9}
+\indexentry{VNC|book{5}}{9}
+\indexentry{Exec2VBA|book{5}}{18}
+\indexentry{Exec2VBS|book{5}}{18}
+\indexentry{SaranWrap|book{5}}{18}
+\indexentry{EliteWrap|book{5}}{18}
+\indexentry{Veil|book{5}}{18}
+\indexentry{Social Engineering Toolkit|book{5}}{18}
+\indexentry{Secret Squirel|book{5}}{18}
+\indexentry{UPX|book{5}}{19}
+\indexentry{Yoda|book{5}}{19}
+\indexentry{Themida|book{5}}{19}
+\indexentry{Exe32pack|book{5}}{19}
+\indexentry{Thinstall|book{5}}{19}
+\indexentry{PE Compact|book{5}}{19}
+\indexentry{PE Bundle|book{5}}{19}
+\indexentry{Immunity Debugger|book{5}}{20}
+\indexentry{Memoryze MemoryDD|book{5}}{22}
+\indexentry{Win32dd|book{5}}{22}
+\indexentry{winpmem|book{5}}{22}
+\indexentry{FTKImager|book{5}}{22}
+\indexentry{mdd|book{5}}{22}
+\indexentry{Volatility Framework|book{5}}{22}
+\indexentry{wmic!process|book{5}}{26-27}
+\indexentry{secpol.msc|book{5}}{45}
+\indexentry{Super User Control Kit (SUCKit)|book{5}}{56}
+\indexentry{Sneakin|book{5}}{59}
+\indexentry{FU|book{5}}{56}
+\indexentry{msfpescan|book{5}}{56}
+\indexentry{msfelfscan|book{5}}{56}
+\indexentry{Rootkit!Virtualization|book{5}}{58}
+\indexentry{Rooty|book{5}}{60}
+\indexentry{Cone of Silence|book{5}}{61}
+\indexentry{Rootkit!Avatar|book{5}}{62}
+\indexentry{Rootkit!Fontanini|book{5}}{63}
+\indexentry{Rootkit!Defense|book{5}}{64}
+\indexentry{Hardening Template|book{5}}{64}
+\indexentry{Chkrootkit|book{5}}{65}
+\indexentry{Rootkit Hunter|book{5}}{65}
+\indexentry{Rootcheck|book{5}}{65}
+\indexentry{Rootkit!Detection \linux|book{5}}{65}
+\indexentry{Rootkit!Detection \win|book{5}}{66}
+\indexentry{File,Integrity Checking|book{5}}{67}
+\indexentry{Hiding files \linux|book{5}}{82}
+\indexentry{Log Files!edit \linux|book{5}}{85}
+\indexentry{Log Files!accounting \linux|book{5}}{89}
+\indexentry{utmp|book{5}}{89}
+\indexentry{wtmp|book{5}}{89}
+\indexentry{btmp|book{5}}{89}
+\indexentry{Log Wiper|book{5}}{89}
+\indexentry{NTFS|book{5}}{104}
+\indexentry{Hiding files \win|book{5}}{104}
+\indexentry{NTFS!Alternate Data Stream|book{5}}{105}
+\indexentry{NTFS!Finding Hidden Stream|book{5}}{106}
+\indexentry{Log Files!Edit (windows)|book{5}}{114}
+\indexentry{Log Files!Editing (Defense)|book{5}}{117}
+\indexentry{User Behavior Analytics|book{5}}{117}
+\indexentry{Tunneling|book{5}}{120}
+\indexentry{Covert Channel|book{5}}{120}
+\indexentry{Covert Channel!TCP|book{5}}{127}
+\indexentry{RFC 1149|book{5}}{120}
+\indexentry{RFC 2549|book{5}}{120}
+\indexentry{Reverse HTTP Shell|book{5}}{122}
+\indexentry{ICMP Tunnel|book{5}}{122}
+\indexentry{PTunnel|book{5}}{124}
+\indexentry{LOKI|book{5}}{124}
+\indexentry{ICMPShell|book{5}}{124}
+\indexentry{PingChat|book{5}}{124}
+\indexentry{ICMPCmd|book{5}}{124}
+\indexentry{Bounce operation|book{5}}{130}
+\indexentry{Gmail|book{5}}{133}
+\indexentry{Covert Channel!Defense|book{5}}{134}
+\indexentry{Covert Channel!Defense|book{5}}{145}
+\indexentry{Covert Channel!Plain-Sight|book{5}}{136}
+\indexentry{Steganography|book{5}}{147}
+\indexentry{SubVert|book{5}}{58}
+\indexentry{BluePill|book{5}}{58}
+\indexentry{Vitriol|book{5}}{58}
+\indexentry{Center for Internet Security|book{5}}{64}
+\indexentry{Anti-Rootkit|book{5}}{66}
+\indexentry{Rootkit Detective|book{5}}{66}
+\indexentry{Rootkit Revealer|book{5}}{66}
+\indexentry{OSSEC|book{5}}{67}
+\indexentry{TripWire|book{5}}{67}
+\indexentry{DataSentinel|book{5}}{67}
+\indexentry{Suterusu|book{5}}{71}
+\indexentry{who|book{5}}{89}
+\indexentry{whoami|book{5}}{98}
+\indexentry{id|book{5}}{98}
+\indexentry{uname|book{5}}{98}
+\indexentry{nohup|book{5}}{100}
+\indexentry{tcpdump|book{5}}{101}
+\indexentry{LADS|book{5}}{106}
+\indexentry{type|book{5}}{110}
+\indexentry{EventLogEdit|book{5}}{115}
+\indexentry{Meterpreter!clearev|book{5}}{116}
+\indexentry{Exabeam|book{5}}{117}
+\indexentry{Advanced Threat Analytics (Microsoft)|book{5}}{117}
+\indexentry{Rapid7 User Behavioral Analytics|book{5}}{177}
+\indexentry{Kiwi Syslog|book{5}}{117}
+\indexentry{Snare Agent|book{5}}{117}
+\indexentry{Log Server|book{5}}{117}
+\indexentry{msyslog|book{5}}{119}
+\indexentry{Covert\_TCP|book{5}}{127}
+\indexentry{Covert\_TCP!Extensions|book{5}}{131}
+\indexentry{DNSCat2|book{5}}{132}
+\indexentry{QUICK|book{5}}{132}
+\indexentry{SCTP|book{5}}{132}
+\indexentry{GCat|book{5}}{133}
+\indexentry{VSAgent|book{5}}{137}
+\indexentry{awk|book{5}}{143}
+\indexentry{Blowfish|book{5}}{150}
+\indexentry{Hydan!efficency rate|book{5}}{153}
+\indexentry{Hydan!detection|book{5}}{153}
+\indexentry{Steganography!Defense|book{5}}{154}
+\indexentry{Future|book{5}}{189}
+\indexentry{Distributed Attacks|book{5}}{189}
+\indexentry{JSteg|book{5}}{148}
+\indexentry{MP3Stego|book{5}}{148}
+\indexentry{S-Mail|book{5}}{148}
+\indexentry{InvisibleSecret|book{5}}{148}
+\indexentry{Stash|book{5}}{148}
+\indexentry{Hydan|book{5}}{148}
+\indexentry{OpenStego|book{5}}{149}
+\indexentry{SilentEye|book{5}}{149}
+\indexentry{OpenPuff|book{5}}{149}
+\indexentry{StegExpose|book{5}}{154}
+\indexentry{Wellenreiter|book{5}}{164}
+
+
+\comment{********************************************************************************************
+                                      CROSS-KEYS SECTION
+*****************************************************************************************************}
+
+\indexentry{DRP \goto Disaster Recovery Plan|comment}{0}
+\indexentry{BCP \goto Business Continuity Plan|comment}{0}
+\indexentry{PII \goto Personally Identifiable Information|comment}{0}
+\indexentry{PHI \goto Personal Healthcare Information|comment}{0}
+\indexentry{ECP \goto Emergency Communication Plan|comment}{0}
+\indexentry{HTCIA \goto High Tech Crime Investigation Association|comment}{0}
+\indexentry{ECTF \goto Electronic Crime Task Force|comment}{0}
+\indexentry{ADHD \goto Active Defense Harbinger Distribution|comment}{0}
+\indexentry{UAT \goto User Acceptance Test|comment}{0}
+\indexentry{SCCM \goto System Center Configuration Manager|comment}{0}
+
+\indexentry{DMCA \goto Digital Millenium Copyright Act|comment}{0}
+\indexentry{IAX Protocol \goto Inter-Asterix Protocol|comment}{0}
+
+\indexentry{LLMNR \goto Local Link Multicast Name Resolution|comment}{0}
+\indexentry{ASN \goto Autonomous System Number|comment}{0}
+\indexentry{HSTS \goto HTTP Strict Transport Security|comment}{0}
+\indexentry{WPAD \goto Web Proxy Auto-Detect|comment}{0}
+\indexentry{ASLR \goto Address Space Layout Randomization|comment}{0}
+\indexentry{EMET \goto Microsoft Enhanced Mitigation Experience Technique|comment}{0}
+
+\indexentry{IKE \goto Internet Key Exchange|comment}{0}
+\indexentry{PAM \goto Policy Authentication Modules|comment}{0}
+\indexentry{LSASS \goto Local Security Authority Subsystem Service|comment}{0}
+\indexentry{OWASP \goto Open Web Application Security Project|comment}{0}
+\indexentry{DLP \goto Data Loss Prevention|comment}{0}
+\indexentry{ZAP \goto Zed Attack Proxy|comment}{0}
+\indexentry{EDI \goto Electronic Data Interchange|comment}{0}
+\indexentry{LOIC \goto Low Orbit Ion Canon|comment}{0}
+\indexentry{HOIC \goto High Orbit Ion Canon|comment}{0}
+\indexentry{Beef \goto Browser Exploitation Framework|comment}{0}
+
+\indexentry{SET \goto Social Engineering Toolkit|comment}{0}
+\indexentry{GRE \goto Generic Route Encapsulation|comment}{0}
+
+\indexentry{Stego \goto Steganography|comment}{0}
+
+\indexentry{RID \goto Relative Identifier|comment}{0}
+\indexentry{SID \goto Security Identifier|comment}{0}
+
