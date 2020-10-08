@@ -1,0 +1,11 @@
+headings_flag 1
+heading_prefix "{\\centerline{\\textbf{\\LARGE{"
+heading_suffix "}}}}\n\\indexspace\n"
+delim_0 " \\dotfill "
+delim_1 " \\dotfill "
+delim_2 " \\dotfill "
+delim_r "-"
+group_skip "\n\n\\indexspace\n\\indexspace\n"
+line_max 60
+symhead_positive "Topics"
+numhead_positive "\\#"
