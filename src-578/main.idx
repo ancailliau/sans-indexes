@@ -1,0 +1,1048 @@
+\comment{********************************************************************************************
+                                       CATEGORIES SECTION
+*****************************************************************************************************
+ Sort entries consist of a number to be inserted in the standard 'Numbers' section
+ Number composition : [(1) Alphabet order number] [(2) 0]
+   (1) Sorting in alphabetical number
+   (2) Allows up to 10 subsections / alphabet character }
+
+% \indexentry{1A@\textbf{Ransomware}!1@Locky|book{1}}{31}
+
+\indexentry{1Z@\blankline|comment}{0}
+\indexentry{2Z@\blankline|comment}{0}
+\indexentry{3Z@\blankline|comment}{0}
+\indexentry{4Z@\blankline|comment}{0}
+%\indexentry{5Z@\blankline|comment}{0}
+
+% \indexentry{999ZZZ@\blankline|newpage\comment}{0}
+
+\comment{********************************************************************************************
+                                       FIRST BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Analyst|book{1}}{7}
+\indexentry{Carbanak|book{1}}{9}
+
+\indexentry{1A@\textbf{Malware}!Carberp|book{1}}{10}
+
+\indexentry{Carbanak|book{1}}{11}
+
+\indexentry{Carbanak!Overview|book{1}}{12}
+
+\indexentry{Carbanak!Evolution|book{1}}{13}
+\indexentry{Carbanak!C2|book{1}}{13}
+\indexentry{Google|book{1}}{13}
+
+\indexentry{Carbanak!Impact|book{1}}{14}
+
+\indexentry{Malware!Commodity|book{1}}{15}
+\indexentry{Carbanak!Lessons Learned|book{1}}{15}
+
+\indexentry{Intelligence|book{1}}{17}
+
+\indexentry{Intelligence!Sources|book{1}}{18}
+\indexentry{HUMINT|book{1}}{18}
+\indexentry{GEOINT|book{1}}{18}
+\indexentry{MASINT|book{1}}{18}
+\indexentry{SIGINT|book{1}}{18}
+\indexentry{OSINT|book{1}}{18}
+
+\indexentry{Counter-Intelligence|book{1}}{19}
+
+\indexentry{Counter-Intelligence!Defensive|book{1}}{20}
+\indexentry{Counter-Intelligence!Offensive|book{1}}{20}
+\indexentry{Counter-Intelligence!Example|book{1}}{20}
+\indexentry{2A@\textbf{Operation}!Bodyguard|book{1}}{20}
+
+\indexentry{Kent, Sherman|book{1}}{21}
+
+\indexentry{Kent, Sherman!Doctrine|book{1}}{22}
+
+\indexentry{Heuer, Richards J. Jr|book{1}}{23}
+
+\indexentry{Analysis|book{1}}{24}
+
+\indexentry{Judgment|book{1}}{25}
+
+\indexentry{Thinking|book{1}}{26}
+\indexentry{Perception|book{1}}{26}
+
+\indexentry{Analysis!Type|book{1}}{27}
+
+\indexentry{Bias|book{1}}{28}
+
+\indexentry{Bias!Example|book{1}}{29}
+
+\indexentry{Mental Models|book{1}}{30}
+\indexentry{Structured Analytic Technique|book{1}}{30}
+
+\indexentry{Devil Advocate|book{1}}{30}
+\indexentry{Team A/B|book{1}}{30}
+\indexentry{High-Impact/Low Probability Analysis|book{1}}{30}
+\indexentry{Brainstorming|book{1}}{30}
+\indexentry{Red Team|book{1}}{30}
+
+\indexentry{4A@\textbf{Kill Chain}|book{1}}{31}
+
+\indexentry{Lifecycle|book{1}}{32}
+\indexentry{RFI|book{1}}{32}
+
+\indexentry{Bias!Field of view|book{1}}{34}
+
+\indexentry{Data to Intelligence|book{1}}{35}
+\indexentry{Intelligence!Funnel|book{1}}{35}
+\indexentry{Intelligence|book{1}}{35}
+\indexentry{Information|book{1}}{35}
+
+\indexentry{2A@\textbf{Operation}!Aurora|book{1}}{38}
+
+\indexentry{Elderwood Project|book{1}}{39}
+\indexentry{2A@\textbf{Operation}!Shady RAT Project|book{1}}{39}
+\indexentry{2A@\textbf{Operation}!NightDragon Project|book{1}}{39}
+\indexentry{RSA SecurID|book{1}}{39}
+\indexentry{PLA Unit 61398|book{1}}{39}
+
+\indexentry{Tools and Tradecraft|book{1}}{40}
+\indexentry{1A@\textbf{Malware}!PoisonIvy|book{1}}{40}
+\indexentry{1A@\textbf{Malware}!Hydraq|book{1}}{40}
+\indexentry{0@0-Day exploit|book{1}}{40}
+\indexentry{Watering hole|book{1}}{40}
+\indexentry{Spearphishing|book{1}}{40}
+
+\indexentry{Lessons Learned|book{1}}{41}
+
+\indexentry{Cyber Threat Intelligence|book{1}}{43}
+
+\indexentry{Cyber Threat Intelligence!Elements|book{1}}{44}
+\indexentry{Primitives|book{1}}{44}
+\indexentry{Axioms|book{1}}{44}
+\indexentry{Abstractions|book{1}}{44}
+
+\indexentry{Cyber Threat Intelligence!Terminology|book{1}}{45}
+\indexentry{Adversary|book{1}}{45}
+\indexentry{Threat|book{1}}{45}
+\indexentry{Requirements|book{1}}{45}
+\indexentry{Intrusion|book{1}}{45}
+\indexentry{Activity Group|book{1}}{45}
+\indexentry{Threat Actor|book{1}}{45}
+\indexentry{Campaign|book{1}}{45}
+\indexentry{Traffic Light Protocol (TLP)|book{1}}{45}
+\indexentry{TLP \goto Traffic Light Protocol|comment}{45}
+\indexentry{Target|book{1}}{45}
+\indexentry{Victim|book{1}}{45}
+\indexentry{Persona|book{1}}{45}
+\indexentry{Tactics, Techniques, and Procedures (TTP)|book{1}}{45}
+\indexentry{TTP \goto Tactics, Techniques, and Procedures|comment}{45}
+\indexentry{Tradecraft|book{1}}{45}
+\indexentry{Indicator|book{1}}{45}
+
+\indexentry{Adversary|book{1}}{47}
+\indexentry{Threat|book{1}}{47}
+\indexentry{Capability|book{1}}{47}
+\indexentry{Intent|book{1}}{47}
+\indexentry{Opportunity|book{1}}{47}
+
+\indexentry{Requirements|book{1}}{48}
+
+\indexentry{Intrusion|book{1}}{49}
+
+\indexentry{Activity Group|book{1}}{50}
+\indexentry{Diamond Model|book{1}}{50}
+
+\indexentry{Threat Actor|book{1}}{51}
+
+\indexentry{Campaign|book{1}}{52}
+
+\indexentry{Traffic Light Protocol (TLP)|book{1}}{53}
+
+\indexentry{Persona|book{1}}{54}
+
+\indexentry{Tactics, Techniques, and Procedures (TTP)|book{1}}{55}
+
+\indexentry{Tradecraft|book{1}}{56}
+
+\indexentry{Indicator|book{1}}{58}
+
+\indexentry{Indicator!Life Cycle|book{1}}{59}
+
+\indexentry{Indicator!Key indicators|book{1}}{62-63}
+
+\indexentry{Indicator!Discovery|book{1}}{64}
+
+\indexentry{Indicator!Lifespan|book{1}}{64}
+
+\indexentry{Indicator!Fatigue|book{1}}{65}
+
+\indexentry{1A@\textbf{Malware}!Promethium|book{1}}{66}
+\indexentry{1A@\textbf{Malware}!Neodymium|book{1}}{66}
+
+\indexentry{1A@\textbf{Malware}!Promethium!Characteristics|book{1}}{68}
+\indexentry{1A@\textbf{Malware}!Neodymium!Characteristics|book{1}}{68}
+\indexentry{1A@\textbf{Malware}!Truvasys|book{1}}{68}
+\indexentry{1A@\textbf{Malware}!Wingbird|book{1}}{68}
+\indexentry{5A@\textbf{Vulnerability}!CVE-2016-4117|book{1}}{68}
+
+\indexentry{1A@\textbf{Malware}!Neodymium!Infection|book{1}}{69}
+
+\indexentry{Activity group|book{1}}{70}
+\indexentry{FinFisher|book{1}}{70}
+
+\indexentry{Intelligence Consumption|book{1}}{72}
+\indexentry{Intelligence Generation|book{1}}{72}
+
+\indexentry{Scale of Cyber Security|book{1}}{73}
+\indexentry{Architecture|book{1}}{73}
+\indexentry{Passive Defense|book{1}}{73}
+\indexentry{Active Defense|book{1}}{73}
+\indexentry{Cyber Threat Intelligence|book{1}}{73}
+
+\indexentry{Offense|book{1}}{73-74}
+
+\indexentry{Intelligence Consumption!Intelligence|book{1}}{75}
+\indexentry{Hypothesis Generation|book{1}}{75}
+\indexentry{Red Team|book{1}}{75}
+
+\indexentry{Intelligence Consumption!Active Defense|book{1}}{76}
+
+\indexentry{Intelligence Consumption!Passive Defense|book{1}}{77}
+
+\indexentry{Intelligence Consumption!Architeture|book{1}}{78}
+
+\indexentry{Threat Detection!Types|book{1}}{80}
+
+\indexentry{Indicator!To Behavioral Analytics|book{1}}{81}
+
+\indexentry{Pyramid of pain|book{1}}{82}
+
+\indexentry{Power Grid|book{1}}{84}
+\indexentry{SCADA|book{1}}{84}
+
+\indexentry{Power Grid!Ukraine Power Outage|book{1}}{85}
+
+\indexentry{1A@\textbf{Malware}!KillDisk|book{1}}{86}
+
+\indexentry{1A@\textbf{Malware}!BlackEnergy|book{1}}{87}
+
+\indexentry{Simatic|book{1}}{88}
+\indexentry{Siemens|book{1}}{88}
+\indexentry{1A@\textbf{Malware}!BlackEnergy!Version 2|book{1}}{88}
+\indexentry{1A@\textbf{Malware}!BlackEnergy!Version 3|book{1}}{88-89}
+
+\indexentry{1A@\textbf{Malware}!BlackEnergy!Kill chain|book{1}}{90-91}
+
+\indexentry{Intelligence Generation!From Consumption|book{1}}{95}
+\indexentry{Intelligence Consumption!To Generation|book{1}}{95}
+\indexentry{Requirements|book{1}}{95}
+
+\indexentry{Requirements!Prioritization|book{1}}{96}
+
+\indexentry{Audience|book{1}}{97-98}
+\indexentry{Cyber Threat Intelligence!Levels|book{1}}{97-98}
+\indexentry{Strategic|book{1}}{97-98}
+\indexentry{Operational Threat Intelligence|book{1}}{97-98}
+\indexentry{Tactical Threat Intelligence|book{1}}{97-98}
+
+\indexentry{Intelligence Team!Interactions|book{1}}{99}
+
+\indexentry{Intelligence Team!Example|book{1}}{100}
+
+\indexentry{Intelligence Team!Process|book{1}}{101}
+
+\indexentry{Collection|book{1}}{107}
+
+\indexentry{Collection!Management Framework|book{1}}{108-109}
+\indexentry{CMF\goto Collection Management Framework|comment}{0}
+
+\indexentry{Requirements, Intelligence|book{1}}{110}
+
+\indexentry{Threat Modeling|book{1}}{111-112}
+
+\indexentry{Target-Centric Analysis|book{1}}{113}
+\indexentry{Clark, Robert|book{1}}{113}
+
+\indexentry{Threat Modeling!Example|book{1}}{114-116}
+\indexentry{Threat Modeling!Steps|book{1}}{114}
+
+\indexentry{Threat Modeling|book{1}}{117}
+
+\indexentry{Threat Modeling!Granularity|book{1}}{118}
+
+\indexentry{VERIS|book{1}}{119-121}
+\indexentry{DBIR|book{1}}{119}
+\indexentry{Verizon Data Breach|book{1}}{119}
+
+\comment{********************************************************************************************
+                                      SECOND BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{4A@\textbf{Kill Chain}|book{2}}{7}
+
+\indexentry{4A@\textbf{Kill Chain}!1@KC1. Reconnaissance|book{2}}{9}
+\indexentry{Reconnaissance|book{2}}{9}
+\indexentry{Tasking|book{2}}{9}
+\indexentry{Tools (Acquisition, Recon)|book{2}}{9}
+\indexentry{Infrastructure!Acquision|book{2}}{9}
+\indexentry{Target Identification|book{2}}{9}
+\indexentry{Organizational Research|book{2}}{9}
+
+\indexentry{Cloud|book{2}}{10}
+\indexentry{AWS|book{2}}{10}
+
+\indexentry{Reconnaissance!Example|book{2}}{11}
+
+\indexentry{4A@\textbf{Kill Chain}!2@KC2. Weaponization|book{2}}{13}
+\indexentry{Weaponization|book{2}}{13}
+\indexentry{MetaSploit|book{2}}{13}
+\indexentry{Backdoor|book{2}}{13}
+\indexentry{Dropper|book{2}}{13}
+
+\indexentry{Weaponization!Example|book{2}}{14}
+\indexentry{1A@\textbf{Malware}!PoisonIvy|book{2}}{14}
+
+\indexentry{4A@\textbf{Kill Chain}!3@KC3. Delivery|book{2}}{15}
+\indexentry{Delivery|book{2}}{15}
+
+\indexentry{Delivery!Example|book{2}}{16}
+\indexentry{HTTP Headers|book{2}}{16}
+
+\indexentry{4A@\textbf{Kill Chain}!4@KC4. Exploitation|book{2}}{18}
+\indexentry{Exploitation|book{2}}{18}
+\indexentry{ShellShock|book{2}}{18}
+\indexentry{HeartBleed|book{2}}{18}
+\indexentry{5A@\textbf{Vulnerability}!CVE-2014-6271|book{2}}{18}
+\indexentry{5A@\textbf{Vulnerability}!CVE-2014-7169|book{2}}{18}
+\indexentry{5A@\textbf{Vulnerability}!CVE-2014-0160|book{2}}{18}
+\indexentry{CVE|book{2}}{18}
+\indexentry{Exploit|book{2}}{18}
+\indexentry{Packing|book{2}}{18}
+
+\indexentry{Exploitation!Example|book{2}}{19}
+
+\indexentry{4A@\textbf{Kill Chain}!5@KC5. Installation|book{2}}{20}
+\indexentry{Installation|book{2}}{20}
+\indexentry{Dropper|book{2}}{20}
+
+\indexentry{Installation!Example|book{2}}{21}
+\indexentry{Anti-Virus|book{2}}{21}
+\indexentry{MAC \goto Modification, Access, Change Time|book{2}}{21}
+\indexentry{WFP \goto Windows File Protection|book{2}}{21}
+
+\indexentry{4A@\textbf{Kill Chain}!6@KC6. Command-and-Control|book{2}}{23}
+\indexentry{Command-and-Control|book{2}}{23}
+\indexentry{Trojan|book{2}}{23}
+\indexentry{RAT|book{2}}{23}
+
+\indexentry{Beaconing|book{2}}{24}
+
+\indexentry{Command-and-Control!Example|book{2}}{25}
+\indexentry{1A@\textbf{Malware}!WebC2|book{2}}{25}
+\indexentry{3A@\textbf{Commands}!\texttt{openssl}|book{2}}{25}
+\indexentry{Base64|book{2}}{25}
+
+\indexentry{4A@\textbf{Kill Chain}!7@KC7. Actions on Objectives|book{2}}{26}
+\indexentry{Actions on Objectives|book{2}}{26}
+
+\indexentry{Actions on Objectives!Example|book{2}}{28}
+
+\indexentry{Diamond Model|book{2}}{29}
+
+\indexentry{Diamond Model!Axiom|book{2}}{30-31}
+\indexentry{Advanced Persitent Threat|book{2}}{31}
+
+\indexentry{Diamond Model!Adversary|book{2}}{32}
+\indexentry{Operator|book{2}}{32}
+\indexentry{Customer|book{2}}{32}
+
+\indexentry{Diamond Model!Capability|book{2}}{33}
+\indexentry{Capability|book{2}}{33}
+\indexentry{Diamond Model!Tactics, Techniques, and Procedures (TTP)|book{2}}{33}
+\indexentry{Tactics, Techniques, and Procedures (TTP)|comment}{0}
+\indexentry{3A@\textbf{Commands}!\texttt{net}|book{2}}{33}
+
+\indexentry{Diamond Model!Infrastructure|book{2}}{34}
+\indexentry{Intent|book{2}}{34}
+
+\indexentry{Diamond Model!Victim|book{2}}{35}
+
+\indexentry{Course of Action|book{2}}{38}
+
+\indexentry{Course of Action!Matrix|book{2}}{39}
+
+\indexentry{Course of Action!Discover|book{2}}{40}
+\indexentry{Indicator!Life Cycle|book{2}}{40}
+
+\indexentry{Course of Action!Detect|book{2}}{41}
+
+\indexentry{Course of Action!Deny|book{2}}{42}
+
+\indexentry{Course of Action!Disrupt|book{2}}{43}
+
+\indexentry{Course of Action!Degrade|book{2}}{44}
+\indexentry{LaBrea|book{2}}{44}
+\indexentry{Tarpitting|book{2}}{44}
+
+\indexentry{Course of Action!Deceive|book{2}}{45}
+
+\indexentry{Course of Action!Destroy|book{2}}{46}
+
+\indexentry{Course of Action!Selection and Exclusivity|book{2}}{47}
+\indexentry{Course of Action!Passive|book{2}}{47}
+\indexentry{Course of Action!Active|book{2}}{47}
+\indexentry{Intelligence!Gain/Loss|book{2}}{47}
+
+\indexentry{RFC1918|book{2}}{52}
+\indexentry{IP Address|book{2}}{52}
+\indexentry{CIDR|book{2}}{52}
+
+\indexentry{Logs|book{2}}{55}
+\indexentry{logrotate|book{2}}{55}
+\indexentry{syslog|book{2}}{55}
+\indexentry{SIEM|book{2}}{55}
+
+\indexentry{Memory Analysis|book{2}}{57}
+\indexentry{RedLine|book{2}}{57}
+\indexentry{Volatility|book{2}}{57}
+
+\indexentry{Incident Response|book{2}}{57}
+
+\indexentry{NetFlows|book{2}}{65}
+\indexentry{Argus|book{2}}{65}
+
+\indexentry{3A@\textbf{Commands}!\texttt{ra}|book{2}}{66}
+
+\indexentry{Proxy|book{2}}{68}
+\indexentry{Logs!Proxy|book{2}}{68}
+\indexentry{Squid|book{2}}{68}
+
+\indexentry{3A@\textbf{Commands}!\texttt{date}|book{2}}{69}
+\indexentry{3A@\textbf{Commands}!\texttt{grep}|book{2}}{69}
+
+\indexentry{Layer 5 Protocols|book{2}}{70}
+
+\indexentry{URL|book{2}}{72}
+
+\indexentry{Indicator Life Cycle|book{2}}{75}
+
+\indexentry{Kill Chain!Completion|book{2}}{78}
+
+\indexentry{4A@\textbf{Kill Chain}!7@KC7. Actions on Objectives|book{2}}{81}
+\indexentry{Actions on Objectives|book{2}}{81}
+
+\indexentry{Pivot!Network|book{2}}{82}
+\indexentry{Pivot!Host|book{2}}{83}
+
+\indexentry{BPF|book{2}}{84}
+\indexentry{3A@\textbf{Commands}!\texttt{ra}|book{2}}{84}
+
+\indexentry{Full Packet Capture|book{2}}{85}
+\indexentry{GULP|book{2}}{85}
+
+\indexentry{FTP|book{2}}{86}
+\indexentry{Wireshark|book{2}}{86}
+
+\indexentry{Argus|book{2}}{87}
+\indexentry{Flow ratio|book{2}}{87}
+\indexentry{3A@\textbf{Commands}!\texttt{ra}|book{2}}{87}
+
+\indexentry{Pivot!Command and control|book{2}}{90}
+\indexentry{Command-and-Control|book{2}}{90}
+\indexentry{ChopShop|book{2}}{90}
+\indexentry{Dshell|book{2}}{90}
+
+\indexentry{1A@\textbf{Malware}!NetWire|book{2}}{91}
+
+\indexentry{Pivot!Memory|book{2}}{92}
+\indexentry{Volatility|book{2}}{92-93}
+\indexentry{3A@\textbf{Commands}!\texttt{awk}|book{2}}{93}
+\indexentry{Forensics!Memory|book{2}}{93}
+
+\indexentry{Pivot!Disk|book{2}}{94}
+\indexentry{Forensics!Disk|book{2}}{94}
+\indexentry{Prefetch|book{2}}{95}
+
+\indexentry{Reverse Engineering|book{2}}{96}
+\indexentry{Malware Analysis|book{2}}{96}
+
+\indexentry{3A@\textbf{Commands}!\texttt{openssl}|book{2}}{100}
+\indexentry{3A@\textbf{Commands}!\texttt{awk}|book{2}}{100}
+\indexentry{3A@\textbf{Commands}!\texttt{perl}|book{2}}{100}
+\indexentry{3A@\textbf{Commands}!\texttt{sed}|book{2}}{100}
+
+\indexentry{Persona|book{2}}{102}
+
+\indexentry{Exfiltration|book{2}}{103}
+\indexentry{3A@\textbf{Commands}!\texttt{UnRAR}|book{2}}{103}
+
+\indexentry{Memory Image|book{2}}{106}
+\indexentry{Disk Image|book{2}}{106}
+\indexentry{Logs|book{2}}{107}
+\indexentry{Temporal triangulation|book{2}}{107}
+\indexentry{Temporal clustering|book{2}}{107}
+
+\indexentry{Kill Chain!Multiple|book{1}}{118}
+
+\indexentry{Prefetch|book{2}}{122}
+\indexentry{TIF \goto Temporary Internet Files|book{2}}{123}
+
+\indexentry{Kill Chain!Sequencing|book{1}}{128}
+
+\indexentry{Indicators|book{2}}{135}
+\indexentry{Threat Behavior|book{2}}{135}
+\indexentry{Threat Detection!Approaches|book{2}}{135}
+
+\indexentry{Threat Modeling|book{2}}{137}
+
+\indexentry{Prevention|book{2}}{138}
+
+\indexentry{Detection|book{2}}{139}
+
+\indexentry{Incident Response|book{2}}{140}
+\indexentry{Playbook|book{2}}{140}
+
+\indexentry{Threat Behavior!General vs. Activity group|book{2}}{141}
+
+\indexentry{MITRE ATT\&CK|book{2}}{142}
+\indexentry{MITRE ATT\&CK!Tactic|book{2}}{142}
+\indexentry{MITRE ATT\&CK!Technique|book{2}}{143}
+
+\comment{********************************************************************************************
+                                     THIRD BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{1A@\textbf{Malware}!PlugX|book{3}}{5}
+\indexentry{1A@\textbf{Malware}!PoisonIvy|book{3}}{5}
+
+\indexentry{1A@\textbf{Malware}!Hikit|book{3}}{6-7}
+\indexentry{1A@\textbf{Malware}!McRAT|book{3}}{6-7}
+\indexentry{Bit9|book{3}}{6-7}
+
+\indexentry{Axiom (Team)|book{3}}{8}
+\indexentry{1A@\textbf{Malware}!PlugX|book{3}}{8}
+\indexentry{1A@\textbf{Malware}!Hikit|book{3}}{8}
+\indexentry{1A@\textbf{Malware}!Gh0stRat|book{3}}{8}
+\indexentry{1A@\textbf{Malware}!PoisonIvy|book{3}}{8}
+\indexentry{1A@\textbf{Malware}!Hydraq|book{3}}{8}
+\indexentry{1A@\textbf{Malware}!DeputyDog|book{3}}{8}
+\indexentry{1A@\textbf{Malware}!Derusbi|book{3}}{8}
+
+\indexentry{2A@\textbf{Operation}!SMN|book{3}}{10}
+
+\indexentry{Malware|book{3}}{12}
+\indexentry{Capability|book{3}}{12}
+
+\indexentry{Malware!Zoos|book{3}}{13}
+\indexentry{MalwR|book{3}}{13}
+
+\indexentry{VirusTotal|book{3}}{14-20}
+
+\indexentry{Malware!Configuration|book{3}}{21}
+
+\indexentry{Defense Cyber Crime Centre (DC3)|book{3}}{22}
+\indexentry{DC3 \goto Defense Cyber Crime Centre|comment}{22}
+
+\indexentry{1A@\textbf{Malware}!njRat|book{3}}{23}
+
+\indexentry{RapidPivot|book{3}}{27}
+\indexentry{Maltego|book{3}}{27}
+
+\indexentry{Pivot|book{3}}{28}
+
+\indexentry{Pivot!IP address|book{3}}{29}
+\indexentry{Pivot!Domains|book{3}}{29}
+\indexentry{Pivot!Accounts|book{3}}{29}
+\indexentry{Pivot!Unique Strings|book{3}}{29}
+
+\indexentry{Pivot!Domains|book{3}}{33}
+
+\indexentry{Domains|book{3}}{33}
+
+\indexentry{Whois|book{3}}{34}
+
+\indexentry{Dynamic DNS|book{3}}{35}
+\indexentry{Oray|book{3}}{35}
+\indexentry{ChangeIP|book{3}}{35-36}
+\indexentry{DynDns|book{3}}{35}
+
+\indexentry{Domains!Compromise|book{3}}{38}
+
+\indexentry{Poison Hurricane|book{3}}{39}
+\indexentry{1A@\textbf{Malware}!PlugX|book{3}}{23}
+\indexentry{1A@\textbf{Malware}!Sogu|book{3}}{23}
+
+\indexentry{ASN|book{3}}{40}
+
+\indexentry{Passive DNS|book{3}}{42}
+
+\indexentry{Looking Glass LGScout|book{3}}{43}
+\indexentry{Mnemonic|book{3}}{43}
+\indexentry{PassiveTotal|book{3}}{43}
+\indexentry{Farsight|book{3}}{43}
+\indexentry{RiskIQ|book{3}}{43}
+\indexentry{Internet Identity|book{3}}{43}
+\indexentry{OpenDNS|book{3}}{43}
+\indexentry{DomainTools|book{3}}{43}
+
+\indexentry{Passive DNS|book{3}}{44}
+
+\indexentry{Mnemonic|book{3}}{45}
+
+\indexentry{Turla|book{3}}{47}
+\indexentry{Uroburos|book{3}}{47}
+\indexentry{Snake|book{3}}{47}
+\indexentry{1A@\textbf{Malware}!Agent.BTZ|book{3}}{47}
+
+\indexentry{DomainTools|book{3}}{52-53}
+
+\indexentry{1A@\textbf{Malware}!GlassRAT|book{3}}{57}
+\indexentry{TLS Certificate!Compromise|book{3}}{57}
+
+\indexentry{1A@\textbf{Malware}!GlassRAT!C2 overlap|book{3}}{58}
+\indexentry{1A@\textbf{Malware}!GlassRAT!Lessons Learned|book{3}}{59}
+
+\indexentry{Threat Data Feeds|book{3}}{61}
+
+\indexentry{DShield|book{3}}{62}
+\indexentry{SANS Internet Storm Center|book{3}}{62}
+
+\indexentry{AlienVault OTX|book{3}}{63}
+
+\indexentry{Combine|book{3}}{64}
+
+\indexentry{Collective Intelligence Framework|book{3}}{65}
+\indexentry{CIF \goto Collective Intelligence Framework|comment}{0}
+
+\indexentry{Threat Data Feeds!Pros and Cons|book{3}}{66}
+
+\indexentry{OSINT|book{3}}{67}
+
+\indexentry{OSINT!Tools|book{3}}{67-68}
+\indexentry{Automater|book{3}}{68}
+
+\indexentry{DataSploit|book{3}}{69}
+\indexentry{Discover|book{3}}{69}
+\indexentry{InfoGo|book{3}}{69}
+
+\indexentry{Shodan|book{3}}{70}
+
+\indexentry{CyberChef|book{3}}{71}
+
+\indexentry{OSINT!Geographical information|book{3}}{72}
+\indexentry{GEOINT|book{3}}{72}
+\indexentry{Dual Maps|book{3}}{72}
+\indexentry{Google Maps|book{3}}{72}
+
+\indexentry{Maltego|book{3}}{73}
+
+\indexentry{Maltego!Transforms|book{3}}{74-80}
+\indexentry{ThreatCrowd|book{3}}{77}
+\indexentry{ThreatCrowd|book{3}}{80}
+
+\indexentry{1A@\textbf{Malware}!Evoltin|book{3}}{83}
+
+\indexentry{Recorded Future|book{3}}{95-98}
+
+\indexentry{TLS Certificate|book{3}}{103}
+
+\indexentry{TLS Certificate!Datastores|book{3}}{104}
+
+\indexentry{Censys.io|book{3}}{106}
+\indexentry{Scans.io|book{3}}{106}
+\indexentry{CIRCL|book{3}}{106}
+\indexentry{PassiveTotal|book{3}}{106}
+
+\indexentry{TLS Certificate!Pivot|book{3}}{107}
+
+\indexentry{5A@\textbf{Vulnerability}!CVE-2014-1761|book{3}}{110}
+
+\comment{********************************************************************************************
+                                     FOURTH BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{HackingTeam|book{4}}{5-7}
+\indexentry{RookSecurity|book{4}}{7}
+
+\indexentry{Cyber Threat Intelligence!Storage|book{4}}{9}
+
+\indexentry{Threat Intelligence Platforms|book{4}}{10}
+\indexentry{CRITS|book{4}}{9}
+\indexentry{Threat\_\_Note|book{4}}{9}
+
+\indexentry{MISP|book{4}}{11-13}
+
+\indexentry{Cyber Threat Intelligence!Storage!(Best practice)|book{4}}{14}
+
+\indexentry{Bias|book{4}}{17}
+\indexentry{Fallacies|book{4}}{17}
+
+\indexentry{Fallacies!Logical Fallacies|book{4}}{18}
+\indexentry{Fallacies!Anecdotal Fallacies|book{4}}{18}
+\indexentry{Fallacies!Appeal to Probability|book{4}}{18}
+
+\indexentry{Fallacies!Informal Fallacies|book{4}}{19}
+\indexentry{Fallacies!Appeal to the Stone|book{4}}{19}
+\indexentry{Fallacies!Argument from Silence|book{4}}{19}
+\indexentry{Fallacies!Argument from Repetition|book{4}}{19}
+
+\indexentry{Fallacies!Common Fallacies|book{4}}{20}
+\indexentry{Fallacies!Burden of Proof|book{4}}{20}
+\indexentry{Fallacies!Moddle Ground|book{4}}{20}
+
+\indexentry{Bias!Cognitive Biases|book{4}}{21}
+
+\indexentry{Bias!Anchoring|book{4}}{22}
+
+\indexentry{Bias!Confirmation Bias|book{4}}{23}
+
+\indexentry{Bias!Congruence Bias|book{4}}{24}
+
+\indexentry{Bias!Hindsight Bias|book{4}}{25}
+
+\indexentry{Bias!Illusory Correlation|book{4}}{26}
+
+\indexentry{New-York Stock Exchange Glitch|book{4}}{27}
+
+\indexentry{Cum hoc ergo propter hoc|book{4}}{28}
+\indexentry{Correlation and Causation|book{4}}{28}
+
+\indexentry{Turkey Pipeline Explosion|book{4}}{29}
+
+\indexentry{Analysis of Competing Hypothesis|book{4}}{33-34}
+
+\indexentry{Analysis of Competing Hypothesis!1@Hypotheses|book{4}}{35}
+
+\indexentry{Analysis of Competing Hypothesis!2@Evidences|book{4}}{36}
+
+\indexentry{Analysis of Competing Hypothesis!3@Diagnostics|book{4}}{37}
+
+\indexentry{Analysis of Competing Hypothesis!4@Refinement|book{4}}{38}
+
+\indexentry{Analysis of Competing Hypothesis!5@Inconsistency|book{4}}{39}
+
+\indexentry{Analysis of Competing Hypothesis!6@Sensitivity|book{4}}{40}
+\indexentry{Evidenciary Dependency|book{4}}{40}
+
+\indexentry{Analysis of Competing Hypothesis!7@Report|book{4}}{41}
+
+\indexentry{Types of analysis|book{4}}{45}
+
+\indexentry{Link Analysis|book{4}}{46}
+\indexentry{Link Analysis!Tools|book{4}}{47}
+
+\indexentry{Maltego|book{4}}{47}
+\indexentry{Analyst's Notebook|book{4}}{47}
+\indexentry{Palantir|book{4}}{47}
+\indexentry{Centrifuge|book{4}}{47}
+\indexentry{Gephi|book{4}}{47}
+\indexentry{Graphviz|book{4}}{47}
+\indexentry{Neo4J|book{4}}{47}
+\indexentry{Titan|book{4}}{47}
+\indexentry{Linkurious|book{4}}{47}
+\indexentry{KeyLines|book{4}}{47}
+\indexentry{Cambridge Intelligence|book{4}}{47}
+
+\indexentry{Data Analysis|book{4}}{49}
+
+\indexentry{Temporal Data Analysis|book{4}}{50-51}
+
+\indexentry{Trend Analysis|book{4}}{52}
+
+\indexentry{Panama Papers|book{4}}{53}
+
+\indexentry{Apache Solr|book{4}}{55}
+\indexentry{Apache Tika|book{4}}{55}
+\indexentry{Nuix|book{4}}{55}
+\indexentry{Linkurious|book{4}}{55}
+\indexentry{Neo4J|book{4}}{55}
+
+\indexentry{Shadow Brokers|book{4}}{57}
+
+\indexentry{Hypothesis Generation|book{4}}{58}
+
+\indexentry{Name|book{4}}{62}
+\indexentry{Identifier|book{4}}{62}
+
+\indexentry{MITRE Threat Groups|book{4}}{64}
+
+\indexentry{Threat Groups!Rosetta Stone|book{4}}{65}
+\indexentry{Threat Groups!Mapping|book{4}}{66-67}
+
+\indexentry{Clustering|book{4}}{68}
+\indexentry{Intrusion!Clustering|book{4}}{68}
+
+\indexentry{Kill Chain!Clustering|book{4}}{71}
+\indexentry{Diamond Model!Clustering|book{4}}{71}
+
+\indexentry{Diamond Model!Meta-Features|book{4}}{74}
+
+\indexentry{Activity Group|book{4}}{75}
+
+\indexentry{Diamond Model!Activity Group|book{4}}{76}
+
+\indexentry{New Romantic Cyber Army|book{4}}{80}
+\indexentry{Whois HackingTeam|book{4}}{80}
+\indexentry{HackingTeam!Whois|book{4}}{80}
+\indexentry{2A@\textbf{Operation}!Troy|book{4}}{80}
+\indexentry{1A@\textbf{Malware}!Dark Seoul|book{3}}{80}
+
+\indexentry{Guardian of Peace|book{4}}{81}
+\indexentry{Sony Attack|book{4}}{81-83}
+
+\indexentry{Lazarus|book{4}}{84}
+\indexentry{2A@\textbf{Operation}!Troy|book{4}}{84}
+\indexentry{2A@\textbf{Operation}!Flame|book{4}}{84}
+\indexentry{2A@\textbf{Operation}!Blockbuster|book{4}}{84}
+\indexentry{Carbanak!Lazarus|book{4}}{84}
+
+\indexentry{WannaCry|book{4}}{85}
+
+\indexentry{Attribution!Issues|book{4}}{86}
+
+\comment{********************************************************************************************
+                                     FIFTH BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Audience|book{5}}{5}
+
+\indexentry{YARA|book{5}}{6}
+
+\indexentry{YARA!Rule (example)|book{5}}{7}
+
+\indexentry{YARA!Key points|book{5}}{8}
+
+\indexentry{YARA!Jump|book{5}}{9}
+\indexentry{YARA!Alternative|book{5}}{9}
+
+\indexentry{idc.py|book{5}}{10}
+\indexentry{yarascan|book{5}}{10}
+\indexentry{yextend|book{5}}{10}
+\indexentry{libyara|book{5}}{10}
+\indexentry{YARA!Extensions|book{5}}{10}
+
+\indexentry{YARA!Reference|book{5}}{11}
+\indexentry{YARA!Import|book{5}}{11}
+
+\indexentry{YARA!MZ|book{5}}{12}
+\indexentry{YARA!filesize|book{5}}{12}
+
+\indexentry{Sofacy|book{5}}{15}
+\indexentry{1A@\textbf{Malware}!FYSBIS|book{5}}{15}
+\indexentry{Sofacy!Bundestag|book{5}}{18}
+
+\indexentry{Indicator!Validation|book{5}}{21}
+
+\indexentry{Operational Threat Intelligence|book{5}}{25}
+
+\indexentry{Sharing!Partners and Collaboration|book{5}}{26}
+
+\indexentry{Sharing!National-level Government Information|book{5}}{27}
+
+\indexentry{US-CERT|book{5}}{27}
+\indexentry{InfraGuard|book{5}}{27}
+
+\indexentry{ISACs|book{5}}{28}
+
+\indexentry{ISAOs|book{5}}{29}
+
+\indexentry{CyBOX|book{5}}{31}
+\indexentry{STIX|book{5}}{31}
+\indexentry{MAEC|book{5}}{32}
+\indexentry{TAXII|book{5}}{31}
+
+\indexentry{TAXII!Implementation|book{5}}{34}
+
+\indexentry{STIX!1.0|book{5}}{35}
+
+\indexentry{STIX!2.0|book{5}}{36}
+
+\indexentry{TAXII!Repository|book{5}}{37}
+\indexentry{STIX!Repository|book{5}}{37}
+
+\indexentry{Sharing!Best practice|book{5}}{39}
+
+\indexentry{Metrics|book{5}}{42}
+
+\indexentry{Campaign!Heatmap|book{5}}{44}
+
+\indexentry{Incident (One-slider)|book{5}}{45}
+
+\indexentry{Mitigation Scorecard|book{5}}{46}
+
+\indexentry{Email Delivery Success Metric|book{5}}{47}
+
+\indexentry{Completeness|book{5}}{48}
+
+\indexentry{Situational Awareness|book{5}}{49}
+
+\indexentry{Strategic Threat Intelligence|book{5}}{53}
+
+\indexentry{Strategic Threat Intelligence!Expectations|book{5}}{55}
+
+\indexentry{Report|book{5}}{57}
+
+\indexentry{Observation|book{5}}{58}
+\indexentry{Interpretation|book{5}}{58}
+
+\indexentry{Estimative Language|book{5}}{60}
+
+\indexentry{Estimative Scale|book{5}}{62}
+
+\indexentry{Diamond Model!Analytic Findings|book{5}}{64}
+
+\indexentry{Confidence Assessment|book{5}}{65}
+
+\indexentry{Assessment|book{5}}{66}
+
+\indexentry{Report!Pros and Cons|book{5}}{70}
+
+\indexentry{Report!Pros and Cons|book{5}}{72}
+
+\indexentry{Report!Pros and Cons|book{5}}{75}
+
+\indexentry{Attribution|book{5}}{77-78}
+
+\indexentry{Attribution!Approaches|book{5}}{79}
+\indexentry{Adversary Admission|book{5}}{79}
+\indexentry{Leaks|book{5}}{79}
+\indexentry{Direct Access|book{5}}{79}
+\indexentry{Intrusion!Analysis|book{5}}{79}
+
+\indexentry{Simpsons|book{5}}{80}
+
+\indexentry{Analytical Model|book{5}}{81}
+\indexentry{Attribution!Value without Attribution|book{5}}{81}
+
+\indexentry{Attribution!Use cases|book{5}}{82}
+
+\indexentry{Spectrum of State Responsibility|book{5}}{83}
+\indexentry{Attribution!State Responsibility|book{5}}{83}
+
+\indexentry{Russia - Georgia|book{5}}{84}
+\indexentry{Saudi Aramco|book{5}}{84}
+\indexentry{Sony|book{5}}{84}
+
+\indexentry{Intelligence Life Cycle|book{5}}{86}
+
+\indexentry{Intent!Attribution|book{5}}{87}
+\indexentry{Attribution!Intent|book{5}}{87}
+
+\indexentry{Attribution!State|book{5}}{88}
+
+\indexentry{Analytical Model|book{5}}{89}
+
+\indexentry{Threat!Definition|book{5}}{90}
+
+\indexentry{Opportunity|book{5}}{91}
+
+\indexentry{Attribution!Matrix|book{5}}{92}
+\indexentry{Attribution!ACH|book{5}}{92}
+
+\indexentry{Requirements!Reassess|book{5}}{94}
+
+\indexentry{Active Measures|book{5}}{95}
+\indexentry{Deception|book{5}}{95}
+
+\indexentry{Disinformation|book{5}}{96}
+
+\indexentry{Axioms|book{5}}{97}
+\indexentry{Intelligence!Axioms|book{5}}{97}
+
+\comment{********************************************************************************************
+                                     LAB BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Decision Matrix|book{W}}{1.1-1}
+\indexentry{Decision Tree|book{W}}{1.1-3}
+
+\indexentry{Scale of Cyber Security|book{W}}{1.2-1}
+\indexentry{Mandiant IOC Editor|book{W}}{1.2-4}
+
+\indexentry{Process|book{W}}{1.3-2}
+\indexentry{ThreatMiner|book{W}}{1.3-4}
+\indexentry{APTNotes|book{W}}{1.3-4}
+\indexentry{1A@\textbf{Malware}!Industroyer|book{W}}{1.3-6}
+\indexentry{ELECTRUM|book{W}}{1.3-6}
+\indexentry{SANDWORM|book{W}}{1.3-7}
+\indexentry{1A@\textbf{Malware}!CrashOverride|book{W}}{1.3-7}
+
+\indexentry{Threat Modeling|book{W}}{1.4-5}
+\indexentry{ELECTRUM|book{W}}{1.4-7}
+\indexentry{SANDWORM|book{W}}{1.4-7}
+\indexentry{DRAGONFLY|book{W}}{1.4-7}
+\indexentry{1A@\textbf{Malware}!Havex|book{W}}{1.3-7}
+\indexentry{1A@\textbf{Malware}!BlackEnergy|book{W}}{1.3-7}
+\indexentry{1A@\textbf{Malware}!CrashOverride|book{W}}{1.3-7}
+
+\indexentry{PasteBin|book{W}}{2.1-3}
+\indexentry{HTTP Header|book{W}}{2.1-4}
+\indexentry{Email Header|book{W}}{2.1-5}
+\indexentry{Email Header|book{W}}{2.1-9}
+
+\indexentry{pdf-parser.py|book{W}}{2.2-5}
+\indexentry{PDF Commands|book{W}}{2.2-6}
+\indexentry{RedLine|book{W}}{2.2-8-16}
+
+\indexentry{RedLine|book{W}}{2.3-1}
+\indexentry{Wireshark|book{W}}{2.3-6}
+\indexentry{Wireshark|book{W}}{2.3-13}
+
+\indexentry{ATT\&CK|book{W}}{2.5-6}
+\indexentry{Spearphishing|book{W}}{2.5-7}
+\indexentry{Registry Run Key/Startup Folder|book{W}}{2.5-7}
+\indexentry{Custom C2 Protocol|book{W}}{2.5-8}
+
+\indexentry{DomainTools|book{W}}{3.2-4}
+\indexentry{MalwareByte|book{W}}{3.2-9}
+\indexentry{ThreatCrowd|book{W}}{3.2-14}
+
+\indexentry{Maltego|book{W}}{3.3-3}
+
+\indexentry{RecordedFuture|book{W}}{3.4-4}
+
+\indexentry{TLS Certificate|book{W}}{3.5-4}
+
+\indexentry{MISP|book{W}}{4.1-4}
+
+\indexentry{Bias!Anchoring|book{W}}{4.2-3}
+\indexentry{Fallacies!Anecdotal Fallacies|book{W}}{4.2-3}
+\indexentry{Fallacies!Burden of Proof|book{W}}{4.2-3}
+\indexentry{Bias!Congruence|book{W}}{4.2-3}
+
+\indexentry{Analysis of Competing Hypothesis|book{W}}{4.3-1}
+
+\indexentry{Visual Analysis|book{W}}{4.4-3}
+\indexentry{Maltego|book{W}}{4.4-3}
+
+\indexentry{Diamond Model!Clustering|book{W}}{4.5-4}
+
+\indexentry{YARA|book{W}}{5.1-4}
+
+\indexentry{STIX|book{W}}{5.2-5}
+\indexentry{KomodoEdit|book{W}}{5.2-5}
+
+\indexentry{Heatmap|book{W}}{5.3-6}
+
+\indexentry{Attribution!Model|book{W}}{5.4-4}
+\indexentry{DragonFly|book{W}}{5.4-11}
+\indexentry{Attribution!ACH|book{W}}{5.4-12}
+\indexentry{Evidenciary Dependence|book{W}}{5.4-15}
+
+\comment{********************************************************************************************
+                                      CROSS-KEYS SECTION
+*****************************************************************************************************}
+
+%  TODO list
+%
+%  - check SAT for decision matrices and decisions trees.
+
+% Shared ideas
+% - Block uncommon TLD
+% - redirect emails to illegitimate ones e.g. my.cfo@company.org are legitimate, but my.cfo@shadywebsite.com
+% - Block ddns
+
+% Situational Awareness: inside and outside
+% Metrics for the team
+% Process for external (technical) reports
+%   report -> models
+%          -> strat. summary
+
+

@@ -1,0 +1,92 @@
+% ********** NO NEED TO EDIT THIS FILE UNLESS MODIFYING THE LAYOUT ! **********
+% If you want to edit the course title, code and date, please edit 'config.tex'
+% *****************************************************************************
+% 
+% TeX build command:
+%   makeindex %.idx -s ../lib/std.ist|
+%       pdflatex -synctex=1 -interaction=nonstopmode %.tex|
+%       evince %.pdf|
+%       cp %.idx %.idx.bak|
+%       rm %.ilg %.ind %.aux %.synctex.gz
+% 
+% FONT SIZES :
+%  \tiny, \scriptsize, \footnotesize, \small, \normalsize, \large, \LARGE, \huge, \HUGE
+
+\documentclass[a4paper,10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{makeidx}
+\usepackage{vmargin}
+\usepackage{pdfescape}
+\usepackage{forloop}
+\usepackage{graphicx}
+\usepackage[document]{ragged2e}
+
+% setmarginsrb{1}{2}{3}{4}{5}{6}{7}{8}
+%  1) Left margin       5) Header heigth
+%  2) Top margin        6) Distance between header and text
+%  3) Right margin      7) Footer heigth
+%  4) Bottom margin     8) Distance between text and footer
+\setmarginsrb{1.5cm}{.8cm}{1.5cm}{1cm}{1cm}{.7cm}{1cm}{1.5cm}
+
+% import commands from config.text for defining course's title, code and date for use hereafter
+\input{data.tex}
+
+% additional commands for the document
+\newcommand{\comment}[1]{}						 % allows to write comments in the .idx file
+
+% additional commands for the index references
+\newcommand{\blankline}[0]{\hspace{\linewidth}}  % fills the reference line with blank
+%\newcommand{\book}[2]{\coursecode.#1--#2}		 % displays a code when using \book, e.g. BOOK2-17 for "Book 2 - page 17"
+\newcommand{\book}[2]{#1--#2}		 % displays a code when using \book, e.g. BOOK2-17 for "Book 2 - page 17"
+\newcommand{\lab}[1]{L#1}						 % displays a code when using \lab, e.g. L3 for "Lab 3"
+\newcounter{i}
+\newcommand{\rate}[1]{ \forloop{i}{0}{\value{i}<#1}{$\star$} }  % displays stars, e.g. for rating a tool
+
+% additional commands for graphics in the index references
+\DeclareGraphicsExtensions{.png}
+\newcommand{\linux}[0]{\includegraphics[height=8pt]{../lib/linux} }
+\newcommand{\mac}[0]{\includegraphics[height=8pt]{../lib/mac} }
+\newcommand{\win}[0]{\includegraphics[height=8pt]{../lib/windows} }
+\newcommand{\all}[0]{\includegraphics[height=9pt]{../lib/cross-platform} }
+\newcommand{\solar}[0]{\includegraphics[height=8pt]{../lib/solaris} }
+\newcommand{\script}[0]{\includegraphics[height=8pt]{../lib/script} }
+\newcommand{\portable}[0]{\includegraphics[height=8pt]{../lib/portable} }
+\newcommand{\web}[0]{\includegraphics[height=8pt]{../lib/web} }
+\newcommand{\cloud}[0]{\includegraphics[height=8pt]{../lib/cloud} }
+\newcommand{\coin}[0]{\includegraphics[height=6pt]{../lib/dollar} }
+\newcommand{\note}[0]{\includegraphics[height=8pt]{../lib/note} }
+\newcommand{\q}[0]{\includegraphics[height=6pt]{../lib/question} }
+
+% miscellaneous additional commands and shortcuts
+\newcommand{\bs}[0]{\textbackslash }               % shortcut for \textbackslash
+\newcommand{\cmd}[1]{\texttt{\normalsize #1}}      % displays a text in command format (styled with Courrier New font)
+\newcommand{\cmds}[1]{\texttt{\small #1}}		   % command in small format
+\newcommand{\cmdxs}[1]{\texttt{\footnotesize #1}}  % command in extra small format
+\newcommand{\goto}[0]{$\to$ }
+
+% document definition
+\title{\coursetitle}
+\date{\coursedate}
+\fancyhf{}
+\fancyhead[C]{\LARGE\textbf{\coursetitle}}
+\fancyfoot[L]{{\includegraphics[height=16pt]{../lib/cc-by}\hskip10pt\vbox{\hbox{\scriptsize This work is licensed under a Creative Commons Attribution 4.0 International License, by A. Cailliau}\vskip-2pt\hbox{\scriptsize Template by A. D'hondt, https://github.com/dhondta/tex-course-index-template}}}}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+\pagestyle{fancy}
+\makeatletter
+\renewenvironment{theindex}{%
+	\setlength{\columnseprule}{0cm}
+	\setlength{\columnsep}{1cm}
+	\setlength{\parindent}{0cm}
+	\setlength{\parskip}{0cm}
+	\thispagestyle{plain}
+	\let\item\@idxitem
+	\relax
+	\begin{multicols}{2}}%
+	{\end{multicols}}  
+\let\ps@plain\ps@fancy
+\makeatother
+\begin{document}
+	\printindex
+\end{document}
