@@ -56,7 +56,7 @@
 \indexentry{Spyware|book{3}}{122}
 \indexentry{Malware Analysis|book{3}}{123}
 \indexentry{Static Properties Analysis|book{3}}{125}
-\indexentry{file|book{3}}{125}
+\indexentry{Linux Commands!file|book{3}}{125}
 \indexentry{Interactive Behavior Analysis|book{3}}{126}
 \indexentry{Manual Code Reversing|book{3}}{127}
 \indexentry{Web Application Security|book{3}}{133}
@@ -227,3 +227,321 @@
 \indexentry{Host-Based Intrusion Prevention (HIPS)!Challenges|book{4}}{218}
 \indexentry{Application Behavior Monitoring|book{4}}{219}
 \indexentry{Host-Based Intrusion Prevention (HIPS)!Recommendations|book{4}}{220}
+\indexentry{Windows Security Infrastructure|book{5}}{4}
+\indexentry{Windows!Versions|book{5}}{7}
+\indexentry{Windows Server!Roles|book{5}}{11}
+\indexentry{Workgroups|book{5}}{15}
+\indexentry{Windows!Manage Local Accounts|book{5}}{19}
+\indexentry{Windows!Computer Management Tool|book{5}}{19}
+\indexentry{Security ID Numbers (SID)|book{5}}{20}
+\indexentry{Windows Commands!whoami|book{5}}{21}
+\indexentry{Security Access Token (SAT)|book{5}}{22}
+\indexentry{Domain Controller (DC)|book{5}}{25}
+\indexentry{Active Directory (AD)|book{5}}{25}
+\indexentry{Multi-Master Replication|book{5}}{25}
+\indexentry{Read-Only Domain Controller (RODC)|book{5}}{26}
+\indexentry{Security Access Token (SAT)|book{5}}{28}
+\indexentry{Kerberos|book{5}}{29}
+\indexentry{Key Distribution Center (KDC)|book{5}}{29}
+\indexentry{Golden Ticket|book{5}}{30}
+\indexentry{Mimikatz|book{5}}{30}
+\indexentry{NTLM|book{5}}{32}
+\indexentry{Forest|book{5}}{33}
+\indexentry{Inter-Domain Replication|book{5}}{33}
+\indexentry{Global Catalog (GC)|book{5}}{33}
+\indexentry{Configuration Naming Context|book{5}}{33}
+\indexentry{Trust Link|book{5}}{35}
+\indexentry{Cross-Forest Trusts|book{5}}{36}
+\indexentry{Group Policy|book{5}}{38}
+\indexentry{Group Policy Object (GPO)|book{5}}{38}
+\indexentry{Windows!End of Support|book{5}}{48}
+\indexentry{Windows!as a Service|book{5}}{50}
+\indexentry{Windows!Updates|book{5}}{50}
+\indexentry{Microsoft Security Updates Guide|book{5}}{52}
+\indexentry{Servicing Channels|book{5}}{53}
+\indexentry{Rings|book{5}}{55}
+\indexentry{Channel Configuaration|book{5}}{56}
+\indexentry{Long-Term Channel|book{5}}{58}
+\indexentry{Windows!Insider Program|book{5}}{59}
+\indexentry{Windows!Update|book{5}}{60}
+\indexentry{Windows!Server Update Services (WSUS)|book{5}}{62}
+\indexentry{Windows!Access Controls|book{5}}{67}
+\indexentry{NTFS|book{5}}{70}
+\indexentry{Windows Commands!chkdsk|book{5}}{70}
+\indexentry{ReFS|book{5}}{71}
+\indexentry{Windows Commands!fsutil|book{5}}{71}
+\indexentry{NTFS!DACL|book{5}}{72}
+\indexentry{Windows Commands!icacls|book{5}}{72}
+\indexentry{Access Control Entries (ACE)|book{5}}{72}
+\indexentry{NTFS!Owners|book{5}}{75}
+\indexentry{Windows Commands!takeown|book{5}}{76}
+\indexentry{Principle of Least Privilege|book{5}}{77}
+\indexentry{Creator Owner|book{5}}{75}
+\indexentry{AGULP|book{5}}{79}
+\indexentry{Universal Groups|book{5}}{79}
+\indexentry{Organizational Unit (OU)|book{5}}{81}
+\indexentry{Domain Local Group|book{5}}{83}
+\indexentry{SAM Database|book{5}}{83}
+\indexentry{SMB Protocol|book{5}}{84}
+\indexentry{Shared Folder Permissions|book{5}}{84}
+\indexentry{Common Internet Filesystem (CIFS)|book{5}}{84}
+\indexentry{Powershell Commands!smbshare|book{5}}{85}
+\indexentry{Windows Commands!net.exe share|book{5}}{85}
+\indexentry{Hidden Shares|book{5}}{87}
+\indexentry{Powershell Commands!get-smbshare|book{5}}{87}
+\indexentry{Administrative Shares|book{5}}{88}
+\indexentry{Windows Commands!regedit|book{5}}{91}
+\indexentry{Remote Registry Services|book{5}}{92}
+\indexentry{Windows Commands!regsvc|book{5}}{92}
+\indexentry{Active Directory (AD)!Permissions|book{5}}{95}
+\indexentry{Delegation of Control Wizard|book{5}}{96}
+\indexentry{Windows Commands!whoami|book{5}}{97}
+\indexentry{Active Directory (AD)!Privileges|book{5}}{98}
+\indexentry{Bitlocker|book{5}}{103}
+\indexentry{Full Volume Encryption Key (FVEK)|book{5}}{104}
+\indexentry{Trusted Platform Module (TPM)|book{5}}{105}
+\indexentry{Bitlocker!TPM|book{5}}{105}
+\indexentry{UEFI Secure Boot|book{5}}{110}
+\indexentry{Security Templates|book{5}}{118}
+\indexentry{Security Configuration and Analysis Tool (SCA)|book{5}}{122}
+\indexentry{Windows Commands!secedit|book{5}}{124}
+\indexentry{Local Group Policy Objects|book{5}}{125}
+\indexentry{Group Policy Object (GPO)!Local|book{5}}{125}
+\indexentry{Group Policy Object (GPO)!Administrative Templates|book{5}}{128}
+\indexentry{Domain Group Policy Objects|book{5}}{130}
+\indexentry{Group Policy Object (GPO)!Domain|book{5}}{130}
+\indexentry{Default Domain Policy|book{5}}{130}
+\indexentry{Group Policy!Management Console (GPMC)|book{5}}{131}
+\indexentry{Group Policy!Minimum Security Options|book{5}}{132}
+\indexentry{Password Policy|book{5}}{136}
+\indexentry{Account Lockout Policy|book{5}}{138}
+\indexentry{Anonymous Access|book{5}}{139}
+\indexentry{NTLM!v1|book{5}}{141}
+\indexentry{NTLM!v2|book{5}}{142}
+\indexentry{LAN Manager Authentication Level|book{5}}{142}
+\indexentry{Credential Guard|book{5}}{144}
+\indexentry{Administrative Account Protection|book{5}}{146}
+\indexentry{Guest Account|book{5}}{149}
+\indexentry{AppLocker|book{5}}{150}
+\indexentry{Controlled Folder Access (CFA)|book{5}}{153}
+\indexentry{User Account Control (UAC)|book{5}}{154}
+\indexentry{Windows Sandbox for Malware Isolation|book{5}}{156}
+\indexentry{Microsoft Edge|book{5}}{158}
+\indexentry{Microsoft Defender Application Guard (WDAG)|book{5}}{160}
+\indexentry{Firefox|book{5}}{162}
+\indexentry{Browser Extensions|book{5}}{164}
+\indexentry{Google Chrome|book{5}}{167}
+\indexentry{Adobe Reader and Acrobat|book{5}}{170}
+\indexentry{Windows Server!Core|book{5}}{178}
+\indexentry{Windows Commands!sconfig.cmd|book{5}}{179}
+\indexentry{Windows!Admin Center|book{5}}{179}
+\indexentry{Windows Server!Nano|book{5}}{180}
+\indexentry{Windows!Services|book{5}}{184}
+\indexentry{Server Manager|book{5}}{185}
+\indexentry{Powershell Commands!get-windowsfeature|book{5}}{187}
+\indexentry{Windows!Disable a Service|book{5}}{188}
+\indexentry{Windows Commands!sc|book{5}}{189}
+\indexentry{Powershell Commands!get-service|book{5}}{189}
+\indexentry{Powershell Commands!set-service|book{5}}{189}
+\indexentry{Powershell Commands!stop-service|book{5}}{189}
+\indexentry{NetBIOS|book{5}}{190}
+\indexentry{Windows Commands!nbtstat|book{5}}{190}
+\indexentry{Windows!Important Ports|book{5}}{192}
+\indexentry{Port!TCP 139|book{5}}{192}
+\indexentry{Port!TCP 445|book{5}}{192}
+\indexentry{Port!TCP 135|book{5}}{192}
+\indexentry{Port!TCP 389|book{5}}{192}
+\indexentry{Port!TCP 636|book{5}}{192}
+\indexentry{Port!TCP 3268|book{5}}{192}
+\indexentry{Port!TCP 3269|book{5}}{192}
+\indexentry{Port!88|book{5}}{192}
+\indexentry{Port!53|book{5}}{194}
+\indexentry{Port!3389|book{5}}{194}
+\indexentry{Port!1433|book{5}}{195}
+\indexentry{Port!1434|book{5}}{195}
+\indexentry{Port!137|book{5}}{194}
+\indexentry{Port!138|book{5}}{194}
+\indexentry{Port!139|book{5}}{194}
+\indexentry{Port!1512|book{5}}{194}
+\indexentry{Port!TCP 42|book{5}}{194}
+\indexentry{Port!UDP 500|book{5}}{194}
+\indexentry{Port!UDP 4500|book{5}}{194}
+\indexentry{Port!TCP 443|book{5}}{195}
+\indexentry{Port!TCP 1723|book{5}}{195}
+\indexentry{Port!UDP 1701|book{5}}{194}
+\indexentry{Windows Defender Firewall|book{5}}{196}
+\indexentry{Windows Commands!wf.msc|book{5}}{196}
+\indexentry{Network Location Types|book{5}}{198}
+\indexentry{IPsec!Windows|book{5}}{205}
+\indexentry{Windows Commands!netsh|book{5}}{206}
+\indexentry{IPsec!Group Policy|book{5}}{207}
+\indexentry{IIS|book{5}}{210}
+\indexentry{IIS!HTTPS and TLS|book{5}}{213}
+\indexentry{IIS!Website Binding|book{5}}{217}
+\indexentry{IIS!User Authentication|book{5}}{220}
+\indexentry{IIS!Source IP Address Restrictions|book{5}}{222}
+\indexentry{Remote Desktop Services (RDS)|book{5}}{224}
+\indexentry{Thin Client|book{5}}{226}
+\indexentry{Windows Commands!mstsc|book{5}}{226}
+\indexentry{Remote Assistance|book{5}}{228}
+\indexentry{Remote Desktop Services (RDS)!Remote Desktop Protocol (RDP)|book{5}}{231}
+\indexentry{Port!3389|book{5}}{231}
+\indexentry{Remote Desktop Services (RDS)!Best Practices|book{5}}{233}
+\indexentry{Microsoft Cloud Computing|book{5}}{236}
+\indexentry{Types of Cloud Computing|book{5}}{237}
+\indexentry{IaaS|book{5}}{237}
+\indexentry{PaaS|book{5}}{237}
+\indexentry{SaaS|book{5}}{237}
+\indexentry{DaaS|book{5}}{237}
+\indexentry{Azure|book{5}}{239}
+\indexentry{OneDrive|book{5}}{239}
+\indexentry{Office365|book{5}}{239}
+\indexentry{Azure Active Directory (MAAD)|book{5}}{243}
+\indexentry{Azure Active Directory Domain Services (AADDS)|book{5}}{244}
+\indexentry{Azure Active Directory (MAAD)!Sync with on-premise AD|book{5}}{245}
+\indexentry{Azure AD Connect|book{5}}{245}
+\indexentry{Active Directory Federation Services (ADFS)|book{5}}{246}
+\indexentry{Azure Active Directory (MAAD)!Single Sign-On|book{5}}{247}
+\indexentry{Azure!Administrative Roles|book{5}}{249}
+\indexentry{Remote Wipe|book{5}}{251}
+\indexentry{Mobile Device Management (MDM)|book{5}}{251}
+\indexentry{Intune|book{5}}{251}
+\indexentry{Multifactor Authentication|book{5}}{252}
+\indexentry{Azure!Security Services|book{5}}{254}
+\indexentry{Microsoft Defender Advanced Threat Protection|book{5}}{254}
+\indexentry{Azure!Sentinel|book{5}}{255}
+\indexentry{Security Orchestration Automated Response (SOAR)|book{5}}{255}
+\indexentry{Conditional Access Policies|book{5}}{255}
+\indexentry{Data Loss Prevention (DLP)|book{5}}{255}
+\indexentry{Azure!Rights Management Services (RMS)|book{5}}{256}
+\indexentry{Azure!Key Vault|book{5}}{256}
+\indexentry{Automation|book{5}}{261}
+\indexentry{Powershell|book{5}}{262}
+\indexentry{Powershell!Remoting|book{5}}{263}
+\indexentry{Port!TCP 5985|book{5}}{263}
+\indexentry{Port!TCP 5986|book{5}}{263}
+\indexentry{Just Enough Admin (JEA)|book{5}}{263}
+\indexentry{Powershell!Transcription Logging|book{5}}{263}
+\indexentry{Powershell!Core|book{5}}{264}
+\indexentry{Powershell Commands!get-process|book{5}}{266}
+\indexentry{Powershell Commands!get-service|book{5}}{267}
+\indexentry{Powershell Commands!dir|book{5}}{267}
+\indexentry{Powershell Commands!get-winevent|book{5}}{267}
+\indexentry{Powershell Commands!sort-object|book{5}}{267}
+\indexentry{Powershell Commands!where-object|book{5}}{267}
+\indexentry{Powershell Commands!get-ciminstance|book{5}}{267}
+\indexentry{Powershell Commands!get-help|book{5}}{267}
+\indexentry{PATH|book{5}}{268}
+\indexentry{Windows Commands!accesschk|book{5}}{269}
+\indexentry{Windows Commands!autoexnt|book{5}}{269}
+\indexentry{Windows Commands!autorunsc|book{5}}{269}
+\indexentry{Windows Commands!bindiff|book{5}}{269}
+\indexentry{Windows Commands!choice|book{5}}{269}
+\indexentry{Windows Commands!clip|book{5}}{269}
+\indexentry{Windows Commands!diskpart|book{5}}{269}
+\indexentry{Windows Commands!driverquery|book{5}}{269}
+\indexentry{Windows Commands!ds*|book{5}}{269}
+\indexentry{Windows Commands!eventcreate|book{5}}{269}
+\indexentry{Windows Commands!eventtriggers|book{5}}{270}
+\indexentry{Windows Commands!forfiles|book{5}}{270}
+\indexentry{Windows Commands!freedisk|book{5}}{270}
+\indexentry{Windows Commands!fsutil|book{5}}{270}
+\indexentry{Windows Commands!gettype|book{5}}{270}
+\indexentry{Windows Commands!gpresult|book{5}}{270}
+\indexentry{Resultant Set of Policy (RSoP)|book{5}}{270}
+\indexentry{Windows Commands!instsrv|book{5}}{270}
+\indexentry{Windows Commands!ipseccmd|book{5}}{270}
+\indexentry{Windows Commands!logman|book{5}}{270}
+\indexentry{Windows Commands!logonsessions|book{5}}{270}
+\indexentry{Windows Commands!netsh|book{5}}{270}
+\indexentry{Windows Commands!now|book{5}}{270}
+\indexentry{Windows Commands!openfiles|book{5}}{270}
+\indexentry{Windows Commands!psexec|book{5}}{270}
+\indexentry{Windows Commands!psfile|book{5}}{271}
+\indexentry{Windows Commands!psgetid|book{5}}{271}
+\indexentry{Windows Commands!pskill|book{5}}{271}
+\indexentry{Windows Commands!pslist|book{5}}{271}
+\indexentry{Windows Commands!pspasswd|book{5}}{271}
+\indexentry{Windows Commands!psservice|book{5}}{271}
+\indexentry{Windows Commands!psshutdown|book{5}}{271}
+\indexentry{Windows Commands!qgrep|book{5}}{271}
+\indexentry{Windows Commands!reg|book{5}}{271}
+\indexentry{Windows Commands!regdmp|book{5}}{271}
+\indexentry{Windows Commands!regfind|book{5}}{271}
+\indexentry{Windows Commands!regini|book{5}}{271}
+\indexentry{Windows Commands!relog|book{5}}{271}
+\indexentry{Windows Commands!sc|book{5}}{271}
+\indexentry{Windows Commands!scanreg|book{5}}{272}
+\indexentry{Windows Commands!schtasks|book{5}}{272}
+\indexentry{Windows Commands!sclist|book{5}}{272}
+\indexentry{Windows Commands!sdelete|book{5}}{272}
+\indexentry{Windows Commands!setx|book{5}}{272}
+\indexentry{Windows Commands!shellrunas|book{5}}{272}
+\indexentry{Windows Commands!showacls|book{5}}{272}
+\indexentry{Windows Commands!showgrps|book{5}}{272}
+\indexentry{Windows Commands!showmbrs|book{5}}{272}
+\indexentry{Windows Commands!showpriv|book{5}}{272}
+\indexentry{Windows Commands!sigcheck|book{5}}{272}
+\indexentry{Windows Commands!sleep|book{5}}{272}
+\indexentry{Windows Commands!snmputil|book{5}}{272}
+\indexentry{Windows Commands!srvcheck|book{5}}{272}
+\indexentry{Windows Commands!srvinfo|book{5}}{273}
+\indexentry{Windows Commands!su|book{5}}{273}
+\indexentry{Windows Commands!sysmon|book{5}}{273}
+\indexentry{Windows Commands!taskkill|book{5}}{273}
+\indexentry{Windows Commands!tasklist|book{5}}{273}
+\indexentry{Windows Commands!timeout|book{5}}{273}
+\indexentry{Windows Commands!typeperf|book{5}}{273}
+\indexentry{Windows Commands!waitfor|book{5}}{273}
+\indexentry{Windows Commands!where-object|book{5}}{273}
+\indexentry{Windows Commands!whoami|book{5}}{273}
+\indexentry{Windows Commands!wmic|book{5}}{274}
+\indexentry{Windows Commands!netsh|book{5}}{275}
+\indexentry{Windows Commands!getmac|book{5}}{276}
+\indexentry{Windows Commands!ipconfig|book{5}}{276}
+\indexentry{Windows Commands!route|book{5}}{276}
+\indexentry{Windows Commands!netsh|book{5}}{276}
+\indexentry{Windows Commands!netstat|book{5}}{276}
+\indexentry{Windows Commands!nbtstat|book{5}}{276}
+\indexentry{Powershell Commands!get-netfirewallrule|book{5}}{276}
+\indexentry{Powershell Commands!get-netadapter|book{5}}{276}
+\indexentry{Powershell Commands!get-netipaddress|book{5}}{276}
+\indexentry{Powershell Commands!set-netipaddress|book{5}}{276}
+\indexentry{Powershell Commands!get-netipsecrule|book{5}}{276}
+\indexentry{Windows Subsystem for Linux (WSL)|book{5}}{277}
+\indexentry{Linux Commands!htop|book{5}}{279}
+\indexentry{Windows Commands!wsl|book{5}}{279}
+\indexentry{Group Policy!Push Scripts|book{5}}{280}
+\indexentry{Scheduling Tasks|book{5}}{282}
+\indexentry{Powershell Commands!get-schedduledtask|book{5}}{282}
+\indexentry{Windows Commands!schtasks|book{5}}{283}
+\indexentry{Policy Compliance|book{5}}{285}
+\indexentry{Change Control Board (CCB)|book{5}}{285}
+\indexentry{Security Configuration and Analysis Tool (SCA)|book{5}}{286}
+\indexentry{Windows Commands!secedit|book{5}}{287}
+\indexentry{Windows!Logging|book{5}}{288}
+\indexentry{Powershell Commands!show-eventlog|book{5}}{288}
+\indexentry{Windows Commands!eventcreate|book{5}}{289}
+\indexentry{Windows Commands!logevent|book{5}}{289}
+\indexentry{Security Event Log|book{5}}{290}
+\indexentry{Audit Policies|book{5}}{290}
+\indexentry{Windows Commands!auditpol|book{5}}{290}
+\indexentry{Security Event Log!Interesting Log Ids|book{5}}{292}
+\indexentry{Audit Object Access|book{5}}{294}
+\indexentry{NTFS!SACL|book{5}}{294}
+\indexentry{Windows!Logging|book{5}}{297}
+\indexentry{Windows Commands!diruse|book{5}}{298}
+\indexentry{Maximum Log Size|book{5}}{299}
+\indexentry{Log Wrapping|book{5}}{300}
+\indexentry{Log Consolidation|book{5}}{301}
+\indexentry{Windows Commands!wecutil|book{5}}{301}
+\indexentry{Microsoft System Center Operations Manager (MOM)|book{5}}{301}
+\indexentry{Windows Commands!psloglist|book{5}}{302}
+\indexentry{Windows Commands!dumpevt|book{5}}{302}
+\indexentry{Forensic Snapshots|book{5}}{303}
+\indexentry{Powershell Commands!snapshot|book{5}}{307}
+\indexentry{Windows Commands!msinfo32|book{5}}{309}
+\indexentry{Change Detection|book{5}}{311}
+\indexentry{Windows Commands!fc|book{5}}{311}
+\indexentry{Powershell Commands!compare-object|book{5}}{311}
+\indexentry{Windows Commands!windiff|book{5}}{311}
