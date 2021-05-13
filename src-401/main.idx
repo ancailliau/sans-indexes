@@ -9,6 +9,7 @@
 \indexentry{CVSS|book{3}}{25}
 \indexentry{Common Vulnerability Scoring System|book{3}}{25}
 \indexentry{National Vulnerability Database (NVD)|book{3}}{26}
+\indexentry{NVD \goto National Vulnerability Database|comment}{0}
 \indexentry{DREAD|book{3}}{28}
 \indexentry{Customized Risk Calculation|book{3}}{29}
 \indexentry{Penetration Testing|book{3}}{36}
@@ -144,6 +145,7 @@
 \indexentry{Elliptic Curve Cryptography|book{4}}{74}
 \indexentry{Cryptography!Algorithm Key Lengths|book{4}}{75}
 \indexentry{Secure Hash Algorithm (SHA)|book{4}}{76}
+\indexentry{SHA \goto Secure Hash Algorithm|comment}{0}
 \indexentry{Cryptanalytic Attacks|book{4}}{78}
 \indexentry{Birthday Attack|book{4}}{79}
 \indexentry{Confidentiality in Transit|book{4}}{86}
@@ -154,26 +156,33 @@
 \indexentry{IPsec!Authentication Header|book{4}}{94}
 \indexentry{IPsec!Encapsulating Security Payload|book{4}}{95}
 \indexentry{Integrity Check Value (ICV)|book{4}}{94}
+\indexentry{ICV \goto Integrity Check Value|comment}{0}
 \indexentry{IPsec!Integrity Check Value (ICV)|book{4}}{94}
+\indexentry{ICV \goto IPsec!Integrity Check Value|comment}{0}
 \indexentry{IPsec!Tunnel Mode|book{4}}{97}
 \indexentry{IPsec!Transport Mode|book{4}}{97}
 \indexentry{IPsec!Security Association|book{4}}{98}
 \indexentry{Internet Key Exchange (IKE)|book{4}}{98}
+\indexentry{IKE \goto Internet Key Exchange|comment}{0}
 \indexentry{VPN!SSL|book{4}}{99}
 \indexentry{VPN!Security Implications|book{4}}{101}
 \indexentry{On-The-Fly Encryption|book{4}}{103}
 \indexentry{Full Disk Encryption|book{4}}{103}
 \indexentry{GPG|book{4}}{104}
 \indexentry{Public Key Infrastructure (PKI)|book{4}}{109}
+\indexentry{PKI \goto Public Key Infrastructure|comment}{0}
 \indexentry{Certificates|book{4}}{110}
 \indexentry{Certificates!Certificate Authority|book{4}}{112}
 \indexentry{Public Key Infrastructure (PKI)!Life Cycle|book{4}}{114}
+\indexentry{PKI \goto Public Key Infrastructure|comment}{0}
 \indexentry{Certificates!Revocation List|book{4}}{117}
 \indexentry{Certificates!OCSP|book{4}}{118}
 \indexentry{Certificates!X.509|book{4}}{120}
 \indexentry{HTTPS|book{4}}{122}
 \indexentry{Public Key Infrastructure (PKI)!Problems|book{4}}{126}
+\indexentry{PKI \goto Public Key Infrastructure|comment}{0}
 \indexentry{Public Key Infrastructure (PKI)!Other uses|book{4}}{128}
+\indexentry{PKI \goto Public Key Infrastructure|comment}{0}
 \indexentry{Network Security Devices!Types|book{4}}{135}
 \indexentry{Firewall|book{4}}{138}
 \indexentry{Firewall!Default Rule|book{4}}{140}
@@ -187,46 +196,70 @@
 \indexentry{Application Gateway|book{4}}{147}
 \indexentry{Proxy|book{4}}{147}
 \indexentry{Intrusion Detection System (IDS)|book{4}}{149}
+\indexentry{IDS \goto Intrusion Detection System|comment}{0}
 \indexentry{Intrusion Detection System (IDS)!Alerts|book{4}}{151}
+\indexentry{IDS \goto Intrusion Detection System|comment}{0}
 \indexentry{Events of Interests (EOI)|book{4}}{151}
+\indexentry{EOI \goto Events of Interests|comment}{0}
 \indexentry{Network Intrusion Detection System (NIDS)|book{4}}{153}
+\indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Switched Port Analyzer (SPAN)|book{4}}{153}
+\indexentry{SPAN \goto Switched Port Analyzer|comment}{0}
 \indexentry{Network Intrusion Detection System (NIDS)!Signature Analysis|book{4}}{154}
+\indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Network Intrusion Detection System (NIDS)!Rules|book{4}}{155}
+\indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Anomaly Analysis|book{4}}{157}
 \indexentry{Network Intrusion Detection System (NIDS)!Protocal Analysis|book{4}}{158}
+\indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Packet Inspection|book{4}}{160}
 \indexentry{Data Normalization|book{4}}{161}
 \indexentry{Network Intrusion Detection System (NIDS)!Advantages|book{4}}{162}
+\indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Honeytoken|book{4}}{163}
 \indexentry{Network Intrusion Detection System (NIDS)!Challenges|book{4}}{164}
+\indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Snort|book{4}}{166}
 \indexentry{Passive Fingerprinting|book{4}}{172}
 \indexentry{Active Vulnerability Analysis|book{4}}{172}
 \indexentry{Passive Vulnerability Analysis|book{4}}{173}
 \indexentry{Intrusion Prevention System (IPS)|book{4}}{175}
+\indexentry{IPS \goto Intrusion Prevention System|comment}{0}
 \indexentry{Network Intrusion Prevention System (NIPS)|book{4}}{177}
+\indexentry{NIPS \goto Network Intrusion Prevention System|comment}{0}
 \indexentry{Zero Power High Availability (ZPHA)|book{4}}{178}
+\indexentry{ZPHA \goto Zero Power High Availability|comment}{0}
 \indexentry{Network Intrusion Prevention System (NIPS)!Challenges|book{4}}{180}
+\indexentry{NIPS \goto Network Intrusion Prevention System|comment}{0}
 \indexentry{Network Intrusion Prevention System (NIPS)!Developments|book{4}}{181}
+\indexentry{NIPS \goto Network Intrusion Prevention System|comment}{0}
 \indexentry{Network Intrusion Prevention System (NIPS)!Passive Analysis|book{4}}{183}
+\indexentry{NIPS \goto Network Intrusion Prevention System|comment}{0}
 \indexentry{Network Security Devices!Referenced Architecture|book{4}}{184}
 \indexentry{Endpoint Security|book{4}}{192}
 \indexentry{Baseline|book{4}}{194}
 \indexentry{Antivirus Software|book{4}}{199}
 \indexentry{Endpoint Firewalls|book{4}}{201}
 \indexentry{File Integrity Checking (FIC)|book{4}}{203}
+\indexentry{FIC \goto File Integrity Checking|comment}{0}
 \indexentry{Log Monitoring!Inclusive Analysis|book{4}}{205}
 \indexentry{Log Monitoring!Exclusive Analysis|book{4}}{205}
 \indexentry{Application Control|book{4}}{207}
 \indexentry{Host-Based Intrusion Detection (HIDS)|book{4}}{209}
+\indexentry{HIDS \goto Host-Based Intrusion Detection|comment}{0}
 \indexentry{Host-Based Intrusion Detection (HIDS)!Advantages|book{4}}{211}
+\indexentry{HIDS \goto Host-Based Intrusion Detection|comment}{0}
 \indexentry{Host-Based Intrusion Detection (HIDS)!Challenges|book{4}}{212}
+\indexentry{HIDS \goto Host-Based Intrusion Detection|comment}{0}
 \indexentry{Host-Based Intrusion Prevention (HIPS)|book{4}}{216}
+\indexentry{HIPS \goto Host-Based Intrusion Prevention|comment}{0}
 \indexentry{Host-Based Intrusion Prevention (HIPS)!Advantages|book{4}}{217}
+\indexentry{HIPS \goto Host-Based Intrusion Prevention|comment}{0}
 \indexentry{Host-Based Intrusion Prevention (HIPS)!Challenges|book{4}}{218}
+\indexentry{HIPS \goto Host-Based Intrusion Prevention|comment}{0}
 \indexentry{Application Behavior Monitoring|book{4}}{219}
 \indexentry{Host-Based Intrusion Prevention (HIPS)!Recommendations|book{4}}{220}
+\indexentry{HIPS \goto Host-Based Intrusion Prevention|comment}{0}
 \indexentry{Windows Security Infrastructure|book{5}}{4}
 \indexentry{Windows!Versions|book{5}}{7}
 \indexentry{Windows Server!Roles|book{5}}{11}
@@ -234,26 +267,35 @@
 \indexentry{Windows!Manage Local Accounts|book{5}}{19}
 \indexentry{Windows!Computer Management Tool|book{5}}{19}
 \indexentry{Security ID Numbers (SID)|book{5}}{20}
+\indexentry{SID \goto Security ID Numbers|comment}{0}
 \indexentry{Windows Commands!whoami|book{5}}{21}
 \indexentry{Security Access Token (SAT)|book{5}}{22}
+\indexentry{SAT \goto Security Access Token|comment}{0}
 \indexentry{Domain Controller (DC)|book{5}}{25}
+\indexentry{DC \goto Domain Controller|comment}{0}
 \indexentry{Active Directory (AD)|book{5}}{25}
+\indexentry{AD \goto Active Directory|comment}{0}
 \indexentry{Multi-Master Replication|book{5}}{25}
 \indexentry{Read-Only Domain Controller (RODC)|book{5}}{26}
+\indexentry{RODC \goto Read-Only Domain Controller|comment}{0}
 \indexentry{Security Access Token (SAT)|book{5}}{28}
+\indexentry{SAT \goto Security Access Token|comment}{0}
 \indexentry{Kerberos|book{5}}{29}
 \indexentry{Key Distribution Center (KDC)|book{5}}{29}
+\indexentry{KDC \goto Key Distribution Center|comment}{0}
 \indexentry{Golden Ticket|book{5}}{30}
 \indexentry{Mimikatz|book{5}}{30}
 \indexentry{NTLM|book{5}}{32}
 \indexentry{Forest|book{5}}{33}
 \indexentry{Inter-Domain Replication|book{5}}{33}
 \indexentry{Global Catalog (GC)|book{5}}{33}
+\indexentry{GC \goto Global Catalog|comment}{0}
 \indexentry{Configuration Naming Context|book{5}}{33}
 \indexentry{Trust Link|book{5}}{35}
 \indexentry{Cross-Forest Trusts|book{5}}{36}
 \indexentry{Group Policy|book{5}}{38}
 \indexentry{Group Policy Object (GPO)|book{5}}{38}
+\indexentry{GPO \goto Group Policy Object|comment}{0}
 \indexentry{Windows!End of Support|book{5}}{48}
 \indexentry{Windows!as a Service|book{5}}{50}
 \indexentry{Windows!Updates|book{5}}{50}
@@ -265,6 +307,7 @@
 \indexentry{Windows!Insider Program|book{5}}{59}
 \indexentry{Windows!Update|book{5}}{60}
 \indexentry{Windows!Server Update Services (WSUS)|book{5}}{62}
+\indexentry{WSUS \goto Windows!Server Update Services|comment}{0}
 \indexentry{Windows!Access Controls|book{5}}{67}
 \indexentry{NTFS|book{5}}{70}
 \indexentry{Windows Commands!chkdsk|book{5}}{70}
@@ -273,6 +316,7 @@
 \indexentry{NTFS!DACL|book{5}}{72}
 \indexentry{Windows Commands!icacls|book{5}}{72}
 \indexentry{Access Control Entries (ACE)|book{5}}{72}
+\indexentry{ACE \goto Access Control Entries|comment}{0}
 \indexentry{NTFS!Owners|book{5}}{75}
 \indexentry{Windows Commands!takeown|book{5}}{76}
 \indexentry{Principle of Least Privilege|book{5}}{77}
@@ -280,11 +324,13 @@
 \indexentry{AGULP|book{5}}{79}
 \indexentry{Universal Groups|book{5}}{79}
 \indexentry{Organizational Unit (OU)|book{5}}{81}
+\indexentry{OU \goto Organizational Unit|comment}{0}
 \indexentry{Domain Local Group|book{5}}{83}
 \indexentry{SAM Database|book{5}}{83}
 \indexentry{SMB Protocol|book{5}}{84}
 \indexentry{Shared Folder Permissions|book{5}}{84}
 \indexentry{Common Internet Filesystem (CIFS)|book{5}}{84}
+\indexentry{CIFS \goto Common Internet Filesystem|comment}{0}
 \indexentry{Powershell Commands!smbshare|book{5}}{85}
 \indexentry{Windows Commands!net.exe share|book{5}}{85}
 \indexentry{Hidden Shares|book{5}}{87}
@@ -294,24 +340,33 @@
 \indexentry{Remote Registry Services|book{5}}{92}
 \indexentry{Windows Commands!regsvc|book{5}}{92}
 \indexentry{Active Directory (AD)!Permissions|book{5}}{95}
+\indexentry{AD \goto Active Directory|comment}{0}
 \indexentry{Delegation of Control Wizard|book{5}}{96}
 \indexentry{Windows Commands!whoami|book{5}}{97}
 \indexentry{Active Directory (AD)!Privileges|book{5}}{98}
+\indexentry{AD \goto Active Directory|comment}{0}
 \indexentry{Bitlocker|book{5}}{103}
 \indexentry{Full Volume Encryption Key (FVEK)|book{5}}{104}
+\indexentry{FVEK \goto Full Volume Encryption Key|comment}{0}
 \indexentry{Trusted Platform Module (TPM)|book{5}}{105}
+\indexentry{TPM \goto Trusted Platform Module|comment}{0}
 \indexentry{Bitlocker!TPM|book{5}}{105}
 \indexentry{UEFI Secure Boot|book{5}}{110}
 \indexentry{Security Templates|book{5}}{118}
 \indexentry{Security Configuration and Analysis Tool (SCA)|book{5}}{122}
+\indexentry{SCA \goto Security Configuration and Analysis Tool|comment}{0}
 \indexentry{Windows Commands!secedit|book{5}}{124}
 \indexentry{Local Group Policy Objects|book{5}}{125}
 \indexentry{Group Policy Object (GPO)!Local|book{5}}{125}
+\indexentry{GPO \goto Group Policy Object|comment}{0}
 \indexentry{Group Policy Object (GPO)!Administrative Templates|book{5}}{128}
+\indexentry{GPO \goto Group Policy Object|comment}{0}
 \indexentry{Domain Group Policy Objects|book{5}}{130}
 \indexentry{Group Policy Object (GPO)!Domain|book{5}}{130}
+\indexentry{GPO \goto Group Policy Object|comment}{0}
 \indexentry{Default Domain Policy|book{5}}{130}
 \indexentry{Group Policy!Management Console (GPMC)|book{5}}{131}
+\indexentry{GPMC \goto Group Policy!Management Console|comment}{0}
 \indexentry{Group Policy!Minimum Security Options|book{5}}{132}
 \indexentry{Password Policy|book{5}}{136}
 \indexentry{Account Lockout Policy|book{5}}{138}
@@ -324,10 +379,13 @@
 \indexentry{Guest Account|book{5}}{149}
 \indexentry{AppLocker|book{5}}{150}
 \indexentry{Controlled Folder Access (CFA)|book{5}}{153}
+\indexentry{CFA \goto Controlled Folder Access|comment}{0}
 \indexentry{User Account Control (UAC)|book{5}}{154}
+\indexentry{UAC \goto User Account Control|comment}{0}
 \indexentry{Windows Sandbox for Malware Isolation|book{5}}{156}
 \indexentry{Microsoft Edge|book{5}}{158}
 \indexentry{Microsoft Defender Application Guard (WDAG)|book{5}}{160}
+\indexentry{WDAG \goto Microsoft Defender Application Guard|comment}{0}
 \indexentry{Firefox|book{5}}{162}
 \indexentry{Browser Extensions|book{5}}{164}
 \indexentry{Google Chrome|book{5}}{167}
@@ -381,12 +439,15 @@
 \indexentry{IIS!User Authentication|book{5}}{220}
 \indexentry{IIS!Source IP Address Restrictions|book{5}}{222}
 \indexentry{Remote Desktop Services (RDS)|book{5}}{224}
+\indexentry{RDS \goto Remote Desktop Services|comment}{0}
 \indexentry{Thin Client|book{5}}{226}
 \indexentry{Windows Commands!mstsc|book{5}}{226}
 \indexentry{Remote Assistance|book{5}}{228}
 \indexentry{Remote Desktop Services (RDS)!Remote Desktop Protocol (RDP)|book{5}}{231}
+\indexentry{RDP \goto Remote Desktop Services (RDS)!Remote Desktop Protocol|comment}{0}
 \indexentry{Port!3389|book{5}}{231}
 \indexentry{Remote Desktop Services (RDS)!Best Practices|book{5}}{233}
+\indexentry{RDS \goto Remote Desktop Services|comment}{0}
 \indexentry{Microsoft Cloud Computing|book{5}}{236}
 \indexentry{Types of Cloud Computing|book{5}}{237}
 \indexentry{IaaS|book{5}}{237}
@@ -397,23 +458,32 @@
 \indexentry{OneDrive|book{5}}{239}
 \indexentry{Office365|book{5}}{239}
 \indexentry{Azure Active Directory (MAAD)|book{5}}{243}
+\indexentry{MAAD \goto Azure Active Directory|comment}{0}
 \indexentry{Azure Active Directory Domain Services (AADDS)|book{5}}{244}
+\indexentry{AADDS \goto Azure Active Directory Domain Services|comment}{0}
 \indexentry{Azure Active Directory (MAAD)!Sync with on-premise AD|book{5}}{245}
+\indexentry{MAAD \goto Azure Active Directory|comment}{0}
 \indexentry{Azure AD Connect|book{5}}{245}
 \indexentry{Active Directory Federation Services (ADFS)|book{5}}{246}
+\indexentry{ADFS \goto Active Directory Federation Services|comment}{0}
 \indexentry{Azure Active Directory (MAAD)!Single Sign-On|book{5}}{247}
+\indexentry{MAAD \goto Azure Active Directory|comment}{0}
 \indexentry{Azure!Administrative Roles|book{5}}{249}
 \indexentry{Remote Wipe|book{5}}{251}
 \indexentry{Mobile Device Management (MDM)|book{5}}{251}
+\indexentry{MDM \goto Mobile Device Management|comment}{0}
 \indexentry{Intune|book{5}}{251}
 \indexentry{Multifactor Authentication|book{5}}{252}
 \indexentry{Azure!Security Services|book{5}}{254}
 \indexentry{Microsoft Defender Advanced Threat Protection|book{5}}{254}
 \indexentry{Azure!Sentinel|book{5}}{255}
 \indexentry{Security Orchestration Automated Response (SOAR)|book{5}}{255}
+\indexentry{SOAR \goto Security Orchestration Automated Response|comment}{0}
 \indexentry{Conditional Access Policies|book{5}}{255}
 \indexentry{Data Loss Prevention (DLP)|book{5}}{255}
+\indexentry{DLP \goto Data Loss Prevention|comment}{0}
 \indexentry{Azure!Rights Management Services (RMS)|book{5}}{256}
+\indexentry{RMS \goto Azure!Rights Management Services|comment}{0}
 \indexentry{Azure!Key Vault|book{5}}{256}
 \indexentry{Automation|book{5}}{261}
 \indexentry{Powershell|book{5}}{262}
@@ -421,6 +491,7 @@
 \indexentry{Port!TCP 5985|book{5}}{263}
 \indexentry{Port!TCP 5986|book{5}}{263}
 \indexentry{Just Enough Admin (JEA)|book{5}}{263}
+\indexentry{JEA \goto Just Enough Admin|comment}{0}
 \indexentry{Powershell!Transcription Logging|book{5}}{263}
 \indexentry{Powershell!Core|book{5}}{264}
 \indexentry{Powershell Commands!get-process|book{5}}{266}
@@ -449,6 +520,7 @@
 \indexentry{Windows Commands!gettype|book{5}}{270}
 \indexentry{Windows Commands!gpresult|book{5}}{270}
 \indexentry{Resultant Set of Policy (RSoP)|book{5}}{270}
+\indexentry{RSoP \goto Resultant Set of Policy|comment}{0}
 \indexentry{Windows Commands!instsrv|book{5}}{270}
 \indexentry{Windows Commands!ipseccmd|book{5}}{270}
 \indexentry{Windows Commands!logman|book{5}}{270}
@@ -509,6 +581,7 @@
 \indexentry{Powershell Commands!set-netipaddress|book{5}}{276}
 \indexentry{Powershell Commands!get-netipsecrule|book{5}}{276}
 \indexentry{Windows Subsystem for Linux (WSL)|book{5}}{277}
+\indexentry{WSL \goto Windows Subsystem for Linux|comment}{0}
 \indexentry{Linux Commands!htop|book{5}}{279}
 \indexentry{Windows Commands!wsl|book{5}}{279}
 \indexentry{Group Policy!Push Scripts|book{5}}{280}
@@ -517,7 +590,9 @@
 \indexentry{Windows Commands!schtasks|book{5}}{283}
 \indexentry{Policy Compliance|book{5}}{285}
 \indexentry{Change Control Board (CCB)|book{5}}{285}
+\indexentry{CCB \goto Change Control Board|comment}{0}
 \indexentry{Security Configuration and Analysis Tool (SCA)|book{5}}{286}
+\indexentry{SCA \goto Security Configuration and Analysis Tool|comment}{0}
 \indexentry{Windows Commands!secedit|book{5}}{287}
 \indexentry{Windows!Logging|book{5}}{288}
 \indexentry{Powershell Commands!show-eventlog|book{5}}{288}
@@ -536,6 +611,7 @@
 \indexentry{Log Consolidation|book{5}}{301}
 \indexentry{Windows Commands!wecutil|book{5}}{301}
 \indexentry{Microsoft System Center Operations Manager (MOM)|book{5}}{301}
+\indexentry{MOM \goto Microsoft System Center Operations Manager|comment}{0}
 \indexentry{Windows Commands!psloglist|book{5}}{302}
 \indexentry{Windows Commands!dumpevt|book{5}}{302}
 \indexentry{Forensic Snapshots|book{5}}{303}
