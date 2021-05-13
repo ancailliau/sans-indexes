@@ -621,3 +621,197 @@
 \indexentry{Windows Commands!fc|book{5}}{311}
 \indexentry{Powershell Commands!compare-object|book{5}}{311}
 \indexentry{Windows Commands!windiff|book{5}}{311}
+\indexentry{Linux!Distributions|book{6}}{13}
+\indexentry{Ubuntu|book{6}}{13}
+\indexentry{Debian|book{6}}{13}
+\indexentry{Fedora|book{6}}{13}
+\indexentry{Red Hat Linux|book{6}}{13}
+\indexentry{Windows Subsystem for Linux (WSL)|book{6}}{14}
+\indexentry{WSL \goto Windows Subsystem for Linux|comment}{0}
+\indexentry{Shellshock|book{6}}{15}
+\indexentry{SambaCry|book{6}}{15}
+\indexentry{SACK Panic|book{6}}{15}
+\indexentry{Sudo Bypass|book{6}}{16}
+\indexentry{Kernel|book{6}}{20}
+\indexentry{Shell|book{6}}{22}
+\indexentry{Logical Filesystem|book{6}}{24}
+\indexentry{Physical Filesystem|book{6}}{25}
+\indexentry{Disk Monitoring|book{6}}{27}
+\indexentry{Linux Commands!df|book{6}}{27}
+\indexentry{SUID / SGID|book{6}}{29}
+\indexentry{ro:|book{6}}{29}
+\indexentry{nosuid:|book{6}}{29}
+\indexentry{nodev:|book{6}}{29}
+\indexentry{Linux!Unified Key Setup (LUKS)|book{6}}{31}
+\indexentry{LUKS \goto Linux!Unified Key Setup|comment}{0}
+\indexentry{Linux Commands!cryptsetup|book{6}}{31}
+\indexentry{Linux!Security Permissions|book{6}}{33}
+\indexentry{SUID / SGID|book{6}}{37}
+\indexentry{Sticky Bit|book{6}}{37}
+\indexentry{SUID / SGID!Danger|book{6}}{42}
+\indexentry{Linux Commands!umask|book{6}}{43}
+\indexentry{Linux Commands!chown|book{6}}{45}
+\indexentry{Linux Commands!chgrp|book{6}}{45}
+\indexentry{Linux!User Accounts|book{6}}{47}
+\indexentry{Linux!Superuser|book{6}}{48}
+\indexentry{Linux!Privilege Elevation|book{6}}{49}
+\indexentry{Linux Commands!su|book{6}}{49}
+\indexentry{Linux Commands!sudo|book{6}}{49}
+\indexentry{Linux!System Accounts|book{6}}{51}
+\indexentry{Passwd File|book{6}}{52}
+\indexentry{Shadow File|book{6}}{53}
+\indexentry{Linux!Password Aging|book{6}}{54}
+\indexentry{Pluggable Authentication Modules (PAM)|book{6}}{55}
+\indexentry{PAM \goto Pluggable Authentication Modules|comment}{0}
+\indexentry{Linux!Password Policy|book{6}}{57}
+\indexentry{Linux Commands!netstat|book{6}}{66}
+\indexentry{Linux Commands!psloglist|book{6}}{69}
+\indexentry{Linux Commands!top|book{6}}{73}
+\indexentry{Linux Commands!man|book{6}}{76}
+\indexentry{Linux Commands!tail|book{6}}{77}
+\indexentry{Linux Commands!pipe (\|)|book{6}}{79}
+\indexentry{\| \goto Linux Commands!pipe|comment}{0}
+\indexentry{Linux Commands!grep|book{6}}{79}
+\indexentry{Linux!Services|book{6}}{82}
+\indexentry{Linux Commands!systemctl|book{6}}{82}
+\indexentry{Initd|book{6}}{83}
+\indexentry{Runlevels|book{6}}{83}
+\indexentry{Systemd|book{6}}{84}
+\indexentry{Linux Commands!systemctl|book{6}}{85}
+\indexentry{Cron|book{6}}{88}
+\indexentry{Linux!Package Management|book{6}}{90}
+\indexentry{Advanced Packaging Tool (APT)|book{6}}{93}
+\indexentry{APT \goto Advanced Packaging Tool|comment}{0}
+\indexentry{Linux Commands!apt|book{6}}{94}
+\indexentry{SELinux|book{6}}{100}
+\indexentry{AppArmor|book{6}}{102}
+\indexentry{Linux!Hardening|book{6}}{105}
+\indexentry{Linux!Closing Ports|book{6}}{105}
+\indexentry{Sysctl Hardening|book{6}}{106}
+\indexentry{Linux Commands!sysctl|book{6}}{106}
+\indexentry{Source Routing|book{6}}{107}
+\indexentry{IPv6 Hardening|book{6}}{108}
+\indexentry{Address Space Layout Randomization (ASLR)|book{6}}{109}
+\indexentry{ASLR \goto Address Space Layout Randomization|comment}{0}
+\indexentry{Loadable Kernel Modules (LKM)|book{6}}{110}
+\indexentry{LKM \goto Loadable Kernel Modules|comment}{0}
+\indexentry{Linux Commands!modprobe|book{6}}{110}
+\indexentry{Linux Commands!modinfo|book{6}}{110}
+\indexentry{SSH Hardening|book{6}}{112}
+\indexentry{TCP Wrappers|book{6}}{112}
+\indexentry{KeyBox|book{6}}{114}
+\indexentry{Bastille|book{6}}{118}
+\indexentry{Center for Internet Security (CIS)|book{6}}{119}
+\indexentry{CIS \goto Center for Internet Security|comment}{0}
+\indexentry{Lynis|book{6}}{120}
+\indexentry{OpenSCAP|book{6}}{121}
+\indexentry{Security Content Automation Protocol (SCAP)|book{6}}{121}
+\indexentry{SCAP \goto Security Content Automation Protocol|comment}{0}
+\indexentry{InSpec|book{6}}{123}
+\indexentry{Linux!Log Files|book{6}}{125}
+\indexentry{utmp|book{6}}{126}
+\indexentry{wtmp|book{6}}{126}
+\indexentry{btmp|book{6}}{126}
+\indexentry{Linux Commands!utmpdump|book{6}}{126}
+\indexentry{dmesg|book{6}}{127}
+\indexentry{Linux Commands!dmesg|book{6}}{127}
+\indexentry{Syslog|book{6}}{129}
+\indexentry{Syslog!Facility Codes|book{6}}{131}
+\indexentry{Syslog!Severity Levels|book{6}}{132}
+\indexentry{Syslog!Security|book{6}}{134}
+\indexentry{Syslog!BSD vs IETF|book{6}}{135}
+\indexentry{Syslog!Destinations|book{6}}{136}
+\indexentry{Syslog-NG|book{6}}{137}
+\indexentry{Linux Commands!chkconfig|book{6}}{137}
+\indexentry{Rsyslogd|book{6}}{138}
+\indexentry{Logrotate|book{6}}{139}
+\indexentry{Centralized Logging|book{6}}{142}
+\indexentry{Auditd|book{6}}{144}
+\indexentry{Linux Commands!auditctl|book{6}}{145}
+\indexentry{Linux Commands!aureport|book{6}}{147}
+\indexentry{Linux Commands!ausearch|book{6}}{147}
+\indexentry{Linux Commands!aureport|book{6}}{148}
+\indexentry{Linux Commands!aureport|book{6}}{149}
+\indexentry{Linux Commands!autrace|book{6}}{149}
+\indexentry{Linux Commands!ausearch|book{6}}{149}
+\indexentry{Linux Commands!auditctl|book{6}}{150}
+\indexentry{Linux!Firewalls|book{6}}{153}
+\indexentry{Firewall|book{6}}{152}
+\indexentry{IPTables|book{6}}{154}
+\indexentry{Linux Commands!iptables|book{6}}{154}
+\indexentry{IPTables!Host Based Firewall Rules|book{6}}{156}
+\indexentry{Linux Commands!iptables|book{6}}{156}
+\indexentry{IPTables!Network Based Firewall Rules|book{6}}{157}
+\indexentry{Linux Commands!iptables|book{6}}{157}
+\indexentry{Firewalld|book{6}}{158}
+\indexentry{NFTables|book{6}}{160}
+\indexentry{Linux!File Integrity Checking|book{6}}{162}
+\indexentry{TripWire|book{6}}{163}
+\indexentry{Samhain|book{6}}{164}
+\indexentry{OSSEC|book{6}}{165}
+\indexentry{Rootkit Detectors|book{6}}{167}
+\indexentry{RKHunter|book{6}}{168}
+\indexentry{Linux Commands!rkhunter|book{6}}{168}
+\indexentry{ChkRootkit|book{6}}{169}
+\indexentry{Linux!Configuration Management Tools|book{6}}{172}
+\indexentry{Linux!Containerized Security|book{6}}{175}
+\indexentry{Chroot|book{6}}{177}
+\indexentry{TFTP|book{6}}{177}
+\indexentry{Containers|book{6}}{179}
+\indexentry{Kernel-based Virtual Machines (KVM)|book{6}}{181}
+\indexentry{KVM \goto Kernel-based Virtual Machines|comment}{0}
+\indexentry{Containers!LXC|book{6}}{182}
+\indexentry{Cgroup|book{6}}{183}
+\indexentry{Namespaces|book{6}}{183}
+\indexentry{Containers!Docker|book{6}}{184}
+\indexentry{Docker!Dockerfile|book{6}}{186}
+\indexentry{Docker!HUB|book{6}}{186}
+\indexentry{Docker!Registry|book{6}}{186}
+\indexentry{Docker!Swarm|book{6}}{187}
+\indexentry{Kubernetes (K8S)|book{6}}{188}
+\indexentry{K8S \goto Kubernetes|comment}{0}
+\indexentry{Containers!Security|book{6}}{189}
+\indexentry{Docker!Security Best Practices|book{6}}{190}
+\indexentry{Docker!Vulnerability Management|book{6}}{191}
+\indexentry{Clair|book{6}}{191}
+\indexentry{Anchore|book{6}}{191}
+\indexentry{Center for Internet Security (CIS)!Containers|book{6}}{192}
+\indexentry{CIS \goto Center for Internet Security|comment}{0}
+\indexentry{Terraform|book{6}}{193}
+\indexentry{MacOS|book{6}}{200}
+\indexentry{MacOS!Privacy Controls|book{6}}{201}
+\indexentry{MacOS!Keychain|book{6}}{202}
+\indexentry{MacOS!Gatekeeper|book{6}}{205}
+\indexentry{MacOS!Xprotect|book{6}}{208}
+\indexentry{MacOS!Find My|book{6}}{209}
+\indexentry{YARA|book{6}}{206}
+\indexentry{MacOS!Firewall|book{6}}{210}
+\indexentry{MacOS!FileVault|book{6}}{211}
+\indexentry{MacOS!HFS+|book{6}}{211}
+\indexentry{MacOS!Sandboxing|book{6}}{212}
+\indexentry{MacOS!Security Chip|book{6}}{213}
+\indexentry{MacOS!Securing|book{6}}{214}
+\indexentry{MacOS!Vulnerabilities|book{6}}{215}
+\indexentry{BuggyCow|book{6}}{215}
+\indexentry{Gatekeeper Bypass|book{6}}{215}
+\indexentry{FlashBack|book{6}}{216}
+\indexentry{CrescentCore|book{6}}{216}
+\indexentry{Android|book{6}}{222}
+\indexentry{Android!Fragmentation|book{6}}{225}
+\indexentry{Android!Security Fix Process|book{6}}{226}
+\indexentry{Open Handset Alliance (OHA)|book{6}}{226}
+\indexentry{OHA \goto Open Handset Alliance|comment}{0}
+\indexentry{iOS|book{6}}{227}
+\indexentry{Mobile Devices!Threats|book{6}}{233}
+\indexentry{Mobile Devices!Loss Impact|book{6}}{235}
+\indexentry{Mobile Device Management (MDM)|book{6}}{236}
+\indexentry{MDM \goto Mobile Device Management|comment}{0}
+\indexentry{Mobile Devices!Loss Reporting|book{6}}{237}
+\indexentry{Mobile Devices!Jailbreaking|book{6}}{239}
+\indexentry{Mobile Devices!Malware|book{6}}{240}
+\indexentry{Mobile Transaction Authorization Number (MTAN)|book{6}}{242}
+\indexentry{MTAN \goto Mobile Transaction Authorization Number|comment}{0}
+\indexentry{Zeus in the Mobile (ZITMO)|book{6}}{242}
+\indexentry{ZITMO \goto Zeus in the Mobile|comment}{0}
+\indexentry{Mobile Devices!Malware Delivery Methods|book{6}}{244}
+\indexentry{Android!Fake Installers|book{6}}{246}
