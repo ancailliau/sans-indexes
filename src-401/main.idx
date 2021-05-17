@@ -690,7 +690,7 @@
 \indexentry{Sysctl Hardening|book{6}}{106}
 \indexentry{Linux Commands!sysctl|book{6}}{106}
 \indexentry{Source Routing|book{6}}{107}
-\indexentry{IPv6 Hardening|book{6}}{108}
+\indexentry{IPv6!Hardening|book{6}}{108}
 \indexentry{Address Space Layout Randomization (ASLR)|book{6}}{109}
 \indexentry{ASLR \goto Address Space Layout Randomization|comment}{0}
 \indexentry{Loadable Kernel Modules (LKM)|book{6}}{110}
@@ -815,3 +815,334 @@
 \indexentry{ZITMO \goto Zeus in the Mobile|comment}{0}
 \indexentry{Mobile Devices!Malware Delivery Methods|book{6}}{244}
 \indexentry{Android!Fake Installers|book{6}}{246}
+\indexentry{Network!Architecture|book{1}}{19}
+\indexentry{Defensible Network Architecture|book{1}}{19}
+\indexentry{Conceptual Network Design|book{1}}{21}
+\indexentry{Logical Network Design|book{1}}{23}
+\indexentry{Physical Network Design|book{1}}{24}
+\indexentry{Data Location|book{1}}{26}
+\indexentry{Communication Flow|book{1}}{28}
+\indexentry{Threat Enumeration|book{1}}{33}
+\indexentry{Threat Agent|book{1}}{35}
+\indexentry{Router Attack|book{1}}{37}
+\indexentry{Switch Attack|book{1}}{39}
+\indexentry{Denial of Service (DOS)|book{1}}{37}
+\indexentry{DOS \goto Denial of Service|comment}{0}
+\indexentry{Distributed Denial of Service (DDOS)|book{1}}{37}
+\indexentry{DDOS \goto Distributed Denial of Service|comment}{0}
+\indexentry{Packet Sniffing|book{1}}{38}
+\indexentry{Packet Misrouting|book{1}}{38}
+\indexentry{Routing Table Poisoning|book{1}}{38}
+\indexentry{Cisco Delivery Protocol (CDP)|book{1}}{39}
+\indexentry{CDP \goto Cisco Delivery Protocol|comment}{0}
+\indexentry{MAC Flooding|book{1}}{40}
+\indexentry{DHCP Manipulation|book{1}}{41}
+\indexentry{STP Manipulation|book{1}}{41}
+\indexentry{VLAN Hopping|book{1}}{41}
+\indexentry{Spanning Tree Protocol (STP)|book{1}}{41}
+\indexentry{STP \goto Spanning Tree Protocol|comment}{0}
+\indexentry{Physical Topology|book{1}}{44}
+\indexentry{Logical Topology|book{1}}{44}
+\indexentry{Network Diagram|book{1}}{44}
+\indexentry{Ethernet|book{1}}{46}
+\indexentry{Collision Detection (CSMA/CD)|book{1}}{47}
+\indexentry{CSMA/CD \goto Collision Detection|comment}{0}
+\indexentry{Network Design|book{1}}{49}
+\indexentry{Air Gap|book{1}}{50}
+\indexentry{Network Design!Objectives|book{1}}{54}
+\indexentry{Defense in Depth (DiD)|book{1}}{54}
+\indexentry{DiD \goto Defense in Depth|comment}{0}
+\indexentry{Public Network|book{1}}{55}
+\indexentry{Semi-Public Network|book{1}}{55}
+\indexentry{Middleware|book{1}}{55}
+\indexentry{Private Network|book{1}}{56}
+\indexentry{Network Sections|book{1}}{57}
+\indexentry{Network Protocol|book{1}}{64}
+\indexentry{OSI Protocol Stack|book{1}}{67}
+\indexentry{TCP/IP|book{1}}{71}
+\indexentry{TCP/IP!Packets|book{1}}{73}
+\indexentry{Internet Protocol (IP)|book{1}}{75}
+\indexentry{IP \goto Internet Protocol|comment}{0}
+\indexentry{IPv4!vs IPv6|book{1}}{77}
+\indexentry{IPv4!Header|book{1}}{81}
+\indexentry{IPv6!Header|book{1}}{83}
+\indexentry{IPv6!Features|book{1}}{85}
+\indexentry{Internet Control Message Protocol (ICMP)|book{1}}{89}
+\indexentry{ICMP \goto Internet Control Message Protocol|comment}{0}
+\indexentry{TCP|book{1}}{95}
+\indexentry{TCP!Connection Establishment|book{1}}{99}
+\indexentry{TCP!Header|book{1}}{102}
+\indexentry{TCP!Connection Closing|book{1}}{104}
+\indexentry{UDP|book{1}}{107}
+\indexentry{UDP!Header|book{1}}{111}
+\indexentry{Linux Commands!tcpdump|book{1}}{114}
+\indexentry{Network Devices|book{1}}{124}
+\indexentry{MAC Address|book{1}}{126}
+\indexentry{IP Address|book{1}}{126}
+\indexentry{Network Devices!HUB|book{1}}{129}
+\indexentry{Network Devices!Switch|book{1}}{129}
+\indexentry{Address Resolution Protocol (ARP)|book{1}}{131}
+\indexentry{ARP \goto Address Resolution Protocol|comment}{0}
+\indexentry{Sniffing|book{1}}{133}
+\indexentry{Wireshark|book{1}}{135}
+\indexentry{Snort|book{1}}{135}
+\indexentry{Kismet|book{1}}{135}
+\indexentry{BetterCAP|book{1}}{135}
+\indexentry{Network Devices!Hardening|book{1}}{140}
+\indexentry{Source Routing Support|book{1}}{143}
+\indexentry{Virtual LAN (VLAN)|book{1}}{147}
+\indexentry{VLAN \goto Virtual LAN|comment}{0}
+\indexentry{Network Access Control (NAC)|book{1}}{149}
+\indexentry{NAC \goto Network Access Control|comment}{0}
+\indexentry{802.1X|book{1}}{151}
+\indexentry{Virtualization|book{1}}{159}
+\indexentry{Virtualization!Isolation|book{1}}{164}
+\indexentry{Virtualization!Security|book{1}}{167}
+\indexentry{Virtualization!Isolation|book{1}}{168}
+\indexentry{Disaster Recovery|book{1}}{170}
+\indexentry{Virtual Desktop Infrastructure (VDI)|book{1}}{170}
+\indexentry{VDI \goto Virtual Desktop Infrastructure|comment}{0}
+\indexentry{Hypervisor|book{1}}{174}
+\indexentry{Virtualization!Sprawl|book{1}}{176}
+\indexentry{Physical Segmentation|book{1}}{178}
+\indexentry{Physical Inspection|book{1}}{178}
+\indexentry{Isolation Violation|book{1}}{180}
+\indexentry{Virtualization!Defense|book{1}}{182}
+\indexentry{Cloud Computing|book{1}}{185}
+\indexentry{Public Cloud|book{1}}{188}
+\indexentry{Private Cloud|book{1}}{187}
+\indexentry{Hybrid Cloud|book{1}}{187}
+\indexentry{Cloud Computing!Benefits|book{1}}{189}
+\indexentry{IaaS|book{1}}{191}
+\indexentry{PaaS|book{1}}{191}
+\indexentry{SaaS|book{1}}{191}
+\indexentry{Serverless|book{1}}{192}
+\indexentry{Infrastucture as Code (IaC)|book{1}}{194}
+\indexentry{IaC \goto Infrastucture as Code|comment}{0}
+\indexentry{Cloud Computing!Providers|book{1}}{199}
+\indexentry{Cloud Computing!Security|book{1}}{201}
+\indexentry{AWS!Shared Responsibility Model|book{1}}{203}
+\indexentry{Azure Shared Responsibility|book{1}}{204}
+\indexentry{Security Frameworks|book{1}}{205}
+\indexentry{Privacy Frameworks|book{1}}{205}
+\indexentry{ISO 27000|book{1}}{205}
+\indexentry{NIST 800-53R4|book{1}}{205}
+\indexentry{FedRAMP|book{1}}{205}
+\indexentry{Center for Internet Security (CIS)!Cloud Companion Guide|book{1}}{205}
+\indexentry{CIS \goto Center for Internet Security|comment}{0}
+\indexentry{PCI DSS|book{1}}{205}
+\indexentry{Service Organization Controls (SOC)|book{1}}{205}
+\indexentry{SOC \goto Service Organization Controls|comment}{0}
+\indexentry{Fair Information Principles|book{1}}{205}
+\indexentry{General Data Protection Regulation (GDPR)|book{1}}{205}
+\indexentry{GDPR \goto General Data Protection Regulation|comment}{0}
+\indexentry{HIPAA|book{1}}{205}
+\indexentry{California Consumer Privace Act (CCPA)|book{1}}{205}
+\indexentry{CCPA \goto California Consumer Privace Act|comment}{0}
+\indexentry{Cloud Security Alliance (CSA)|book{1}}{206}
+\indexentry{CSA \goto Cloud Security Alliance|comment}{0}
+\indexentry{Governance, Risk Management and Compliance (GRC)|book{1}}{206}
+\indexentry{GRC \goto Governance, Risk Management and Compliance|comment}{0}
+\indexentry{CAIQ|book{1}}{206}
+\indexentry{Cloud Controls Matrix|book{1}}{206}
+\indexentry{Cloud Security Alliance (CSA)!Guidance Domain Matrix|book{1}}{209}
+\indexentry{CSA \goto Cloud Security Alliance|comment}{0}
+\indexentry{AWS!Regions and Availability Zones|book{1}}{211}
+\indexentry{AWS!Virtual Private Cloud|book{1}}{212}
+\indexentry{AWS!Internet Gateway|book{1}}{213}
+\indexentry{AWS!Subnets|book{1}}{214}
+\indexentry{AWS!NAT Gateway|book{1}}{215}
+\indexentry{AWS!NACL|book{1}}{216}
+\indexentry{AWS!EC2|book{1}}{217}
+\indexentry{AWS!AMI|book{1}}{218}
+\indexentry{AWS!Security Groups|book{1}}{219}
+\indexentry{AWS!Subnets|book{1}}{220}
+\indexentry{AWS!Serverless|book{1}}{221}
+\indexentry{Disaster Recovery!Disaster Recovery|book{1}}{224}
+\indexentry{Incident Response|book{1}}{227}
+\indexentry{Cloud Computing!Security Services|book{1}}{229}
+\indexentry{IEEE802.11|book{1}}{240}
+\indexentry{802.11a, b & g|book{1}}{244}
+\indexentry{802.11n|book{1}}{246}
+\indexentry{802.11ac|book{1}}{248}
+\indexentry{802.11ax|book{1}}{250}
+\indexentry{WEP|book{1}}{256}
+\indexentry{Initialization Vector (IV)|book{1}}{258}
+\indexentry{IV \goto Initialization Vector|comment}{0}
+\indexentry{WPA1|book{1}}{263}
+\indexentry{TKIP|book{1}}{263}
+\indexentry{Message Integrity Check|book{1}}{263}
+\indexentry{WPA2|book{1}}{265}
+\indexentry{WPA3|book{1}}{268}
+\indexentry{Rogue Access Points|book{1}}{277}
+\indexentry{Personal Area Network (PAN)|book{1}}{282}
+\indexentry{PAN \goto Personal Area Network|comment}{0}
+\indexentry{Bluetooth|book{1}}{283}
+\indexentry{BlueBorne|book{1}}{285}
+\indexentry{Bluetooth!Protection|book{1}}{287}
+\indexentry{Zigbee|book{1}}{289}
+\indexentry{Near Field Communication (NFC)|book{1}}{291}
+\indexentry{NFC \goto Near Field Communication|comment}{0}
+\indexentry{Radio Frequency Identification (RFID)|book{1}}{293}
+\indexentry{RFID \goto Radio Frequency Identification|comment}{0}
+\indexentry{5G|book{1}}{296}
+\indexentry{IoT|book{1}}{298}
+\indexentry{Defense in Depth (DiD)|book{2}}{7}
+\indexentry{DiD \goto Defense in Depth|comment}{0}
+\indexentry{Risk|book{2}}{9}
+\indexentry{CIA|book{2}}{11}
+\indexentry{Confidentiality|book{2}}{11}
+\indexentry{Integrity|book{2}}{11}
+\indexentry{Availability|book{2}}{11}
+\indexentry{Defense in Depth (DiD)!Strategies|book{2}}{15}
+\indexentry{DiD \goto Defense in Depth|comment}{0}
+\indexentry{Filtering|book{2}}{16}
+\indexentry{Uniform Protection|book{2}}{19}
+\indexentry{Protected Enclaves|book{2}}{20}
+\indexentry{Defense in Depth (DiD)!Information Centric|book{2}}{21}
+\indexentry{DiD \goto Defense in Depth|comment}{0}
+\indexentry{Defense in Depth (DiD)!Vector-Oriented|book{2}}{22}
+\indexentry{DiD \goto Defense in Depth|comment}{0}
+\indexentry{Zero-Trust|book{2}}{24}
+\indexentry{Variable Trust|book{2}}{26}
+\indexentry{Log Inspection|book{2}}{28}
+\indexentry{Defense in Depth (DiD)!In the Cloud|book{2}}{30}
+\indexentry{DiD \goto Defense in Depth|comment}{0}
+\indexentry{Identity Access Management (IAM)|book{2}}{31}
+\indexentry{IAM \goto Identity Access Management|comment}{0}
+\indexentry{Identity Access Management (IAM)!on-premise|book{2}}{33}
+\indexentry{IAM \goto Identity Access Management|comment}{0}
+\indexentry{Identity Access Management (IAM)!Azure|book{2}}{34}
+\indexentry{IAM \goto Identity Access Management|comment}{0}
+\indexentry{Identity Access Management (IAM)!AWS|book{2}}{35}
+\indexentry{IAM \goto Identity Access Management|comment}{0}
+\indexentry{Identity Access Management (IAM)!GCP|book{2}}{36}
+\indexentry{IAM \goto Identity Access Management|comment}{0}
+\indexentry{Network Segmentation!on-premise|book{2}}{37}
+\indexentry{Network Segmentation!Azure|book{2}}{38}
+\indexentry{Network Segmentation!AWS|book{2}}{39}
+\indexentry{Network Segmentation!GCP|book{2}}{40}
+\indexentry{Configuration Management|book{2}}{43}
+\indexentry{Identity Management|book{2}}{47}
+\indexentry{Access Control|book{2}}{47}
+\indexentry{Digital Identity|book{2}}{48}
+\indexentry{Authentication|book{2}}{48}
+\indexentry{Authorization|book{2}}{48}
+\indexentry{Accountability|book{2}}{48}
+\indexentry{Identity Access Management (IAM)|book{2}}{50}
+\indexentry{IAM \goto Identity Access Management|comment}{0}
+\indexentry{Enrollment Process|book{2}}{51}
+\indexentry{Identity Proofing|book{2}}{52}
+\indexentry{Identity Assurance Levels (IAL)|book{2}}{53}
+\indexentry{IAL \goto Identity Assurance Levels|comment}{0}
+\indexentry{Authentication|book{2}}{55}
+\indexentry{Authentication Assurance Levels (AAL)|book{2}}{56}
+\indexentry{AAL \goto Authentication Assurance Levels|comment}{0}
+\indexentry{Single Sign-On (SSO)|book{2}}{57}
+\indexentry{SSO \goto Single Sign-On|comment}{0}
+\indexentry{Access Control|book{2}}{58}
+\indexentry{Least Privilege|book{2}}{59}
+\indexentry{Need to Know|book{2}}{59}
+\indexentry{Separation of Duties|book{2}}{59}
+\indexentry{Rotation of Duties|book{2}}{59}
+\indexentry{Access Control!Techniques|book{2}}{61}
+\indexentry{Discretionary Access Control (DAC)|book{2}}{61}
+\indexentry{DAC \goto Discretionary Access Control|comment}{0}
+\indexentry{Mandatory Access Control (MAC)|book{2}}{61}
+\indexentry{MAC \goto Mandatory Access Control|comment}{0}
+\indexentry{Role-Based Access Control (RBAC)|book{2}}{62}
+\indexentry{RBAC \goto Role-Based Access Control|comment}{0}
+\indexentry{Lattice-Based Access Control (LBAC)|book{2}}{62}
+\indexentry{LBAC \goto Lattice-Based Access Control|comment}{0}
+\indexentry{Account Administration|book{2}}{63}
+\indexentry{Privileged Access|book{2}}{65}
+\indexentry{Password!Vault|book{2}}{66}
+\indexentry{Privileged Access Management Tools (PAM)|book{2}}{66}
+\indexentry{PAM \goto Privileged Access Management Tools|comment}{0}
+\indexentry{Privileged Access Management Tools (PAM)!3-Tiered|book{2}}{70}
+\indexentry{PAM \goto Privileged Access Management Tools|comment}{0}
+\indexentry{One-Time Password (OTP)|book{2}}{77}
+\indexentry{OTP \goto One-Time Password|comment}{0}
+\indexentry{Password!Policy|book{2}}{80}
+\indexentry{Key Derivation Function|book{2}}{83}
+\indexentry{Password!Hash|book{2}}{85}
+\indexentry{PBKDF2|book{2}}{87}
+\indexentry{Password!Dump|book{2}}{88}
+\indexentry{Password!Cracking|book{2}}{89}
+\indexentry{Password!Cracking|book{2}}{92}
+\indexentry{Pre-Computation Attack|book{2}}{95}
+\indexentry{John The Ripper|book{2}}{98}
+\indexentry{Hashcat|book{2}}{99}
+\indexentry{Mimikatz|book{2}}{100}
+\indexentry{Multi-Factor Authentication|book{2}}{103}
+\indexentry{Adaptive Authentication|book{2}}{104}
+\indexentry{CIS Controls|book{2}}{110}
+\indexentry{Attacker Activities|book{2}}{112}
+\indexentry{CIS Controls!Guiding Principles|book{2}}{113}
+\indexentry{CIS Controls!Overview|book{2}}{116}
+\indexentry{Blackhole Exploit Tool (BET)|book{2}}{119}
+\indexentry{BET \goto Blackhole Exploit Tool|comment}{0}
+\indexentry{CCleaner|book{2}}{120}
+\indexentry{CIS Control #2: Inventory and Control of Software|book{2}}{118}
+\indexentry{CIS Control #2: Inventory and Control of Software!Defense|book{2}}{122}
+\indexentry{Entity Relationship Diagram (ERD)|book{2}}{124}
+\indexentry{ERD \goto Entity Relationship Diagram|comment}{0}
+\indexentry{CIS Control #2: Inventory and Control of Software!Evaluation|book{2}}{126}
+\indexentry{CIS Control #2: Inventory and Control of Software!Measures|book{2}}{128}
+\indexentry{CIS Controls!Standards Mapping|book{2}}{129}
+\indexentry{Data Loss|book{2}}{137}
+\indexentry{Ransomware|book{2}}{138}
+\indexentry{Data Loss!Prevention (DLP)|book{2}}{139}
+\indexentry{DLP \goto Data Loss!Prevention|comment}{0}
+\indexentry{Redundancy|book{2}}{140}
+\indexentry{Backups!Methods|book{2}}{143}
+\indexentry{Backups!Pitfalls|book{2}}{144}
+\indexentry{Data Recovery|book{2}}{145}
+\indexentry{Data Leakage|book{2}}{146}
+\indexentry{General Data Protection Regulation (GDPR)|book{2}}{148}
+\indexentry{GDPR \goto General Data Protection Regulation|comment}{0}
+\indexentry{California Consumer Privace Act (CCPA)|book{2}}{148}
+\indexentry{CCPA \goto California Consumer Privace Act|comment}{0}
+\indexentry{Data Leakage!Prevention|book{2}}{151}
+\indexentry{Storing Sensitive Data|book{2}}{152}
+\indexentry{Data Loss!Prevention Policies|book{2}}{153}
+\indexentry{Data At-Rest|book{2}}{155}
+\indexentry{Data In-Transit|book{2}}{156}
+\indexentry{Data Loss!Prevention Tools|book{2}}{157}
+\indexentry{Data Offline|book{2}}{159}
+\indexentry{Intrusion Detection and Prevention (IDP)|book{2}}{161}
+\indexentry{IDP \goto Intrusion Detection and Prevention|comment}{0}
+\indexentry{Data Exfiltration|book{2}}{162}
+\indexentry{Data Exfiltration!Defense|book{2}}{164}
+\indexentry{Honeypots|book{2}}{165}
+\indexentry{Insider Threats|book{2}}{166}
+\indexentry{User Activity Monitoring (UAM)|book{2}}{168}
+\indexentry{UAM \goto User Activity Monitoring|comment}{0}
+\indexentry{Digital Watermarking|book{2}}{169}
+\indexentry{Third-Party Risk Management|book{2}}{170}
+\indexentry{Security Plan|book{2}}{174}
+\indexentry{Risk Assessment|book{2}}{175}
+\indexentry{Risk Assessment!Identification|book{2}}{177}
+\indexentry{Risk Assessment!Quantification|book{2}}{179}
+\indexentry{Level of Risk|book{2}}{179}
+\indexentry{Risk Assessment!Probability|book{2}}{180}
+\indexentry{Risk Assessment!Impact Types|book{2}}{181}
+\indexentry{Risk Assessment!Impact Size|book{2}}{182}
+\indexentry{Asset Classification Policy (CIA)|book{2}}{183}
+\indexentry{CIA \goto Asset Classification Policy|comment}{0}
+\indexentry{Risk-Level Matrix|book{2}}{185}
+\indexentry{Risk Treatment Actions|book{2}}{187}
+\indexentry{Monitoring|book{2}}{189}
+\indexentry{Security Governance|book{2}}{190}
+\indexentry{Information Security Norms|book{2}}{191}
+\indexentry{Policy|book{2}}{192}
+\indexentry{Program Policy|book{2}}{193}
+\indexentry{Issue-Specific Policy|book{2}}{193}
+\indexentry{System-Specific Policy|book{2}}{193}
+\indexentry{Policy!Contents|book{2}}{194}
+\indexentry{Policy!Writing|book{2}}{196}
+\indexentry{Policy!Enforcement|book{2}}{197}
+\indexentry{Standards|book{2}}{198}
+\indexentry{Baseline|book{2}}{200}
+\indexentry{Guideline|book{2}}{202}
+\indexentry{Procedure|book{2}}{204}
