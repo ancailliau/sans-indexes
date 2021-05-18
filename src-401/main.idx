@@ -998,7 +998,7 @@
 \indexentry{Incident Response|book{1}}{227}
 \indexentry{Cloud Computing!Security Services|book{1}}{229}
 \indexentry{IEEE802.11|book{1}}{240}
-\indexentry{802.11a, b & g|book{1}}{244}
+\indexentry{802.11a, b \& g|book{1}}{244}
 \indexentry{802.11n|book{1}}{246}
 \indexentry{802.11ac|book{1}}{248}
 \indexentry{802.11ax|book{1}}{250}
@@ -1125,12 +1125,12 @@
 \indexentry{Blackhole Exploit Tool (BET)|book{2}}{119}
 \indexentry{BET \goto Blackhole Exploit Tool|comment}{0}
 \indexentry{CCleaner|book{2}}{120}
-\indexentry{CIS Control #2: Inventory and Control of Software|book{2}}{118}
-\indexentry{CIS Control #2: Inventory and Control of Software!Defense|book{2}}{122}
+\indexentry{CIS Control \#2: Inventory and Control of Software|book{2}}{118}
+\indexentry{CIS Control \#2: Inventory and Control of Software!Defense|book{2}}{122}
 \indexentry{Entity Relationship Diagram (ERD)|book{2}}{124}
 \indexentry{ERD \goto Entity Relationship Diagram|comment}{0}
-\indexentry{CIS Control #2: Inventory and Control of Software!Evaluation|book{2}}{126}
-\indexentry{CIS Control #2: Inventory and Control of Software!Measures|book{2}}{128}
+\indexentry{CIS Control \#2: Inventory and Control of Software!Evaluation|book{2}}{126}
+\indexentry{CIS Control \#2: Inventory and Control of Software!Measures|book{2}}{128}
 \indexentry{CIS Controls!Standards Mapping|book{2}}{129}
 \indexentry{Data Loss|book{2}}{137}
 \indexentry{Ransomware|book{2}}{138}
