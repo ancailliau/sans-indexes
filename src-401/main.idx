@@ -3,9 +3,17 @@
 \indexentry{Security Audit|book{3}}{9}
 \indexentry{Vulerability Management|book{3}}{9}
 \indexentry{Vulerability Assessment!vs pentesting|book{3}}{10}
-\indexentry{Vulerability Assessment!Framework|book{3}}{12}
-\indexentry{Vulerability Assessment!VAF|book{3}}{12}
-\indexentry{Vulerability Criticality|book{3}}{23}
+\indexentry{Vulerability Assessment Framework (VAF)!Framework|book{3}}{12}
+\indexentry{VAF \goto Vulerability Assessment Framework|comment}{0}
+\indexentry{Engagement Planning|book{3}}{15}
+\indexentry{Intelligence Modelling|book{3}}{16}
+\indexentry{Threat Modelling|book{3}}{16}
+\indexentry{Discovery|book{3}}{17}
+\indexentry{Scanning|book{3}}{18}
+\indexentry{Vulerability Assessment!Validation|book{3}}{19}
+\indexentry{Remediation|book{3}}{20}
+\indexentry{Reporting|book{3}}{21}
+\indexentry{Vulnerability Criticality|book{3}}{23}
 \indexentry{CVSS|book{3}}{25}
 \indexentry{Common Vulnerability Scoring System|book{3}}{25}
 \indexentry{National Vulnerability Database (NVD)|book{3}}{26}
@@ -22,13 +30,16 @@
 \indexentry{Penetration Testing!External Type|book{3}}{44}
 \indexentry{Penetration Testing!Internal Type|book{3}}{45}
 \indexentry{Penetration Testing!Web Application|book{3}}{46}
+\indexentry{OWASP Top Ten|book{3}}{46}
 \indexentry{Penetration Testing!Social Engineering|book{3}}{47}
 \indexentry{Social Engineering|book{3}}{48}
 \indexentry{Penetration Testing!Mobile|book{3}}{49}
 \indexentry{Penetration Testing!Product Security|book{3}}{49}
 \indexentry{Penetration Testing!Physical|book{3}}{49}
 \indexentry{OSINT Gathering|book{3}}{53}
+\indexentry{Enumeration|book{3}}{54}
 \indexentry{Penetration Testing!Pentest Process|book{3}}{52}
+\indexentry{Ghostwriting|book{3}}{56}
 \indexentry{Penetration Testing!Pentest Report|book{3}}{58}
 \indexentry{NMAP|book{3}}{61}
 \indexentry{Port Scanning|book{3}}{61}
@@ -38,15 +49,16 @@
 \indexentry{C2 Frameworks|book{3}}{68}
 \indexentry{Password Stuffing|book{3}}{71}
 \indexentry{Password Spraying|book{3}}{72}
-\indexentry{Penetration Testing!Responder|book{3}}{73}
+\indexentry{Responder|book{3}}{73}
 \indexentry{WannaCry|book{3}}{88}
-\indexentry{RaaS|book{3}}{96}
+\indexentry{Ransomware as a Service (RaaS)|book{3}}{96}
+\indexentry{RaaS \goto Ransomware as a Service|comment}{0}
 \indexentry{Input Attack|book{3}}{99}
 \indexentry{Command Injection|book{3}}{100}
 \indexentry{Buffer Overflow|book{3}}{102}
 \indexentry{SQL Injection|book{3}}{108}
-\indexentry{XSS|book{3}}{111}
-\indexentry{Cross-Site Scripting|book{3}}{111}
+\indexentry{Cross-Site Scripting (XSS)|book{3}}{111}
+\indexentry{XSS \goto Cross-Site Scripting|comment}{0}
 \indexentry{Malware|book{3}}{115}
 \indexentry{Virus|book{3}}{116}
 \indexentry{Worm|book{3}}{116}
@@ -81,6 +93,16 @@
 \indexentry{Log Management|book{3}}{177}
 \indexentry{Log Filtering|book{3}}{179}
 \indexentry{Log Filtering!BEST|book{3}}{180}
+\indexentry{BEST Log Reports|book{3}}{180}
+\indexentry{Authentication and Authorization Reports|book{3}}{180}
+\indexentry{Change Reports|book{3}}{180}
+\indexentry{Network Activity Reports|book{3}}{181}
+\indexentry{Resource Access Reports|book{3}}{181}
+\indexentry{Malware Activity Reports|book{3}}{181}
+\indexentry{Failures and Critical Errors|book{3}}{182}
+\indexentry{Analytic Reports|book{3}}{182}
+\indexentry{Never Before Seen (NBS)|book{3}}{182}
+\indexentry{NBS \goto Never Before Seen|comment}{0}
 \indexentry{Log Analysis Tool|book{3}}{184}
 \indexentry{Log Monitoring!Strategy|book{3}}{187}
 \indexentry{Log Monitoring!Phased Approach|book{3}}{189}
@@ -102,6 +124,7 @@
 \indexentry{Digital Forencics!Investigative Process|book{3}}{221}
 \indexentry{Chain of Custody|book{3}}{223}
 \indexentry{Digital Forencics!Artifacts|book{3}}{225}
+\indexentry{Timestamps|book{3}}{226}
 \indexentry{MACB|book{3}}{226}
 \indexentry{Digital Forencics!Subdisciplines|book{3}}{228}
 \indexentry{Digital Forencics!Tools|book{3}}{230}
@@ -112,6 +135,10 @@
 \indexentry{Incident Handling!Six-Step Process|book{3}}{236}
 \indexentry{PICERL|book{3}}{236}
 \indexentry{Incident Handling!Dynamic Approach|book{3}}{238}
+\indexentry{Containment|book{3}}{243}
+\indexentry{Eradiction|book{3}}{244}
+\indexentry{Recovery|book{3}}{245}
+\indexentry{Remediation|book{3}}{246}
 \indexentry{Incident Handling!Mistakes|book{3}}{248}
 \indexentry{Threat Hunting|book{3}}{251}
 \indexentry{Cryptography|book{4}}{7}
@@ -214,6 +241,8 @@
 \indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Packet Inspection|book{4}}{160}
 \indexentry{Data Normalization|book{4}}{161}
+\indexentry{Network Intrusion Detection System (NIDS)!Evasion|book{4}}{161}
+\indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Network Intrusion Detection System (NIDS)!Advantages|book{4}}{162}
 \indexentry{NIDS \goto Network Intrusion Detection System|comment}{0}
 \indexentry{Honeytoken|book{4}}{163}
@@ -863,6 +892,9 @@
 \indexentry{TCP/IP!Packets|book{1}}{73}
 \indexentry{Internet Protocol (IP)|book{1}}{75}
 \indexentry{IP \goto Internet Protocol|comment}{0}
+\indexentry{CIDR|book{1}}{77}
+\indexentry{Network Address Translation (NAT)|book{1}}{77}
+\indexentry{NAT \goto Network Address Translation|comment}{0}
 \indexentry{IPv4!vs IPv6|book{1}}{77}
 \indexentry{IPv4!Header|book{1}}{81}
 \indexentry{IPv6!Header|book{1}}{83}
@@ -888,6 +920,10 @@
 \indexentry{Snort|book{1}}{135}
 \indexentry{Kismet|book{1}}{135}
 \indexentry{BetterCAP|book{1}}{135}
+\indexentry{Switch Attack|book{1}}{137}
+\indexentry{ARP Spoofing|book{1}}{137}
+\indexentry{Switched Port Analyzer (SPAN)|book{1}}{137}
+\indexentry{SPAN \goto Switched Port Analyzer|comment}{0}
 \indexentry{Network Devices!Hardening|book{1}}{140}
 \indexentry{Source Routing Support|book{1}}{143}
 \indexentry{Virtual LAN (VLAN)|book{1}}{147}
@@ -974,6 +1010,11 @@
 \indexentry{Message Integrity Check|book{1}}{263}
 \indexentry{WPA2|book{1}}{265}
 \indexentry{WPA3|book{1}}{268}
+\indexentry{Protected Management Frames (PMF)|book{1}}{271}
+\indexentry{PMF \goto Protected Management Frames|comment}{0}
+\indexentry{Opportunistic Wireless Encryption (OWE)|book{1}}{271}
+\indexentry{OWE \goto Opportunistic Wireless Encryption|comment}{0}
+\indexentry{Downgrade Attack|book{1}}{273}
 \indexentry{Rogue Access Points|book{1}}{277}
 \indexentry{Personal Area Network (PAN)|book{1}}{282}
 \indexentry{PAN \goto Personal Area Network|comment}{0}
@@ -1070,6 +1111,7 @@
 \indexentry{Password!Dump|book{2}}{88}
 \indexentry{Password!Cracking|book{2}}{89}
 \indexentry{Password!Cracking|book{2}}{92}
+\indexentry{Dictionary Attack|book{2}}{92}
 \indexentry{Pre-Computation Attack|book{2}}{95}
 \indexentry{John The Ripper|book{2}}{98}
 \indexentry{Hashcat|book{2}}{99}
@@ -1106,6 +1148,8 @@
 \indexentry{Data Leakage!Prevention|book{2}}{151}
 \indexentry{Storing Sensitive Data|book{2}}{152}
 \indexentry{Data Loss!Prevention Policies|book{2}}{153}
+\indexentry{Data Loss Prevention (DLP)|book{2}}{153}
+\indexentry{DLP \goto Data Loss Prevention|comment}{0}
 \indexentry{Data At-Rest|book{2}}{155}
 \indexentry{Data In-Transit|book{2}}{156}
 \indexentry{Data Loss!Prevention Tools|book{2}}{157}
