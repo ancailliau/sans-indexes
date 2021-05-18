@@ -20,6 +20,8 @@
 \indexentry{NVD \goto National Vulnerability Database|comment}{0}
 \indexentry{DREAD|book{3}}{28}
 \indexentry{Customized Risk Calculation|book{3}}{29}
+\indexentry{Risk Assessment!Qualitative|book{3}}{29}
+\indexentry{Risk Assessment!Quantitative|book{3}}{29}
 \indexentry{Penetration Testing|book{3}}{36}
 \indexentry{Red Team|book{3}}{37}
 \indexentry{Adversary Emulation|book{3}}{38}
@@ -203,9 +205,14 @@
 \indexentry{Public Key Infrastructure (PKI)!Life Cycle|book{4}}{114}
 \indexentry{PKI \goto Public Key Infrastructure|comment}{0}
 \indexentry{Certificates!Revocation List|book{4}}{117}
+\indexentry{Online Certificate Status Protocol (OCSP)|book{4}}{118}
+\indexentry{OCSP \goto Online Certificate Status Protocol|comment}{0}
 \indexentry{Certificates!OCSP|book{4}}{118}
 \indexentry{Certificates!X.509|book{4}}{120}
 \indexentry{HTTPS|book{4}}{122}
+\indexentry{SSL/TLS|book{4}}{122}
+\indexentry{client hello|book{4}}{124}
+\indexentry{server hello|book{4}}{124}
 \indexentry{Public Key Infrastructure (PKI)!Problems|book{4}}{126}
 \indexentry{PKI \goto Public Key Infrastructure|comment}{0}
 \indexentry{Public Key Infrastructure (PKI)!Other uses|book{4}}{128}
@@ -629,6 +636,16 @@
 \indexentry{Windows Commands!logevent|book{5}}{289}
 \indexentry{Security Event Log|book{5}}{290}
 \indexentry{Audit Policies|book{5}}{290}
+\indexentry{Audit Account Logon Events|book{5}}{290}
+\indexentry{Audit Account Management|book{5}}{290}
+\indexentry{Audit Directory Service Access|book{5}}{290}
+\indexentry{Audit Logon Events|book{5}}{290}
+\indexentry{Audit Object Access|book{5}}{290}
+\indexentry{Audit Privilege Use|book{5}}{290}
+\indexentry{Audit Process Tracking|book{5}}{290}
+\indexentry{Audit System Events|book{5}}{290}
+\indexentry{Audit Account Management|book{5}}{290}
+\indexentry{Audit Policies|book{5}}{290}
 \indexentry{Windows Commands!auditpol|book{5}}{290}
 \indexentry{Security Event Log!Interesting Log Ids|book{5}}{292}
 \indexentry{Audit Object Access|book{5}}{294}
@@ -707,6 +724,7 @@
 \indexentry{Runlevels|book{6}}{83}
 \indexentry{Systemd|book{6}}{84}
 \indexentry{Linux Commands!systemctl|book{6}}{85}
+\indexentry{journald|book{6}}{86}
 \indexentry{Cron|book{6}}{88}
 \indexentry{Linux!Package Management|book{6}}{90}
 \indexentry{Advanced Packaging Tool (APT)|book{6}}{93}
@@ -715,6 +733,9 @@
 \indexentry{SELinux|book{6}}{100}
 \indexentry{AppArmor|book{6}}{102}
 \indexentry{Linux!Hardening|book{6}}{105}
+\indexentry{inetd|book{6}}{105}
+\indexentry{xinetd|book{6}}{105}
+\indexentry{rc.d|book{6}}{105}
 \indexentry{Linux!Closing Ports|book{6}}{105}
 \indexentry{Sysctl Hardening|book{6}}{106}
 \indexentry{Linux Commands!sysctl|book{6}}{106}
@@ -853,6 +874,8 @@
 \indexentry{Communication Flow|book{1}}{28}
 \indexentry{Threat Enumeration|book{1}}{33}
 \indexentry{Threat Agent|book{1}}{35}
+\indexentry{Advanced Persistent Threat (APT)|book{1}}{35}
+\indexentry{APT \goto Advanced Persistent Threat|comment}{0}
 \indexentry{Router Attack|book{1}}{37}
 \indexentry{Switch Attack|book{1}}{39}
 \indexentry{Denial of Service (DOS)|book{1}}{37}
@@ -882,10 +905,11 @@
 \indexentry{Defense in Depth (DiD)|book{1}}{54}
 \indexentry{DiD \goto Defense in Depth|comment}{0}
 \indexentry{Public Network|book{1}}{55}
-\indexentry{Semi-Public Network|book{1}}{55}
+\indexentry{Semi-Public Network (DMZ)|book{1}}{55}
+\indexentry{DMZ \goto Semi-Public Network|comment}{0}
 \indexentry{Middleware|book{1}}{55}
 \indexentry{Private Network|book{1}}{56}
-\indexentry{Network Sections|book{1}}{57}
+\indexentry{Network Sections|book{1}}{55}
 \indexentry{Network Protocol|book{1}}{64}
 \indexentry{OSI Protocol Stack|book{1}}{67}
 \indexentry{TCP/IP|book{1}}{71}
@@ -998,7 +1022,7 @@
 \indexentry{Incident Response|book{1}}{227}
 \indexentry{Cloud Computing!Security Services|book{1}}{229}
 \indexentry{IEEE802.11|book{1}}{240}
-\indexentry{802.11a, b \& g|book{1}}{244}
+\indexentry{802.11a, b & g|book{1}}{244}
 \indexentry{802.11n|book{1}}{246}
 \indexentry{802.11ac|book{1}}{248}
 \indexentry{802.11ax|book{1}}{250}
@@ -1031,6 +1055,8 @@
 \indexentry{Defense in Depth (DiD)|book{2}}{7}
 \indexentry{DiD \goto Defense in Depth|comment}{0}
 \indexentry{Risk|book{2}}{9}
+\indexentry{Threat|book{2}}{9}
+\indexentry{Vulnerability|book{2}}{9}
 \indexentry{CIA|book{2}}{11}
 \indexentry{Confidentiality|book{2}}{11}
 \indexentry{Integrity|book{2}}{11}
@@ -1102,6 +1128,7 @@
 \indexentry{PAM \goto Privileged Access Management Tools|comment}{0}
 \indexentry{Privileged Access Management Tools (PAM)!3-Tiered|book{2}}{70}
 \indexentry{PAM \goto Privileged Access Management Tools|comment}{0}
+\indexentry{Tiered Access Management|book{2}}{70}
 \indexentry{One-Time Password (OTP)|book{2}}{77}
 \indexentry{OTP \goto One-Time Password|comment}{0}
 \indexentry{Password!Policy|book{2}}{80}
@@ -1125,12 +1152,12 @@
 \indexentry{Blackhole Exploit Tool (BET)|book{2}}{119}
 \indexentry{BET \goto Blackhole Exploit Tool|comment}{0}
 \indexentry{CCleaner|book{2}}{120}
-\indexentry{CIS Control \#2: Inventory and Control of Software|book{2}}{118}
-\indexentry{CIS Control \#2: Inventory and Control of Software!Defense|book{2}}{122}
+\indexentry{CIS Control #2: Inventory and Control of Software|book{2}}{118}
+\indexentry{CIS Control #2: Inventory and Control of Software!Defense|book{2}}{122}
 \indexentry{Entity Relationship Diagram (ERD)|book{2}}{124}
 \indexentry{ERD \goto Entity Relationship Diagram|comment}{0}
-\indexentry{CIS Control \#2: Inventory and Control of Software!Evaluation|book{2}}{126}
-\indexentry{CIS Control \#2: Inventory and Control of Software!Measures|book{2}}{128}
+\indexentry{CIS Control #2: Inventory and Control of Software!Evaluation|book{2}}{126}
+\indexentry{CIS Control #2: Inventory and Control of Software!Measures|book{2}}{128}
 \indexentry{CIS Controls!Standards Mapping|book{2}}{129}
 \indexentry{Data Loss|book{2}}{137}
 \indexentry{Ransomware|book{2}}{138}
@@ -1188,5 +1215,9 @@
 \indexentry{Policy!Enforcement|book{2}}{197}
 \indexentry{Standards|book{2}}{198}
 \indexentry{Baseline|book{2}}{200}
+\indexentry{Center for Internet Security (CIS)!Configuration Benchmarls|book{2}}{201}
+\indexentry{CIS \goto Center for Internet Security|comment}{0}
 \indexentry{Guideline|book{2}}{202}
 \indexentry{Procedure|book{2}}{204}
+\indexentry{Windows!IoT|book{5}}{12}
+\indexentry{Linux Commands!last|book{6}}{126}
