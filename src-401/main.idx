@@ -158,7 +158,7 @@
 \indexentry{Incident Response|book{1}}{227}
 \indexentry{Cloud Computing!Security Services|book{1}}{229}
 \indexentry{IEEE802.11|book{1}}{240}
-\indexentry{802.11a, b & g|book{1}}{244}
+\indexentry{802.11a, b and g|book{1}}{244}
 \indexentry{802.11n|book{1}}{246}
 \indexentry{802.11ac|book{1}}{248}
 \indexentry{802.11ax|book{1}}{250}
@@ -350,18 +350,18 @@
 \indexentry{Prioritization|book{2}}{115}
 \indexentry{Continuous Diagnostics|book{2}}{115}
 \indexentry{CIS Controls!Overview|book{2}}{116}
-\indexentry{CIS Control #2: Inventory and Control of Software|book{2}}{118}
+\indexentry{CIS Control \#2: Inventory and Control of Software|book{2}}{118}
 \indexentry{Blackhole Exploit Tool (BET)|book{2}}{119}
 \indexentry{BET \goto Blackhole Exploit Tool|comment}{0}
 \indexentry{CCleaner|book{2}}{120}
-\indexentry{CIS Control #2: Inventory and Control of Software!Defense|book{2}}{122}
+\indexentry{CIS Control \#2: Inventory and Control of Software!Defense|book{2}}{122}
 \indexentry{Application Control Tool|book{2}}{122}
 \indexentry{Software Inventory Tool|book{2}}{123}
 \indexentry{Entity Relationship Diagram (ERD)|book{2}}{124}
 \indexentry{ERD \goto Entity Relationship Diagram|comment}{0}
-\indexentry{CIS Control #2: Inventory and Control of Software!Evaluation|book{2}}{126}
+\indexentry{CIS Control \#2: Inventory and Control of Software!Evaluation|book{2}}{126}
 \indexentry{ENUM tool|book{2}}{127}
-\indexentry{CIS Control #2: Inventory and Control of Software!Measures|book{2}}{128}
+\indexentry{CIS Control \#2: Inventory and Control of Software!Measures|book{2}}{128}
 \indexentry{CIS Controls!Standards Mapping|book{2}}{129}
 \indexentry{NIST 800-53R4|book{2}}{129}
 \indexentry{NIST Core Framework|book{2}}{129}
@@ -547,7 +547,7 @@
 \indexentry{Command Injection|book{3}}{100}
 \indexentry{Buffer Overflow|book{3}}{102}
 \indexentry{SQL Injection|book{3}}{108}
-\indexentry{xp_cmdshell|book{3}}{108}
+\indexentry{xp\_cmdshell|book{3}}{108}
 \indexentry{Cross-Site Scripting (XSS)|book{3}}{111}
 \indexentry{XSS \goto Cross-Site Scripting|comment}{0}
 \indexentry{Allowlisting|book{3}}{113}
