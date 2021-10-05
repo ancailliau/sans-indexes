@@ -1,0 +1,275 @@
+\comment{********************************************************************************************
+                                       CATEGORIES SECTION
+*****************************************************************************************************
+ Sort entries consist of a number to be inserted in the standard 'Numbers' section
+ Number composition : [(1) Alphabet order number] [(2) 0]
+   (1) Sorting in alphabetical number
+   (2) Allows up to 10 subsections / alphabet character }
+
+% \indexentry{1A@\textbf{Ransomware}!1@Locky|book{1}}{31}
+% \indexentry{1Z@\blankline|comment}{0}
+
+\indexentry{1A@\textbf{Port}!3128 (Squid)|book{1}}{29}
+\indexentry{1A@\textbf{Port}!80 (HTTP)|book{2}}{4}
+\indexentry{1A@\textbf{Port}!53 (DNS)|book{2}}{51}
+
+\comment{********************************************************************************************
+                                       FIRST BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Network Forensics|book{1}}{11}
+\indexentry{Compromise Discovery|book{1}}{17}
+\indexentry{Dwell time|book{1}}{17}
+\indexentry{Proxy|book{1}}{24}
+\indexentry{Proxy!Reverse|book{1}}{24}
+\indexentry{Content Transaction Logs|book{1}}{24}
+\indexentry{Cached Data|book{1}}{24}
+\indexentry{Squid|book{1}}{26}
+\indexentry{NGINX|book{1}}{26}
+\indexentry{Apache|book{1}}{26}
+\indexentry{Symantec ProxySG|book{1}}{26}
+\indexentry{Forcepoint|book{1}}{26}
+\indexentry{Zscaler|book{1}}{26}
+\indexentry{Blue Coat|book{1}}{26}
+\indexentry{Open-source vs. Commercial|book{1}}{27}
+\indexentry{Squid|book{1}}{28}
+\indexentry{Squid!Configuration File|book{1}}{29}
+\indexentry{SSL/TLS Interception|book{1}}{29}
+\indexentry{Squid!Logs|book{1}}{30}
+\indexentry{Query string|book{1}}{30}
+\indexentry{Squid!Custom Format|book{1}}{31}
+\indexentry{User-Agent|book{1}}{31}
+\indexentry{Referer|book{1}}{31}
+\indexentry{Calamaris|book{1}}{33}
+\indexentry{SquidView|book{1}}{33}
+\indexentry{Squid!Raw logs|book{1}}{34}
+\indexentry{date@\texttt{date}|book{1}}{35}
+\indexentry{Timestamp|book{1}}{35-36}
+\indexentry{Proxy!Logs|book{1}}{37}
+\indexentry{Proxy!Investigation Process|book{1}}{38}
+\indexentry{Proxy!Cache Extraction|book{1}}{53}
+\indexentry{Squid!Cache|book{1}}{54-58}
+\indexentry{strings@\texttt{strings}|book{1}}{58}
+\indexentry{Separator bytes|book{1}}{56}
+\indexentry{tcpdump@\texttt{tcpdump}|book{1}}{68}
+\indexentry{Berkeley Packet Filter (BPF)|book{1}}{68}
+\indexentry{BPF \goto Berkeley Packet Filter|comment}{00}
+\indexentry{Wireshark|book{1}}{69}
+\indexentry{tshark@\texttt{tshark}|book{1}}{69}
+\indexentry{pcap!File format|book{1}}{70}
+\indexentry{Network Packet|book{1}}{70}
+\indexentry{Endianness|book{1}}{70}
+\indexentry{Snaplen|book{1}}{70}
+\indexentry{pcapng@\texttt{pcapng}|book{1}}{72}
+\indexentry{tcpdump|book{1}}{73}
+\indexentry{tcpdump!Options|book{1}}{73}
+\indexentry{Berkeley Packet Filter (BPF)!Primitives|book{1}}{74-76}
+\indexentry{Data Reduction|book{1}}{77}
+\indexentry{tcpdump!Options|book{1}}{78}
+\indexentry{tcpdump!Examples|book{1}}{79}
+\indexentry{Wireshark!Interface|book{1}}{81}
+\indexentry{Wireshark!Interface|book{1}}{84}
+\indexentry{Wireshark!Name Resolution|book{1}}{84}
+\indexentry{Wireshark!Time Display|book{1}}{86}
+\indexentry{Wireshark!Column Display|book{1}}{86}
+\indexentry{Wireshark!Display Filters|book{1}}{88-93}
+\indexentry{Wireshark!Display Filters (color)|book{1}}{94}
+\indexentry{Wireshark!0@\texttt{"!=}|book{1}}{94}
+\indexentry{Wireshark!FollowTCP|book{1}}{97}
+\indexentry{Wireshark!Decode As|book{1}}{99}
+\indexentry{Wireshark!Traffic Capture|book{1}}{99}
+\indexentry{tshark@\texttt{tshark}|book{1}}{100}
+\indexentry{tshark@\texttt{tshark}!Options|book{1}}{101}
+\indexentry{Acquisition|book{1}}{109}
+\indexentry{pcap|book{1}}{113}
+\indexentry{NetFlow|book{1}}{114}
+\indexentry{Internet Protocol Flow Information eXport (IPFIX)|book{1}}{114}
+\indexentry{IPFIX \goto Internet Protocol Flow Information eXport|comment}{00}
+\indexentry{Logs|book{1}}{115}
+\indexentry{SPAN Port|book{1}}{116}
+\indexentry{Switches|book{1}}{116}
+\indexentry{Port Mirroring|book{1}}{117}
+\indexentry{Taps|book{1}}{118}
+\indexentry{NetFlow|book{1}}{120}
+\indexentry{fprobe@\texttt{fprobe}|book{1}}{120}
+\indexentry{pmacct@\texttt{pmacct}|book{1}}{120}
+\indexentry{nprobe@\texttt{nprobe}|book{1}}{120}
+\indexentry{Logs!Infrastructure Sources|book{1}}{121}
+\indexentry{Logs!External Sources|book{1}}{122}
+\indexentry{Collection!Plan|book{1}}{123-124}
+\indexentry{Endace|book{1}}{127}
+\indexentry{LiveAction LiveCapture|book{1}}{127}
+\indexentry{NIKSEN NetDetector|book{1}}{127}
+\indexentry{RSA NetWitness|book{1}}{127}
+\indexentry{Collection!Homegrown|book{1}}{128}
+\indexentry{Collection!Design|book{1}}{129}
+\indexentry{Collection!Capture|book{1}}{131}
+\indexentry{Challenges and Opportunities|book{1}}{134}
+\indexentry{Network Address Translation (NAT)|book{1}}{135}
+\indexentry{NAT \goto Network Address Translation|comment}{00}
+\indexentry{Encryption|book{1}}{137}
+\indexentry{Tunnel|book{1}}{138}
+\indexentry{VPN|book{1}}{138}
+\indexentry{Network Architecture Optimization|book{1}}{139}
+\indexentry{Wireless|book{1}}{140}
+\indexentry{Cloud|book{1}}{140}
+\indexentry{Voice Over IP|book{1}}{142}
+\indexentry{Storage Area Network|book{1}}{142}
+\indexentry{Malware!Network|book{1}}{143}
+
+\comment{********************************************************************************************
+                                      SECOND BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{HTTP|book{2}}{3}
+\indexentry{HTTP!History|book{2}}{4}
+\indexentry{HTTP!Forensics value|book{2}}{5}
+\indexentry{HTTP!Protocol History|book{2}}{6}
+\indexentry{HTTP!Request/Response|book{2}}{7}
+\indexentry{Request (HTTP)|book{2}}{8-9}
+\indexentry{GET@\texttt{GET}|book{2}}{9}
+\indexentry{POST@\texttt{POST}|book{2}}{9}
+\indexentry{OPTIONS@\texttt{OPTIONS}|book{2}}{9}
+\indexentry{HEAD@\texttt{HEAD}|book{2}}{9}
+\indexentry{PUT@\texttt{PUT}|book{2}}{9}
+\indexentry{DELETE@\texttt{DELETE}|book{2}}{9}
+\indexentry{TRACE@\texttt{TRACE}|book{2}}{9}
+\indexentry{CONNECT@\texttt{CONNECT}|book{2}}{9}
+\indexentry{WebDav|book{2}}{9}
+\indexentry{PROPFIND@\texttt{PROPFIND}|book{2}}{9}
+\indexentry{PROPPATCH@\texttt{PROPPATCH}|book{2}}{9}
+\indexentry{MKCOL@\texttt{MKCOL}|book{2}}{9}
+\indexentry{COPY@\texttt{COPY}|book{2}}{9}
+\indexentry{MOVE@\texttt{MOVE}|book{2}}{9}
+\indexentry{LOCK@\texttt{LOCK}|book{2}}{9}
+\indexentry{UNLOCK@\texttt{UNLOCK}|book{2}}{9}
+\indexentry{HTTP!Headers|book{2}}{12}
+\indexentry{Hostname|book{2}}{12}
+\indexentry{User-Agent|book{2}}{12}
+\indexentry{Accepted Content|book{2}}{12}
+\indexentry{Cookie|book{2}}{12}
+\indexentry{X-Forwarded-For@\texttt{X-Forwarded-For}|book{2}}{12}
+\indexentry{Referer|book{2}}{12}
+\indexentry{Named-based hosting|book{2}}{12}
+\indexentry{Basic Authentication|book{2}}{12}
+\indexentry{Response (HTTP)|book{2}}{15-18}
+\indexentry{Response (HTTP)!Code|book{2}}{16}
+\indexentry{Response (HTTP)!Headers|book{2}}{19}
+\indexentry{Keep-Alive|book{2}}{19}
+\indexentry{Server String|book{2}}{19}
+\indexentry{Response (HTTP)!Fields|book{2}}{21}
+\indexentry{Google Analytics|book{2}}{23}
+\indexentry{Urchin|book{2}}{23}
+\indexentry{utma@\texttt{\_\_utma}|book{2}}{23}
+\indexentry{utmb@\texttt{\_\_utmb}|book{2}}{23}
+\indexentry{utmz@\texttt{\_\_utmz}|book{2}}{23}
+\indexentry{HubSpot|book{2}}{23}
+\indexentry{hstc@\texttt{\_\_hstc}|book{2}}{25}
+\indexentry{HTTP/2|book{2}}{27-29}
+\indexentry{HTTP Profiling|book{2}}{33}
+\indexentry{HTTP Logs|book{2}}{36}
+\indexentry{Apache|book{2}}{37}
+\indexentry{IIS|book{2}}{37}
+\indexentry{NCSA|book{2}}{38}
+\indexentry{W3C Extended Format|book{2}}{39}
+\indexentry{Apache!mod\_forensics@\texttt{mod\_forensics}|book{2}}{40}
+\indexentry{IIS!Log|book{2}}{42}
+\indexentry{IIS!CEntralized Binary Logging|book{2}}{43}
+\indexentry{HTTP Logs!Analysis|book{2}}{44}
+\indexentry{HTTP Logs!Investigation Value|book{2}}{46}
+\indexentry{DNS|book{2}}{49}
+\indexentry{NS@\texttt{NS}|book{2}}{49}
+\indexentry{CNAME@\texttt{CNAME}|book{2}}{49}
+\indexentry{MX@\texttt{MX}|book{2}}{49}
+\indexentry{PTR@\texttt{PTR}|book{2}}{49}
+\indexentry{SRV@\texttt{SRV}|book{2}}{49}
+\indexentry{TXT@\texttt{TXT}|book{2}}{49}
+\indexentry{NULL@\texttt{NULL}|book{2}}{49}
+\indexentry{AAAA@\texttt{AAAA}|book{2}}{49}
+\indexentry{SSHFP@\texttt{SSHFP}|book{2}}{49}
+\indexentry{NXDOMAIN@\texttt{NXDOMAIN}|book{2}}{49}
+\indexentry{DNS!Basics|book{2}}{51}
+\indexentry{DNS!Compression|book{2}}{52}
+\indexentry{DNS!Scenario|book{2}}{54}
+\indexentry{CNAME@\texttt{CNAME}|book{2}}{56}
+\indexentry{DNS!IR|book{2}}{57}
+\indexentry{DNS!Query Logging|book{2}}{57}
+\indexentry{PassiveDNS|book{2}}{57}
+\indexentry{Windows Analytical Event Logging (ETL)|book{2}}{57}
+\indexentry{ETL \goto Windows Analytical Event Logging|book{2}}{00}
+\indexentry{PassiveDNS|book{2}}{59}
+\indexentry{DNS!Fast-Flux (simple)|book{2}}{60}
+\indexentry{DNS!Fast-Flux (double)|book{2}}{62}
+\indexentry{DNS!Fast-Flux (detection)|book{2}}{64}
+\indexentry{Domain Name Generation Algorithms (DGAs)|book{2}}{65}
+\indexentry{DGAs \goto Domain Name Generation Algorithms|book{2}}{00}
+\indexentry{CryptoLocker|book{2}}{67}
+\indexentry{Phased C2|book{2}}{68}
+\indexentry{DNS!Rebinding|book{2}}{68}
+\indexentry{DNS-over-TLS (DoT)|book{2}}{69}
+\indexentry{DNS-over-HTTPS (DoH)|book{2}}{69-70}
+\indexentry{DoT \goto DNS-over-TLS|book{2}}{00}
+\indexentry{DoH \goto DNS-over-HTTPS|book{2}}{00}
+\indexentry{DNS-over-*!Mitigations|book{2}}{71}
+\indexentry{Punycode|book{2}}{72}
+\indexentry{DNS!Internationalization|book{2}}{72}
+\indexentry{Network Security Monitoring (NSM)|book{2}}{74}
+\indexentry{Intrusion Detection System (IDS)|book{2}}{74}
+\indexentry{Intrusion Prevention System (IPS)|book{2}}{74}
+\indexentry{NSM \goto Network Security Monitoring|book{2}}{00}
+\indexentry{IDS \goto Intrusion Detection System|book{2}}{00}
+\indexentry{IPS \goto Intrusion Prevention System|book{2}}{00}
+\indexentry{Zeek|book{2}}{75}
+\indexentry{Zeek!Log files|book{2}}{77}
+\indexentry{Zeek!JSON|book{2}}{79}
+\indexentry{jq@\texttt{jq}|book{2}}{81}
+\indexentry{jq@\texttt{jq}!select|book{2}}{83}
+\indexentry{Zeek!Scripting|book{2}}{85}
+\indexentry{Zeek!Signature|book{2}}{85}
+\indexentry{Zeek!Community ID|book{2}}{86}
+\indexentry{Zeek!Policy|book{2}}{90}
+\indexentry{Syslog|book{2}}{96}
+\indexentry{Syslog!Server|book{2}}{98}
+\indexentry{Syslog!Content|book{2}}{99}
+\indexentry{Syslog!Parameters|book{2}}{100}
+\indexentry{Syslog!Configuration|book{2}}{102}
+\indexentry{Windows Event Forwarding|book{2}}{102}
+\indexentry{Windows Event Collector|book{2}}{108}
+\indexentry{Event Aggregation|book{2}}{110}
+\indexentry{Log!Shortfalls|book{2}}{112}
+\indexentry{Log!Real-Time|book{2}}{113}
+\indexentry{Log!Innovation|book{2}}{115}
+\indexentry{Log!Aggregation|book{2}}{117}
+\indexentry{Elastic Stack|book{2}}{120}
+\indexentry{Kibana|book{2}}{124-127}
+\indexentry{SOF-ELK|book{2}}{128}
+\indexentry{SOF-ELK!Inputs|book{2}}{128}
+\indexentry{SOF-ELK!Summary|book{2}}{132}
+\indexentry{SOF-ELK!Syslog|book{2}}{134-138}
+\indexentry{SOF-ELK!HTTPD|book{2}}{139-141}
+
+
+\comment{********************************************************************************************
+                                     THIRD BOOK SECTION
+*****************************************************************************************************}
+
+
+\comment{********************************************************************************************
+                                     FOURTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+\comment{********************************************************************************************
+                                     FIFTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+\comment{********************************************************************************************
+                                     LAB BOOK SECTION
+*****************************************************************************************************}
+
+\comment{********************************************************************************************
+                                      CROSS-KEYS SECTION
+*****************************************************************************************************}
