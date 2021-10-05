@@ -13,7 +13,7 @@ To build the index for 508, `./make.sh 508`.
 | ![GCIH](https://www.giac.org/images/design/custom/icons/certs/small/gcih-gold.png) | SEC504 | GIAC Certified Incident Handler (GCIH) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-504.pdf) |
 | ![GDAT](https://www.giac.org/images/design/custom/icons/certs/small/gdat-gold.png) | SEC599 | GIAC Defending Advanced Threats (GDAT) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-599.pdf) |
 
-You can find many other indexes on https://github.com/dhondta/tex-course-index-template/, e.g.
+You can find many other indexes on the [repository of the original template](https://github.com/dhondta/tex-course-index-template/), e.g.
 
 * [GIAC Systems and Network Auditor (GSNA)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/aud507.pdf)
 * [GIAC Certified Enterprise Defender (GCED)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/sec501.pdf)
