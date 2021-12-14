@@ -1,0 +1,540 @@
+
+\comment{********************************************************************************************
+                                       573.1-2 SECTION
+*****************************************************************************************************}
+
+\indexentry{PEP|book{1}}{18}
+\indexentry{Python!Interpreter|book{1}}{19}
+\indexentry{Print|book{1}}{26}
+\indexentry{Print!Format Specifier|book{1}}{65-66}
+\indexentry{Variable|book{1}}{29}
+\indexentry{Function|book{1}}{93}
+\indexentry{Assignment|book{1}}{32}
+\indexentry{Types!Reassign|book{1}}{33}
+\indexentry{Operators!Math|book{1}}{35}
+\indexentry{Math Operators|book{1}}{35}
+\indexentry{base2|book{1}}{38}
+\indexentry{base16|book{1}}{38}
+\indexentry{Operators!Bit|book{1}}{39}
+\indexentry{bit math operators|book{1}}{39}
+\indexentry{Strings|book{1}}{62}
+\indexentry{Strings!.format|book{1}}{64}
+\indexentry{Strings!fstring|book{1}}{67}
+\indexentry{Strings!cstyle|book{1}}{68}
+\indexentry{Strings!raw strings|book{1}}{69}
+\indexentry{Bytes|book{1}}{70}
+\indexentry{ASCII|book{1}}{72}
+\indexentry{16bit unicode|book{1}}{73}
+\indexentry{utf8|book{1}}{74}
+\indexentry{String!convert bytes|book{1}}{75}
+\indexentry{Bytes!convert string|book{1}}{75}
+\indexentry{Strings!encoding|book{1}}{76}
+\indexentry{Strings!encoders and decoders|book{1}}{86}
+\indexentry{Integers!encoding|book{1}}{78}
+\indexentry{Integers!decoding|book{1}}{78}
+\indexentry{chr|book{1}}{78}
+\indexentry{unichr|book{1}}{78}
+\indexentry{ord|book{1}}{78}
+\indexentry{Strings!slicing|book{1}}{79}
+\indexentry{Strings!methods|book{1}}{82}
+\indexentry{Strings!methods!upper|book{1}}{82}
+\indexentry{Strings!methods!lower|book{1}}{82}
+\indexentry{Strings!methods!title|book{1}}{82}
+\indexentry{Strings!methods!replace|book{1}}{82}
+\indexentry{Strings!methods!in|book{1}}{82}
+\indexentry{Strings!methods!split|book{1}}{82}
+\indexentry{Strings!methods!count|book{1}}{82}
+\indexentry{Strings!len|book{1}}{85}
+\indexentry{len|book{1}}{85}
+\indexentry{Immutable|book{1}}{88}
+\indexentry{Mutable|book{1}}{88}
+\indexentry{Strings!find|book{1}}{91}
+\indexentry{Function!arguments|book{1}}{96}
+\indexentry{Function!return|book{1}}{99}
+\indexentry{name|book{1}}{133-135}
+\indexentry{Syntax!spacing|book{1}}{100}
+\indexentry{Syntax!white space|book{1}}{101}
+\indexentry{Syntax!namespaces|book{1}}{103}
+\indexentry{Namespaces|book{1}}{103}
+\indexentry{legb|book{1}}{104}
+\indexentry{Variable!resolution legb|book{1}}{104}
+\indexentry{Variable!global scope|book{1}}{105}
+\indexentry{global scope|book{1}}{105}
+\indexentry{Variable!typing|book{1}}{106}
+\indexentry{if|book{1}}{111}
+\indexentry{logical operators|book{1}}{112}
+\indexentry{Operators!logical|book{1}}{112}
+\indexentry{Operators!logical!shortcuts|book{1}}{116}
+\indexentry{Shortcut operators|book{1}}{116}
+\indexentry{Operators!AND|book{1}}{113}
+\indexentry{Operators!OR|book{1}}{114}
+\indexentry{AND|book{1}}{113}
+\indexentry{OR|book{1}}{114}
+\indexentry{Operators!TRUE|book{1}}{115}
+\indexentry{Operators!FALSE|book{1}}{115}
+\indexentry{TRUE|book{1}}{115}
+\indexentry{FALSE|book{1}}{115}
+\indexentry{if else|book{1}}{117}
+\indexentry{if elif|book{1}}{119}
+\indexentry{Modules|book{1}}{125}
+\indexentry{Modules!built in|book{1}}{126}
+\indexentry{Modules!built in!sys|book{1}}{126}
+\indexentry{Modules!built in!subprocess|book{1}}{126}
+\indexentry{Modules!built in!urllib|book{1}}{126}
+\indexentry{Modules!built in!socket|book{1}}{126}
+\indexentry{Modules!built in!re|book{1}}{126}
+\indexentry{Modules!built in!http.server|book{1}}{126}
+\indexentry{Modules!built in!pdb|book{1}}{126}
+\indexentry{Modules!built in!hashlib|book{1}}{126}
+\indexentry{Modules!built in!https|book{1}}{126}
+\indexentry{Modules!importlib.reload|book{W}}{1-4}
+\indexentry{Modules!third party|book{1}}{127}
+\indexentry{Modules!third party! beautiful soup|book{1}}{127}
+\indexentry{Modules!third party! requests|book{1}}{127}
+\indexentry{Modules!third party! pexpect|book{1}}{127}
+\indexentry{Modules!third party! impacket|book{1}}{127}
+\indexentry{Modules!third party! plaso|book{1}}{127}
+\indexentry{Modules!third party! scapy|book{1}}{127}
+\indexentry{Modules!third party! gmail|book{1}}{127}
+\indexentry{Modules!install|book{1}}{128}
+\indexentry{pip|book{1}}{129}
+\indexentry{Modules!import|book{1}}{132}
+\indexentry{Modules!vs scripts|book{1}}{133}
+\indexentry{scripts vs modules|book{1}}{133}
+\indexentry{Modules!main|book{1}}{135}
+\indexentry{List|book{1}}{141}
+\indexentry{List!index|book{1}}{142}
+\indexentry{List!methods|book{1}}{144}
+\indexentry{List!slicing|book{1}}{147}
+\indexentry{List!copies|book{1}}{148}
+\indexentry{strings convert list|book{1}}{149}
+\indexentry{List!convert string|book{1}}{149}
+\indexentry{List!.split|book{1}}{149}
+\indexentry{List!.join|book{1}}{150}
+\indexentry{List!zip|book{1}}{151}
+\indexentry{List!sum|book{1}}{151}
+\indexentry{List!map|book{1}}{152}
+\indexentry{List!sorting|book{1}}{153}
+\indexentry{sorting|book{1}}{153}
+\indexentry{sort vs sorted|book{1}}{155}
+\indexentry{for|book{1}}{157}
+\indexentry{while|book{1}}{164}
+\indexentry{enumerate|book{1}}{161}
+\indexentry{enumerate|book{1}}{163}
+\indexentry{range|book{1}}{160}
+\indexentry{XOR|book{1}}{162}
+\indexentry{break|book{1}}{166}
+\indexentry{continue|book{1}}{166}
+\indexentry{Tuple|book{1}}{171}
+\indexentry{Tuple!sorted|book{1}}{173}
+\indexentry{Dictionary|book{1}}{175}
+\indexentry{Dictionary!copy|book{1}}{177}
+\indexentry{Dictionary!methods|book{1}}{178}
+\indexentry{Dictionary!2 vs 3|book{1}}{179}
+\indexentry{Dictionary!keys|book{1}}{181}
+\indexentry{Dictionary!values|book{1}}{182}
+\indexentry{Dictionary!items|book{1}}{183}
+\indexentry{Dictionary!speciality|book{1}}{185}
+\indexentry{Dictionary!speciality!defaultdict|book{1}}{186}
+\indexentry{defaultdict|book{1}}{186}
+\indexentry{Dictionary!speciality!counter|book{1}}{187}
+\indexentry{counter|book{1}}{187}
+\indexentry{Dictionary!.get|book{1}}{191}
+\indexentry{Python!environments|book{1}}{193}
+\indexentry{Module!versions|book{1}}{194}
+\indexentry{Python!path|book{1}}{195}
+\indexentry{Path|book{1}}{195}
+\indexentry{Standard libraries|book{1}}{197}
+\indexentry{site modules|book{1}}{198}
+\indexentry{site packages|book{1}}{198}
+\indexentry{sys.path|book{1}}{200}
+\indexentry{venv|book{1}}{201}
+\indexentry{virtual environment|book{1}}{202}
+\indexentry{Microsoft visual studio code|book{1}}{208}
+\indexentry{Debugger!visual code debugger|book{1}}{210}
+\indexentry{Debugger!visual code debugger interface|book{1}}{211}
+\indexentry{Debugger!debugger breakpoint options|book{1}}{212}
+\indexentry{Debugger!tracebacks|book{1}}{213}
+\indexentry{Debugger!python debugger PDB|book{1}}{214}
+\indexentry{Debugger!python -m pdb|book{1}}{214}
+\indexentry{Function!lambda|book{1}}{217}
+\indexentry{lambda functions|book{1}}{217}
+\indexentry{List!deep copy|book{1}}{219}
+\indexentry{deep copy lists|book{1}}{219}
+\indexentry{for!enumerate|book{1}}{161}
+\indexentry{for!enumerate|book{1}}{163}
+\indexentry{floats approximation|book{1}}{220}
+\indexentry{List!comprehension|book{1}}{221}
+\indexentry{2to3|book{1}}{224}
+\indexentry{2to3!division|book{1}}{229}
+\indexentry{2to3!issues|book{1}}{224}
+\indexentry{Python!python -c|book{1}}{21}
+\indexentry{Python!python -c|book{1}}{131}
+\indexentry{Python!python -m pdb|book{1}}{214}
+\indexentry{Python!python -i|book{1}}{214}
+\indexentry{0b00100000|book{1}}{71}
+\indexentry{Binary!Examples|book{1}}{71}
+\indexentry{Hex!Examples|book{1}}{71}
+\indexentry{Decimal!Examples|book{1}}{71}
+\indexentry{ASCII|book{1}}{72}
+\indexentry{16-Bit UNICODE|book{1}}{73}
+\indexentry{UNICODE|book{1}}{73}
+\indexentry{Hex!Encoding|book{1}}{77}
+
+
+\comment{********************************************************************************************
+                                       573.3-5 SECTION
+*****************************************************************************************************}
+
+
+\indexentry{File!Input|book{2}}{7}
+\indexentry{File!Operations|book{2}}{8}
+\indexentry{File!Methods|book{2}}{9}
+\indexentry{File!Read|book{2}}{10}
+\indexentry{File!Write|book{2}}{11}
+\indexentry{File!Read!Binary|book{2}}{Data|book{2}}{12}
+\indexentry{File!Paths|book{2}}{13}
+\indexentry{Path|book{2}}{13}
+\indexentry{File!Pathlib.Path|book{2}}{14}
+\indexentry{Path!Pathlib.Path|book{2}}{14}
+\indexentry{File!Pathlib.Path.home|book{2}}{13-14}
+\indexentry{Path!Pathlib.Path.home|book{2}}{13-14}
+\indexentry{File!Check|book{2}}{Exists|book{2}}{15}
+\indexentry{File!Directory|book{2}}{16}
+\indexentry{File!With|book{2}}{8}
+\indexentry{With|book{2}}{8}
+\indexentry{Directory|book{2}}{16}
+\indexentry{Glob|book{2}}{16}
+\indexentry{os.listdir|book{2}}{17}
+\indexentry{Path!os.listdir|book{2}}{17}
+\indexentry{Path!Glob|book{2}}{16}
+\indexentry{Path!rGlob|book{2}}{18}
+\indexentry{Path!Path.exists|book{2}}{15}
+\indexentry{Path!os.walk|book{2}}{20}
+\indexentry{Directory!Subdirectory|book{2}}{18}
+\indexentry{Glob!Wildcards|book{2}}{19}
+\indexentry{File!os.walk|book{2}}{20}
+\indexentry{os.walk|book{2}}{20}
+\indexentry{File!Find|book{2}}{20}
+\indexentry{File!Read!gzip|book{2}}{22}
+\indexentry{gzip|book{2}}{22}
+\indexentry{File!Read!zlib|book{2}}{22}
+\indexentry{zlib|book{2}}{22}
+\indexentry{Regex|book{2}}{27}
+\indexentry{Regex!re|book{2}}{28}
+\indexentry{re \goto Regex|comment}{0}
+\indexentry{Regex!re!match|book{2}}{28}
+\indexentry{Regex!re!search|book{2}}{28}
+\indexentry{Regex!re!findall|book{2}}{28}
+\indexentry{Regex!Rules|book{2}}{29-30}
+\indexentry{Regex!Escape Characters|book{2}}{31}
+\indexentry{Escape Characters|book{2}}{31}
+\indexentry{String!Escape Characters|book{2}}{31}
+\indexentry{Regex!Custom Sets|book{2}}{33}
+\indexentry{Regex!Logical OR|book{2}}{34}
+\indexentry{Operators!OR!Regex|book{2}}{34}
+\indexentry{Regex!Repeating Characters|book{2}}{35}
+\indexentry{Regex!Flags|book{2}}{36}
+\indexentry{Regex!Modifiers|book{2}}{36}
+\indexentry{Regex!Greedy Matching|book{2}}{37}
+\indexentry{Regex!NOT custom set|book{2}}{38}
+\indexentry{Regex!Capture Groups|book{2}}{40}
+\indexentry{Regex!Capture vs| Non-capture groups|book{2}}{42}
+\indexentry{Regex!Search|book{2}}{43}
+\indexentry{Regex!Match|book{2}}{43}
+\indexentry{Regex!Capture Groups!Named|book{2}}{44}
+\indexentry{Regex!Back referencing|book{2}}{45-46}
+\indexentry{Regex!Testing|book{2}}{48}
+\indexentry{Sets|book{2}}{54}
+\indexentry{Sets!Methods|book{2}}{55}
+\indexentry{Sets!Operators|book{2}}{56}
+\indexentry{Sets!Copy|book{2}}{57}
+\indexentry{Sets!Update|book{2}}{58}
+\indexentry{Sets!Union|book{2}}{58}
+\indexentry{Sets!Intersection|book{2}}{58}
+\indexentry{Sets!Difference|book{2}}{58}
+\indexentry{Union|book{2}}{58}
+\indexentry{Intersection|book{2}}{58}
+\indexentry{Difference|book{2}}{58}
+\indexentry{Logs!Analyzing|book{2}}{53}
+\indexentry{Logs!DNS Hostnames|book{2}}{60}
+\indexentry{DNS Hostnames|book{2}}{60}
+\indexentry{Logs!Browser User Agent Strings|book{2}}{61}
+\indexentry{Browser User Agent Strings|book{2}}{61}
+\indexentry{Logs!IP Addresses|book{2}}{62}
+\indexentry{IP Addresses|book{2}}{62}
+\indexentry{Logs!Long-Short Tail Analysis|book{2}}{63}
+\indexentry{Logs!Long-Short Tail Analysis!Counter|book{2}}{63}
+\indexentry{Long-Short Tail Analysis|book{2}}{63}
+\indexentry{Long-Short Tail Analysis!Counter|book{2}}{63}
+\indexentry{Counter!Long-Short Tail Analysis|book{2}}{63}
+\indexentry{Dictionary!Categorize Data|book{2}}{64}
+\indexentry{Categorize Data|book{2}}{64}
+\indexentry{Logs!Categorize Data|book{2}}{64}
+\indexentry{Logs!Slicing Timestamps|book{2}}{65}
+\indexentry{Timestamps!Slicing|book{2}}{65}
+\indexentry{Beacons!Intersection|book{2}}{66}
+\indexentry{Sets!Intersection!Beacons|book{2}}{66}
+\indexentry{Intersection!Beacons|book{2}}{66}
+\indexentry{Geoip2|book{2}}{67-70}
+\indexentry{IP Addresses!Geoip2|book{2}}{67-70}
+\indexentry{Character Frequency|book{2}}{71}
+\indexentry{Logs!Character Frequency|book{2}}{71}
+\indexentry{Randomness!Character Frequency|book{2}}{71}
+\indexentry{Character Frequency!Tables|book{2}}{72-73}
+\indexentry{Scapy|book{2}}{79}
+\indexentry{Packet Analysis!Scapy|book{2}}{79}
+\indexentry{Scapy!Read|book{2}}{81}
+\indexentry{Scapy!Write|book{2}}{81}
+\indexentry{Scapy!PacketLists|book{2}}{81}
+\indexentry{Packet Analysis!PacketLists|book{2}}{81}
+\indexentry{Scapy!Sniff|book{2}}{82}
+\indexentry{Scapy!PcapReader|book{2}}{83}
+\indexentry{Sniff|book{2}}{82}
+\indexentry{PcapReader|book{2}}{83}
+\indexentry{Scapy!plist|book{2}}{84}
+\indexentry{Scapy!rdpcap|book{2}}{81}
+\indexentry{Scapy!wrpcap|book{2}}{81}
+\indexentry{rdpcap|book{2}}{81}
+\indexentry{wrpcap|book{2}}{81}
+\indexentry{Scapy!Timestamp Order|book{2}}{94}
+\indexentry{Scapy!time Order|book{2}}{82}
+\indexentry{Wireshark!TCP Streams|book{2}}{86}
+\indexentry{TCP Streams|book{2}}{86}
+\indexentry{Scapy!PacketLists!Sessions|book{2}}{87-88}
+\indexentry{Scapy!PacketLists!Structure|book{2}}{89}
+\indexentry{Scapy!PacketLists!Layers|book{2}}{90-92}
+\indexentry{Packet Analysis!Custom single purpose analyzer|book{2}}{93}
+\indexentry{Packet Analysis!Streams|book{2}}{94}
+\indexentry{Packet Analysis!Reassemble Payloads|book{2}}{96}
+\indexentry{Packet Analysis!Packet Order|book{2}}{97}
+\indexentry{Packet Analysis!Sorting Packets|book{2}}{98}
+\indexentry{Packet Analysis!Duplicate Packets|book{2}}{99}
+\indexentry{Packet Analysis!Bad Checksums|book{2}}{100}
+\indexentry{Checksums|book{2}}{100}
+\indexentry{Packet Analysis!Assembly Issues|book{2}}{101}
+\indexentry{Packet Analysis!IP Packet Fragmentation|book{2}}{102}
+\indexentry{Packet Analysis!Overlapping Fragments|book{2}}{103}
+\indexentry{Packet Analysis!OS Dependent Reassembly|book{2}}{104}
+\indexentry{Packet Analysis!reassembly.py|book{2}}{105-106}
+\indexentry{reassembly.py|book{2}}{105-106}
+\indexentry{io.StringIO|book{2}}{107}
+\indexentry{io.BytesIO|book{2}}{107}
+\indexentry{Covert Channels|book{2}}{108}
+\indexentry{Forensics|book{2}}{115}
+\indexentry{Forensics!Artifact Carving|book{2}}{116-118}
+\indexentry{Forensics!Live Hard-Drive Carving|book{2}}{120}
+\indexentry{Hard-Drive Carving|book{2}}{120}
+\indexentry{PhysicalDrive0|book{2}}{120}
+\indexentry{Forensics!Live Memory Carving|book{2}}{121}
+\indexentry{Carving|book{2}}{120-121}
+\indexentry{Windows Live Network Capture|book{2}}{122}
+\indexentry{Windows Sniffing|book{2}}{122}
+\indexentry{Linux Live Network Capture|book{2}}{123}
+\indexentry{Linux Sniffing|book{2}}{122}
+\indexentry{Images!Analyse dead/static images|book{2}}{124}
+\indexentry{PCAP|book{2}}{126}
+\indexentry{Encapsulated Structures|book{2}}{127}
+\indexentry{Parser|book{2}}{128}
+\indexentry{Parser!Unknown Unknowns|book{2}}{129}
+\indexentry{Alerts!Unknown Unknowns|book{2}}{129}
+\indexentry{STRUCT|book{2}}{130}
+\indexentry{STRUCT!Format Characters|book{2}}{131}
+\indexentry{Format Characters|book{2}}{131}
+\indexentry{STRUCT!Unpack|book{2}}{132-133}
+\indexentry{STRUCT!Unpack Bits as Flags|book{2}}{134}
+\indexentry{STRUCT!Pack|book{2}}{135}
+\indexentry{STRUCT!Ether Header Struct|book{2}}{136}
+\indexentry{STRUCT!IP Header Struct|book{2}}{137}
+\indexentry{STRUCT!TCP Header Struct|book{2}}{138}
+\indexentry{STRUCT!UCP Header Struct|book{2}}{139}
+\indexentry{STRUCT!ICMP Header Struct|book{2}}{140-144}
+\indexentry{Regex!Binary Data|book{2}}{146}
+\indexentry{Binary Data!Regex|book{2}}{146}
+\indexentry{Artifact!Analysis|book{2}}{147}
+\indexentry{PIL|book{2}}{149}
+\indexentry{PIL!Open|book{2}}{150}
+\indexentry{PIL!Key functions|book{2}}{151}
+\indexentry{PIL!Metadata|book{2}}{152-153}
+\indexentry{GPS|book{2}}{154-155}
+\indexentry{Forensics!Images|book{2}}{157-162}
+\indexentry{SQL|book{2}}{164}
+\indexentry{SQL!Basic Statements|book{2}}{166-167}
+\indexentry{SQL!Joins|book{2}}{168}
+\indexentry{SQL!Union|book{2}}{169-170}
+\indexentry{SQL!Subqueries|book{2}}{171}
+\indexentry{SQL!Database Modules|book{2}}{173}
+\indexentry{SQL!sqlite3|book{2}}{174-175}
+\indexentry{sqlite3|book{2}}{174-175}
+\indexentry{Windows!Registry|book{2}}{177-181}
+\indexentry{Generators|book{2}}{182}
+\indexentry{Generators!Yield|book{2}}{182}
+\indexentry{Windows!Registry!WiFi|book{2}}{184-185}
+\indexentry{Windows!Registry!Network Profiles|book{2}}{186}
+\indexentry{Windows!Registry!Date/Time Format|book{2}}{187}
+\indexentry{Date/Time Format|book{2}}{187}
+\indexentry{datetime.datetime.fromtimestamp|book{2}}{187}
+\indexentry{Registry \goto Windows!Registry|comment}{0}
+\indexentry{Windows!Registry!WiFi|book{2}}{188}
+\indexentry{Windows!Registry!Forensics|book{2}}{190-192}
+\indexentry{Forensics!Registry|book{2}}{190-192}
+\indexentry{Web!Websites|book{2}}{194}
+\indexentry{Requests|book{2}}{194}
+\indexentry{Web!Requests|book{2}}{194}
+\indexentry{Web!Encoding|book{2}}{195}
+\indexentry{Web!GET|book{2}}{196}
+\indexentry{Web!Urllib|book{2}}{196}
+\indexentry{GET|book{2}}{196}
+\indexentry{Urllib|book{2}}{196}
+\indexentry{Web!POST|book{2}}{197}
+\indexentry{POST|book{2}}{197-198}
+\indexentry{Urllib|book{2}}{198}
+\indexentry{Requests|book{2}}{200-202}
+\indexentry{Web!Requests|book{2}}{200-202}
+\indexentry{Web!Session|book{2}}{203}
+\indexentry{Requests!Session|book{2}}{203}
+\indexentry{Requests!https|book{2}}{216}
+\indexentry{Requests!SSL/TLS|book{2}}{216}
+\indexentry{Web!Browser!GET/POST|book{2}}{204}
+\indexentry{GET|book{2}}{204}
+\indexentry{POST|book{2}}{204}
+\indexentry{Password|book{2}}{Guesser|book{2}}{205}
+\indexentry{Requests!Proxies|book{2}}{206}
+\indexentry{Proxies|book{2}}{206}
+\indexentry{Cookies|book{2}}{207}
+\indexentry{Requests!Cookies|book{2}}{207-209}
+\indexentry{GET!Cookies|book{2}}{207-209}
+\indexentry{POST!Cookies|book{2}}{207-209}
+\indexentry{CookieJar|book{2}}{209-213}
+\indexentry{Requests!Authentication|book{2}}{214-215}
+\indexentry{Authentication|book{2}}{214-215}
+\indexentry{OAuth|book{2}}{215}
+\indexentry{NTLM|book{2}}{215}
+\indexentry{Kerberos|book{2}}{215}
+\indexentry{Authentication!OAuth|book{2}}{215}
+\indexentry{Authentication!NTLM|book{2}}{215}
+\indexentry{Authentication!Kerberos|book{2}}{215}
+\indexentry{SSL/TSL|book{2}}{216}
+\indexentry{Authentication!SSL/TSL|book{2}}{216}
+\indexentry{Session Hijacking|book{2}}{217}
+\indexentry{Authentication!Session Hicjacking|book{2}}{217}
+\indexentry{Authentication!Captchas|book{2}}{218}
+\indexentry{Captchas|book{2}}{218}
+\indexentry{Pen Test!Use case|book{2}}{232}
+\indexentry{Python!Backdoor|book{2}}{233}
+\indexentry{Backdoor|book{2}}{233}
+\indexentry{Sockets|book{2}}{237}
+\indexentry{TCP|book{2}}{237}
+\indexentry{UDP|book{2}}{237}
+\indexentry{UDP!Sockets|book{2}}{239}
+\indexentry{TCP!Sockets|book{2}}{240}
+\indexentry{Sockets!Connections|book{2}}{241}
+\indexentry{Sockets!Transmit|book{2}}{242}
+\indexentry{Sockets!Receiving|book{2}}{242}
+\indexentry{Sockets!bind listen accept|book{2}}{241}
+\indexentry{Sockets!socket.ntohs(0x0003)|book{2}}{123}
+\indexentry{TCP!Client|book{2}}{243}
+\indexentry{TCP!Server Example|book{2}}{244}
+\indexentry{filegrabber.py|book{2}}{250}
+\indexentry{Exception|book{2}}{253-257}
+\indexentry{try/except/else|book{2}}{255-257}
+\indexentry{DNS Queries|book{2}}{238}
+\indexentry{Subprocesses|book{2}}{263}
+\indexentry{Process|book{2}}{Execution|book{2}}{264}
+\indexentry{Subprocesses!Popen|book{2}}{265}
+\indexentry{Subprocesses!Pipe|book{2}}{265}
+\indexentry{Subprocesses!wait|book{2}}{264-265}
+\indexentry{Popen|book{2}}{265}
+\indexentry{Pipe|book{2}}{265}
+\indexentry{.exe|book{2}}{271-273}
+\indexentry{PyInstaller|book{2}}{271-273}
+\indexentry{Reputation|book{2}}{Filters|book{2}}{278}
+\indexentry{send|book{2}}{242}
+\indexentry{recv|book{2}}{242}
+\indexentry{send!limitations|book{2}}{283}
+\indexentry{recv!limitations|book{2}}{283}
+\indexentry{send!vs|book{2}}{sendall|book{2}}{284}
+\indexentry{send!sendall|book{2}}{284-285}
+\indexentry{recv!recvall|book{2}}{286-287}
+\indexentry{recv!recvall!fixed-byte|book{2}}{288}
+\indexentry{recv!recvall!delimiter-based|book{2}}{289}
+\indexentry{recv!recvall!timeout-based non-blocking sockets|book{2}}{290}
+\indexentry{non-blocking sockets|book{2}}{291}
+\indexentry{Sockets!non-blocking sockets|book{2}}{291}
+\indexentry{Sockets!timeout-based non-blocking sockets|book{2}}{290-292}
+\indexentry{Sockets!UDP|book{2}}{239}
+\indexentry{Sockets!SOCK-DGRAM|book{2}}{239}
+\indexentry{Sockets!TCP|book{2}}{240}
+\indexentry{Sockets!SOCK-STREAM|book{2}}{240}
+\indexentry{Sockets!IPv4|book{2}}{240}
+\indexentry{Sockets!IPv6|book{2}}{240}
+\indexentry{Sockets!AF-INET|book{2}}{240}
+\indexentry{Sockets!AF-INET6|book{2}}{240}
+\indexentry{Sockets!AF-PACKET|book{2}}{123}
+\indexentry{Sockets!SOCK-RAW|book{2}}{123}
+\indexentry{Sockets!SIO-RCVALL|book{2}}{122}
+\indexentry{Sockets!RCVALL-ON|book{2}}{122}
+\indexentry{Sockets!gethostbyname|book{2}}{238}
+\indexentry{Sockets!gethostbyaddr|book{2}}{238}
+\indexentry{gethostbyname|book{2}}{238}
+\indexentry{gethostbyaddr|book{2}}{238}
+\indexentry{Sockets!send|book{2}}{242}
+\indexentry{Sockets!recv|book{2}}{242}
+\indexentry{IPv4|book{2}}{240}
+\indexentry{IPv6|book{2}}{240}
+\indexentry{recv!recvall!select.select() based|book{2}}{293-294}
+\indexentry{Backdoor!Alternatives|book{2}}{299}
+\indexentry{sys|book{2}}{300-303}
+\indexentry{stdin|book{2}}{300-303}
+\indexentry{stdout|book{2}}{300-303}
+\indexentry{stderr|book{2}}{300-303}
+\indexentry{os.dup2|book{2}}{305}
+\indexentry{Backdoor!Alternatives|book{2}}{306}
+\indexentry{Pyterpreter|book{2}}{206}
+\indexentry{Objects|book{2}}{309}
+\indexentry{Objects!Python|book{2}}{310-313}
+\indexentry{Objects!init|book{2}}{315-316}
+\indexentry{Unpack|book{2}}{316-319}
+\indexentry{Unpack!args|book{2}}{320-321}
+\indexentry{Unpack!kwargs|book{2}}{320-321}
+\indexentry{args|book{2}}{320-321}
+\indexentry{kwargs|book{2}}{320-321}
+\indexentry{Pyterpreter!stdio control|book{2}}{322}
+\indexentry{Modules!Load from Web|book{2}}{323-325}
+\indexentry{sys.metapath|book{2}}{324}
+\indexentry{Webimport|book{2}}{325}
+\indexentry{Remote Python|book{2}}{326}
+\indexentry{Images!PIL \goto PIL|comment}{0}
+\indexentry{Process Execution|book{2}}{263-268}
+
+
+\comment{********************************************************************************************
+                                      WORKSHOP BOOK SECTION
+*****************************************************************************************************}
+
+\indexentry{Strings|book{W}}{1-2}
+\indexentry{Function|book{W}}{1-3}
+\indexentry{Modules|book{W}}{1-2}
+\indexentry{Dictionary|book{W}}{2-2}
+\indexentry{virtual environment|book{W}}{2-3}
+\indexentry{Debugging|book{W}}{2-3}
+\indexentry{2to3|book{W}}{2-4}
+\indexentry{File|book{W}}{3-1}
+\indexentry{Regex|book{W}}{3-2}
+\indexentry{Log file analysis|book{W}}{3-3}
+\indexentry{Packet Analysis|book{W}}{3-4}
+\indexentry{Parsing Data Structures|book{W}}{4-1}
+\indexentry{Image Forensics|book{W}}{4-2}
+\indexentry{Registry Forensics|book{W}}{4-3}
+\indexentry{HTTP Communication|book{W}}{4-4}
+\indexentry{Socket Essentials|book{W}}{5-1}
+\indexentry{Exception|book{W}}{5-2}
+\indexentry{Process Execution|book{W}}{5-3}
+\indexentry{Backdoor|book{W}}{5-4}
+\indexentry{recv!recvall|book{W}}{5-5}
+\indexentry{dup2|book{W}}{5-6}
+\indexentry{Pyterpreter|book{W}}{5-6}
+
+\comment{********************************************************************************************
+                                      CROSS-KEYS SECTION
+*****************************************************************************************************}

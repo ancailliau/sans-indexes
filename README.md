@@ -12,6 +12,7 @@ To build the index for 508, `./make.sh 508`.
 | ![GSEC](https://www.giac.org/images/design/custom/icons/certs/small/gsec-gold.png) | SEC401 | GIAC Security Essentials (GSEC) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-401.pdf) |
 | ![GCIH](https://www.giac.org/images/design/custom/icons/certs/small/gcih-gold.png) | SEC504 | GIAC Certified Incident Handler (GCIH) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-504.pdf) |
 | ![GDAT](https://www.giac.org/images/design/custom/icons/certs/small/gdat-gold.png) | SEC599 | GIAC Defending Advanced Threats (GDAT) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-599.pdf) |
+| ![GPYC](https://www.giac.org/images/design/custom/icons/certs/small/gpyc-gold.png) | SEC573 | GIAC Python Coder (GPYC) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-599.pdf) |
 
 You can find many other indexes on the [repository of the original template](https://github.com/dhondta/tex-course-index-template/), e.g.
 
