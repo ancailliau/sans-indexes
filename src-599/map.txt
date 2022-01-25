@@ -1,0 +1,2 @@
+Ransomware	1
+Malware	2

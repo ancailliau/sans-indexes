@@ -1,0 +1,45 @@
+type	category	entry	subentry	book	page
+com		Cybercrime		1	5
+com		Sabotage		1	15
+com		Espionage		1	15
+com		Cybercrime		1	17
+com	Malware	SpyEye		1	17
+com	Malware	Citadel		1	17
+com		Tailored malware		1	17
+com	Malware	Carbanak		1	17
+com		Bangladesh Hack		1	17
+goto		Bangladesh Bank Heist	Bangadesh Hack
+com		Backend banking services		1	17
+com	Malware	Citadel		1	17
+com	Malware	Dridex		1	17
+com	Malware	Zeus		1	17
+com		Ransomware		1	17
+com	Malware	Zeus		1	18
+com		Banking trojans		1	18
+goto	Malware	Zbot	Zeus
+com		Man-in-the-browser		1	18
+com	Ransomware	CryptoLocker		1	18
+com	Malware	Zeus-in-the-mobile		1	18
+goto	Malware	ZitMo	Zeus-in-the-mobile
+com		Mobile Transaction Authentication Numbers		1	18
+goto		mTAN	Mobile Transaction Authentication Numbers
+com	Malware	Carbanak		1	19
+goto	Malware	Anunak	Carbanak
+com		Control Panel items		1	19
+goto		CPL	Control Panel items
+com	Malware	Carberp		1	19
+com		Bangladesh Hack		1	21
+com	Malware	Dridex		1	21
+com		SysMon	Malicious use	1	21
+com		SWIFT		1	21
+com		SWIFT		1	22
+com		VOSTRO		1	22
+com		NOSTRO		1	22
+com		SWIFT		1	23
+com		SWIFT	Technical Architecture	1	23
+com		SWIFT	Messaging Bridge	1	23
+com		SWIFT	Gateway	1	23
+com		SWIFT	NetLink	1	23
+com		NetLink		1	23
+com		Confirmation printer		1	23
+com		Core bank IT systems		1	23
