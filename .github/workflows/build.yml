@@ -22,8 +22,8 @@ jobs:
           name: indices
       - name: Release
         uses: softprops/action-gh-release@v1
-        tag_name: latest
         with:
+          tag_name: latest
           files: |
             index-*.pdf
 
