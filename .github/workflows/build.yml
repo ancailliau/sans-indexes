@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Install Dependencies
-        uses: actions/checkout@v2
         run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-latex-extra
       - name: Run build
         run: sh make.sh 599
