@@ -16,6 +16,7 @@ com	Malware	Zeus		1	17
 com		Ransomware		1	17
 com	Malware	Zeus		1	18
 com		Banking trojans		1	18
+com	Malware	Zeus	credential-theft attack	1	18
 goto	Malware	Zbot	Zeus
 com		Man-in-the-browser		1	18
 com	Ransomware	CryptoLocker		1	18
