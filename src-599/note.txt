@@ -16,7 +16,10 @@ com	Malware	Zeus		1	17
 com		Ransomware		1	17
 com	Malware	Zeus		1	18
 com		Banking trojans		1	18
-com	Malware	Zeus	credential-theft attack	1	18
+com	Malware	Zeus	Credential-theft attack	1	18
+com	Malware	Zeus	Source code leak	1	18
+com	Malware	Zeus	Ransomware	1	18
+com	Malware	Zeus	Tech Support scams	1	18
 goto	Malware	Zbot	Zeus
 com		Man-in-the-browser		1	18
 com	Ransomware	CryptoLocker		1	18
@@ -25,11 +28,13 @@ goto	Malware	ZitMo	Zeus-in-the-mobile
 com		Mobile Transaction Authentication Numbers		1	18
 goto		mTAN	Mobile Transaction Authentication Numbers
 com	Malware	Carbanak		1	19
+com	Malware	Carbanak	Phishing Email	1	19
 goto	Malware	Anunak	Carbanak
 com		Control Panel items		1	19
 goto		CPL	Control Panel items
 com	Malware	Carberp		1	19
 com		Bangladesh Hack		1	21
+com		Federal Reserve Bank of New York		1	21
 com	Malware	Dridex		1	21
 com		SysMon	Malicious use	1	21
 com		SWIFT		1	21
@@ -44,3 +49,5 @@ com		SWIFT	NetLink	1	23
 com		NetLink		1	23
 com		Confirmation printer		1	23
 com		Core bank IT systems		1	23
+com		SWIFT	Technical Architecture	1	24
+com		Bangladesh Hack	Compromised SWIFT Messaging Bridge	1	25
