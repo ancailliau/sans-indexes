@@ -54,15 +54,43 @@ com		Bangladesh Hack	Compromised SWIFT Messaging Bridge	1	25
 com		Bangladesh Hack	Malware behavior	1	26
 com		Bangladesh Hack	liboradb.dll	1	26
 ttt_com	Assembly	JNZ (Jump if Not Zero)		1	26
-ttt_com	Assembly	NOP		1	26
+ttt_com	Assembly	NOP (No OPeration)		1	26
 com		SWIFT	SWIFT Alliance software	1	26
 com		Bangladesh Hack	Memory patch	1	26
 com		Bangladesh Hack	Memory patch	1	27
 ttt_com	Assembly	JNZ (Jump if Not Zero)		1	27
-ttt_com	Assembly	NOP		1	27
 ttt_com	Assembly	EAX		1	27
 ttt_com	Assembly	TEST		1	27
 ttt_com	Assembly	XOR		1	27
 ttt_com	Assembly	MOV		1	27
 ttt_com	Assembly	NOP (No OPeration)		1	27
 com		Bangladesh Hack	Malware behavior	1	28
+com		Bangladesh Hack	Reason for suspicion/investigation	1	28
+com		Bangladesh Hack	Rejected transactions	1	29
+com		Bangladesh Hack	Jupiter	1	29
+com		Bangladesh Hack	Fraud flow	1	29
+com		Bangladesh Hack	Typo	1	29
+com		Bangladesh Hack	Cyber Security Posture	1	30
+com		Customer Security Program	1	30
+goto		CSP	Customer Security Program
+com	Ransomware	Locky		1	31
+com	Ransomware	Cerber		1	31
+com	Ransomware	Jigsaw		1	31
+com	Ransomware	Crysis		1	31
+com	Ransomware	LeChiffre		1	31
+com	Ransomware	Goldeneye		1	31
+com	Ransomware	Petya		1	31
+com	Ransomware	HDDCryptor		1	31
+com	Ransomware	Popcorn Time		1	31
+com	Ransomware	Wcry		1	31
+com	Ransomware	(Not)Petya		1	31
+com		ShadowBrokers		1	31
+com	Ransomware	Wcry	SMB Exploit	1	31
+com	Ransomware	(Not)Petya	SMB Exploit	1	31
+com	Ransomware	(Not)Petya	Mimikatz	1	31
+com	Ransomware	(Not)Petya	PsExec	1	31
+com	Ransomware	(Not)Petya	WMIC	1	31
+com		Crypto-Mining		1	32
+com		Crypto-Mining	Browser-based	1	32
+com		Crypto-Mining	Host-based	1	32
+com	Malware	Stuxnet		1	34
