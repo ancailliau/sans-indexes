@@ -1,5 +1,10 @@
 name: build
-on: [push]
+on:
+  push:
+    paths:
+      - lib/*
+      - main.tex
+      - src-*/*
 jobs:
   build:
     runs-on: ubuntu-latest
