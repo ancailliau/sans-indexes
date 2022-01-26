@@ -5,5 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+      - run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended
       - run: sh make.sh 599
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            index-*.pdf
+
