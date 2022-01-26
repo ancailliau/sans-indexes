@@ -94,3 +94,6 @@ com		Crypto-Mining		1	32
 com		Crypto-Mining	Browser-based	1	32
 com		Crypto-Mining	Host-based	1	32
 com	Malware	Stuxnet		1	34
+com		Nuclear Non-Proliferation Treaty		1	34
+com		International Atomic Energy Agency		1	34
+goto		IAEA	International Atomic Energy Agency	1	34
