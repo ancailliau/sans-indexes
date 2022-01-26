@@ -9,10 +9,21 @@ jobs:
         run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-latex-extra
       - name: Run build
         run: sh make.sh 599
+      - uses: actions/upload-artifact@v2
+        with:
+          name: indices
+          path: index-*.pdf
   release:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - uses: rickstaa/action-create-tag@v1
+        with:
+          tag: "latest"
+          message: "Latest release"
+      - uses: actions/download-artifact@v2
+        with:
+          name: indices
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
