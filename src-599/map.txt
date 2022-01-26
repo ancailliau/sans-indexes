@@ -1,3 +1,4 @@
 Ransomware	1
 Malware	2
 Assembly	3
+Microsoft Security Bulletin	4

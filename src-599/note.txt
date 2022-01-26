@@ -97,3 +97,38 @@ com	Malware	Stuxnet		1	34
 com		Nuclear Non-Proliferation Treaty		1	34
 com		International Atomic Energy Agency		1	34
 goto		IAEA	International Atomic Energy Agency	1	34
+com		Programmable Logic Controllers		1	35
+goto		PLC	Programmable Logic Controllers	1	35
+com	Malware	Stuxnet	Step 7	1	35
+com	Malware	Stuxnet	PLC	1	35
+com	Malware	Stuxnet	Zero-Days	1	36
+com		Zero-day exploit		1	36
+com	Malware	Stuxnet	Propagation vector	1	36
+com	Malware	Stuxnet	.lnk vulnerability	1	36
+com	Malware Stuxnet	Printer spooler vulnerability	1	36
+com	Microsoft Security Bulletin	MS10-046		1	37
+com	Microsoft Security Bulletin	MS10-061		1	37
+com	Microsoft Security Bulletin	MS10-073		1	37
+com	Microsoft Security Bulletin	MS10-092		1	37
+com	Malware Stuxnet	Zero-Days	1	37
+com	Microsoft Security Bulletin	MS10-073		1	38
+com	Microsoft Security Bulletin	MS10-092		1	38
+com	Malware Stuxnet	Zero-Days	1	38
+com	Malware Stuxnet	Zero-Days	1	39
+com	Malware Stuxnet	Worm	1	39
+com	Malware	Stuxnet	24 June 2012	1	39
+com	Malware	Stuxnet	Persistence	1	40
+com	Malware	Stuxnet	Command & Control	1	41
+com		www.todaysfutbol.com		1	41
+com		www.mypremierfutbol.com		1	41
+com	Malware	Stuxnet	RPC	1	41
+com	Malware	Stuxnet	s7otbxdx.dll	1	42
+com	Malware	Stuxnet	PLC	1	42
+com		Statement List		1	42
+goto		STL	Statement List	1	42
+com	Malware Stuxnet	PLC	1	43
+com	Malware	BlackEnergy		1	44
+com		Sandworm		1	44
+com		The Equation Group		1	44
+com		Idaho National Laboratory		1	44
+com		Aurora Generator Test		1	44
