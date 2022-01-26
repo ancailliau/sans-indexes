@@ -1,0 +1,9 @@
+name: build
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+      - run: sh make.sh 599
