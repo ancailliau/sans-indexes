@@ -153,3 +153,78 @@ com	Ransomware	(Not)Petya	Most devastating Supply Chain Attack	1	46
 com	Ransomware	(Not)Petya	Stolen credentials	1	46
 com		EternalBlue		1	47
 com	Microsoft Security Bulletin	MS017-10	EternalBlue	1	47
+com	Ransomware	(Not)Petya	MeDoc	1	47
+com	Ransomware	(Not)Petya	Mimikatz	1	47
+com	Ransomware	(Not)Petya	Master Boot Record	1	47
+com	Ransomware	(Not)Petya	EternalRomance		1	47
+com	Ransomware	(Not)Petya	EternalBlue		1	47
+com	Ransomware	(Not)Petya	TCP/139		1	47
+com	Ransomware	(Not)Petya	TCP/445		1	47
+com	Ransomware	(Not)Petya	PsExec	1	47
+com	Ransomware	(Not)Petya	WMIC	1	47
+com		Espionage	Key Drivers	1	49
+com		Turla		1	50
+goto		Snake	Turla
+goto		Uroburos	Turla
+com		Regin		1	50
+goto		Ouroboros	Turla
+com	Malware	Turla		1	50
+com		G Data		1	50
+com	Malware	Agent.BTZ		1	50
+goto		Ur0BuR()s	Turla
+com		Turla	Social Engineering	1	51
+com		Turla	Persistence	1	51
+com		Turla	Command and Control	1	51
+com		Turla	Victims
+com		Turla	Zero-Days
+com		Component Object Model		1	52
+goto		COM	Component Object Model
+com		COM Object Hijacking		1	52
+com		CLSID		1	52
+com		Phantom COM objects		1	52
+com		COM Search Order Hijacking		1	52
+com		Turla	Satelite Connectivity	1	53
+com		Turla	Command and Control	1	53
+com		Turla	SatLink		1	53
+com		Turla	Command and Control	1	54
+com		Turla	Instagram	1	54
+com		Turla	Britney Spears	1	54
+com		Turla	Steganography	1	54
+com		Turla	Bitly	1	54
+com		Turla	Zero Width Joiner	1	54
+com		Zero Width Joiner		1	54
+com		Turla	Unicode	1	54
+com		Turla	Outlook	1	54
+com		Turla	The Bat!	1	54
+com		The Bat!		1	54
+com		Turla	Command and Control	1	55
+com		Turla	Steganography	1	55
+com		Turla	Exfiltration channel	1	55
+com		APT-28		1	56
+goto		Sofacy	APT-28	1	56
+goto		Fancy Bear	APT-28	1	56
+com		APT-29		1	56
+goto		Dukes	APT-29
+goto		Cozy Bear	APT-29
+com		Sandworm		1	56
+goto		TEMP.Noble	Sandworm
+com		APT-1		1	56
+goto		Comment Panda
+com		APT-3		1	56
+goto		Gothic Panda	APT-3
+com		APT-27		1	56
+goto		Emissary Panda	APT-27
+com		Charming Kitten		1	56
+goto		Parastoo	Charming Kitten
+com		Copy Kitten		1	56
+goto		Slayer Kitten	Copy Kitten
+com		Rocket Kitten		1	56
+goto		TEMP.Beanie	Rocket Kitten
+com		Equation Group		1	56
+goto		Tilded Team	Equation Group
+com		Active Groups and Campaigns		1	56
+com		Attribution	Elements	1	56
+com		SYNCTECHLABS		1	58
+com		SYNCTECHLABS	Environment	1	59
+com		SYNCTECHLABS	Organigram	1	60
+com		SYNCTECHLABS	Red Team Test	1	60
