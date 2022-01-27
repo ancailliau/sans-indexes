@@ -132,3 +132,24 @@ com		Sandworm		1	44
 com		The Equation Group		1	44
 com		Idaho National Laboratory		1	44
 com		Aurora Generator Test		1	44
+com	Malware	BlackEnergy	Spear-phishing	1	45
+com		Spear-phishing		1	45
+com	Malware	BlackEnergy	SCADA	1	45
+com	Malware	BlackEnergy	Various Purposes	1	45
+com	Malware	BlackEnergy	KillDisk	1	45
+com		Linkos Group		1	46
+com	Malware	(Not)Petya	Master Boot Record	1	46
+com	Malware (Not)Petya	Linkos Group	1	46
+com	Malware (Not)Petya	MeDoc	1	46
+com		MeDoc		1	46
+com	Malware (Not)Petya	MS017-10	1	46
+com	Ransomware	(Not)Petya	Mimikatz	1	46
+com	Ransomware	(Not)Petya	PsExec	1	46
+com	Ransomware	(Not)Petya	WMIC	1	46
+com	Microsoft Security Bulletin	MS017-10		1	46
+com	Ransomware	(Not)Petya	Sabotage	1	46
+com	Ransomware	(Not)Petya	Initial infection vector	1	46
+com	Ransomware	(Not)Petya	Most devastating Supply Chain Attack	1	46
+com	Ransomware	(Not)Petya	Stolen credentials	1	46
+com		EternalBlue		1	47
+com	Microsoft Security Bulletin	MS017-10	EternalBlue	1	47
