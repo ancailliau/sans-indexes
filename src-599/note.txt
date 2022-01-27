@@ -228,3 +228,11 @@ com		SYNCTECHLABS		1	58
 com		SYNCTECHLABS	Environment	1	59
 com		SYNCTECHLABS	Organigram	1	60
 com		SYNCTECHLABS	Red Team Test	1	60
+com		Adversary Emulation		1	65
+com		Tactics, Techniques & Procedures		1	65
+goto		TTP	Tactics, Techniques & Procedures
+com		Cyber Kill Chain		1	66
+com		Lockheed Martin		1	66
+com		Dell SecureWorks		1	66
+com		Cyber Kill Chain	Limitations	1	67
+com		Unified Kill Chain		1	67
