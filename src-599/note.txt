@@ -236,3 +236,113 @@ com		Lockheed Martin		1	66
 com		Dell SecureWorks		1	66
 com		Cyber Kill Chain	Limitations	1	67
 com		Unified Kill Chain		1	67
+com		Red Team		1	70
+com		Blue Team		1	70
+com		Red Team		1	71
+com		Blue Team		1	71
+com		Purple Team		1	71
+com		The Rise of the Purple Team		1	71
+com		Robert Wood		1	71
+com		William Bengston		1	71
+com		Purple Team	Feedback Loop	1	72
+com		Purple Team	Approach	1	73
+com		Purple Team	Practical Implementation	1	74
+com			Effective security controls		1	75
+com		MITRE		1	78
+com		ATT&CK		1	78
+com		ATT&CK	Entry	1	79
+com		ATT&CK	T1122	1	79
+com		COM Object Hijacking	T1122	1	79
+com		COM Object Hijacking	Defense Evasion	1	79
+com		COM Object Hijacking	Persistence	1	79
+com		ATT&CK Navigator		1	80
+com		MetaSploit		1	81
+com		Empire		1	81
+com		PowerShell Empire		1	81
+com		EmPyre		1	81
+com		APT Simulator		1	82
+com		Network Flight Simulator		1	83
+goto		flightsim	Network Flight Simulator
+com		Atomic Red Team		1	84
+com		Red Canary		1	84
+com		Atomic Tests		1	84
+com		CALDERA		1	85
+com		Prevent or Detect	1	87
+com		CIS controls		1	88
+com		Australian Signals Directorate		1	88
+goto		ASD	Australian Signals Directorate	1	88
+com		Australian Cyber Security Centre		1	88
+goto		ACSC	Australians Cyber Security Centre
+com		Australian Signals Directorate	4 key controls	1	88
+com		4 key controls	Application Whitelisting	1	88
+com		4 key controls	Patch Operating Systems	1	88
+com		4 key controls	Patch Applications	1	88
+com		4 key controls	Restrict Administrative Privileges	1	88
+com		Security Architecture for Detectiopn and Prevention		1	89
+com		Web Proxy Setup		1	90
+com		Architecture Principle 1		1	90
+com		Web Proxy Setup	Cloud	1	91
+com		Architecture Principle 1		1	91
+com		Symantec		1	91
+com		Zscaler		1	91
+com		Cisco Umbrella		1	91
+com		Architecture Principle 1		1	92
+com		Web Proxy Setup	SSL/TLS Interception	1	92
+com		SSL/TLS Interception		1	92
+goto		SSL Interception	SSL/TLS Interception
+goto		TLS Interception	SSL/TLS Interception
+com		Architecture Principle 2		1	93
+com		Securing DNS Traffic		1	93
+com		PassiveDNS		1	93
+com		Zeek		1	93
+com		Suricata		1	93
+com		Quad9		1	93
+com		Global Cyber Alliance		1	93
+com		Cloudflare		1	93
+com		1.1.1.1		1	93
+com		OpenDNS		1	93
+com		Architecture Principle 3		1	94
+com		Network Monitoring		1	94
+com		Architecture Principle 3		1	95
+com		Network Monitoring		1	95
+com		Full Packet Capture		1	95
+goto		FPC	Full Packet Capture
+com		Snort		1	95
+com		Suricata		1	95
+com		Intrusion Detection System		1	95
+goto		IDS	Intrusion Detection System
+com		Hearthbleed		1	95
+com		Architecture Principle 3		1	96
+com		Network Monitoring		1	95
+com		Intrusion Detection System		1	96
+com		Intrusion Prevention System		1	96
+goto		IPS	Intrusion Prevention System
+com		Palo Alto		1	96
+com		Juniper		1	96
+com		Cisco		1	96
+com		Fortinet		1	96
+com		Sophos		1	96
+com		Snort		1	96
+com		Suricata		1	96
+com		Zeek		1	96
+goto		Bro	Zeek
+com		Passive	(IDS)		1	96
+com		Inline	(IPS)		1	96
+com		Suricata		1	97
+com		Architecture Principle 3		1	97
+com		Network Monitoring		1	97
+com		Open Information Security Foundation		1	97
+com		Network Security Monitor		1	97
+com		Suricata	IDS Rulesets	1	98
+com		Architecture Principle 3		1	98
+com		Network Monitoring		1	98
+com		Emerging Threats		1	98
+com		Proofpoint		1	98
+com		ET		1	98
+com		ET Pro		1	98
+com		Talos / Snort Ruleset	1	98
+com		Snort		1	98
+com		Suricata	Output	1	99
+com		Architecture Principle 3		1	99
+com		Network Monitoring		1	99
+com		EVE JSON		1	99
