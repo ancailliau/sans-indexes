@@ -372,10 +372,75 @@ com		Hardening Considerations		1	104
 com		Hardenings Considerations	NIST Checklist	1	105
 com		NIST Checklist		1	105
 com		National Checklist Program		1	105
+com		NIST Checklist	Security Content Automation Protocol	1	105
 com		Security Content Automation Protocol		1	105
 goto		SCAP	Security Content Automation Protocol
-com		Windows 10 STIG		1	106
-com		Security Technical Implementation Guide		1	106
-goto		STIG	Security Technical Implementation Guide	1	106
-com		SCAP		1	106
-com		OVAL		1	106
+com		NIST Checklist Security	Checklist Repository	1	106
+com		Nist Checklist	Windows 10 STIG	1	106
+com		NIST Checklist	Security Technical Implementation Guide	1	106
+com		NIST Checklist	SCAP	1	106
+com		NIST Checklist	OVAL	1	106
+com		Security Technical Implementation Guide	1	107	
+goto		STIG	Security Technical Implementation Guide	
+com		DoD General Purpose STIG		1	107
+com		Microsoft Recommended Security Baselines		1	108
+com		Security Compliance Toolkit		1	108
+goto		SCT		1	108
+com		Security Compliance Manager		1	108
+goto		SCM		1	108
+com		ADMX Templates		1	109
+com		Browser Hardening		1	109
+com		Linux Hardening		1	110
+com		Ansible Automation		1	111
+com		Ansible Hardening		1	111
+com		Fundamental Detection Capability		1	115
+com		Splunk		1	115
+com		Graylog		1	115
+com		ELK		1	115
+com		ElasticSearch		1	116
+com		Kibana		1	116
+com		Logstash		1	116
+com		Grok		1	116
+com		Apache Lucene		1	116
+com		ELK	Security Controls	1	117
+com		Logstash	Configuraiton	1	118
+com		Logstash	Parsers	1	118
+com		Grok		1	118
+com		Windows Event Logs		1	119
+com		wevutil.exe		1	119
+com		PsLogList		1	119
+com		Windows Event Logs	C:\Windows\System32\winevt\Logs\	1	119
+com		Windows Event Logs	EVT	1	119
+com		Windows Event Logs	EVTX	1	119
+com		Windows Event Logs	Standard Logs	1	120
+com	Windows Event ID	4648	Account login with explicit credentials	1	120
+com		Windows Event Logs	Default audit policy	1	121
+com		Windows Event Forwarding		1	123
+goto		WEF	Windows Event Forwarding
+com		Windows Event Collector Service		1	123
+com		Windows Remote Management Service		1	123
+com		SysMon		1	124
+com		SysMon	Event IDs	1	125
+com		SysMon	Installation	1	126
+com		SysMon	Default Configuration	1	127
+com		SysMon	SwiftOnSecurity	1	128
+com		SysMon	SwiftOnSecurity	1	129
+com		SysMon	Olaf Hartong	1	130
+com		SysMon	Tagging	1	130
+com		SysMon	Mapping to MITRE	1	130
+com		SysMon	SysmonSearch	1	131
+com		SysmonSearch		1	131
+com		JPCERT/CC		1	131
+com		SIGMA		1	133
+com		Florian Roth		1	133
+com		SIGMA	Endpoint Visibility	1	134
+com		OSQuery		1	135
+com		OSQuery	File Integrity Monitoring	1	135
+com		OSQuery	Example Queries	1	136
+com		OSQuery	Palantir	1	136
+com		OSQuery	Kolide Fleet	1	137
+com		OSQuery	Fleet Manager	1	137
+com		OSQuery	Kolide Fleet Architecture	1	138
+com		Endpoint Detection and Response		1	139
+goto		EDR	Endpoint Detection and Response
+
