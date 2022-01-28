@@ -346,3 +346,36 @@ com		Suricata	Output	1	99
 com		Architecture Principle 3		1	99
 com		Network Monitoring		1	99
 com		EVE JSON		1	99
+com		Architecture Principle 3		1	100
+com		Network Monitoring		1	100
+com		Network Security Monitor		1	100
+goto		NSM	Network Security Monitor
+com		Zeek		1	100
+com		Zeek	Security Onion	1	100
+com		Security Onion		1	100
+com		Zeek	Network Protocols	1	100
+com		Zeek	Recipes	1	100
+com		Zeek	RITA	1	100
+com		RITA		1	100
+com		Zeek	Data Exfiltration Framework	1	100
+com		Data Exfiltration Framework		1	100
+com		Architecture Principle 4		1	101
+com		Network Segmentation		1	101
+com		Architecture Principle 4		1	102
+com		Network Segmentation		1	102
+com		Private VLANs		1	102
+com		Architecture Principle 4		1	103
+com		Network Segmentation		1	103
+com		Host-Based Firewalls		1	103
+com		Host-Based Firewalls	Quick Wins	1	103
+com		Hardening Considerations		1	104
+com		Hardenings Considerations	NIST Checklist	1	105
+com		NIST Checklist		1	105
+com		National Checklist Program		1	105
+com		Security Content Automation Protocol		1	105
+goto		SCAP	Security Content Automation Protocol
+com		Windows 10 STIG		1	106
+com		Security Technical Implementation Guide		1	106
+goto		STIG	Security Technical Implementation Guide	1	106
+com		SCAP		1	106
+com		OVAL		1	106
