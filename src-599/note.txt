@@ -443,4 +443,14 @@ com		OSQuery	Fleet Manager	1	137
 com		OSQuery	Kolide Fleet Architecture	1	138
 com		Endpoint Detection and Response		1	139
 goto		EDR	Endpoint Detection and Response
-
+com		Internet Footprint		1	143
+com		Attack Surface		1	143
+goto		Information Footprint	Internet Footprint
+com		Internet Footprint	Information you control	1	144
+com		Internet Footprint	Information you do not control	1	144
+com		Breached Credentials		1	145
+com		HaveIBeenPwned		1	145
+com		Ghostproject		1	145
+com		SpyCloud		1	145
+com		Technical Footprint	1	146
+com		Shadow IT		1	147
