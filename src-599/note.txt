@@ -454,3 +454,24 @@ com		Ghostproject		1	145
 com		SpyCloud		1	145
 com		Technical Footprint	1	146
 com		Shadow IT		1	147
+com		Google Search Operators		1	149
+com		Google Hacking Database		1	149
+goto		GHDB	Google Hacking Database
+com		Pastebin Monitoring		1	150
+com		Pastepwnd		1	150
+com		Pystemon		1	150
+com		Pastemon		1	150
+com		CIRCL AIL-framework		1	150
+com		CIRCL AIL-framework		1	151
+com		Analysis for Information Leaks		1	151
+goto		AIL	Analysis for Information Leaks	1	151
+com		SpiderFoot		1	152
+com		Masscan		1	153
+com		Scans.io		1	153
+com		Censys.io		1	153
+com		Shodan		1	154
+com		Shodan Diggity		1	154
+com		Shodan		1	155
+com		Shodan	Image Search	1	156
+com		Censys.io		1	157
+com		CertStream		1	158
