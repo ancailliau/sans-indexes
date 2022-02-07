@@ -487,9 +487,9 @@ com		Email phishing		2	5
 com		Watering Hole		2	5
 com		Weaponized USB		2	5
 com		Payload Delivery	Key Prevention Controls	2	6
-com		SPF		2	6
-com		DKIM		2	6
-com		DMARC		2	6
+com		Sender Policy Framework		2	6
+com		Domain Keys Identified Mail		2	6
+com		Domain-based Message Authentication, Reporting and Conformance		2	6
 com		Mail Sandboxing		2	6
 com		Importance of Users		2	7
 com		Security Awareness		2	8
@@ -578,3 +578,59 @@ goto		ICV	Integrity Check Value
 com		Layer 2 protection		2	32
 com		Layer 2 encryption		2	32
 com		802.1X-2010		2	32
+com		NTLMv2		2	34
+com		Kerberos	2	34
+com		NTLMv2	Response	2	35
+com		NTLMv2	OneWayFunction	2	35
+com		NTLMv2 OneWayFunction		2	35
+goto		NTLMv2 OWF	NTLMv2 OneWayFunction
+com		NTLMv2	Still used?	2	36
+com		NTLMv2	Attack / Obtain Challenge/Response	2	37
+com		Responder		2	37
+com		SpiderLabs		2	37
+com		Laurent Gaffie		2	37
+com		Netbios Name Server		2	37
+goto		NBT-NS	Netbios Name Server
+com		Link-Local Multicast Name Resolution		2	37
+goto		LLMNR	Link-Local Multicast Name Resolution
+com		Responder	Obtain Challenge/Response	2	38
+com		Responder	WPAD	2	39
+com		Automatic Proxy Settings		2	39
+com		Web Proxy Auto-Discovery		2	39
+goto		WPAD	Web Proxy Auto-Discovery
+com		Outbound SMB		2	40
+com		NTLMv2	Creative ways to obtain Challenge/Response	2	40
+com		Hashcat		2	41
+com		NTLMv2	Crack Challenge/Response	2	41
+com		NTLMv2	SMB Relaying	2	42
+com		SMB Relaying		2	42
+com		Responder	SMB Relaying	2	43
+com		Responder	Defence	2	44
+com		SMB Relaying	Defence	2	44
+com		WPAD	Disable	2	44
+com		Private VLANs		2	44
+com		Email Sercurity		2	48
+com		Email Best Practices		2	48
+com		Sender Policy Framework		2	48
+goto		SPF	Sender Policy Framework
+com		Domain Keys Identified Mail		2	48
+goto		DKIM	Domain Keys Identified Mail
+com		Domain-based Message Authentication, Reporting and Conformance		2	48
+goto		DMARC	Domain-based Message Authentication, Reporting and Conformance
+com		Business Email Compromise		2	48
+com		Multi-Factor Authentication		2	48
+goto		MFA	Multi-Factor Authentication
+com		Sender Policy Framework		2	49
+com		Sender Policy Framework	Soft Fail	2	49
+com		Sender Policy Framework	Hard Fail	2	49
+com		Sender Policy Framework		2	50
+com		Sender Policy Framework	Caveats	2	51
+com		Domain Keys Identified Mail		2	52
+com		Domain Keys Identified Mail		2	53
+com		Domain-based Message Authentication, Reporting and Conformance		2	54
+com		Domain-based Message Authentication, Reporting and Conformance	Use for Domain Owners	2	54
+com		Domain-based Message Authentication, Reporting and Conformance	Use for Email Receivers	2	54
+com		Domain-based Message Authentication, Reporting and Conformance		2	55
+com		CEO Fraud		2	56
+com		Mail Spoofing		2	57
+
