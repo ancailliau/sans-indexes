@@ -633,4 +633,81 @@ com		Domain-based Message Authentication, Reporting and Conformance	Use for Emai
 com		Domain-based Message Authentication, Reporting and Conformance		2	55
 com		CEO Fraud		2	56
 com		Mail Spoofing		2	57
-
+com		Watering Hole		2	58
+com		Exploit Kits		2	58
+com	Malware	Angler		2	58
+com	Malware Rig		2	58
+com	Malware	Terror		2	58
+com	Malware Sundown		2	58
+com		Malvertisement		2	59
+com		Exploit Kits	Operations	2	59
+com		Exploit Kits		2	59
+com		Malware Traffic Analysis		2	60
+com		malware-trafffic-analysis.net		2	60
+com		Exploit Kits	Examples	2	60
+com		Malware Traffic Analysis		2	61
+com		malware-trafffic-analysis.net		2	61
+com		Exploit Kits	Main Controls	2	62
+com		Exploit Kits	Browser Isolation	2	63
+com		Browser Isolation		2	63
+com		Fire Glass		2	63
+com		URL analysis		2	64
+com		urlscan.io		2	64
+com		urlquery.net		2	64
+com		Cuckoo		2	64
+com		Lookyloo		2	64
+com		Lookyloo		2	65
+com		ICAP		2	66
+com		Cloud-enabled Antivirus engines		2	66
+com		Static analysis		2	67
+com		Dynamic analysis		2	67
+com		Cuckoo		2	67
+com		Malware Sandbox		2	67
+com		Cuckoo Sandbox		2	67
+com		Cuckoo-modified		2	67
+com		Cuckoo	Architecture	2	68
+com		Cuckoo	Output	2	69
+com		Cuckoo	Reporting	2	70
+com		Cuckoo	Signatures	2	71
+com		Paranoid Fish		2	74
+goto		pafish Paranoid Fish
+com		Sandbox Detection		2	74
+com		Alberto Ortega		2	74
+com		YARA		2	76
+goto		Yet Another Recursive Acronym	YARA
+goto		Yet Another Ridiculous Acronym	YARA
+com		VirusTotal		2	76
+com		pdf-parser.py		2	76
+com		oledump.py		2	76
+com		Retrohunt		2	76
+com		VirusTotal Intelligence	2	76
+com		ClamAV
+com		Victor M. Alvarez		2	76
+com		YARA		2	77
+com		YARA	Example Rule	2	78
+com		YARA	Rule Modifiers	2	79
+com		YARA 	UNICODE	2	79
+com		YARA	wide	2	79
+com		PE file format		2	80
+com		MZ		2	80
+com		YARA	Conditions	2	80
+com		Florian Roth		2	81
+com		YARA	Greenbug	2	81
+com		YARA	meta section	2	81
+com		YARA	strings section	2	81
+com		PDB Paths		2	81
+com		MZ	Little Endian	2	81
+com	Malware	CRASHOVERRIDE		2	82
+com		Dragos		2	82
+com		YARA	Extension - PE	2	82
+com		YARA	Extension - ELF	2	82
+com		YARA	Extension - Cuckoo	2	82
+com		YARA	Extension - Magic	2	82
+com		YARA	Extension - Hash	2	82
+com		YARA	Extension - Math	2	82
+com		YARA	Extension - Dotnet	2	82
+com		YARA	Extension - Time	2	82
+com		YARA	Use-cases	2	83
+com		yararules.com		2	84
+com		Yara Rules Project		2	84
+com		Awesome-Yara		2	84
