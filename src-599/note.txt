@@ -711,3 +711,121 @@ com		YARA	Use-cases	2	83
 com		yararules.com		2	84
 com		Yara Rules Project		2	84
 com		Awesome-Yara		2	84
+com		payload Devlivery and Execution Strategies		2	88
+com		Application Whitelisting		2	89
+com		Software Restrictiction Policies		2	90
+goto		SRP	Software Restriction Policies
+com		AppLocker		2	90
+com		Windows Defender Application Control		2	90
+goto		WDAC	Windows Defender Application Control
+com		GateKeeper		2	90
+com		AppArmor		2	90
+com		SELinux		2	90
+com		AppLocker		2	91
+com		Application Identity service		2	91
+com		AppLocker	Settings	2	92
+com		Application Control Policies		2	92
+com		AppLocker	Rules	2	93
+com		AppLocker	Event Logs	2	95
+com		Software Restriction Policies		2	96
+com		Software Restriction Policies	Blocking Rule	2	97
+com		Application Whitelisting	Bypass Techniques	2	98
+com		UltimateAppLockerByPassList		2	98
+com		Windows Script Host		2	103
+goto		WSH	Windows Script Host
+com		VBScript		2	103
+com		Jscript		2	103
+com		cscript.exe		2	103
+com		wscript.exe		2	103
+com		vbscript.dll		2	103
+com		jscript.dll		2	103
+com		regsvr32.exe		2	103
+com		wscript.exe		2	104
+com		cscript.exe		2	104
+com		VBScript	Malware Downloader	2	105
+com		VBScript	Obfuscation		2	105
+com		Code obfuscation		2	105
+com		String obfuscation		2	105
+com		VBScript Encoding		2	106
+goto		VBE VBScript Encoding	2	107
+com		decode-vbe.py		2	107
+com		Jscript	Malware Downloader	2	108
+com	Ransomware	Sage		2	108
+com	Malware	StarFighter Empire Launcher	2	109
+com		Jscript Malware Downloader	StarFighter Empire Launcher	2	109
+com	Malware	Empire		2	109
+com		StarFighter		2	109
+com		Windows Script Host	Hardening	2	110
+com		HTML Application		2	111
+goto		HTA	HTML Application
+com		mshta.exe		2	111
+com		Demiguise		2	111
+com		Encrypted HTML Application		2	111
+com		Environmental Keyring		2	111
+com		HTML Application	NCC Group	2	111
+com		wscript.shell		2	112
+com		HTML Application	wscript.shell	2	112
+com		mshta.exe		2	112
+com		Change Default File Association		2	113
+com		Visual Basic for Applications		2	114
+goto		VBA	Visual Basic for Applications
+com		Visual Basic for Applications	Macros	2	115
+com		Visual Basic for Applications	AutoOpen	2	115
+com		Visual Basic for Applications	Declare		2	115
+com		Visual Basic for Applications	Windows API	2	115
+com		Visual Basic for Applications	Malware Downloader	2	116
+com		Visual Basic for Applications	Malware Dropper	2	116
+com	Windows API	URLDownloadToFile		2	116
+com	Windows API	ShellExecute		2	116
+com		urlmon.dll		2	116
+com		Visual Basic for Applications	Malware Dropper	2	117
+com		Visual Basic for Applications	Shellcode Injector	2	118
+com	Windows API	CreateThread		2	118
+com	Windows API	VirtualAlloc		2	118
+com	Windows API	RtlMoveMemory		2	118
+com	Malware	BlackEnergy	Macro Dropper	2	119
+com		oledump.py		2	119
+com		Didier Stevens		2	119
+com		OLE	2	119
+goto		Compound File Binary Format	OLE
+com		Visual Basic for Applications	OLE	2	119
+com	Malware	BlackEnergy	Macro Dropper	2	120
+com		oledump.py		2	120
+com		Visual Basic for Applications	OLE	2	120
+com		OLE file format		2	120
+com		77, 90		2	120
+com	Malware	BlackEnergy	Macro Dropper	2	121
+com		Visual Basic for Applications	Workbook_Activate	2	121
+com		Visual Basic for Applications	MacroExpl	2	122
+com		Visual Basic for Applications	Shell	2	122
+com	Malware	BlackEnergy	Macro Dropper	2	122
+com		OLE		2	123
+com		MS Office 2007		2	123
+com		MS Office 2007	New format	2	123
+com		Protected View		2	123
+com		Office Trust Center		2	123
+goto		Trust Center	Office Trust Center
+com		Visual Basic for Applications	Settings to govern execution	2	123
+com		Office Trust Center		2	124
+com		Office Trust Center	Trusted Publishers	2	125
+com		Office Trust Center	Trusted Locations	2	125
+com		Office Trust Center	Trusted Documents	2	125
+com		Office Trust Center	Macro Settings	2	126
+com		Macro Settings		2	126
+com		Polymorphic VBA malware		2	126
+com		Visual Basic for Applications	Polymorphic	2	126
+com		Visual Basic for Applications	Project Model	2	126
+com		Enabling Macro Content		2	127
+com		Mark-of-web		2	127
+com		Protected View		2	128
+com		Protected View	Criteria in Office Trust Center	2	129
+com		Office Trust Center	Protected View tab	2	129
+com		Protected View		2	130
+com		Protected View	Potentially dangerous	2	130
+com		Mark-of-web		2	130
+com		Alternate Data Stream		2	130
+goto		ADS Alternate Data Stream
+com		Zone.Identifier		2	130
+com		Mark-of-web	Alternate Data Stream	2	130
+com		Mark-of-web	Zone.Identifier	2	130
+
