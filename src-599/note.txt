@@ -828,4 +828,68 @@ goto		ADS Alternate Data Stream
 com		Zone.Identifier		2	130
 com		Mark-of-web	Alternate Data Stream	2	130
 com		Mark-of-web	Zone.Identifier	2	130
+com		PowerShell		2	132
+com		PowerSploit		2	132
+com		cmdlets		2	132
+com		PowerShell	File Association	2	133
+com		PowerShell	Execution Policy	2	133
+com		PowerShell	Bypass Execution Policy	2	134
+com		PowerShell	Get-ExecutionPolicy	2	134
+com		PowerShell	-Command	2	135
+com		PowerShell	Write-Host	2	135
+com		PowerShell	-EncodedCommand	2	135
+com		PowerShell	Launch from VBA	2	136
+com		PowerShell	Invoke-Expression	2	137
+com		PowerShell	iex	2	137
+com		PowerShell	ForEach-Object	2	137
+com		PowerShell	Polymorphic	2	137
+com		Empire		2	138
+com		PowerShell	Hardening	2	139
+com		PowerShell	Constrained Language Mode	2	140
+com		AppLocker	Constrained Language Mode	2	140
+com		Windows Defender Application Control	PowerShell Constrained Language Mode	2	140
+com		PowerShell	$ExecutionContext.SessionState.LanguageMode	2	140
+com		PowerShell	Full Language Mode	2	141
+com		PowerShell	PowerUp.ps1	2	141
+com		AppLocker	Script rules	2	142
+com		Antimalware Scan Interface		2	143
+goto		AMSI	Antimalware Scan Interface	2	143
+com		Antimalware Scan Interface	Bypass	2	144
+com		PowerShell	Antimalware Scan Interface	2	144
+com		PowerShell	PowerShell v2.0	2	145
+com		PowerShell	Constrained Language Mode	2	145
+com		System.Management.Automation		2	146
+com		PowerShell	Execute PowerShell without PowerShell.exe	2	146
+com		ReflectivePick		2	146
+com	Windows Event ID	4688	Process Creation	2	151
+com		Windows Command-Line Logging		2	151
+com		SysMon	Event ID 1	2	152
+com		PowerShell	Monitoring & Logging	2	153
+com		PowerShell	Transcripts	2	154
+com		PowerShell	Start-Transcript	2	154
+com		PowerShell	Microsoft.PowerShell_profile.ps1	2	154
+com		PowerShell	Transcripts	2	155
+com		PowerShell	Start-Transcript	2	155
+com		PowerShell	Logs	2	156
+com		Windows Event Logs	Windows PowerShell	2	156
+com		PowerShell	Script Block Logging	2	157
+com		PowerShell	Script Block Logging	2	158
+com	Windows Event ID	4104	PowerShell	2	158
+com		PowerShell	Suspicious Commands	2	159
+com		ProcFilter		2	163
+com		ProcFilter	Install	2	164
+com		ProcFilter	Configuration	2	165
+com		ProcFilter	procfilter.ini	2	165
+com		ProcFilter	Windows Event Logs	2	167
+com		Secure Software Development		3	3
+com		Secure-SDLC		3	3
+com		Security Development Lifecycle		3	3
+goto		SDL	Security Development Lifecycle
+goto		Microsoft Security Development Lifecycle	Security Development Lifecycle	3	3
+com		Security Development Lifecycle		3	4
+com		Trustworthy Computing memo		3	4
+goto		TwC	Trustworthy Computing memo
+com	Malware	Melissa Virus		3	4
+com		Security Development Lifecycle	Motivation	3	5
+com		Security Development Lifecycle	Phases	3	6
 
