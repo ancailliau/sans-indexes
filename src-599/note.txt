@@ -911,3 +911,51 @@ com		Common Vulnerability Scoring System		3	19
 goto		CVSS	Common vulnerability Scoring System
 com		OCTAVE		3	19
 com		TRIKE		3	19
+com		Microsoft Threat Modeling Tool		3	20
+com		Elevation of Privilege Card Game		3	20
+com		Seasponge		3	20
+com		Microsoft Threat Modeling Tool	Properties	3	21
+com		Microsoft Threat Modeling Tool	Report	3	23
+com		STRIDE		3	26
+com		DREAD		3	27
+com		Vulnerability Assessments		3	28
+com		Bug Bounties		3	29
+com		Bug Bounties		3	30
+com		Source Code Reviews		3	31
+com		Manual code Review		3	31
+com		Static Analysis		3	31
+com		Automated Code Review		3	31
+com		Dynamic Analysis		3	31
+com		Static Analysis	Fortify Static Code Analyzer	3	31
+com		Interactive Disassembler		3	31
+goto		IDA	Interactive Disassembler
+com		Dynamic Analysis	AppVerifier	3	31
+com		Unmanaged Code		3	31
+com		Managed Code		3	31
+com		Dynamic Analysis	FxCop	3	31
+com		Static Analysis	Fortify Static Code Analyzer	3	32
+com		Static Analysis	Veracode Static Analysis	3	32
+com		Static Analysis	CodeSearchDiggity	3	32
+com		Static Analysis	VisualCodeGrepper	3	32
+com		Fuzzing		3	33
+com		Code Coverage		3	33
+com		Session Initiation Protocol		3	33
+goto		SIP	Session Initiation Protocol
+com		RFC 3261		3	33
+com		Fuzzing	Static	3	33
+com		Fuzzing	Randomized	3	33
+com		Fuzzing	Mutation	3	33
+com		Fuzzing	Intelligent Mutation	3	34
+com		RFC 1350		3	35
+com		Trivial File Transfer Protocol		3	35
+goto		TFTP	Trivial File Transfer Protocol
+com		Trivial File Transfer Protocol	Opcode	3	35
+com		Fuzzing	Static	3	36
+com		Fuzzing	Randomized	3	37
+com		Fuzzing	Mutation	3	38
+com		Fuzzing	Intelligent Mutation	3	39
+com		Code Coverage		3	40
+com		Code Coverage	Source Code Assisted Measurement	3	40
+com		Code Coverage	Block Measurement	3	40
+com		American Fuzzy Lop		3	40
+goto		AFL	American Fuzzy Lop
