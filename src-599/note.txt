@@ -959,3 +959,95 @@ com		Code Coverage	Source Code Assisted Measurement	3	40
 com		Code Coverage	Block Measurement	3	40
 com		American Fuzzy Lop		3	40
 goto		AFL	American Fuzzy Lop
+com		OS Market Share		3	42
+com		Control Flow Guard		3	42
+goto		CFG	Control Flow Guard
+com		Desktop Browser Market Share		3	43
+com		Use After Free		3	43
+goto		UAF	Use After Free
+com		MemGC		3	43
+com		Ivanti		3	45
+com		Shavlik		3	45
+com		Patch Tuesday		3	46
+com		Interactive Disassembler Pro	3	46
+goto		IDA Pro	Interactive Disassembler Pro
+com		BinDiff		3	46
+com		Exploit Wednesday		3	46
+com		Windows as a Service		3	47
+goto		WaaS	Windows as a Service
+com		Cumulative Updates		3	47
+com		Feature Update		3	47
+com		Quality Update		3	47
+com		Windows as a Service	Servicing Branches	3	48
+com		Windows as a Service	Current Branch (CB)	3	48
+com		Windows as a Service	Current Branch for Business (CBB)	3	48
+com		Windows as a Service	Long-Term Servicing Branch (LTSB)	3	48
+com		Windows Server Update Service		3	49
+goto		WSUS	Windows Server Update Service
+com		Windows Update for Business		3	49
+goto		WUB	Windows Update for Business
+com		PatchLink		3	49
+com		Lumension		3	49
+com		Patch Distribution		3	49
+com		1-Day Exploit		3	50
+com		Reverse Engineering Updates		3	50
+com		Metasploit		3	50
+com		Core Impact		3	50
+com		SAINT Exploit		3	50
+com		Immunity Canvas		3	50
+com		Microsoft Knowledge Base		3	51
+com		Obtaining Microsoft Patches		3	51
+com		Patch types		3	52
+com		.msu		3	52
+com		.exe		3	52
+com		Extraction Tool for .exe Patches		3	53
+com		General Distribution Release		3	53
+goto		GDU	General Distribution Release
+com		Quick Fix Engineering		3	53
+goto		QFE	Quick Fix Engineering
+com		General Distribution Release		3	54
+com		Quick Fix Engineering		3	54
+com		Extraction Tool for .msu Patches		3	55
+com		Cabinet File		3	56
+goto		.cab	Cabinet File
+com		Cumulative Updates		3	58
+com		Greg Linares		3	58
+com		@Laughing_Mantis		3	58
+com		Greg Linares		3	60
+com		PatchExtract125		3	60
+com		PatchClean		3	61
+com	Microsoft Security Bulletin	MS17-001		3	63
+com		Patch Diffing		3	64
+com		1-Day Exploit		3	64
+com		Binary Diffing Tools		3	65
+com		BinDiff		3	65
+com		Turbodiff		3	65
+com		DarunGrim 4		3	65
+com		Patchdiff2		3	65
+com		Diaphora		3	65
+com	Windows API	LoadLibraryExW		3	67
+com		dwFlags		3	67
+com		Uninstall a Patch		3	68
+com		Exploit Mitigation Controls		3	70
+com		Exploit Mitigation Controls	OS Controls	3	70
+com		Exploit Mitigation Controls	Compile Time Controls	3	70
+com		Stack Memory Allocation		3	73
+com		Stack Frame		3	73
+com		Stack Memory Allocation		3	74
+com		Stack Overflow		3	75
+com		Stack Overflow		3	76
+com		Address Space Layout Randomization		3	78
+goto		ASLR	Address Space Layout Randomization
+com		randomize_va_space		3	78
+com		DynamicBase		3	78
+com		Data Execution Prevention		3	79
+goto		DEP	Data Execution Prevention
+com		eXecute Disable		3	79
+goto		XD	eXecute Disable
+com		No eXecute		3	79
+goto		NX	No eXecute
+com		Safe Structured Exception Handling		3	80
+goto		SafeSEH	Safe Structured Exception Handling
+com		Safe Structured Exception Handling		3	81
+com		ntdll.dll		3	81
+com		Safe Structured Exception Handling		3	82
