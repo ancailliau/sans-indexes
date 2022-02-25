@@ -1051,3 +1051,33 @@ goto		SafeSEH	Safe Structured Exception Handling
 com		Safe Structured Exception Handling		3	81
 com		ntdll.dll		3	81
 com		Safe Structured Exception Handling		3	82
+com		Structured Exception Handling Overwrite Protection		3	83
+goto		SEHOP	Structured Exception Handling Overwrite Protection
+com		Enhanced Mitigation Experience Toolkit		3	83
+goto		EMET	Enhanced Mitigation Experience Toolkit
+com		Exploit Guard		3	83
+com		nSEH Pointer		3	83
+com		Control Flow Guard		3	84
+goto		CFG	Control Flow Guard
+com		Return Oriented Programming		3	84
+goto		ROP	Return Oriented Programming	3	84
+com		Return Oriented Programming		3	85
+com		Control Flow Guard		3	85
+com	Windows API	VirtualAlloc		3	85
+com	Windows API	VirtualProtect		3	85
+com		Gadgets		3	85
+com		Stack Canaries		3	86
+com		Security Cookie		3	86
+com		Control Flow Integrity		3	87
+goto		CFG	Control Flow Integrity
+com		Shadow Stack		3	87
+com		Indirect Branch Tracking		3	87
+com		Stack Shield		3	87
+com		GRSecurity		3	87
+ttt_com	Assembly	CALL		3	87
+ttt_com	Assembly	ENDBR32		3	87
+ttt_com	Assembly	ENDBR64		3	87
+com		Exploit Mitigation Quick Reference		3	88
+com		Exploit Guard		3	92
+com		Enhanced Mitigation Experience Toolkit		3	92
+com		Exploit Guard	Application Testing	3	93
