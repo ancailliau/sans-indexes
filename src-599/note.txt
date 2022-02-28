@@ -1218,3 +1218,62 @@ com	Malware	C99 web shell		3	135
 com		GIF89a		3	135
 com		Web Shells	Prevent	3	136
 com		Web Shells	Detect	3	136
+com		Task Schedulers		3	137
+com		at		3	137
+com		schtasks		3	137
+com		Window Task Scheduler		3	137
+com	Malware	Shamoon		3	137
+com	Malware	Shamoon	Windows Admin Share	3	137
+com	Malware	Remsec		3	137
+com		ProjectSauron		3	137
+com		Strider		3	137
+com		Metasploit Meterpreter	Automated Persistence	3	138
+com	Ransomware	Petya	at	3	138
+com	Ransomware	(Not)Petya	at	3	138
+com		CopyKittens	RAT	3	138
+com		Task Schedulers	Examples	3	138
+com		Task Schedulers Prevent	3	139
+com		Task Schedulers	Detect	3	139
+com		PowerShell	Constrained Language Mode	3	139
+com		Application Whitelisting		3	139
+com	Windows Event ID	106	Scheduled task registered	3	139
+com	Windows Event ID	140	Scheduled task updated	3	139
+com	Windows Event ID	141	Scheduled task removed	3	139
+com		Sysinternals Autoruns		3	139
+com		OSQuery		3	139
+com		Registry Manipulation		3	140
+com		Run Keys		3	140
+com		Logon Scripts		3	140
+com		Lazarus Group		3	140
+com	Malware	RomeoAlfa		3	140
+com	Malware	FLASHFLOOD		3	140
+com	Malware	JHUHUGIT		3	140
+com		Registry Manipulation	Examples	3	141
+com		Metasploit		3	141
+com		Empire		3	141
+com		COBALT		3	141
+com		Registry Manupulation	Prevent	3	142
+com		Registry Manupulation	Detect	3	142
+com		Sysinternals Autoruns		3	142
+com		OSQuery		3	142
+com	Windows Event ID	4657		3	142
+com		Windows Services		3	143
+com		sc.exe		3	143
+com		Reg		3	143
+com	Malware	Carbanak		3	143
+com		Lazarus Group		3	143
+com		Windows Services	Examples	3	144
+com	Malware	Shamoon 2		3	144
+com		NtertSrv		3	144
+com		Cobalt Strike		3	144
+com		Windows Services	Prevent	3	145
+com		Windows Services	Detect	3	145
+com	Windows Event ID	4697	New Service Created	3	145
+com		Sysinternals Autoruns		3	145
+com		OSQuery		3	145
+com		DLL Search Order Hijacking		3	146
+com		Operation Groundbait		3	146
+com	Malware	Prikormka		3	146
+com		ntshrui.dll		3	146
+com	Malware	Downdelph		3	146
+com		sysprep.exe		3	146
