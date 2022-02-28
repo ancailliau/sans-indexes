@@ -249,13 +249,13 @@ com		Purple Team	Approach	1	73
 com		Purple Team	Practical Implementation	1	74
 com			Effective security controls		1	75
 com		MITRE		1	78
-com		ATT&CK		1	78
-com		ATT&CK	Entry	1	79
-com		ATT&CK	T1122	1	79
+com		ATT\&CK		1	78
+com		ATT\&CK	Entry	1	79
+com		ATT\&CK	T1122	1	79
 com		COM Object Hijacking	T1122	1	79
 com		COM Object Hijacking	Defense Evasion	1	79
 com		COM Object Hijacking	Persistence	1	79
-com		ATT&CK Navigator		1	80
+com		ATT\&CK Navigator		1	80
 com		MetaSploit		1	81
 com		Empire		1	81
 com		PowerShell Empire		1	81
@@ -369,7 +369,7 @@ com		Network Segmentation		1	103
 com		Host-Based Firewalls		1	103
 com		Host-Based Firewalls	Quick Wins	1	103
 com		Hardening Considerations		1	104
-com		Hardenings Considerations	NIST Checklist	1	105
+com		Hardening Considerations	NIST Checklist	1	105
 com		NIST Checklist		1	105
 com		National Checklist Program		1	105
 com		NIST Checklist	Security Content Automation Protocol	1	105
@@ -1137,7 +1137,7 @@ com	Windows API	VirtualAlloc		3	106
 com	Windows API	VirtualProtect		3	106
 com		Validate API Invocation		3	107
 ttt_com	Assembly	CALL		3	107
-ttt_com	Assemble	RET		3	107
+ttt_com	Assembly	RET		3	107
 com	Windows API	VirtualAlloc		3	107
 com	Windows API	VirtualProtect		3	107
 com		Caller Check		3	107
