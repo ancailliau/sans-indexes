@@ -1277,3 +1277,84 @@ com	Malware	Prikormka		3	146
 com		ntshrui.dll		3	146
 com	Malware	Downdelph		3	146
 com		sysprep.exe		3	146
+com		DLL Search Order Hijacking		3	147
+com		SafDllSearchMode	enabled	3	147
+com		SafDllSearchMode	disabled	3	147
+com		KnownDLLs		3	147
+com		DLL Search Order Hijacking	Detection	3	148
+com		DLL Search Order Hijacking	Prevention	3	148
+com		Powerup		3	148
+com		WMI Event Subscriptions		3	149
+com		Web-Based Enterprise Management		3	149
+goto		WBEM	Web-Based Enterprise Management
+com		WMI Event Subscriptions	EventConsumers	3	149
+com		WMI Event Subscriptions	EventFilters	3	149
+com		WMI Event Subscriptions	EventFilterToConsumer	3	149
+com	Malware	Stuxnet	WMI Event Subscriptions	3	149
+com	Malware	SEADADDY	WMI Event Subscriptions	3	149
+com		Common Information Model		3	149
+goto		CIM	Common Information Model	3	149
+com		WMI	Common Information Model	3	149
+com		WMI Event Subscriptions	EventConsumers	3	150
+com		WMI Event Subscriptions	EventFilterToConsumer	3	150
+com	Malware	Stuxnet	WMI Event Subscriptions	3	150
+com	Malware	SEADADDY	WMI Event Subscriptions	3	150
+com	Microsoft Security Bulletin	MS10-061		3	151
+com	Malware	Stuxnet	WMI Event Subscriptions	3	151
+com		.mof		3	151
+com	Malware	SEADADDY	WMI Event Subscriptions	3	151
+com		WMI Event Subscriptions	Prevent	3	152
+com		WMI Event Subscriptions	Detect	3	152
+com		SysMon	Event ID 19	3	152
+com		SysMon	Event ID 20	3	152
+com		SysMon	Event ID 21	3	152
+com		Bootkit		3	153
+com		Master Boot Record		3	153
+goto		MBR	Master Boot Record
+com		Volume Boot Record		3	153
+goto		VBR	Volume Boot Record
+com		APT-28	Bootkit	3	153
+com		Lazarus Group	Bootkit	3	153
+com	Malware	WhiskeyAlfa-Three		3	153
+com		APT-28	Bootkit		3	154
+com	Malware	Downdelph		3	154
+com		Bootkit	Prevent	3	155
+com		Bootkit	Detect	3	155
+com		Trusted Platform Module		3	155
+goto		TPM	Trusted Platform Module
+com		Persistence	Prevent	3	156
+com		Persistence	Detect	3	157
+com		SysInternals	Autoruns	3	157
+com		SysInternals	Autoruns	3	158
+com		SysInternals	Autoruns	3	159
+com		Autoruns to WinEventLog		3	160
+com		AutorunsToWinEventLog		3	160
+com		OSQuery		3	161
+com		Kolide Fleet		3	161
+com		Command & Control Channels		3	165
+goto		C2 channel	Command & Control Channel	3	165
+com		Command & Control Channels	Detect	3	166
+com		Command & Control Channels	Prevent	3	166
+com		Command & Control Channels	Domain Fronting	3	167
+com		Command & Control Channels	Domain Fronting	3	168
+com		HAMMERTOSS		3	169
+com		Command & Control Channels	HAMMERTOSS	3	169
+com		Command & Control Channels	Steganography	3	169
+com		Command & Control Channels	Twitter	3	169
+com		Command & Control Channels	DropSmack	3	170
+com		Command & Control Channels	Prevent	3	171
+com		Command & Control Channels	Detect	3	172
+com		Mark Bagget		3	174
+com		freq.py		3	174
+com		Domain Generation Algorithm		3	174
+goto		DGA	Domain Generation Algorithm	3	174
+com		Real Intelligence Threat Analytics		3	175
+goto		RITA	Real Intelligence Threat Analytics	3	175
+com		JA3		3	176
+com		Flare		3	177
+com		Austin Taylor		3	177
+com		ElasticBeacon		3	177
+com		Flare		3	178
+com		Austin Taylor		3	178
+com		ElasticBeacon		3	178
+com		Flare		3	179
