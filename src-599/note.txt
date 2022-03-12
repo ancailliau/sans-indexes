@@ -1358,3 +1358,101 @@ com		Flare		3	178
 com		Austin Taylor		3	178
 com		ElasticBeacon		3	178
 com		Flare		3	179
+com		Common Lateral Movement Strategies		4	3
+com		Smokescreen study		4	3
+com		Active Directory	Key Feature	4	6
+com		Active Directory	Forest vs Domain security boundary	4	6
+com		Active Directory	Key Feature	4	7
+com		Active Directory	Identification	4	7
+com		Active Directory	Authentication	4	8
+com		Active Directory	Authorization	4	9
+com		Active Directory	Main Authentication Mechanism	4	10
+com		Kerberos		4	10
+com		Kerberos Distribution Center		4	10
+goto		KDC	Kerberos Distribution Center
+com		NTLMv2		4	10
+com		Kerberos	Ticket-granting-ticket	4	10
+com		Ticket-granting-ticket		4	10
+com		Kerberos	Ticket-granting-ticket	4	11
+com		Kerberos	Authentication Server	4	11
+com		Authentication Server		4	11
+goto		AS	Authentication Server
+com		Kerberos Distribution Center		4	11
+goto		TGT	Ticket-granting-ticket
+com		Kerberos	Ticket Granting Service	4	11
+com		Ticket Granting Service		4	11
+goto		TGS	Ticket Granting Service
+com		NTLMv2	Challenge/Response authentication	4	12
+com		Active Directory	Credential Storage	4	13
+com		ntds.dit		4	13
+com		Extensible Storage Engine		4	13
+goto		ESE	Extensible Storage Engine
+com		NTLM One-WayvFunction		4	13
+goto		NTOWF	NTLM One-Way Function
+com		NTLM hashing function		4	13
+com		LM Hashing		4	13
+goto		LMOWF	LM Hashing
+com		Active Directory	Commonly used groups	4	14
+com		Active Directory	Schema Admin	4	14
+com		Active Directory	Enterprise Admin	4	14
+com		Active Directory	Domain Admin	4	14
+com		Active Directory	Backup Operators	4	14
+com		Active Directory	Remote Desktop Users	4	14
+com		Active Directory	Domain Users	4	14
+com		Active Directory	Security Identifier	4	15
+com		Security Identifier		4
+goto		SID	Security Identifier
+com		Relative ID		4	15
+goto		RID	Relative ID
+com		Windows Access Tokens		4	16
+com		Windows Access Tokens	Security Context	4	16
+com		Windows Access Tokens	Primary Token	4	16
+com		Windows Access Tokens	Impersonation Token	4	16
+com		Windows Access Tokens	Impersonation Token	4	17
+com		Single Sign-On		4	17
+goto		SSO	Single Sign-On
+com		RSA SecurID		4	18
+com		WikID		4	18
+com		Active Directory	One-Way Trust	4	20
+com		Vincent Le Toux		4	21
+com		PingCastle		4	21
+com		Least Privilege		4	24
+com		Least Privilege	Principles	4	26
+com		Active Directory	Administrative Access	4	27
+com		Just Enough Administration		4	28
+goto		JEA	Just Enough Administration	4	28
+com		Role Capability Files		4	28
+com		PowerShell Session configuration File		4	28
+com		JEA Helper		4	29
+com		Active Directory	Tiered Admin Model	4	30
+com		Privileged Access Workstations		4	31
+com		Active Directory	Local Users and Groups	4	32
+com		Local Administrator Password Solution		4	33
+goto		LAPS	Local Administrator Password Solution
+com		Active Directory	LAPS	4	33
+com		User Account Control		4	34
+goto		UAC	User Account Control
+com		User Account Control	Levels	4	35
+com		User Account Control	Group Policy Settings	4	36
+com		secpol.msc		4	36
+com		User Account Control	Admin Approval Mode	4	36
+com		User Interface Accessibility		4	36
+com		User Account Control	Group Policy Settings	4	37
+com		User Account Control	Behavior of the elevevation prompt for administrators in Admin Approval Mode	4	37
+com		User Account Control	Behavior of the elevation prompt for standard users	4	37
+com		User Account Control		4	37
+com		User Account Control	Group Policy Settings	4	38
+com		User Account Control	Detect application installations and prompt for elevation	4	39
+com		User Account Control	Only elevate executable files that are signed and validated	4	39
+com		User Account Control	Only elevate UIAccess application that are installed in secure locations	4	39
+com		User Account Control	Group Policy Settings	4	39
+com		User Account Control	Bypass Techniques	4	40
+com		UACME		4	40
+com		Separate Accounts for Administrators		4	41
+com		Windows Privilege Escalation	Unquoted Paths with spaces	4	46
+com		Windows Privilege Escalation	Unquoted Paths with spaces	4	47
+com		Windows Privilege Escalation	Unattended Install Files	4	48
+com		Unattend.xml		4	48
+com		Group Policy Preferences		4	49
+goto		GPP	Group Policy Preferences
+com	Microsoft Security Bulletin	MS14-025		4	49
