@@ -256,7 +256,7 @@ com		COM Object Hijacking	T1122	1	79
 com		COM Object Hijacking	Defense Evasion	1	79
 com		COM Object Hijacking	Persistence	1	79
 com		ATT\&CK Navigator		1	80
-com		MetaSploit		1	81
+com		Metasploit		1	81
 com		Empire		1	81
 com		PowerShell Empire		1	81
 com		EmPyre		1	81
@@ -1456,3 +1456,101 @@ com		Unattend.xml		4	48
 com		Group Policy Preferences		4	49
 goto		GPP	Group Policy Preferences
 com	Microsoft Security Bulletin	MS14-025		4	49
+com		Group Policy Preferences		4	50
+com		Metasploit		4	50
+com		BeRoot.exe		4	51
+com		PowerUp		4	51
+com		Domain Cached Credentials		4	55
+com		LSASS		4	55
+goto		Local Security Authority Subsystem Service LSASS
+com		LSASS		4	56
+com		Incognito		4	56
+com		LSASS	Steal Access Tokens	4	56
+com		Metasploit		4	56
+com		Luke Jennings		4	56
+com		Rotten Potato		4	56
+com		Incognito		4	57
+com		LSASS	Steal Access Tokens	4	57
+com		Metasploit		4	57
+com		Domain Cached Credentials		4	58
+com		Cached Credentials	Default Settings	4	58
+com		LSASS	Steal Credentials		4	59
+com		Mimikatz		4	59
+com		Benjamin Delpy		4	60
+com		Vincent Le Toux		4	60
+com		Mimikatz		4	60
+com		LSA Process		4	60
+com	Ransomware	(Not)Petya		4	61
+com		Mimikatz		4	61
+com		Metasploit		4	61
+com		Empire		4	61
+com		Mimikatz		4	62
+com		Mimikatz	privilege::debug	4	62
+com		Mimikatz	lsadump::lsa /inject	4	62
+com		LSA process		4	62
+com		Mimikatz	lsadump:lsa /patch	4	62
+com		Pass-the-Hash		4	64
+goto		PtH	Pass-the-Hash
+com		Mimikatz	Pass-the-Hash	4	64
+com		Windows Credential Editor	Pass-the-Hash	4	64
+com		Kerberos		4	64
+com		NTLM		4	64
+com		Microsoft	Advisory 2871997	4	64
+com		Pass-the-Hash	Details	4	65
+com		Single Sign-On	LSASS	4	65
+com		Kerberos.dll		4	65
+com		msv1_0.dll		4	65
+com		wdigest.dll		4	65
+com		Benjamin Delpy		4	65
+com		Pass-the-Hash	Example	4	66
+com		Mimikatz	Pass-the-Hash Example	4	66
+com		Mimikatz	sekurlsa::pth	4	66
+com		Pass-the-Ticket		4	67
+goto		PtT	Pass-the-Ticket
+com		Kerberos	Pass-the-Ticket	4	67
+com		Mimikatz	Pass-the-Ticket	4	67
+com		Mimikatz	kerberos::tgt	4	67
+com		Mimikatz	kerberos::list /export	4	67
+com		Mimikatz	.kirbi	4	67
+com		.kirbi		4	67
+com		Prevent Credential Dumping		4	68
+com		Domain Protected Users		4	69
+com		Creential Delegation		4	69
+goto		CredSSP	Credential Delegation
+com		Windows Digest		4	69
+goto		Wdigest	Windows Digest
+com		Protected Processes		4	70
+com		PsProtectedSignerLsa-Light		4	70
+com		Protected Processes	Configure	4	71
+com		Protected Processes	Mimikatz	4	72
+com		Mimikatz	Protected Processes	4	72
+com		Mimikatz	!processprotect		4	72
+com		Windows	Architecture	4	73
+com		Credential Guard		4	74
+com		Virtualization Based Security		4	74
+goto		VBS	Virtualization Based Security
+com		LSA_ISO_RPC_SERVER		4	74
+com		IsoLsa.exe		4	74
+com		trustlets		4	74
+com		Virtual Secure Mode		4	74
+com		LsaIso.exe		4	75
+com		Virtual Secure Mode		4	75
+com		Credential Guard	How Does It Work	4	75
+com		Credential Guard	Pass-the-Hash	4	78
+com		ntds.dit		4	78
+com		Mimikatz	mimilib	4	79
+com		Mimikatz	Steal credentials on systems with Credential Guard	4	79
+com		Remote Credential Guard		4	80
+com		Restructed Admin		4	80
+com		Remote Credential Guard		4	81
+com		Restricted Admin		4	81
+com		Remote Credential Guard	Kerberos	4	81
+goto		RCG	Remote Credential Guard
+com		Kerberos	Remote Credential Guard	4	81
+com		BloodHound		4	85
+com		BloodHound	Queries	4	86
+com		BloodHound	Ingestors	4	86
+com		BloodHound	Sharphound	4	86
+com		Sharphound		4	86
+com		BloodHound	Prevent	4	88
+com		BloodHound	Detect	4	88
