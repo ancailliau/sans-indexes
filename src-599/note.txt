@@ -1554,3 +1554,75 @@ com		BloodHound	Sharphound	4	86
 com		Sharphound		4	86
 com		BloodHound	Prevent	4	88
 com		BloodHound	Detect	4	88
+com		Kerberos	rc4_hmac_md5	4	92
+com		Kerberos	dec_cbc_md5	4	92
+com		Kerberos	aes128_hmac	4	92
+com		Kerberos	aes256_hmac	4	92
+com		Kerberos	AS-REQ	4	92
+com		Kerberos	AS-REP	4	92
+com		Kerberos	TGS-REQ	4	92
+com		Kerberos	TGS-REP	4	92
+com		Kerberos	ST	4	92
+com		Kerberos	des_cbc_crc	4	94
+com		Kerberos	des_cbc_md5	4	94
+com		Kerberos	rc4_hmac_md5	4	94
+com		Kerberos	AES128_HMAC_SHA1	4	94
+com		Kerberos	AES256_HMAC_SHA1	4	94
+com		Kerberos	Authentication Server	4	96
+com		Kerberos	Key Distribution Center	4	96
+com		Kerberos	AS-REQ	4	96
+com		Kerberos	pre-authentication	4	96
+com		Kerberos	AS-REP	4	96
+com		Kerberos	Ticket Granting Ticket	4	97
+com		Kerberos	Privilege Account Certificate	4	97
+com		Kerberos	Privilege Attribute Certificate	4	97
+com		Kerberos	Service Ticket	4	98
+com		MS-KILE		4	99
+com		Kerberos	PAC Validation	4	99
+com		Kerberos	3 important keys	4	100
+com		Kerberoasting		4	101
+com		Kerberoasting		4	102
+com		Kerberoasting	Target Service Accounts	4	103
+com		Empire	Invoke-Kerberoast	4	104
+com		Kerberoasting	Mimikatz	4	104
+com		Kerberoasting	Tim Medin	4	104
+com		Kerberoasting	Empire	4	104
+com		Kerberoasting	Defend	4	105
+com	Windows Event ID	4769	Kerberos Service Ticket Request	4	105
+com		Silver Ticket		4	106
+com		Kerberos	Silver Ticket	4	106
+com		Silver Ticket	Mimikatz	4	106
+com		Silver Ticket	Defend	4	107
+com	Windows Event ID	4624	Logon	4	107
+com	Windows Event ID	4634	Logoff	4	107
+com	Windows Event ID	4672	Admin Logon	4	107
+com		PAC	Enable	4	107
+com		Over-Pass-the-Hash		4	108
+com		Over-Pass-the-Hash	Defend	4	109
+com	Windows Event ID	4648	Account login with explicit credentials	4	113
+com	Windows Event ID	4648	Account login with explicit credentials	4	114
+com		JPCERT paper		4	115
+com	Windows Event ID	4688	A new process has been created	4	117
+com	Windows Event ID	4689	A process has exited	4	117
+com		SIGMA	Over-Pass-the-Hash	4	119
+com		SIGMA	Kerberos RC4	4	120
+com	Windows Event ID	4769	Kerberos Service Ticket Request	4	120
+com		Zeek	Detect Lateral Movement	4	121
+com		Microsoft Advanced Threat Analytics		4	122
+goto		ATA Microsoft Advanced Threat Analytics
+com		Active Defense Harbinger Distribution		4	125
+goto		ADHD	Active Defense Harbinger Distribution
+com		Honeypot		4	128
+com		Honeypot	Key Factors	4	129
+com		Honeypot	HoneyBadger	4	130
+com		Honeypot	Artillery	4	131
+com		Honeypot	Kippo Fake SSH	4	132
+com		Honeypot	Cowrie	4	132
+com		Canaries		4	134
+com		Canaries	Fake Administrative Account	4	135
+com		Canaries	HoneyHash	4	136
+com		Canaries	Fooling The Hound	4	137
+com		Canaries	ResponderGuard	4	138
+com		Canaries	Fake Documents	4	139
+com		Canaries	Canarytokens	4	141
+com		Canaries	Javelin AD|Protect	4	145
