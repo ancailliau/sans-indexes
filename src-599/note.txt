@@ -1626,3 +1626,62 @@ com		Canaries	ResponderGuard	4	138
 com		Canaries	Fake Documents	4	139
 com		Canaries	Canarytokens	4	141
 com		Canaries	Javelin AD|Protect	4	145
+com		ntds.dit	Accessing backup file	5	4
+com		ntds.dit	Encryption keys	5	4
+com		ntdsxtract		5	4
+com		secretsdump		5	4
+com		Create domain admin	5	5
+com		Golden Ticket		5	7
+com		Golden Ticket	Kerberos Flow	5	8
+com		Golden Ticket	Properties	5	9
+com		Golden Ticket talk		5	9
+com		Golden Ticket	Create with Mimikatz	5	10
+com		Mimikatz	Create Golden Ticket	5	10
+com		Mimikatz	Kerberos::golden	5	10
+com		Mimikatz	Kerberos::ptt golden.ticket.bin	5	11
+com		Mimikatz	Kerberos::list	5	11
+com		Golden Ticket	Mitigate	5	11
+com		Skeleton Key		5	12
+com		Mimikatz	Skeleton Key	5	12
+com		Mimikatz	misc::skeleton	5	13
+com		DCSync		5	14
+com		Mimikatz	kerberos::dcsync	5	15
+com		Directory Replication Service Remote		5	15
+goto		MS-DRSR	Directory Replication Service Remote
+com		DCShadow		5	16
+com		Mimikatz	token::elevate	5	17
+com		Mimikatz	lsadump::dsshadow	5	17
+com		Mimikatz	lsadump::dsshadow	5	18
+com	Windows Event ID	4728	A member was added to a security-enabled global group	5	20
+com		Domain Dominance	Detect Domain Admin Added	5	20
+com		Domain Dominance	Detect Skeleton Key	5	21
+com		Mimikatz	Skeleton Key - Only RC4	5	21
+com		Aorato Skeleton Key		5	21
+com	Windows Event ID	4769	Kerberos Service Ticket Request	5	22
+com		Domain Dominance	Detect Golden Ticket	5	22
+com		klist		5	23
+com		Domain Dominance	Detect DCSync	5	24
+com		Domain Dominance	Detect DCShadow	5	25
+com	Windows Event ID	5137	A directory service object was created	5	25
+com	Windows Event ID	5141	A directory serviceo bject was deleted	5	25
+com		UncoverDCShadow		5	25
+com	Malware	Carbanak		5	33
+com		Search Interesting Data	dir /s	5	34
+com		dir /s	5	34
+com		Search Interesting Data	Get-ChildItem	5	34
+com		Get-ChildItem		5	34
+com		Search Interesting Data	Invoke-Command	5	35
+com		Invoke-Command		5	35
+com		Search Interesting Data	ClamAV	5	36
+com		Search Interesting Data	YARA	5	36
+com		Search Interesting Data	YARA	5	37
+com		Data Enumeration	Prevent	5	38
+com		Data Enumeration	Detect	5	38
+com		Data Classification	Levels	5	40
+com		Offline Data		5	41
+com		Offline Data		5	42
+com		Hardware Security Module	5	43
+com		DigiNotar	2011 Breach	5	44
+com		Canaries	Fake Documents	5	45
+com		Decoy Files		5	45
+com		Detect Network Exfiltration	5	54
