@@ -1684,4 +1684,29 @@ com		Hardware Security Module	5	43
 com		DigiNotar	2011 Breach	5	44
 com		Canaries	Fake Documents	5	45
 com		Decoy Files		5	45
-com		Detect Network Exfiltration	5	54
+com		Prevent Network Exfiltration		5	53
+com		Detect Network Exfiltration		5	54
+com		Detect Network Exfiltration	Signature-Based	5	55
+com		Detect Network Exfiltration	Behavior-Based	5	56
+com		Detect Network Exfiltration	Behavior-Based	5	58
+com		Detect Network Exfiltration	Behavior-Based	5	59
+com		Bro Exfil detection framework		5	59
+com		Risk definition		5	65
+com		Threat Intelligence definition		5	66
+com		Threat Intelligence	Strategic	5	67
+com		Threat Intelligence	Operational	5	67
+com		Threat Intelligence	Tactical	5	67
+com		Threat Intelligence	Problems	5	68
+com		Pyramid of Pain		5	69
+com		Threat Intelligence	Obtain	5	76
+com		MISP		5	79
+com		MISP	Event	5	80
+com		Threat Intelligence	Operationalize	5	86
+com		Loki IOC Scanner		5	87
+com		Thor IOC Scanner		5	87
+com		Loki IOC Scanner	Scoring mechanism	5	88
+com		Thor IOC Scanner	Scoring mechanism	5	88
+com		Loki IOC Scanner	CLI	5	89
+com		Loki IOC Scanner	CLI	5	90
+com		Loki IOC Scanner	Output	5	91
+com		Loki IOC Scanner	Output	5	92
