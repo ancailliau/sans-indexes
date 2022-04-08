@@ -1710,3 +1710,55 @@ com		Loki IOC Scanner	CLI	5	89
 com		Loki IOC Scanner	CLI	5	90
 com		Loki IOC Scanner	Output	5	91
 com		Loki IOC Scanner	Output	5	92
+com		Loki IOC Scanner	Administrative mode	5	93
+com		Loki IOC Scanner	False Positive whitelist	5	94
+com		Real-time detections	Technologies	5	99
+com		Real-time detections	Issues	5	101
+com		Security Alert Fatigue		5	101
+com		Real-time detections	Issues	5	102
+com		Real-time detections	Issues	5	103
+com		Threat Hunting vs Real-Time detections		5	105
+com		Threat Hunting	Maturity Model	5	106
+com		Threat Hunting	The Sliding Scale of Cyber Security	5	107
+com		Threat Hunting	The Sliding Scale of Cyber Security	5	108
+com		Threat Hunting	Critical Success Factors	5	109
+com		Threat Hunting	Overall Process	5	110
+com		Threat Hunting	Hypotheses	5	111
+com		Threat Hunting	Automation	5	112
+com		Threat Hunting	Log Collection	5	113
+com		PSHunt		5	114
+com		Threat hunting	Data Visualization	5	115
+com		Incident Response	Process	5	120
+com		Incident Response	Members of the CIRT	5	121
+com		Incident Response	Key Objectives	5	122
+com		Incident Response	6-step IR process	5	123
+com		OODA loop		5	124
+com		Incident Response	OODA loop	5	124
+com		Incident Response Process	1. Preparation	5	125
+com		Incident Response Process	1. Preparation	5	126
+com		Incident Response Process	1. Preparation	5	127
+com		Incident Response Playbooks		5	128
+com		Incident Response Process	2. Identification	5	130
+com		Incident Response Process	3. Containment	5	131
+com		Incident Response Process	4. Eradication	5	132
+com		Incident Response Process	5. Recovery	5	133
+com		Incident Response Process	6. Lessons Learned	5	134
+com		SANS SIFT Workstation		5	138
+com		Volatility		5	139
+com		Volatility		5	140
+com		Volatility		5	141
+com		Volatility		5	142
+com		Volatility		5	143
+com		Autopsy		5	144
+com		Sleuth Kit	5	144
+com		GRR		5	145
+com		GRR		5	146
+com		GRR		5	147
+com		Assemblyline	5	148
+com		TheHive		5	149
+com		Cortex		5	150
+com		Kansa		5	151
+com		yarGen		5	153
+com		YaraGenerator	5	153
+com		VirusTotal	5	155
+com		Retro Hunting	5	155
