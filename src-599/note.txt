@@ -156,10 +156,10 @@ com	Microsoft Security Bulletin	MS017-10	EternalBlue	1	47
 com	Ransomware	(Not)Petya	MeDoc	1	47
 com	Ransomware	(Not)Petya	Mimikatz	1	47
 com	Ransomware	(Not)Petya	Master Boot Record	1	47
-com	Ransomware	(Not)Petya	EternalRomance		1	47
-com	Ransomware	(Not)Petya	EternalBlue		1	47
-com	Ransomware	(Not)Petya	TCP/139		1	47
-com	Ransomware	(Not)Petya	TCP/445		1	47
+com	Ransomware	(Not)Petya	EternalRomance	1	47
+com	Ransomware	(Not)Petya	EternalBlue	1	47
+com	Ransomware	(Not)Petya	TCP/139	1	47
+com	Ransomware	(Not)Petya	TCP/445	1	47
 com	Ransomware	(Not)Petya	PsExec	1	47
 com	Ransomware	(Not)Petya	WMIC	1	47
 com		Espionage	Key Drivers	1	49
@@ -326,8 +326,8 @@ com		Snort		1	96
 com		Suricata		1	96
 com		Zeek		1	96
 goto		Bro	Zeek
-com		Passive	(IDS)		1	96
-com		Inline	(IPS)		1	96
+com		Passive (IDS)		1	96
+com		Inline (IPS)		1	96
 com		Suricata		1	97
 com		Architecture Principle 3		1	97
 com		Network Monitoring		1	97
@@ -413,7 +413,7 @@ com		Windows Event Logs	C:\Windows\System32\winevt\Logs\	1	119
 com		Windows Event Logs	EVT	1	119
 com		Windows Event Logs	EVTX	1	119
 com		Windows Event Logs	Standard Logs	1	120
-com	Windows Event ID	4648	Account login with explicit credentials	1	120
+com	Windows Event ID	4648 - Account login with explicit credentials		1	120
 com		Windows Event Logs	Default audit policy	1	121
 com		Windows Event Forwarding		1	123
 goto		WEF	Windows Event Forwarding
@@ -743,7 +743,7 @@ com		regsvr32.exe		2	103
 com		wscript.exe		2	104
 com		cscript.exe		2	104
 com		VBScript	Malware Downloader	2	105
-com		VBScript	Obfuscation		2	105
+com		VBScript	Obfuscation	2	105
 com		Code obfuscation		2	105
 com		String obfuscation		2	105
 com		VBScript Encoding		2	106
@@ -771,7 +771,7 @@ com		Visual Basic for Applications		2	114
 goto		VBA	Visual Basic for Applications
 com		Visual Basic for Applications	Macros	2	115
 com		Visual Basic for Applications	AutoOpen	2	115
-com		Visual Basic for Applications	Declare		2	115
+com		Visual Basic for Applications	Declare	2	115
 com		Visual Basic for Applications	Windows API	2	115
 com		Visual Basic for Applications	Malware Downloader	2	116
 com		Visual Basic for Applications	Malware Dropper	2	116
@@ -795,7 +795,7 @@ com		Visual Basic for Applications	OLE	2	120
 com		OLE file format		2	120
 com		77, 90		2	120
 com	Malware	BlackEnergy	Macro Dropper	2	121
-com		Visual Basic for Applications	Workbook_Activate	2	121
+com		Visual Basic for Applications	Workbook\_Activate	2	121
 com		Visual Basic for Applications	MacroExpl	2	122
 com		Visual Basic for Applications	Shell	2	122
 com	Malware	BlackEnergy	Macro Dropper	2	122
@@ -861,20 +861,20 @@ com		PowerShell	Constrained Language Mode	2	145
 com		System.Management.Automation		2	146
 com		PowerShell	Execute PowerShell without PowerShell.exe	2	146
 com		ReflectivePick		2	146
-com	Windows Event ID	4688	Process Creation	2	151
+com	Windows Event ID	4688 - Process Creation		2	151
 com		Windows Command-Line Logging		2	151
 com		SysMon	Event ID 1	2	152
 com		PowerShell	Monitoring & Logging	2	153
 com		PowerShell	Transcripts	2	154
 com		PowerShell	Start-Transcript	2	154
-com		PowerShell	Microsoft.PowerShell_profile.ps1	2	154
+com		PowerShell	Microsoft.PowerShell\_profile.ps1	2	154
 com		PowerShell	Transcripts	2	155
 com		PowerShell	Start-Transcript	2	155
 com		PowerShell	Logs	2	156
 com		Windows Event Logs	Windows PowerShell	2	156
 com		PowerShell	Script Block Logging	2	157
 com		PowerShell	Script Block Logging	2	158
-com	Windows Event ID	4104	PowerShell	2	158
+com	Windows Event ID	4104 - PowerShell		2	158
 com		PowerShell	Suspicious Commands	2	159
 com		ProcFilter		2	163
 com		ProcFilter	Install	2	164
@@ -1012,7 +1012,7 @@ com		Cabinet File		3	56
 goto		.cab	Cabinet File
 com		Cumulative Updates		3	58
 com		Greg Linares		3	58
-com		@Laughing_Mantis		3	58
+com		@Laughing\_Mantis		3	58
 com		Greg Linares		3	60
 com		PatchExtract125		3	60
 com		PatchClean		3	61
@@ -1038,7 +1038,7 @@ com		Stack Overflow		3	75
 com		Stack Overflow		3	76
 com		Address Space Layout Randomization		3	78
 goto		ASLR	Address Space Layout Randomization
-com		randomize_va_space		3	78
+com		randomize\_va\_space		3	78
 com		DynamicBase		3	78
 com		Data Execution Prevention		3	79
 goto		DEP	Data Execution Prevention
@@ -1111,7 +1111,7 @@ com		Import Address Table		3	101
 goto		IAT	Import Address Table
 com		Global Offset Table		3	101
 goto		GOT	Global Offset Table
-com		lazy linking		3	101
+com		Lazy linking		3	101
 com		Mandatory Address Space Layout Randomization		3	102
 goto		MASLR	Mandatory Address Space Layouy Randomization
 com		DYNAMICBASE		3	102
@@ -1172,7 +1172,7 @@ com	Malware	Duqu		3	111
 com		Block Untrusted Fonts		3	111
 com		Validation Handle Usage		3	112
 com		Disable Extension Points		3	113
-com		AppInit_DLLs		3	113
+com		AppInit\_DLLs		3	113
 com		Disable Win32k System Calls		3	114
 com		Win32j System Call Table		3	114
 com		NT path		3	114
@@ -1192,7 +1192,7 @@ com		Hyper-V		3	118
 com		Enhanced Mitigation Experience Toolkit	Discontinuation	3	119
 com		Operation Snowman		3	119
 com		Enhanced Mitigation Experience Toolkit	FireEye Bypass Disclosure 3	120
-com		FireEye	EMET Bypass Disclosure		3	120
+com		FireEye	EMET Bypass Disclosure	3	120
 com		emet.dll		3	120
 com		DLLMain()		3	120
 com	Windows API	GetModuleHandleW		3	120
@@ -1236,9 +1236,9 @@ com		Task Schedulers Prevent	3	139
 com		Task Schedulers	Detect	3	139
 com		PowerShell	Constrained Language Mode	3	139
 com		Application Whitelisting		3	139
-com	Windows Event ID	106	Scheduled task registered	3	139
-com	Windows Event ID	140	Scheduled task updated	3	139
-com	Windows Event ID	141	Scheduled task removed	3	139
+com	Windows Event ID	106 - Scheduled task registered		3	139
+com	Windows Event ID	140 - Scheduled task updated		3	139
+com	Windows Event ID	141 - Scheduled task removed		3	139
 com		Sysinternals Autoruns		3	139
 com		OSQuery		3	139
 com		Registry Manipulation		3	140
@@ -1268,7 +1268,7 @@ com		NtertSrv		3	144
 com		Cobalt Strike		3	144
 com		Windows Services	Prevent	3	145
 com		Windows Services	Detect	3	145
-com	Windows Event ID	4697	New Service Created	3	145
+com	Windows Event ID	4697 - New Service Created		3	145
 com		Sysinternals Autoruns		3	145
 com		OSQuery		3	145
 com		DLL Search Order Hijacking		3	146
@@ -1316,7 +1316,7 @@ goto		VBR	Volume Boot Record
 com		APT-28	Bootkit	3	153
 com		Lazarus Group	Bootkit	3	153
 com	Malware	WhiskeyAlfa-Three		3	153
-com		APT-28	Bootkit		3	154
+com		APT-28	Bootkit	3	154
 com	Malware	Downdelph		3	154
 com		Bootkit	Prevent	3	155
 com		Bootkit	Detect	3	155
@@ -1474,7 +1474,7 @@ com		LSASS	Steal Access Tokens	4	57
 com		Metasploit		4	57
 com		Domain Cached Credentials		4	58
 com		Cached Credentials	Default Settings	4	58
-com		LSASS	Steal Credentials		4	59
+com		LSASS	Steal Credentials	4	59
 com		Mimikatz		4	59
 com		Benjamin Delpy		4	60
 com		Vincent Le Toux		4	60
@@ -1499,7 +1499,7 @@ com		Microsoft	Advisory 2871997	4	64
 com		Pass-the-Hash	Details	4	65
 com		Single Sign-On	LSASS	4	65
 com		Kerberos.dll		4	65
-com		msv1_0.dll		4	65
+com		msv1\_0.dll		4	65
 com		wdigest.dll		4	65
 com		Benjamin Delpy		4	65
 com		Pass-the-Hash	Example	4	66
@@ -1529,7 +1529,7 @@ com		Windows	Architecture	4	73
 com		Credential Guard		4	74
 com		Virtualization Based Security		4	74
 goto		VBS	Virtualization Based Security
-com		LSA_ISO_RPC_SERVER		4	74
+com		LSA\_ISO\_RPC_SERVER		4	74
 com		IsoLsa.exe		4	74
 com		trustlets		4	74
 com		Virtual Secure Mode		4	74
@@ -1554,20 +1554,20 @@ com		BloodHound	Sharphound	4	86
 com		Sharphound		4	86
 com		BloodHound	Prevent	4	88
 com		BloodHound	Detect	4	88
-com		Kerberos	rc4_hmac_md5	4	92
-com		Kerberos	dec_cbc_md5	4	92
-com		Kerberos	aes128_hmac	4	92
-com		Kerberos	aes256_hmac	4	92
+com		Kerberos	rc4\_hmac\_md5	4	92
+com		Kerberos	dec\_cbc\_md5	4	92
+com		Kerberos	aes128\_hmac	4	92
+com		Kerberos	aes256\_hmac	4	92
 com		Kerberos	AS-REQ	4	92
 com		Kerberos	AS-REP	4	92
 com		Kerberos	TGS-REQ	4	92
 com		Kerberos	TGS-REP	4	92
 com		Kerberos	ST	4	92
-com		Kerberos	des_cbc_crc	4	94
-com		Kerberos	des_cbc_md5	4	94
-com		Kerberos	rc4_hmac_md5	4	94
-com		Kerberos	AES128_HMAC_SHA1	4	94
-com		Kerberos	AES256_HMAC_SHA1	4	94
+com		Kerberos	des\_cbc\_crc	4	94
+com		Kerberos	des\_cbc\_md5	4	94
+com		Kerberos	rc4\_hmac\_md5	4	94
+com		Kerberos	AES128\_HMAC\_SHA1	4	94
+com		Kerberos	AES256\_HMAC\_SHA1	4	94
 com		Kerberos	Authentication Server	4	96
 com		Kerberos	Key Distribution Center	4	96
 com		Kerberos	AS-REQ	4	96
@@ -1588,25 +1588,25 @@ com		Kerberoasting	Mimikatz	4	104
 com		Kerberoasting	Tim Medin	4	104
 com		Kerberoasting	Empire	4	104
 com		Kerberoasting	Defend	4	105
-com	Windows Event ID	4769	Kerberos Service Ticket Request	4	105
+com	Windows Event ID	4769 - Kerberos Service Ticket Request		4	105
 com		Silver Ticket		4	106
 com		Kerberos	Silver Ticket	4	106
 com		Silver Ticket	Mimikatz	4	106
 com		Silver Ticket	Defend	4	107
-com	Windows Event ID	4624	Logon	4	107
-com	Windows Event ID	4634	Logoff	4	107
-com	Windows Event ID	4672	Admin Logon	4	107
+com	Windows Event ID	4624 - Logon		4	107
+com	Windows Event ID	4634 - Logoff		4	107
+com	Windows Event ID	4672 - Admin Logon		4	107
 com		PAC	Enable	4	107
 com		Over-Pass-the-Hash		4	108
 com		Over-Pass-the-Hash	Defend	4	109
-com	Windows Event ID	4648	Account login with explicit credentials	4	113
-com	Windows Event ID	4648	Account login with explicit credentials	4	114
+com	Windows Event ID	4648 - Account login with explicit credentials		4	113
+com	Windows Event ID	4648 - Account login with explicit credentials		4	114
 com		JPCERT paper		4	115
-com	Windows Event ID	4688	A new process has been created	4	117
-com	Windows Event ID	4689	A process has exited	4	117
+com	Windows Event ID	4688 - A new process has been created		4	117
+com	Windows Event ID	4689 - A process has exited		4	117
 com		SIGMA	Over-Pass-the-Hash	4	119
 com		SIGMA	Kerberos RC4	4	120
-com	Windows Event ID	4769	Kerberos Service Ticket Request	4	120
+com	Windows Event ID	4769 - Kerberos Service Ticket Request		4	120
 com		Zeek	Detect Lateral Movement	4	121
 com		Microsoft Advanced Threat Analytics		4	122
 goto		ATA Microsoft Advanced Threat Analytics
@@ -1652,18 +1652,18 @@ com		DCShadow		5	16
 com		Mimikatz	token::elevate	5	17
 com		Mimikatz	lsadump::dsshadow	5	17
 com		Mimikatz	lsadump::dsshadow	5	18
-com	Windows Event ID	4728	A member was added to a security-enabled global group	5	20
+com	Windows Event ID	4728 - A member was added to a security-enabled global group		5	20
 com		Domain Dominance	Detect Domain Admin Added	5	20
 com		Domain Dominance	Detect Skeleton Key	5	21
 com		Mimikatz	Skeleton Key - Only RC4	5	21
 com		Aorato Skeleton Key		5	21
-com	Windows Event ID	4769	Kerberos Service Ticket Request	5	22
+com	Windows Event ID	4769 - Kerberos Service Ticket Request		5	22
 com		Domain Dominance	Detect Golden Ticket	5	22
 com		klist		5	23
 com		Domain Dominance	Detect DCSync	5	24
 com		Domain Dominance	Detect DCShadow	5	25
-com	Windows Event ID	5137	A directory service object was created	5	25
-com	Windows Event ID	5141	A directory serviceo bject was deleted	5	25
+com	Windows Event ID	5137 - A directory service object was created		5	25
+com	Windows Event ID	5141 -	A directory service object was deleted		5	25
 com		UncoverDCShadow		5	25
 com	Malware	Carbanak		5	33
 com		Search Interesting Data	dir /s	5	34
