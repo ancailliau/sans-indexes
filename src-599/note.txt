@@ -185,7 +185,7 @@ com		Phantom COM objects		1	52
 com		COM Search Order Hijacking		1	52
 com		Turla	Satelite Connectivity	1	53
 com		Turla	Command and Control	1	53
-com		Turla	SatLink		1	53
+com		Turla	SatLink	1	53
 com		Turla	Command and Control	1	54
 com		Turla	Instagram	1	54
 com		Turla	Britney Spears	1	54
@@ -1663,7 +1663,7 @@ com		klist		5	23
 com		Domain Dominance	Detect DCSync	5	24
 com		Domain Dominance	Detect DCShadow	5	25
 com	Windows Event ID	5137 - A directory service object was created		5	25
-com	Windows Event ID	5141 -	A directory service object was deleted		5	25
+com	Windows Event ID	5141 - A directory service object was deleted		5	25
 com		UncoverDCShadow		5	25
 com	Malware	Carbanak		5	33
 com		Search Interesting Data	dir /s	5	34
