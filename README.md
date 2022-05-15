@@ -2,23 +2,39 @@
 
 Indexes for the SANS Courses I followed.
 
-To build the index for 508, `./make.sh 508`.
+To build the index for 599, `./make.sh 599`.
 
 | Badge | Course | Certification | Index |
 | -- | -- | -- | -- |
-| ![GREM](https://www.giac.org/images/design/custom/icons/certs/small/grem-gold.png) | FOR610 | GIAC Reverse Engineering Malware (GREM) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-610.pdf) |
-| ![GCFA](https://www.giac.org/images/design/custom/icons/certs/small/gcfa-gold.png) | FOR508 | GIAC Certified Forensic Analyst (GCFA) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-508.pdf) |
-| ![GCTI](https://www.giac.org/images/design/custom/icons/certs/small/gcti-gold.png) | FOR578 | GIAC Cyber Threat Intelligence (GCTI) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-578.pdf) |
-| ![GSEC](https://www.giac.org/images/design/custom/icons/certs/small/gsec-gold.png) | SEC401 | GIAC Security Essentials (GSEC) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-401.pdf) |
-| ![GCIH](https://www.giac.org/images/design/custom/icons/certs/small/gcih-gold.png) | SEC504 | GIAC Certified Incident Handler (GCIH) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-504.pdf) |
-| ![GDAT](https://www.giac.org/images/design/custom/icons/certs/small/gdat-gold.png) | SEC599 | GIAC Defending Advanced Threats (GDAT) | [Index](https://github.com/ancailliau/sans-indexes/blob/main/index-599.pdf) |
+| ![GDAT](https://www.giac.org/images/design/custom/icons/certs/small/gdat-gold.png) | SEC599 | GIAC Defending Advanced Threats (GDAT) | [Index](https://github.com/MadsRC/sans-indexes/releases/download/latest/index-599.pdf) |
 
 You can find many other indexes on the [repository of the original template](https://github.com/dhondta/tex-course-index-template/), e.g.
 
-* [GIAC Systems and Network Auditor (GSNA)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/aud507.pdf)
-* [GIAC Certified Enterprise Defender (GCED)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/sec501.pdf)
-* [GIAC Certified Windows Security Administrator (GCWN)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/sec505.pdf)
-* [GIAC Web Application Penetration Tester (GWAPT)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/sec542.pdf)
-* [GIAC Penetration Tester (GPEN)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/sec560.pdf)
-* [GIAC Critical Controls Certification (GCCC)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/sec566.pdf)
-* [GIAC Mobile Device Security Analyst (GMOB)](https://github.com/dhondta/tex-course-index-template/blob/master/examples/sans/sec575.pdf)
+## How to write notes
+
+You notes go into `src-COURSENUMBER/note.txt` where COURSENUMBER is the number given to
+the course. For SEC599, the course number would be 599.
+
+This file is a text file with tab separated notes. Each line will become a
+separate index entry. Note that the first line of this file is ignore and
+usually contain a header value for reference during note-taking.
+
+The columns of the are as follows
+
+|Column Name|Description|
+|---|---|
+|type|Used to decide which type of entry this is. Can be either `com` for regular entry or `goto` for a reference to another entry. To change the font of the entry to a typewritter/monospaced font, the value of this field can optionally be prepended with `ttt_`|.
+|category|Used to denote if the entry belongs to a category and thus should be listed alongside the rest of the category entries. The value of this field is used as the name of the category. Leave empty if this is just a regular entry.|
+|entry|The actual entry to the index.|
+|subentry|Can be used to create subentries grouped under the same entry.|
+|book|Book, usually a number for the books numer or a `w` for the work-book.|
+|page|Page number.|
+
+The file `src-COURSENUMBER/map.txt` is a tab separated file used to map
+categories to index number. For every category you have in your notes, write
+the category down in this file followed by a tab and an index number. It
+usually looks something like this:
+```
+Ransomware	1
+Malware	2
+```

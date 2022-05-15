@@ -1,0 +1,34 @@
+name: build
+on:
+  push:
+    paths:
+      - lib/*
+      - main.tex
+      - src-*/*
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+      - name: Run build
+        run: sh make.sh 599
+      - uses: actions/upload-artifact@v2
+        with:
+          name: indices
+          path: index-*.pdf
+  release:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: indices
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          files: |
+            index-*.pdf
+

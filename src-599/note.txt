@@ -1,0 +1,1764 @@
+type	category	entry	subentry	book	page
+com		Cybercrime		1	5
+com		Sabotage		1	15
+com		Espionage		1	15
+com		Cybercrime		1	17
+com	Malware	SpyEye		1	17
+com	Malware	Citadel		1	17
+com		Tailored malware		1	17
+com	Malware	Carbanak		1	17
+com		Bangladesh Hack		1	17
+goto		Bangladesh Bank Heist	Bangadesh Hack
+com		Backend banking services		1	17
+com	Malware	Citadel		1	17
+com	Malware	Dridex		1	17
+com	Malware	Zeus		1	17
+com		Ransomware		1	17
+com	Malware	Zeus		1	18
+com		Banking trojans		1	18
+com	Malware	Zeus	Credential-theft attack	1	18
+com	Malware	Zeus	Source code leak	1	18
+com	Malware	Zeus	Ransomware	1	18
+com	Malware	Zeus	Tech Support scams	1	18
+goto	Malware	Zbot	Zeus
+com		Man-in-the-browser		1	18
+com	Ransomware	CryptoLocker		1	18
+com	Malware	Zeus-in-the-mobile		1	18
+goto	Malware	ZitMo	Zeus-in-the-mobile
+com		Mobile Transaction Authentication Numbers		1	18
+goto		mTAN	Mobile Transaction Authentication Numbers
+com	Malware	Carbanak		1	19
+com	Malware	Carbanak	Phishing Email	1	19
+goto	Malware	Anunak	Carbanak
+com		Control Panel items		1	19
+goto		CPL	Control Panel items
+com	Malware	Carberp		1	19
+com		Bangladesh Hack		1	21
+com		Federal Reserve Bank of New York		1	21
+com	Malware	Dridex		1	21
+com		SysMon	Malicious use	1	21
+com		SWIFT		1	21
+com		SWIFT		1	22
+com		VOSTRO		1	22
+com		NOSTRO		1	22
+com		SWIFT		1	23
+com		SWIFT	Technical Architecture	1	23
+com		SWIFT	Messaging Bridge	1	23
+com		SWIFT	Gateway	1	23
+com		SWIFT	NetLink	1	23
+com		NetLink		1	23
+com		Confirmation printer		1	23
+com		Core bank IT systems		1	23
+com		SWIFT	Technical Architecture	1	24
+com		Bangladesh Hack	Compromised SWIFT Messaging Bridge	1	25
+com		Bangladesh Hack	Malware behavior	1	26
+com		Bangladesh Hack	liboradb.dll	1	26
+ttt_com	Assembly	JNZ (Jump if Not Zero)		1	26
+ttt_com	Assembly	NOP (No OPeration)		1	26
+com		SWIFT	SWIFT Alliance software	1	26
+com		Bangladesh Hack	Memory patch	1	26
+com		Bangladesh Hack	Memory patch	1	27
+ttt_com	Assembly	JNZ (Jump if Not Zero)		1	27
+ttt_com	Assembly	EAX		1	27
+ttt_com	Assembly	TEST		1	27
+ttt_com	Assembly	XOR		1	27
+ttt_com	Assembly	MOV		1	27
+ttt_com	Assembly	NOP (No OPeration)		1	27
+com		Bangladesh Hack	Malware behavior	1	28
+com		Bangladesh Hack	Reason for suspicion/investigation	1	28
+com		Bangladesh Hack	Rejected transactions	1	29
+com		Bangladesh Hack	Jupiter	1	29
+com		Bangladesh Hack	Fraud flow	1	29
+com		Bangladesh Hack	Typo	1	29
+com		Bangladesh Hack	Cyber Security Posture	1	30
+com		Customer Security Program	1	30
+goto		CSP	Customer Security Program
+com	Ransomware	Locky		1	31
+com	Ransomware	Cerber		1	31
+com	Ransomware	Jigsaw		1	31
+com	Ransomware	Crysis		1	31
+com	Ransomware	LeChiffre		1	31
+com	Ransomware	Goldeneye		1	31
+com	Ransomware	Petya		1	31
+com	Ransomware	HDDCryptor		1	31
+com	Ransomware	Popcorn Time		1	31
+com	Ransomware	Wcry		1	31
+com	Ransomware	(Not)Petya		1	31
+com		ShadowBrokers		1	31
+com	Ransomware	Wcry	SMB Exploit	1	31
+com	Ransomware	(Not)Petya	SMB Exploit	1	31
+com	Ransomware	(Not)Petya	Mimikatz	1	31
+com	Ransomware	(Not)Petya	PsExec	1	31
+com	Ransomware	(Not)Petya	WMIC	1	31
+com		Crypto-Mining		1	32
+com		Crypto-Mining	Browser-based	1	32
+com		Crypto-Mining	Host-based	1	32
+com	Malware	Stuxnet		1	34
+com		Nuclear Non-Proliferation Treaty		1	34
+com		International Atomic Energy Agency		1	34
+goto		IAEA	International Atomic Energy Agency	1	34
+com		Programmable Logic Controllers		1	35
+goto		PLC	Programmable Logic Controllers	1	35
+com	Malware	Stuxnet	Step 7	1	35
+com	Malware	Stuxnet	PLC	1	35
+com	Malware	Stuxnet	Zero-Days	1	36
+com		Zero-day exploit		1	36
+com	Malware	Stuxnet	Propagation vector	1	36
+com	Malware	Stuxnet	.lnk vulnerability	1	36
+com	Malware Stuxnet	Printer spooler vulnerability	1	36
+com	Microsoft Security Bulletin	MS10-046		1	37
+com	Microsoft Security Bulletin	MS10-061		1	37
+com	Microsoft Security Bulletin	MS10-073		1	37
+com	Microsoft Security Bulletin	MS10-092		1	37
+com	Malware Stuxnet	Zero-Days	1	37
+com	Microsoft Security Bulletin	MS10-073		1	38
+com	Microsoft Security Bulletin	MS10-092		1	38
+com	Malware Stuxnet	Zero-Days	1	38
+com	Malware Stuxnet	Zero-Days	1	39
+com	Malware Stuxnet	Worm	1	39
+com	Malware	Stuxnet	24 June 2012	1	39
+com	Malware	Stuxnet	Persistence	1	40
+com	Malware	Stuxnet	Command & Control	1	41
+com		www.todaysfutbol.com		1	41
+com		www.mypremierfutbol.com		1	41
+com	Malware	Stuxnet	RPC	1	41
+com	Malware	Stuxnet	s7otbxdx.dll	1	42
+com	Malware	Stuxnet	PLC	1	42
+com		Statement List		1	42
+goto		STL	Statement List	1	42
+com	Malware Stuxnet	PLC	1	43
+com	Malware	BlackEnergy		1	44
+com		Sandworm		1	44
+com		The Equation Group		1	44
+com		Idaho National Laboratory		1	44
+com		Aurora Generator Test		1	44
+com	Malware	BlackEnergy	Spear-phishing	1	45
+com		Spear-phishing		1	45
+com	Malware	BlackEnergy	SCADA	1	45
+com	Malware	BlackEnergy	Various Purposes	1	45
+com	Malware	BlackEnergy	KillDisk	1	45
+com		Linkos Group		1	46
+com	Malware	(Not)Petya	Master Boot Record	1	46
+com	Malware (Not)Petya	Linkos Group	1	46
+com	Malware (Not)Petya	MeDoc	1	46
+com		MeDoc		1	46
+com	Malware (Not)Petya	MS017-10	1	46
+com	Ransomware	(Not)Petya	Mimikatz	1	46
+com	Ransomware	(Not)Petya	PsExec	1	46
+com	Ransomware	(Not)Petya	WMIC	1	46
+com	Microsoft Security Bulletin	MS017-10		1	46
+com	Ransomware	(Not)Petya	Sabotage	1	46
+com	Ransomware	(Not)Petya	Initial infection vector	1	46
+com	Ransomware	(Not)Petya	Most devastating Supply Chain Attack	1	46
+com	Ransomware	(Not)Petya	Stolen credentials	1	46
+com		EternalBlue		1	47
+com	Microsoft Security Bulletin	MS017-10	EternalBlue	1	47
+com	Ransomware	(Not)Petya	MeDoc	1	47
+com	Ransomware	(Not)Petya	Mimikatz	1	47
+com	Ransomware	(Not)Petya	Master Boot Record	1	47
+com	Ransomware	(Not)Petya	EternalRomance	1	47
+com	Ransomware	(Not)Petya	EternalBlue	1	47
+com	Ransomware	(Not)Petya	TCP/139	1	47
+com	Ransomware	(Not)Petya	TCP/445	1	47
+com	Ransomware	(Not)Petya	PsExec	1	47
+com	Ransomware	(Not)Petya	WMIC	1	47
+com		Espionage	Key Drivers	1	49
+com		Turla		1	50
+goto		Snake	Turla
+goto		Uroburos	Turla
+com		Regin		1	50
+goto		Ouroboros	Turla
+com	Malware	Turla		1	50
+com		G Data		1	50
+com	Malware	Agent.BTZ		1	50
+goto		Ur0BuR()s	Turla
+com		Turla	Social Engineering	1	51
+com		Turla	Persistence	1	51
+com		Turla	Command and Control	1	51
+com		Turla	Victims
+com		Turla	Zero-Days
+com		Component Object Model		1	52
+goto		COM	Component Object Model
+com		COM Object Hijacking		1	52
+com		CLSID		1	52
+com		Phantom COM objects		1	52
+com		COM Search Order Hijacking		1	52
+com		Turla	Satelite Connectivity	1	53
+com		Turla	Command and Control	1	53
+com		Turla	SatLink	1	53
+com		Turla	Command and Control	1	54
+com		Turla	Instagram	1	54
+com		Turla	Britney Spears	1	54
+com		Turla	Steganography	1	54
+com		Turla	Bitly	1	54
+com		Turla	Zero Width Joiner	1	54
+com		Zero Width Joiner		1	54
+com		Turla	Unicode	1	54
+com		Turla	Outlook	1	54
+com		Turla	The Bat!	1	54
+com		The Bat!		1	54
+com		Turla	Command and Control	1	55
+com		Turla	Steganography	1	55
+com		Turla	Exfiltration channel	1	55
+com		APT-28		1	56
+goto		Sofacy	APT-28	1	56
+goto		Fancy Bear	APT-28	1	56
+com		APT-29		1	56
+goto		Dukes	APT-29
+goto		Cozy Bear	APT-29
+com		Sandworm		1	56
+goto		TEMP.Noble	Sandworm
+com		APT-1		1	56
+goto		Comment Panda
+com		APT-3		1	56
+goto		Gothic Panda	APT-3
+com		APT-27		1	56
+goto		Emissary Panda	APT-27
+com		Charming Kitten		1	56
+goto		Parastoo	Charming Kitten
+com		Copy Kitten		1	56
+goto		Slayer Kitten	Copy Kitten
+com		Rocket Kitten		1	56
+goto		TEMP.Beanie	Rocket Kitten
+com		Equation Group		1	56
+goto		Tilded Team	Equation Group
+com		Active Groups and Campaigns		1	56
+com		Attribution	Elements	1	56
+com		SYNCTECHLABS		1	58
+com		SYNCTECHLABS	Environment	1	59
+com		SYNCTECHLABS	Organigram	1	60
+com		SYNCTECHLABS	Red Team Test	1	60
+com		Adversary Emulation		1	65
+com		Tactics, Techniques & Procedures		1	65
+goto		TTP	Tactics, Techniques & Procedures
+com		Cyber Kill Chain		1	66
+com		Lockheed Martin		1	66
+com		Dell SecureWorks		1	66
+com		Cyber Kill Chain	Limitations	1	67
+com		Unified Kill Chain		1	67
+com		Red Team		1	70
+com		Blue Team		1	70
+com		Red Team		1	71
+com		Blue Team		1	71
+com		Purple Team		1	71
+com		The Rise of the Purple Team		1	71
+com		Robert Wood		1	71
+com		William Bengston		1	71
+com		Purple Team	Feedback Loop	1	72
+com		Purple Team	Approach	1	73
+com		Purple Team	Practical Implementation	1	74
+com			Effective security controls		1	75
+com		MITRE		1	78
+com		ATT\&CK		1	78
+com		ATT\&CK	Entry	1	79
+com		ATT\&CK	T1122	1	79
+com		COM Object Hijacking	T1122	1	79
+com		COM Object Hijacking	Defense Evasion	1	79
+com		COM Object Hijacking	Persistence	1	79
+com		ATT\&CK Navigator		1	80
+com		Metasploit		1	81
+com		Empire		1	81
+com		PowerShell Empire		1	81
+com		EmPyre		1	81
+com		APT Simulator		1	82
+com		Network Flight Simulator		1	83
+goto		flightsim	Network Flight Simulator
+com		Atomic Red Team		1	84
+com		Red Canary		1	84
+com		Atomic Tests		1	84
+com		CALDERA		1	85
+com		Prevent or Detect	1	87
+com		CIS controls		1	88
+com		Australian Signals Directorate		1	88
+goto		ASD	Australian Signals Directorate	1	88
+com		Australian Cyber Security Centre		1	88
+goto		ACSC	Australians Cyber Security Centre
+com		Australian Signals Directorate	4 key controls	1	88
+com		4 key controls	Application Whitelisting	1	88
+com		4 key controls	Patch Operating Systems	1	88
+com		4 key controls	Patch Applications	1	88
+com		4 key controls	Restrict Administrative Privileges	1	88
+com		Security Architecture for Detectiopn and Prevention		1	89
+com		Web Proxy Setup		1	90
+com		Architecture Principle 1		1	90
+com		Web Proxy Setup	Cloud	1	91
+com		Architecture Principle 1		1	91
+com		Symantec		1	91
+com		Zscaler		1	91
+com		Cisco Umbrella		1	91
+com		Architecture Principle 1		1	92
+com		Web Proxy Setup	SSL/TLS Interception	1	92
+com		SSL/TLS Interception		1	92
+goto		SSL Interception	SSL/TLS Interception
+goto		TLS Interception	SSL/TLS Interception
+com		Architecture Principle 2		1	93
+com		Securing DNS Traffic		1	93
+com		PassiveDNS		1	93
+com		Zeek		1	93
+com		Suricata		1	93
+com		Quad9		1	93
+com		Global Cyber Alliance		1	93
+com		Cloudflare		1	93
+com		1.1.1.1		1	93
+com		OpenDNS		1	93
+com		Architecture Principle 3		1	94
+com		Network Monitoring		1	94
+com		Architecture Principle 3		1	95
+com		Network Monitoring		1	95
+com		Full Packet Capture		1	95
+goto		FPC	Full Packet Capture
+com		Snort		1	95
+com		Suricata		1	95
+com		Intrusion Detection System		1	95
+goto		IDS	Intrusion Detection System
+com		Hearthbleed		1	95
+com		Architecture Principle 3		1	96
+com		Network Monitoring		1	95
+com		Intrusion Detection System		1	96
+com		Intrusion Prevention System		1	96
+goto		IPS	Intrusion Prevention System
+com		Palo Alto		1	96
+com		Juniper		1	96
+com		Cisco		1	96
+com		Fortinet		1	96
+com		Sophos		1	96
+com		Snort		1	96
+com		Suricata		1	96
+com		Zeek		1	96
+goto		Bro	Zeek
+com		Passive (IDS)		1	96
+com		Inline (IPS)		1	96
+com		Suricata		1	97
+com		Architecture Principle 3		1	97
+com		Network Monitoring		1	97
+com		Open Information Security Foundation		1	97
+com		Network Security Monitor		1	97
+com		Suricata	IDS Rulesets	1	98
+com		Architecture Principle 3		1	98
+com		Network Monitoring		1	98
+com		Emerging Threats		1	98
+com		Proofpoint		1	98
+com		ET		1	98
+com		ET Pro		1	98
+com		Talos / Snort Ruleset	1	98
+com		Snort		1	98
+com		Suricata	Output	1	99
+com		Architecture Principle 3		1	99
+com		Network Monitoring		1	99
+com		EVE JSON		1	99
+com		Architecture Principle 3		1	100
+com		Network Monitoring		1	100
+com		Network Security Monitor		1	100
+goto		NSM	Network Security Monitor
+com		Zeek		1	100
+com		Zeek	Security Onion	1	100
+com		Security Onion		1	100
+com		Zeek	Network Protocols	1	100
+com		Zeek	Recipes	1	100
+com		Zeek	RITA	1	100
+com		RITA		1	100
+com		Zeek	Data Exfiltration Framework	1	100
+com		Data Exfiltration Framework		1	100
+com		Architecture Principle 4		1	101
+com		Network Segmentation		1	101
+com		Architecture Principle 4		1	102
+com		Network Segmentation		1	102
+com		Private VLANs		1	102
+com		Architecture Principle 4		1	103
+com		Network Segmentation		1	103
+com		Host-Based Firewalls		1	103
+com		Host-Based Firewalls	Quick Wins	1	103
+com		Hardening Considerations		1	104
+com		Hardening Considerations	NIST Checklist	1	105
+com		NIST Checklist		1	105
+com		National Checklist Program		1	105
+com		NIST Checklist	Security Content Automation Protocol	1	105
+com		Security Content Automation Protocol		1	105
+goto		SCAP	Security Content Automation Protocol
+com		NIST Checklist Security	Checklist Repository	1	106
+com		Nist Checklist	Windows 10 STIG	1	106
+com		NIST Checklist	Security Technical Implementation Guide	1	106
+com		NIST Checklist	SCAP	1	106
+com		NIST Checklist	OVAL	1	106
+com		Security Technical Implementation Guide	1	107	
+goto		STIG	Security Technical Implementation Guide	
+com		DoD General Purpose STIG		1	107
+com		Microsoft Recommended Security Baselines		1	108
+com		Security Compliance Toolkit		1	108
+goto		SCT		1	108
+com		Security Compliance Manager		1	108
+goto		SCM		1	108
+com		ADMX Templates		1	109
+com		Browser Hardening		1	109
+com		Linux Hardening		1	110
+com		Ansible Automation		1	111
+com		Ansible Hardening		1	111
+com		Fundamental Detection Capability		1	115
+com		Splunk		1	115
+com		Graylog		1	115
+com		ELK		1	115
+com		ElasticSearch		1	116
+com		Kibana		1	116
+com		Logstash		1	116
+com		Grok		1	116
+com		Apache Lucene		1	116
+com		ELK	Security Controls	1	117
+com		Logstash	Configuraiton	1	118
+com		Logstash	Parsers	1	118
+com		Grok		1	118
+com		Windows Event Logs		1	119
+com		wevutil.exe		1	119
+com		PsLogList		1	119
+com		Windows Event Logs	C:\Windows\System32\winevt\Logs\	1	119
+com		Windows Event Logs	EVT	1	119
+com		Windows Event Logs	EVTX	1	119
+com		Windows Event Logs	Standard Logs	1	120
+com	Windows Event ID	4648 - Account login with explicit credentials		1	120
+com		Windows Event Logs	Default audit policy	1	121
+com		Windows Event Forwarding		1	123
+goto		WEF	Windows Event Forwarding
+com		Windows Event Collector Service		1	123
+com		Windows Remote Management Service		1	123
+com		SysMon		1	124
+com		SysMon	Event IDs	1	125
+com		SysMon	Installation	1	126
+com		SysMon	Default Configuration	1	127
+com		SysMon	SwiftOnSecurity	1	128
+com		SysMon	SwiftOnSecurity	1	129
+com		SysMon	Olaf Hartong	1	130
+com		SysMon	Tagging	1	130
+com		SysMon	Mapping to MITRE	1	130
+com		SysMon	SysmonSearch	1	131
+com		SysmonSearch		1	131
+com		JPCERT/CC		1	131
+com		SIGMA		1	133
+com		Florian Roth		1	133
+com		SIGMA	Endpoint Visibility	1	134
+com		OSQuery		1	135
+com		OSQuery	File Integrity Monitoring	1	135
+com		OSQuery	Example Queries	1	136
+com		OSQuery	Palantir	1	136
+com		OSQuery	Kolide Fleet	1	137
+com		OSQuery	Fleet Manager	1	137
+com		OSQuery	Kolide Fleet Architecture	1	138
+com		Endpoint Detection and Response		1	139
+goto		EDR	Endpoint Detection and Response
+com		Internet Footprint		1	143
+com		Attack Surface		1	143
+goto		Information Footprint	Internet Footprint
+com		Internet Footprint	Information you control	1	144
+com		Internet Footprint	Information you do not control	1	144
+com		Breached Credentials		1	145
+com		HaveIBeenPwned		1	145
+com		Ghostproject		1	145
+com		SpyCloud		1	145
+com		Technical Footprint	1	146
+com		Shadow IT		1	147
+com		Google Search Operators		1	149
+com		Google Hacking Database		1	149
+goto		GHDB	Google Hacking Database
+com		Pastebin Monitoring		1	150
+com		Pastepwnd		1	150
+com		Pystemon		1	150
+com		Pastemon		1	150
+com		CIRCL AIL-framework		1	150
+com		CIRCL AIL-framework		1	151
+com		Analysis for Information Leaks		1	151
+goto		AIL	Analysis for Information Leaks	1	151
+com		SpiderFoot		1	152
+com		Masscan		1	153
+com		Scans.io		1	153
+com		Censys.io		1	153
+com		Shodan		1	154
+com		Shodan Diggity		1	154
+com		Shodan		1	155
+com		Shodan	Image Search	1	156
+com		Censys.io		1	157
+com		CertStream		1	158
+com		Watering Hole		2	3
+com		Spear phishing		2	3
+com		Payload Delivery	2	3
+com		Payload Delivery	4 Main Intrusion Methods	2	3
+com		Payload Delivery	Statistics	2	3
+com		Verizon Data Breach Investigations Report		2	3
+goto		Verizon DBIR Verizon Data Breach Investigations Report
+goto		DBIR	Verizon Data Breach Investigations Report
+com		Email phishing		2	5
+com		Watering Hole		2	5
+com		Weaponized USB		2	5
+com		Payload Delivery	Key Prevention Controls	2	6
+com		Sender Policy Framework		2	6
+com		Domain Keys Identified Mail		2	6
+com		Domain-based Message Authentication, Reporting and Conformance		2	6
+com		Mail Sandboxing		2	6
+com		Importance of Users		2	7
+com		Security Awareness		2	8
+com		Security Awareness	Key Messages	2	9
+com		GoPhish		2	10
+com		GoPhish		2	11
+com		GoPhish		2	12
+com		GoPhish		2	13
+com		Social Engineering		2	15
+com		Watering Hole		2	15
+com		Removable Storage	Typical Attack	2	15
+com		Removable Storage	AutoRun	2	16
+com		Removable Storage	AutoPlay	2	16
+com		Removable Storage	Social Engineering	2	17
+com		Social Engineering		2	17
+com		Social Engineering	Removable Storage	2	17
+com		Right-To-Left-Override		2	17
+goto		RTLO	Right-To-Left-Override
+goto		U+202E	Right-To-Left-Override
+com		Rubber Ducky		2	18
+com		Keystroke Injection Attack Platform		2	18
+com		Human Interface Device		2	18
+goto		HID	Human Interface Device	2	18
+com		Duckhunt		2	18
+com		BadUSB		2	19
+com		USBHarpoon		2	19
+com		Karsten Nohl		2	19
+com		Removable Storage	Windows Controls	2	20
+com		Removable Storage	MacOS Controls	2	20
+com		Removable Storage	Linux Controls	2	20
+com		USBGuard		2	21
+com		Anti-Forensic Kill-Switch		2	21
+com		USBKill		2	21
+com		CIRCLean		2	22
+com		Network Access Control		2	23
+goto		NAC	Network Access Control	2	23
+com		Network Access Control	NAC Agent	2	23
+com		NAC Agent		2	23
+com		Remediation Network		2	23
+com		802.1X		2	24
+com		Network Access Control	802.1X	2	24
+com		Extensible Authentication Protocol		2	24
+goto		EAP Extensible Authentication Protocol
+com		802.1X	EAP	2	24
+com		RFC 3748		2	24
+com		EAP	EAP-PWD	2	24
+com		EAP	EAP-PSK	2	24
+com		EAP	EAP-IKEv2	2	24
+com		EAP	EAPOL	2	24
+com		EAP over LAN		2	24
+goto		EAPOL	EAP over LAN
+com		802.1X	Supplicant	2	24
+com		802.1X	Authenticator	2	24
+com		802.1X	Authentication server	2	24
+com		EAP	EAPOL	2	25
+com		EAP over LAN		2	25
+com		802.1X	Supplicant	2	25
+com		802.1X	Authenticator	2	25
+com		802.1X	Authentication server	2	25
+com		Network Access Control	Unsupported Devices	2	26
+com		802.1X	Unsupported Devices	2	26
+com		Network Access Control	BYOD	2	27
+com		802.1X	BYOD	2	27
+com		Mobile Device Management	2	27
+goto		MDM	Mobile Device Management	2	27
+com		Mobile Device Management	Strategies	2	28
+com		Network Access Control	Bypass Strategies	2	29
+com		802.1X	Bypass Strategies	2	29
+com		PwnPlug		2	29
+com		FENRIR		2	29
+com		MAC Authentication Bypass		2	29
+com		Defender Tenets		2	29
+com		Network Access Control	Transparent Bypass	2	30
+com		FENRIR		2	30
+com		Valerian Legrand		2	30
+com		Network Access Control	Transparent Bypass	2	31
+com		FENRIR		2	31
+com		MACsec		2	32
+goto		802.1AE-2006	MACsec
+com		ETH Header		2	32
+com		MACsec	SecTAG	2	32
+com		SecTAG		2	32
+com		MACsec	ICV	2	32
+com		Integrity Check Value		2	32
+goto		ICV	Integrity Check Value
+com		Layer 2 protection		2	32
+com		Layer 2 encryption		2	32
+com		802.1X-2010		2	32
+com		NTLMv2		2	34
+com		Kerberos	2	34
+com		NTLMv2	Response	2	35
+com		NTLMv2	OneWayFunction	2	35
+com		NTLMv2 OneWayFunction		2	35
+goto		NTLMv2 OWF	NTLMv2 OneWayFunction
+com		NTLMv2	Still used?	2	36
+com		NTLMv2	Attack / Obtain Challenge/Response	2	37
+com		Responder		2	37
+com		SpiderLabs		2	37
+com		Laurent Gaffie		2	37
+com		Netbios Name Server		2	37
+goto		NBT-NS	Netbios Name Server
+com		Link-Local Multicast Name Resolution		2	37
+goto		LLMNR	Link-Local Multicast Name Resolution
+com		Responder	Obtain Challenge/Response	2	38
+com		Responder	WPAD	2	39
+com		Automatic Proxy Settings		2	39
+com		Web Proxy Auto-Discovery		2	39
+goto		WPAD	Web Proxy Auto-Discovery
+com		Outbound SMB		2	40
+com		NTLMv2	Creative ways to obtain Challenge/Response	2	40
+com		Hashcat		2	41
+com		NTLMv2	Crack Challenge/Response	2	41
+com		NTLMv2	SMB Relaying	2	42
+com		SMB Relaying		2	42
+com		Responder	SMB Relaying	2	43
+com		Responder	Defence	2	44
+com		SMB Relaying	Defence	2	44
+com		WPAD	Disable	2	44
+com		Private VLANs		2	44
+com		Email Sercurity		2	48
+com		Email Best Practices		2	48
+com		Sender Policy Framework		2	48
+goto		SPF	Sender Policy Framework
+com		Domain Keys Identified Mail		2	48
+goto		DKIM	Domain Keys Identified Mail
+com		Domain-based Message Authentication, Reporting and Conformance		2	48
+goto		DMARC	Domain-based Message Authentication, Reporting and Conformance
+com		Business Email Compromise		2	48
+com		Multi-Factor Authentication		2	48
+goto		MFA	Multi-Factor Authentication
+com		Sender Policy Framework		2	49
+com		Sender Policy Framework	Soft Fail	2	49
+com		Sender Policy Framework	Hard Fail	2	49
+com		Sender Policy Framework		2	50
+com		Sender Policy Framework	Caveats	2	51
+com		Domain Keys Identified Mail		2	52
+com		Domain Keys Identified Mail		2	53
+com		Domain-based Message Authentication, Reporting and Conformance		2	54
+com		Domain-based Message Authentication, Reporting and Conformance	Use for Domain Owners	2	54
+com		Domain-based Message Authentication, Reporting and Conformance	Use for Email Receivers	2	54
+com		Domain-based Message Authentication, Reporting and Conformance		2	55
+com		CEO Fraud		2	56
+com		Mail Spoofing		2	57
+com		Watering Hole		2	58
+com		Exploit Kits		2	58
+com	Malware	Angler		2	58
+com	Malware Rig		2	58
+com	Malware	Terror		2	58
+com	Malware Sundown		2	58
+com		Malvertisement		2	59
+com		Exploit Kits	Operations	2	59
+com		Exploit Kits		2	59
+com		Malware Traffic Analysis		2	60
+com		malware-trafffic-analysis.net		2	60
+com		Exploit Kits	Examples	2	60
+com		Malware Traffic Analysis		2	61
+com		malware-trafffic-analysis.net		2	61
+com		Exploit Kits	Main Controls	2	62
+com		Exploit Kits	Browser Isolation	2	63
+com		Browser Isolation		2	63
+com		Fire Glass		2	63
+com		URL analysis		2	64
+com		urlscan.io		2	64
+com		urlquery.net		2	64
+com		Cuckoo		2	64
+com		Lookyloo		2	64
+com		Lookyloo		2	65
+com		ICAP		2	66
+com		Cloud-enabled Antivirus engines		2	66
+com		Static analysis		2	67
+com		Dynamic analysis		2	67
+com		Cuckoo		2	67
+com		Malware Sandbox		2	67
+com		Cuckoo Sandbox		2	67
+com		Cuckoo-modified		2	67
+com		Cuckoo	Architecture	2	68
+com		Cuckoo	Output	2	69
+com		Cuckoo	Reporting	2	70
+com		Cuckoo	Signatures	2	71
+com		Paranoid Fish		2	74
+goto		pafish Paranoid Fish
+com		Sandbox Detection		2	74
+com		Alberto Ortega		2	74
+com		YARA		2	76
+goto		Yet Another Recursive Acronym	YARA
+goto		Yet Another Ridiculous Acronym	YARA
+com		VirusTotal		2	76
+com		pdf-parser.py		2	76
+com		oledump.py		2	76
+com		Retrohunt		2	76
+com		VirusTotal Intelligence	2	76
+com		ClamAV
+com		Victor M. Alvarez		2	76
+com		YARA		2	77
+com		YARA	Example Rule	2	78
+com		YARA	Rule Modifiers	2	79
+com		YARA 	UNICODE	2	79
+com		YARA	wide	2	79
+com		PE file format		2	80
+com		MZ		2	80
+com		YARA	Conditions	2	80
+com		Florian Roth		2	81
+com		YARA	Greenbug	2	81
+com		YARA	meta section	2	81
+com		YARA	strings section	2	81
+com		PDB Paths		2	81
+com		MZ	Little Endian	2	81
+com	Malware	CRASHOVERRIDE		2	82
+com		Dragos		2	82
+com		YARA	Extension - PE	2	82
+com		YARA	Extension - ELF	2	82
+com		YARA	Extension - Cuckoo	2	82
+com		YARA	Extension - Magic	2	82
+com		YARA	Extension - Hash	2	82
+com		YARA	Extension - Math	2	82
+com		YARA	Extension - Dotnet	2	82
+com		YARA	Extension - Time	2	82
+com		YARA	Use-cases	2	83
+com		yararules.com		2	84
+com		Yara Rules Project		2	84
+com		Awesome-Yara		2	84
+com		payload Devlivery and Execution Strategies		2	88
+com		Application Whitelisting		2	89
+com		Software Restrictiction Policies		2	90
+goto		SRP	Software Restriction Policies
+com		AppLocker		2	90
+com		Windows Defender Application Control		2	90
+goto		WDAC	Windows Defender Application Control
+com		GateKeeper		2	90
+com		AppArmor		2	90
+com		SELinux		2	90
+com		AppLocker		2	91
+com		Application Identity service		2	91
+com		AppLocker	Settings	2	92
+com		Application Control Policies		2	92
+com		AppLocker	Rules	2	93
+com		AppLocker	Event Logs	2	95
+com		Software Restriction Policies		2	96
+com		Software Restriction Policies	Blocking Rule	2	97
+com		Application Whitelisting	Bypass Techniques	2	98
+com		UltimateAppLockerByPassList		2	98
+com		Windows Script Host		2	103
+goto		WSH	Windows Script Host
+com		VBScript		2	103
+com		Jscript		2	103
+com		cscript.exe		2	103
+com		wscript.exe		2	103
+com		vbscript.dll		2	103
+com		jscript.dll		2	103
+com		regsvr32.exe		2	103
+com		wscript.exe		2	104
+com		cscript.exe		2	104
+com		VBScript	Malware Downloader	2	105
+com		VBScript	Obfuscation	2	105
+com		Code obfuscation		2	105
+com		String obfuscation		2	105
+com		VBScript Encoding		2	106
+goto		VBE VBScript Encoding	2	107
+com		decode-vbe.py		2	107
+com		Jscript	Malware Downloader	2	108
+com	Ransomware	Sage		2	108
+com	Malware	StarFighter Empire Launcher	2	109
+com		Jscript Malware Downloader	StarFighter Empire Launcher	2	109
+com	Malware	Empire		2	109
+com		StarFighter		2	109
+com		Windows Script Host	Hardening	2	110
+com		HTML Application		2	111
+goto		HTA	HTML Application
+com		mshta.exe		2	111
+com		Demiguise		2	111
+com		Encrypted HTML Application		2	111
+com		Environmental Keyring		2	111
+com		HTML Application	NCC Group	2	111
+com		wscript.shell		2	112
+com		HTML Application	wscript.shell	2	112
+com		mshta.exe		2	112
+com		Change Default File Association		2	113
+com		Visual Basic for Applications		2	114
+goto		VBA	Visual Basic for Applications
+com		Visual Basic for Applications	Macros	2	115
+com		Visual Basic for Applications	AutoOpen	2	115
+com		Visual Basic for Applications	Declare	2	115
+com		Visual Basic for Applications	Windows API	2	115
+com		Visual Basic for Applications	Malware Downloader	2	116
+com		Visual Basic for Applications	Malware Dropper	2	116
+com	Windows API	URLDownloadToFile		2	116
+com	Windows API	ShellExecute		2	116
+com		urlmon.dll		2	116
+com		Visual Basic for Applications	Malware Dropper	2	117
+com		Visual Basic for Applications	Shellcode Injector	2	118
+com	Windows API	CreateThread		2	118
+com	Windows API	VirtualAlloc		2	118
+com	Windows API	RtlMoveMemory		2	118
+com	Malware	BlackEnergy	Macro Dropper	2	119
+com		oledump.py		2	119
+com		Didier Stevens		2	119
+com		OLE	2	119
+goto		Compound File Binary Format	OLE
+com		Visual Basic for Applications	OLE	2	119
+com	Malware	BlackEnergy	Macro Dropper	2	120
+com		oledump.py		2	120
+com		Visual Basic for Applications	OLE	2	120
+com		OLE file format		2	120
+com		77, 90		2	120
+com	Malware	BlackEnergy	Macro Dropper	2	121
+com		Visual Basic for Applications	Workbook\_Activate	2	121
+com		Visual Basic for Applications	MacroExpl	2	122
+com		Visual Basic for Applications	Shell	2	122
+com	Malware	BlackEnergy	Macro Dropper	2	122
+com		OLE		2	123
+com		MS Office 2007		2	123
+com		MS Office 2007	New format	2	123
+com		Protected View		2	123
+com		Office Trust Center		2	123
+goto		Trust Center	Office Trust Center
+com		Visual Basic for Applications	Settings to govern execution	2	123
+com		Office Trust Center		2	124
+com		Office Trust Center	Trusted Publishers	2	125
+com		Office Trust Center	Trusted Locations	2	125
+com		Office Trust Center	Trusted Documents	2	125
+com		Office Trust Center	Macro Settings	2	126
+com		Macro Settings		2	126
+com		Polymorphic VBA malware		2	126
+com		Visual Basic for Applications	Polymorphic	2	126
+com		Visual Basic for Applications	Project Model	2	126
+com		Enabling Macro Content		2	127
+com		Mark-of-web		2	127
+com		Protected View		2	128
+com		Protected View	Criteria in Office Trust Center	2	129
+com		Office Trust Center	Protected View tab	2	129
+com		Protected View		2	130
+com		Protected View	Potentially dangerous	2	130
+com		Mark-of-web		2	130
+com		Alternate Data Stream		2	130
+goto		ADS Alternate Data Stream
+com		Zone.Identifier		2	130
+com		Mark-of-web	Alternate Data Stream	2	130
+com		Mark-of-web	Zone.Identifier	2	130
+com		PowerShell		2	132
+com		PowerSploit		2	132
+com		cmdlets		2	132
+com		PowerShell	File Association	2	133
+com		PowerShell	Execution Policy	2	133
+com		PowerShell	Bypass Execution Policy	2	134
+com		PowerShell	Get-ExecutionPolicy	2	134
+com		PowerShell	-Command	2	135
+com		PowerShell	Write-Host	2	135
+com		PowerShell	-EncodedCommand	2	135
+com		PowerShell	Launch from VBA	2	136
+com		PowerShell	Invoke-Expression	2	137
+com		PowerShell	iex	2	137
+com		PowerShell	ForEach-Object	2	137
+com		PowerShell	Polymorphic	2	137
+com		Empire		2	138
+com		PowerShell	Hardening	2	139
+com		PowerShell	Constrained Language Mode	2	140
+com		AppLocker	Constrained Language Mode	2	140
+com		Windows Defender Application Control	PowerShell Constrained Language Mode	2	140
+com		PowerShell	$ExecutionContext.SessionState.LanguageMode	2	140
+com		PowerShell	Full Language Mode	2	141
+com		PowerShell	PowerUp.ps1	2	141
+com		AppLocker	Script rules	2	142
+com		Antimalware Scan Interface		2	143
+goto		AMSI	Antimalware Scan Interface	2	143
+com		Antimalware Scan Interface	Bypass	2	144
+com		PowerShell	Antimalware Scan Interface	2	144
+com		PowerShell	PowerShell v2.0	2	145
+com		PowerShell	Constrained Language Mode	2	145
+com		System.Management.Automation		2	146
+com		PowerShell	Execute PowerShell without PowerShell.exe	2	146
+com		ReflectivePick		2	146
+com	Windows Event ID	4688 - Process Creation		2	151
+com		Windows Command-Line Logging		2	151
+com		SysMon	Event ID 1	2	152
+com		PowerShell	Monitoring & Logging	2	153
+com		PowerShell	Transcripts	2	154
+com		PowerShell	Start-Transcript	2	154
+com		PowerShell	Microsoft.PowerShell\_profile.ps1	2	154
+com		PowerShell	Transcripts	2	155
+com		PowerShell	Start-Transcript	2	155
+com		PowerShell	Logs	2	156
+com		Windows Event Logs	Windows PowerShell	2	156
+com		PowerShell	Script Block Logging	2	157
+com		PowerShell	Script Block Logging	2	158
+com	Windows Event ID	4104 - PowerShell		2	158
+com		PowerShell	Suspicious Commands	2	159
+com		ProcFilter		2	163
+com		ProcFilter	Install	2	164
+com		ProcFilter	Configuration	2	165
+com		ProcFilter	procfilter.ini	2	165
+com		ProcFilter	Windows Event Logs	2	167
+com		Secure Software Development		3	3
+com		Secure-SDLC		3	3
+com		Security Development Lifecycle		3	3
+goto		SDL	Security Development Lifecycle
+goto		Microsoft Security Development Lifecycle	Security Development Lifecycle	3	3
+com		Security Development Lifecycle		3	4
+com		Trustworthy Computing memo		3	4
+goto		TwC	Trustworthy Computing memo
+com	Malware	Melissa Virus		3	4
+com		Security Development Lifecycle	Motivation	3	5
+com		Security Development Lifecycle	Phases	3	6
+com		Security Development Lifecycle	Training Phase	3	7
+com		Security Development Lifecycle	Requirements Phase	3	8
+com		Security Development Lifecycle	Design Phase	3	9
+com		Security Development Lifecycle	Implementation Phase	3	10
+com		Security Development Lifecycle	Verification Phase	3	11
+com		Sulley		3	11
+com		Security Development Lifecycle	Release Phase	3	12
+com		Security Development Lifecycle	Response Phase	3	13
+com		Return on Security Investment		3	15
+goto		ROSI	Return on Security Investment
+com		Security Development Lifecycle	Agile	3	16
+com		Threat Modeling		3	18
+com		Threat Modeling	Important Questions	3	19
+com		STRIDE		3	19
+com		DREAD		3	19
+com		Common Vulnerability Scoring System		3	19
+goto		CVSS	Common vulnerability Scoring System
+com		OCTAVE		3	19
+com		TRIKE		3	19
+com		Microsoft Threat Modeling Tool		3	20
+com		Elevation of Privilege Card Game		3	20
+com		Seasponge		3	20
+com		Microsoft Threat Modeling Tool	Properties	3	21
+com		Microsoft Threat Modeling Tool	Report	3	23
+com		STRIDE		3	26
+com		DREAD		3	27
+com		Vulnerability Assessments		3	28
+com		Bug Bounties		3	29
+com		Bug Bounties		3	30
+com		Source Code Reviews		3	31
+com		Manual code Review		3	31
+com		Static Analysis		3	31
+com		Automated Code Review		3	31
+com		Dynamic Analysis		3	31
+com		Static Analysis	Fortify Static Code Analyzer	3	31
+com		Interactive Disassembler		3	31
+goto		IDA	Interactive Disassembler
+com		Dynamic Analysis	AppVerifier	3	31
+com		Unmanaged Code		3	31
+com		Managed Code		3	31
+com		Dynamic Analysis	FxCop	3	31
+com		Static Analysis	Fortify Static Code Analyzer	3	32
+com		Static Analysis	Veracode Static Analysis	3	32
+com		Static Analysis	CodeSearchDiggity	3	32
+com		Static Analysis	VisualCodeGrepper	3	32
+com		Fuzzing		3	33
+com		Code Coverage		3	33
+com		Session Initiation Protocol		3	33
+goto		SIP	Session Initiation Protocol
+com		RFC 3261		3	33
+com		Fuzzing	Static	3	33
+com		Fuzzing	Randomized	3	33
+com		Fuzzing	Mutation	3	33
+com		Fuzzing	Intelligent Mutation	3	34
+com		RFC 1350		3	35
+com		Trivial File Transfer Protocol		3	35
+goto		TFTP	Trivial File Transfer Protocol
+com		Trivial File Transfer Protocol	Opcode	3	35
+com		Fuzzing	Static	3	36
+com		Fuzzing	Randomized	3	37
+com		Fuzzing	Mutation	3	38
+com		Fuzzing	Intelligent Mutation	3	39
+com		Code Coverage		3	40
+com		Code Coverage	Source Code Assisted Measurement	3	40
+com		Code Coverage	Block Measurement	3	40
+com		American Fuzzy Lop		3	40
+goto		AFL	American Fuzzy Lop
+com		OS Market Share		3	42
+com		Control Flow Guard		3	42
+goto		CFG	Control Flow Guard
+com		Desktop Browser Market Share		3	43
+com		Use After Free		3	43
+goto		UAF	Use After Free
+com		MemGC		3	43
+com		Ivanti		3	45
+com		Shavlik		3	45
+com		Patch Tuesday		3	46
+com		Interactive Disassembler Pro	3	46
+goto		IDA Pro	Interactive Disassembler Pro
+com		BinDiff		3	46
+com		Exploit Wednesday		3	46
+com		Windows as a Service		3	47
+goto		WaaS	Windows as a Service
+com		Cumulative Updates		3	47
+com		Feature Update		3	47
+com		Quality Update		3	47
+com		Windows as a Service	Servicing Branches	3	48
+com		Windows as a Service	Current Branch (CB)	3	48
+com		Windows as a Service	Current Branch for Business (CBB)	3	48
+com		Windows as a Service	Long-Term Servicing Branch (LTSB)	3	48
+com		Windows Server Update Service		3	49
+goto		WSUS	Windows Server Update Service
+com		Windows Update for Business		3	49
+goto		WUB	Windows Update for Business
+com		PatchLink		3	49
+com		Lumension		3	49
+com		Patch Distribution		3	49
+com		1-Day Exploit		3	50
+com		Reverse Engineering Updates		3	50
+com		Metasploit		3	50
+com		Core Impact		3	50
+com		SAINT Exploit		3	50
+com		Immunity Canvas		3	50
+com		Microsoft Knowledge Base		3	51
+com		Obtaining Microsoft Patches		3	51
+com		Patch types		3	52
+com		.msu		3	52
+com		.exe		3	52
+com		Extraction Tool for .exe Patches		3	53
+com		General Distribution Release		3	53
+goto		GDU	General Distribution Release
+com		Quick Fix Engineering		3	53
+goto		QFE	Quick Fix Engineering
+com		General Distribution Release		3	54
+com		Quick Fix Engineering		3	54
+com		Extraction Tool for .msu Patches		3	55
+com		Cabinet File		3	56
+goto		.cab	Cabinet File
+com		Cumulative Updates		3	58
+com		Greg Linares		3	58
+com		@Laughing\_Mantis		3	58
+com		Greg Linares		3	60
+com		PatchExtract125		3	60
+com		PatchClean		3	61
+com	Microsoft Security Bulletin	MS17-001		3	63
+com		Patch Diffing		3	64
+com		1-Day Exploit		3	64
+com		Binary Diffing Tools		3	65
+com		BinDiff		3	65
+com		Turbodiff		3	65
+com		DarunGrim 4		3	65
+com		Patchdiff2		3	65
+com		Diaphora		3	65
+com	Windows API	LoadLibraryExW		3	67
+com		dwFlags		3	67
+com		Uninstall a Patch		3	68
+com		Exploit Mitigation Controls		3	70
+com		Exploit Mitigation Controls	OS Controls	3	70
+com		Exploit Mitigation Controls	Compile Time Controls	3	70
+com		Stack Memory Allocation		3	73
+com		Stack Frame		3	73
+com		Stack Memory Allocation		3	74
+com		Stack Overflow		3	75
+com		Stack Overflow		3	76
+com		Address Space Layout Randomization		3	78
+goto		ASLR	Address Space Layout Randomization
+com		randomize\_va\_space		3	78
+com		DynamicBase		3	78
+com		Data Execution Prevention		3	79
+goto		DEP	Data Execution Prevention
+com		eXecute Disable		3	79
+goto		XD	eXecute Disable
+com		No eXecute		3	79
+goto		NX	No eXecute
+com		Safe Structured Exception Handling		3	80
+goto		SafeSEH	Safe Structured Exception Handling
+com		Safe Structured Exception Handling		3	81
+com		ntdll.dll		3	81
+com		Safe Structured Exception Handling		3	82
+com		Structured Exception Handling Overwrite Protection		3	83
+goto		SEHOP	Structured Exception Handling Overwrite Protection
+com		Enhanced Mitigation Experience Toolkit		3	83
+goto		EMET	Enhanced Mitigation Experience Toolkit
+com		Exploit Guard		3	83
+com		nSEH Pointer		3	83
+com		Control Flow Guard		3	84
+goto		CFG	Control Flow Guard
+com		Return Oriented Programming		3	84
+goto		ROP	Return Oriented Programming	3	84
+com		Return Oriented Programming		3	85
+com		Control Flow Guard		3	85
+com	Windows API	VirtualAlloc		3	85
+com	Windows API	VirtualProtect		3	85
+com		Gadgets		3	85
+com		Stack Canaries		3	86
+com		Security Cookie		3	86
+com		Control Flow Integrity		3	87
+goto		CFG	Control Flow Integrity
+com		Shadow Stack		3	87
+com		Indirect Branch Tracking		3	87
+com		Stack Shield		3	87
+com		GRSecurity		3	87
+ttt_com	Assembly	CALL		3	87
+ttt_com	Assembly	ENDBR32		3	87
+ttt_com	Assembly	ENDBR64		3	87
+com		Exploit Mitigation Quick Reference		3	88
+com		Exploit Guard		3	92
+com		Enhanced Mitigation Experience Toolkit		3	92
+com		Exploit Guard	Application Testing	3	93
+com		Exploit Guard	How it works		3	94
+com		PayloadRestructions.dll		3	94
+ttt_com	Assembly	CALL		3	94
+com	Windows API	VirtualAlloc		3	94
+com		Data Execution Prevention		3	94
+com		Exploit Guard	GUI		3	95
+com		Exp;oit Guard	Mitigations	3	98
+com		Heap Spray Protection		3	99
+com		Enhanced Mitigation Experience Toolkit		3	99
+com		Address Space Layout Randomization		3	99
+com		High-Entropy Address Space Layout Randomization		3	99
+goto		HEASLR	High-Entropy Address Space Layout Randomization	
+com		Use After Free		3	99
+com		Export Address Table		3	100
+goto		EAF	Export Address Table
+com		EAF+		3	100
+com		DLL		3	100
+com		AddressOfFunctions		3	100
+com		kernel32.dll		3	100
+com		ntdll.dll		3	100
+com		Enhanced Mitigation Experience Toolkit	Filters	3	100
+com		Shellcode		3	100
+com		Use After Free		3	100
+com		kernelbase.dll		3	100
+com		mshhtml.dll		3	100
+com		hardware breakpoints		3	100
+com		Import Address Table		3	101
+goto		IAT	Import Address Table
+com		Global Offset Table		3	101
+goto		GOT	Global Offset Table
+com		Lazy linking		3	101
+com		Mandatory Address Space Layout Randomization		3	102
+goto		MASLR	Mandatory Address Space Layouy Randomization
+com		DYNAMICBASE		3	102
+com		Address Space Layout Randomization		3	102
+com		ForceASLR		3	102
+com		Bottom-Up Address Space Layout Randomization		3	103
+goto		BASLR	Bottom-Up Address Space Layouy Randomization
+com		Block Remote Images		3	104
+com		Load Library Protection		3	104
+com		Return Oriented Programming		3	104
+com		UNC file path		3	104
+com		Validate Heap Integrity		3	105
+com		Low Fragmentation Heap		3	105
+goto		LFH	Low Fragmentation Heap
+com		FreeLists		3	105
+com		Guard Pages		3	105
+com		Lookaside Lists		3	105
+com		Security Cookie		3	105
+com		Arbitrary Code Guard		3	106
+goto		ACG	Arbitrary Code Guard
+com		MemProt		3	106
+com	Windows API	VirtualAlloc		3	106
+com	Windows API	VirtualProtect		3	106
+com		Validate API Invocation		3	107
+ttt_com	Assembly	CALL		3	107
+ttt_com	Assembly	RET		3	107
+com	Windows API	VirtualAlloc		3	107
+com	Windows API	VirtualProtect		3	107
+com		Caller Check		3	107
+com		Simulate Execution		3	108
+goto		SimExec	Simulate Execution
+ttt_com	Assembly	RET		3	108
+com	Windows API	VirtualProtect		3	108
+com		Validate Stack Integrity		3	109
+com		Stack Pivot Protection		3	109
+com		Use After Free		3	109
+ttt_com	Assembly	RET		3	109
+ttt_com	Assembly	PUSH		3	109
+ttt_com	Assembly	POP		3	109
+com		Thread Information Block		3	109
+goto		TIB	Thread Information Block
+ttt_com Assembly	XCHG RAX, RSP		3	109
+ttt_com	Assembly	EAX		3	109
+ttt_com	Assembly	ESP		3	109
+ttt_com	Assembly	RIP		3	109
+ttt_com	Assembly	CR3		3	109
+ttt_com	Assembly	EFLAGS		3	109
+ttt_com	Assembly	R11		3	109
+com		Code Integrity Guard		3	110
+com		Attack Surface Reduction		3	110
+goto		ASR	Attack Surface Reduction
+com		vgx.dll		3	110
+com		vbscript.dll		3	110
+com		jp2iexp.dll		3	110
+com		Graphical Device Interface		3	111
+goto		GDI	Graphical Device Interface
+com	Malware	Duqu		3	111
+com		Block Untrusted Fonts		3	111
+com		Validation Handle Usage		3	112
+com		Disable Extension Points		3	113
+com		AppInit\_DLLs		3	113
+com		Disable Win32k System Calls		3	114
+com		Win32j System Call Table		3	114
+com		NT path		3	114
+com		SYSENTER		3	114
+com		Do Not Allow Child Processes		3	115
+com		CreatePRocess		3	115
+com		Validate Image Dependency		3	116
+com		DLL side-loading	Prevent	3	116
+com		Block Low Integrity Images		3	117
+com		Mandatory Integrity Control		3	117
+goto		MIC	Mandatory Integrity Control
+com		Protected Mode		3	117
+com		Core Isolation		3	118
+com		Memory Integrity		3	118
+com		Credential Guard		3	118
+com		Hyper-V		3	118
+com		Enhanced Mitigation Experience Toolkit	Discontinuation	3	119
+com		Operation Snowman		3	119
+com		Enhanced Mitigation Experience Toolkit	FireEye Bypass Disclosure 3	120
+com		FireEye	EMET Bypass Disclosure	3	120
+com		emet.dll		3	120
+com		DLLMain()		3	120
+com	Windows API	GetModuleHandleW		3	120
+com		Malwarebytes		3	121
+com		Malwarebytes Anti-Exploit		3	121
+goto		MBAE	Malwarebytes Anti-Exploit
+com		Malwarebytes Anti-Exploit		3	122
+com		mbae.dll		3	124
+com		PayloadRestrictions.dll		3	124
+com		Bromium vSentry		3	125
+com		Polyverse		3	126
+ttt_com	Assembly	RAX		3	126
+ttt_com	Assembly	al		3	126
+com		Persistence Strategies		3	130
+com		rootkit		3	130
+com		Persistence Strategies		3	131
+com		Persistence Strategies		3	133
+com		Web Shells		3	134
+com		Deep Panda		3	134
+com	Malware	China Chopper web shell		3	134
+com	Malware	WSO web shell		3	135
+com	Malware	C99 web shell		3	135
+com		GIF89a		3	135
+com		Web Shells	Prevent	3	136
+com		Web Shells	Detect	3	136
+com		Task Schedulers		3	137
+com		at		3	137
+com		schtasks		3	137
+com		Window Task Scheduler		3	137
+com	Malware	Shamoon		3	137
+com	Malware	Shamoon	Windows Admin Share	3	137
+com	Malware	Remsec		3	137
+com		ProjectSauron		3	137
+com		Strider		3	137
+com		Metasploit Meterpreter	Automated Persistence	3	138
+com	Ransomware	Petya	at	3	138
+com	Ransomware	(Not)Petya	at	3	138
+com		CopyKittens	RAT	3	138
+com		Task Schedulers	Examples	3	138
+com		Task Schedulers Prevent	3	139
+com		Task Schedulers	Detect	3	139
+com		PowerShell	Constrained Language Mode	3	139
+com		Application Whitelisting		3	139
+com	Windows Event ID	106 - Scheduled task registered		3	139
+com	Windows Event ID	140 - Scheduled task updated		3	139
+com	Windows Event ID	141 - Scheduled task removed		3	139
+com		Sysinternals Autoruns		3	139
+com		OSQuery		3	139
+com		Registry Manipulation		3	140
+com		Run Keys		3	140
+com		Logon Scripts		3	140
+com		Lazarus Group		3	140
+com	Malware	RomeoAlfa		3	140
+com	Malware	FLASHFLOOD		3	140
+com	Malware	JHUHUGIT		3	140
+com		Registry Manipulation	Examples	3	141
+com		Metasploit		3	141
+com		Empire		3	141
+com		COBALT		3	141
+com		Registry Manupulation	Prevent	3	142
+com		Registry Manupulation	Detect	3	142
+com		Sysinternals Autoruns		3	142
+com		OSQuery		3	142
+com	Windows Event ID	4657		3	142
+com		Windows Services		3	143
+com		sc.exe		3	143
+com		Reg		3	143
+com	Malware	Carbanak		3	143
+com		Lazarus Group		3	143
+com		Windows Services	Examples	3	144
+com	Malware	Shamoon 2		3	144
+com		NtertSrv		3	144
+com		Cobalt Strike		3	144
+com		Windows Services	Prevent	3	145
+com		Windows Services	Detect	3	145
+com	Windows Event ID	4697 - New Service Created		3	145
+com		Sysinternals Autoruns		3	145
+com		OSQuery		3	145
+com		DLL Search Order Hijacking		3	146
+com		Operation Groundbait		3	146
+com	Malware	Prikormka		3	146
+com		ntshrui.dll		3	146
+com	Malware	Downdelph		3	146
+com		sysprep.exe		3	146
+com		DLL Search Order Hijacking		3	147
+com		SafDllSearchMode	enabled	3	147
+com		SafDllSearchMode	disabled	3	147
+com		KnownDLLs		3	147
+com		DLL Search Order Hijacking	Detection	3	148
+com		DLL Search Order Hijacking	Prevention	3	148
+com		Powerup		3	148
+com		WMI Event Subscriptions		3	149
+com		Web-Based Enterprise Management		3	149
+goto		WBEM	Web-Based Enterprise Management
+com		WMI Event Subscriptions	EventConsumers	3	149
+com		WMI Event Subscriptions	EventFilters	3	149
+com		WMI Event Subscriptions	EventFilterToConsumer	3	149
+com	Malware	Stuxnet	WMI Event Subscriptions	3	149
+com	Malware	SEADADDY	WMI Event Subscriptions	3	149
+com		Common Information Model		3	149
+goto		CIM	Common Information Model	3	149
+com		WMI	Common Information Model	3	149
+com		WMI Event Subscriptions	EventConsumers	3	150
+com		WMI Event Subscriptions	EventFilterToConsumer	3	150
+com	Malware	Stuxnet	WMI Event Subscriptions	3	150
+com	Malware	SEADADDY	WMI Event Subscriptions	3	150
+com	Microsoft Security Bulletin	MS10-061		3	151
+com	Malware	Stuxnet	WMI Event Subscriptions	3	151
+com		.mof		3	151
+com	Malware	SEADADDY	WMI Event Subscriptions	3	151
+com		WMI Event Subscriptions	Prevent	3	152
+com		WMI Event Subscriptions	Detect	3	152
+com		SysMon	Event ID 19	3	152
+com		SysMon	Event ID 20	3	152
+com		SysMon	Event ID 21	3	152
+com		Bootkit		3	153
+com		Master Boot Record		3	153
+goto		MBR	Master Boot Record
+com		Volume Boot Record		3	153
+goto		VBR	Volume Boot Record
+com		APT-28	Bootkit	3	153
+com		Lazarus Group	Bootkit	3	153
+com	Malware	WhiskeyAlfa-Three		3	153
+com		APT-28	Bootkit	3	154
+com	Malware	Downdelph		3	154
+com		Bootkit	Prevent	3	155
+com		Bootkit	Detect	3	155
+com		Trusted Platform Module		3	155
+goto		TPM	Trusted Platform Module
+com		Persistence	Prevent	3	156
+com		Persistence	Detect	3	157
+com		SysInternals	Autoruns	3	157
+com		SysInternals	Autoruns	3	158
+com		SysInternals	Autoruns	3	159
+com		Autoruns to WinEventLog		3	160
+com		AutorunsToWinEventLog		3	160
+com		OSQuery		3	161
+com		Kolide Fleet		3	161
+com		Command & Control Channels		3	165
+goto		C2 channel	Command & Control Channel	3	165
+com		Command & Control Channels	Detect	3	166
+com		Command & Control Channels	Prevent	3	166
+com		Command & Control Channels	Domain Fronting	3	167
+com		Command & Control Channels	Domain Fronting	3	168
+com		HAMMERTOSS		3	169
+com		Command & Control Channels	HAMMERTOSS	3	169
+com		Command & Control Channels	Steganography	3	169
+com		Command & Control Channels	Twitter	3	169
+com		Command & Control Channels	DropSmack	3	170
+com		Command & Control Channels	Prevent	3	171
+com		Command & Control Channels	Detect	3	172
+com		Mark Bagget		3	174
+com		freq.py		3	174
+com		Domain Generation Algorithm		3	174
+goto		DGA	Domain Generation Algorithm	3	174
+com		Real Intelligence Threat Analytics		3	175
+goto		RITA	Real Intelligence Threat Analytics	3	175
+com		JA3		3	176
+com		Flare		3	177
+com		Austin Taylor		3	177
+com		ElasticBeacon		3	177
+com		Flare		3	178
+com		Austin Taylor		3	178
+com		ElasticBeacon		3	178
+com		Flare		3	179
+com		Common Lateral Movement Strategies		4	3
+com		Smokescreen study		4	3
+com		Active Directory	Key Feature	4	6
+com		Active Directory	Forest vs Domain security boundary	4	6
+com		Active Directory	Key Feature	4	7
+com		Active Directory	Identification	4	7
+com		Active Directory	Authentication	4	8
+com		Active Directory	Authorization	4	9
+com		Active Directory	Main Authentication Mechanism	4	10
+com		Kerberos		4	10
+com		Kerberos Distribution Center		4	10
+goto		KDC	Kerberos Distribution Center
+com		NTLMv2		4	10
+com		Kerberos	Ticket-granting-ticket	4	10
+com		Ticket-granting-ticket		4	10
+com		Kerberos	Ticket-granting-ticket	4	11
+com		Kerberos	Authentication Server	4	11
+com		Authentication Server		4	11
+goto		AS	Authentication Server
+com		Kerberos Distribution Center		4	11
+goto		TGT	Ticket-granting-ticket
+com		Kerberos	Ticket Granting Service	4	11
+com		Ticket Granting Service		4	11
+goto		TGS	Ticket Granting Service
+com		NTLMv2	Challenge/Response authentication	4	12
+com		Active Directory	Credential Storage	4	13
+com		ntds.dit		4	13
+com		Extensible Storage Engine		4	13
+goto		ESE	Extensible Storage Engine
+com		NTLM One-WayvFunction		4	13
+goto		NTOWF	NTLM One-Way Function
+com		NTLM hashing function		4	13
+com		LM Hashing		4	13
+goto		LMOWF	LM Hashing
+com		Active Directory	Commonly used groups	4	14
+com		Active Directory	Schema Admin	4	14
+com		Active Directory	Enterprise Admin	4	14
+com		Active Directory	Domain Admin	4	14
+com		Active Directory	Backup Operators	4	14
+com		Active Directory	Remote Desktop Users	4	14
+com		Active Directory	Domain Users	4	14
+com		Active Directory	Security Identifier	4	15
+com		Security Identifier		4
+goto		SID	Security Identifier
+com		Relative ID		4	15
+goto		RID	Relative ID
+com		Windows Access Tokens		4	16
+com		Windows Access Tokens	Security Context	4	16
+com		Windows Access Tokens	Primary Token	4	16
+com		Windows Access Tokens	Impersonation Token	4	16
+com		Windows Access Tokens	Impersonation Token	4	17
+com		Single Sign-On		4	17
+goto		SSO	Single Sign-On
+com		RSA SecurID		4	18
+com		WikID		4	18
+com		Active Directory	One-Way Trust	4	20
+com		Vincent Le Toux		4	21
+com		PingCastle		4	21
+com		Least Privilege		4	24
+com		Least Privilege	Principles	4	26
+com		Active Directory	Administrative Access	4	27
+com		Just Enough Administration		4	28
+goto		JEA	Just Enough Administration	4	28
+com		Role Capability Files		4	28
+com		PowerShell Session configuration File		4	28
+com		JEA Helper		4	29
+com		Active Directory	Tiered Admin Model	4	30
+com		Privileged Access Workstations		4	31
+com		Active Directory	Local Users and Groups	4	32
+com		Local Administrator Password Solution		4	33
+goto		LAPS	Local Administrator Password Solution
+com		Active Directory	LAPS	4	33
+com		User Account Control		4	34
+goto		UAC	User Account Control
+com		User Account Control	Levels	4	35
+com		User Account Control	Group Policy Settings	4	36
+com		secpol.msc		4	36
+com		User Account Control	Admin Approval Mode	4	36
+com		User Interface Accessibility		4	36
+com		User Account Control	Group Policy Settings	4	37
+com		User Account Control	Behavior of the elevevation prompt for administrators in Admin Approval Mode	4	37
+com		User Account Control	Behavior of the elevation prompt for standard users	4	37
+com		User Account Control		4	37
+com		User Account Control	Group Policy Settings	4	38
+com		User Account Control	Detect application installations and prompt for elevation	4	39
+com		User Account Control	Only elevate executable files that are signed and validated	4	39
+com		User Account Control	Only elevate UIAccess application that are installed in secure locations	4	39
+com		User Account Control	Group Policy Settings	4	39
+com		User Account Control	Bypass Techniques	4	40
+com		UACME		4	40
+com		Separate Accounts for Administrators		4	41
+com		Windows Privilege Escalation	Unquoted Paths with spaces	4	46
+com		Windows Privilege Escalation	Unquoted Paths with spaces	4	47
+com		Windows Privilege Escalation	Unattended Install Files	4	48
+com		Unattend.xml		4	48
+com		Group Policy Preferences		4	49
+goto		GPP	Group Policy Preferences
+com	Microsoft Security Bulletin	MS14-025		4	49
+com		Group Policy Preferences		4	50
+com		Metasploit		4	50
+com		BeRoot.exe		4	51
+com		PowerUp		4	51
+com		Domain Cached Credentials		4	55
+com		LSASS		4	55
+goto		Local Security Authority Subsystem Service LSASS
+com		LSASS		4	56
+com		Incognito		4	56
+com		LSASS	Steal Access Tokens	4	56
+com		Metasploit		4	56
+com		Luke Jennings		4	56
+com		Rotten Potato		4	56
+com		Incognito		4	57
+com		LSASS	Steal Access Tokens	4	57
+com		Metasploit		4	57
+com		Domain Cached Credentials		4	58
+com		Cached Credentials	Default Settings	4	58
+com		LSASS	Steal Credentials	4	59
+com		Mimikatz		4	59
+com		Benjamin Delpy		4	60
+com		Vincent Le Toux		4	60
+com		Mimikatz		4	60
+com		LSA Process		4	60
+com	Ransomware	(Not)Petya		4	61
+com		Mimikatz		4	61
+com		Metasploit		4	61
+com		Empire		4	61
+com		Mimikatz		4	62
+com		Mimikatz	privilege::debug	4	62
+com		Mimikatz	lsadump::lsa /inject	4	62
+com		LSA process		4	62
+com		Mimikatz	lsadump:lsa /patch	4	62
+com		Pass-the-Hash		4	64
+goto		PtH	Pass-the-Hash
+com		Mimikatz	Pass-the-Hash	4	64
+com		Windows Credential Editor	Pass-the-Hash	4	64
+com		Kerberos		4	64
+com		NTLM		4	64
+com		Microsoft	Advisory 2871997	4	64
+com		Pass-the-Hash	Details	4	65
+com		Single Sign-On	LSASS	4	65
+com		Kerberos.dll		4	65
+com		msv1\_0.dll		4	65
+com		wdigest.dll		4	65
+com		Benjamin Delpy		4	65
+com		Pass-the-Hash	Example	4	66
+com		Mimikatz	Pass-the-Hash Example	4	66
+com		Mimikatz	sekurlsa::pth	4	66
+com		Pass-the-Ticket		4	67
+goto		PtT	Pass-the-Ticket
+com		Kerberos	Pass-the-Ticket	4	67
+com		Mimikatz	Pass-the-Ticket	4	67
+com		Mimikatz	kerberos::tgt	4	67
+com		Mimikatz	kerberos::list /export	4	67
+com		Mimikatz	.kirbi	4	67
+com		.kirbi		4	67
+com		Prevent Credential Dumping		4	68
+com		Domain Protected Users		4	69
+com		Creential Delegation		4	69
+goto		CredSSP	Credential Delegation
+com		Windows Digest		4	69
+goto		Wdigest	Windows Digest
+com		Protected Processes		4	70
+com		PsProtectedSignerLsa-Light		4	70
+com		Protected Processes	Configure	4	71
+com		Protected Processes	Mimikatz	4	72
+com		Mimikatz	Protected Processes	4	72
+com		Mimikatz	!processprotect		4	72
+com		Windows	Architecture	4	73
+com		Credential Guard		4	74
+com		Virtualization Based Security		4	74
+goto		VBS	Virtualization Based Security
+com		LSA\_ISO\_RPC_SERVER		4	74
+com		IsoLsa.exe		4	74
+com		trustlets		4	74
+com		Virtual Secure Mode		4	74
+com		LsaIso.exe		4	75
+com		Virtual Secure Mode		4	75
+com		Credential Guard	How Does It Work	4	75
+com		Credential Guard	Pass-the-Hash	4	78
+com		ntds.dit		4	78
+com		Mimikatz	mimilib	4	79
+com		Mimikatz	Steal credentials on systems with Credential Guard	4	79
+com		Remote Credential Guard		4	80
+com		Restructed Admin		4	80
+com		Remote Credential Guard		4	81
+com		Restricted Admin		4	81
+com		Remote Credential Guard	Kerberos	4	81
+goto		RCG	Remote Credential Guard
+com		Kerberos	Remote Credential Guard	4	81
+com		BloodHound		4	85
+com		BloodHound	Queries	4	86
+com		BloodHound	Ingestors	4	86
+com		BloodHound	Sharphound	4	86
+com		Sharphound		4	86
+com		BloodHound	Prevent	4	88
+com		BloodHound	Detect	4	88
+com		Kerberos	rc4\_hmac\_md5	4	92
+com		Kerberos	dec\_cbc\_md5	4	92
+com		Kerberos	aes128\_hmac	4	92
+com		Kerberos	aes256\_hmac	4	92
+com		Kerberos	AS-REQ	4	92
+com		Kerberos	AS-REP	4	92
+com		Kerberos	TGS-REQ	4	92
+com		Kerberos	TGS-REP	4	92
+com		Kerberos	ST	4	92
+com		Kerberos	des\_cbc\_crc	4	94
+com		Kerberos	des\_cbc\_md5	4	94
+com		Kerberos	rc4\_hmac\_md5	4	94
+com		Kerberos	AES128\_HMAC\_SHA1	4	94
+com		Kerberos	AES256\_HMAC\_SHA1	4	94
+com		Kerberos	Authentication Server	4	96
+com		Kerberos	Key Distribution Center	4	96
+com		Kerberos	AS-REQ	4	96
+com		Kerberos	pre-authentication	4	96
+com		Kerberos	AS-REP	4	96
+com		Kerberos	Ticket Granting Ticket	4	97
+com		Kerberos	Privilege Account Certificate	4	97
+com		Kerberos	Privilege Attribute Certificate	4	97
+com		Kerberos	Service Ticket	4	98
+com		MS-KILE		4	99
+com		Kerberos	PAC Validation	4	99
+com		Kerberos	3 important keys	4	100
+com		Kerberoasting		4	101
+com		Kerberoasting		4	102
+com		Kerberoasting	Target Service Accounts	4	103
+com		Empire	Invoke-Kerberoast	4	104
+com		Kerberoasting	Mimikatz	4	104
+com		Kerberoasting	Tim Medin	4	104
+com		Kerberoasting	Empire	4	104
+com		Kerberoasting	Defend	4	105
+com	Windows Event ID	4769 - Kerberos Service Ticket Request		4	105
+com		Silver Ticket		4	106
+com		Kerberos	Silver Ticket	4	106
+com		Silver Ticket	Mimikatz	4	106
+com		Silver Ticket	Defend	4	107
+com	Windows Event ID	4624 - Logon		4	107
+com	Windows Event ID	4634 - Logoff		4	107
+com	Windows Event ID	4672 - Admin Logon		4	107
+com		PAC	Enable	4	107
+com		Over-Pass-the-Hash		4	108
+com		Over-Pass-the-Hash	Defend	4	109
+com	Windows Event ID	4648 - Account login with explicit credentials		4	113
+com	Windows Event ID	4648 - Account login with explicit credentials		4	114
+com		JPCERT paper		4	115
+com	Windows Event ID	4688 - A new process has been created		4	117
+com	Windows Event ID	4689 - A process has exited		4	117
+com		SIGMA	Over-Pass-the-Hash	4	119
+com		SIGMA	Kerberos RC4	4	120
+com	Windows Event ID	4769 - Kerberos Service Ticket Request		4	120
+com		Zeek	Detect Lateral Movement	4	121
+com		Microsoft Advanced Threat Analytics		4	122
+goto		ATA Microsoft Advanced Threat Analytics
+com		Active Defense Harbinger Distribution		4	125
+goto		ADHD	Active Defense Harbinger Distribution
+com		Honeypot		4	128
+com		Honeypot	Key Factors	4	129
+com		Honeypot	HoneyBadger	4	130
+com		Honeypot	Artillery	4	131
+com		Honeypot	Kippo Fake SSH	4	132
+com		Honeypot	Cowrie	4	132
+com		Canaries		4	134
+com		Canaries	Fake Administrative Account	4	135
+com		Canaries	HoneyHash	4	136
+com		Canaries	Fooling The Hound	4	137
+com		Canaries	ResponderGuard	4	138
+com		Canaries	Fake Documents	4	139
+com		Canaries	Canarytokens	4	141
+com		Canaries	Javelin AD|Protect	4	145
+com		ntds.dit	Accessing backup file	5	4
+com		ntds.dit	Encryption keys	5	4
+com		ntdsxtract		5	4
+com		secretsdump		5	4
+com		Create domain admin	5	5
+com		Golden Ticket		5	7
+com		Golden Ticket	Kerberos Flow	5	8
+com		Golden Ticket	Properties	5	9
+com		Golden Ticket talk		5	9
+com		Golden Ticket	Create with Mimikatz	5	10
+com		Mimikatz	Create Golden Ticket	5	10
+com		Mimikatz	Kerberos::golden	5	10
+com		Mimikatz	Kerberos::ptt golden.ticket.bin	5	11
+com		Mimikatz	Kerberos::list	5	11
+com		Golden Ticket	Mitigate	5	11
+com		Skeleton Key		5	12
+com		Mimikatz	Skeleton Key	5	12
+com		Mimikatz	misc::skeleton	5	13
+com		DCSync		5	14
+com		Mimikatz	kerberos::dcsync	5	15
+com		Directory Replication Service Remote		5	15
+goto		MS-DRSR	Directory Replication Service Remote
+com		DCShadow		5	16
+com		Mimikatz	token::elevate	5	17
+com		Mimikatz	lsadump::dsshadow	5	17
+com		Mimikatz	lsadump::dsshadow	5	18
+com	Windows Event ID	4728 - A member was added to a security-enabled global group		5	20
+com		Domain Dominance	Detect Domain Admin Added	5	20
+com		Domain Dominance	Detect Skeleton Key	5	21
+com		Mimikatz	Skeleton Key - Only RC4	5	21
+com		Aorato Skeleton Key		5	21
+com	Windows Event ID	4769 - Kerberos Service Ticket Request		5	22
+com		Domain Dominance	Detect Golden Ticket	5	22
+com		klist		5	23
+com		Domain Dominance	Detect DCSync	5	24
+com		Domain Dominance	Detect DCShadow	5	25
+com	Windows Event ID	5137 - A directory service object was created		5	25
+com	Windows Event ID	5141 - A directory service object was deleted		5	25
+com		UncoverDCShadow		5	25
+com	Malware	Carbanak		5	33
+com		Search Interesting Data	dir /s	5	34
+com		dir /s	5	34
+com		Search Interesting Data	Get-ChildItem	5	34
+com		Get-ChildItem		5	34
+com		Search Interesting Data	Invoke-Command	5	35
+com		Invoke-Command		5	35
+com		Search Interesting Data	ClamAV	5	36
+com		Search Interesting Data	YARA	5	36
+com		Search Interesting Data	YARA	5	37
+com		Data Enumeration	Prevent	5	38
+com		Data Enumeration	Detect	5	38
+com		Data Classification	Levels	5	40
+com		Offline Data		5	41
+com		Offline Data		5	42
+com		Hardware Security Module	5	43
+com		DigiNotar	2011 Breach	5	44
+com		Canaries	Fake Documents	5	45
+com		Decoy Files		5	45
+com		Prevent Network Exfiltration		5	53
+com		Detect Network Exfiltration		5	54
+com		Detect Network Exfiltration	Signature-Based	5	55
+com		Detect Network Exfiltration	Behavior-Based	5	56
+com		Detect Network Exfiltration	Behavior-Based	5	58
+com		Detect Network Exfiltration	Behavior-Based	5	59
+com		Bro Exfil detection framework		5	59
+com		Risk definition		5	65
+com		Threat Intelligence definition		5	66
+com		Threat Intelligence	Strategic	5	67
+com		Threat Intelligence	Operational	5	67
+com		Threat Intelligence	Tactical	5	67
+com		Threat Intelligence	Problems	5	68
+com		Pyramid of Pain		5	69
+com		Threat Intelligence	Obtain	5	76
+com		MISP		5	79
+com		MISP	Event	5	80
+com		Threat Intelligence	Operationalize	5	86
+com		Loki IOC Scanner		5	87
+com		Thor IOC Scanner		5	87
+com		Loki IOC Scanner	Scoring mechanism	5	88
+com		Thor IOC Scanner	Scoring mechanism	5	88
+com		Loki IOC Scanner	CLI	5	89
+com		Loki IOC Scanner	CLI	5	90
+com		Loki IOC Scanner	Output	5	91
+com		Loki IOC Scanner	Output	5	92
+com		Loki IOC Scanner	Administrative mode	5	93
+com		Loki IOC Scanner	False Positive whitelist	5	94
+com		Real-time detections	Technologies	5	99
+com		Real-time detections	Issues	5	101
+com		Security Alert Fatigue		5	101
+com		Real-time detections	Issues	5	102
+com		Real-time detections	Issues	5	103
+com		Threat Hunting vs Real-Time detections		5	105
+com		Threat Hunting	Maturity Model	5	106
+com		Threat Hunting	The Sliding Scale of Cyber Security	5	107
+com		Threat Hunting	The Sliding Scale of Cyber Security	5	108
+com		Threat Hunting	Critical Success Factors	5	109
+com		Threat Hunting	Overall Process	5	110
+com		Threat Hunting	Hypotheses	5	111
+com		Threat Hunting	Automation	5	112
+com		Threat Hunting	Log Collection	5	113
+com		PSHunt		5	114
+com		Threat hunting	Data Visualization	5	115
+com		Incident Response	Process	5	120
+com		Incident Response	Members of the CIRT	5	121
+com		Incident Response	Key Objectives	5	122
+com		Incident Response	6-step IR process	5	123
+com		OODA loop		5	124
+com		Incident Response	OODA loop	5	124
+com		Incident Response Process	1. Preparation	5	125
+com		Incident Response Process	1. Preparation	5	126
+com		Incident Response Process	1. Preparation	5	127
+com		Incident Response Playbooks		5	128
+com		Incident Response Process	2. Identification	5	130
+com		Incident Response Process	3. Containment	5	131
+com		Incident Response Process	4. Eradication	5	132
+com		Incident Response Process	5. Recovery	5	133
+com		Incident Response Process	6. Lessons Learned	5	134
+com		SANS SIFT Workstation		5	138
+com		Volatility		5	139
+com		Volatility		5	140
+com		Volatility		5	141
+com		Volatility		5	142
+com		Volatility		5	143
+com		Autopsy		5	144
+com		Sleuth Kit	5	144
+com		GRR		5	145
+com		GRR		5	146
+com		GRR		5	147
+com		Assemblyline	5	148
+com		TheHive		5	149
+com		Cortex		5	150
+com		Kansa		5	151
+com		yarGen		5	153
+com		YaraGenerator	5	153
+com		VirusTotal	5	155
+com		Retro Hunting	5	155

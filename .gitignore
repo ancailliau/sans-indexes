@@ -1,8 +1,10 @@
 *.aux
-*/*.pdf
+*.pdf
 *.ilg
 *.ind
 *.log
 *.synctex.gz
 *.bak
+*.swp
+build-*/
 */main.tex
